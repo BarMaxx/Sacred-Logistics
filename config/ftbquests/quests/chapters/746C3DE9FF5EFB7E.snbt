@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "746C3DE9FF5EFB7E"
+	group: "6D9C72EE0026F230"
+	icon: "endermanoverhaul:corrupted_pearl"
+	id: "746C3DE9FF5EFB7E"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "Пересмотренные мобы"
+}

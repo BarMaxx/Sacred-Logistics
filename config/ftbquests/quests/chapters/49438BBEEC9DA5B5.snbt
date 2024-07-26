@@ -1,0 +1,19 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "49438BBEEC9DA5B5"
+	group: "7D6592869D36C6A4"
+	icon: {
+		Count: 1b
+		id: "ironjetpacks:jetpack"
+		tag: {
+			Id: "ironjetpacks:creative"
+			Throttle: 1.0d
+		}
+	}
+	id: "49438BBEEC9DA5B5"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: "Полезные штуковины"
+}

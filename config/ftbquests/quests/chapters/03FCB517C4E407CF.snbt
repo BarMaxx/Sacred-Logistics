@@ -3,6 +3,13 @@
 	default_quest_shape: ""
 	filename: "03FCB517C4E407CF"
 	group: "3300196F2614D758"
+	icon: {
+		Count: 1b
+		id: "ad_astra:tier_1_rocket"
+		tag: {
+			BotariumData: { }
+		}
+	}
 	id: "03FCB517C4E407CF"
 	order_index: 1
 	quest_links: [ ]

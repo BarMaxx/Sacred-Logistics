@@ -1,0 +1,861 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "artifacts"
+	group: "6D9C72EE0026F230"
+	icon: "artifacts:bunny_hoppers"
+	id: "394E881DA7AA05F2"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&6Зонт&r - это артефакт, который можно использовать при сражении с монстрами, как щит, а можно, как планнер, в путешествиях. Предмет 1, а применений - 2!"
+				""
+				"Его можно найти в &2сокровищницах&r различных данжей."
+			]
+			hide: true
+			id: "64B31E7A73C93674"
+			rewards: [{
+				id: "732FDE8C52179CB2"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "gold"
+			subtitle: "Полезен в бою и путешествиях!"
+			tasks: [{
+				id: "26B9EC619FF7FE81"
+				item: "artifacts:umbrella"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			description: [
+				"&6Долговечная Говядина&r - это еда, которую можно есть бесконечное количество раз. "
+				""
+				"Её можно получить, с небольшим шансом, при убийстве коровы. "
+			]
+			hide: true
+			id: "7532A86DC3CEF045"
+			rewards: [{
+				id: "54ABB46B9A35D973"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "iron"
+			subtitle: "Endless?"
+			tasks: [{
+				id: "3856179D9FD2365A"
+				item: "artifacts:everlasting_beef"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7532A86DC3CEF045"]
+			description: ["&6Вечный Стейк&r - это пожаренная долговечная говядина. Его также можно есть бесконечное количество раз, но стейк восстанавливает больше голода и сытости."]
+			id: "477B62AC571D2178"
+			rewards: [{
+				id: "1C0EC4EB460EE29B"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "iron"
+			subtitle: "Timeless?"
+			tasks: [{
+				id: "2B5E6FF8CECCFD66"
+				item: "artifacts:eternal_steak"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&6Питьевая Пластиковая Шляпа&r - это артефакт, который позволяет своему владельцу тратить меньше времени на питьё и еду."
+				""
+				"Её можно найти в &2сокровищницах&r различных данжей."
+			]
+			hide: true
+			id: "11BFAA76B7B2186C"
+			rewards: [{
+				id: "15AC38E598A76B87"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "gold"
+			subtitle: "Не уверен в полезности этого..."
+			tasks: [{
+				id: "3709312D7F094EED"
+				item: "artifacts:plastic_drinking_hat"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"&6Питьевая Новая Шляпа&r - это артефакт, который позволяет своему владельцу тратить меньше времени на питьё и еду."
+				""
+				"Её можно найти в &2сокровищницах&r различных данжей."
+			]
+			hide: true
+			id: "118775F35099669F"
+			rewards: [{
+				id: "42CF834B07288B55"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "gold"
+			subtitle: "Не уверен в полезности этого..."
+			tasks: [{
+				id: "44F18F581576CDEE"
+				item: "artifacts:novelty_drinking_hat"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"&6Дыхательная Трубка&r - это артефакт, который позволяет своему владельцу дышать под водой. Это делает исследование водных глубин более удобным и безопасным процессом."
+				""
+				"Её можно найти в &2сокровищницах&r различных данжей."
+			]
+			hide: true
+			id: "5DB25EFDD268C453"
+			rewards: [{
+				id: "7CD94CD268C858CB"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "gold"
+			subtitle: "Подойдёт любителям подводного мира!"
+			tasks: [{
+				id: "217FFA62FD7C3178"
+				item: "artifacts:snorkel"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			description: [
+				"&6Очки Ночного Зрения&r - это артефакт, который дарует своему владельцу способность видеть в темноте. Теперь ночь не кажется такой тёмной и неизвестной..."
+				""
+				"Их можно найти в &2сокровищницах&r различных данжей."
+			]
+			hide: true
+			id: "763E749270AA478A"
+			rewards: [{
+				id: "2E2826BF0A073C43"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "gold"
+			subtitle: "Полезны в ночи!"
+			tasks: [{
+				id: "7B1234811CFF72DA"
+				item: "artifacts:night_vision_goggles"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"&6Шляпа Жителя&r - это артефакт, который обожают жители, поэтому они его владелец получает дополнительные скидки при торговли с ними."
+				""
+				"Её можно найти в &2сокровищницах&r различных данжей."
+			]
+			hide: true
+			id: "4D7236827EE271DB"
+			rewards: [{
+				id: "61570F4740BD4064"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "gold"
+			subtitle: "Полезна при торговли!"
+			tasks: [{
+				id: "3C9980C47D416BD5"
+				item: "artifacts:villager_hat"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			description: [
+				"&6Суеверная Шляпа&r - это артефакт, который наделяет своего носителя дополнительным уровнем удачи к выпадению предметов из убитых противников."
+				""
+				"Её можно найти в &2сокровищницах&r различных данжей."
+			]
+			hide: true
+			id: "19C5B6306DD1DF9E"
+			rewards: [{
+				id: "7EB337C2FB22EBA2"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "gold"
+			subtitle: "Полезен при убийстве монстров!"
+			tasks: [{
+				id: "11A34FCE514D8946"
+				item: "artifacts:superstitious_hat"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			description: [
+				"&6Шарф Удачи&r - это артефакт, который наделяет своего владельца дополнительным уровнем удачи, что позволяет более выгодно добывать различные ресурсы."
+				""
+				"Его можно найти в &2сокровищницах&r различных данжей."
+			]
+			hide: true
+			id: "0CF58A49B41CD2FD"
+			rewards: [{
+				id: "35F1990EC1A0AE44"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "gold"
+			subtitle: "Полезен при добычи ресурсов!"
+			tasks: [{
+				id: "7A57730ADA169F5B"
+				item: "artifacts:lucky_scarf"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			description: [
+				"&6Шарф Неведимости&r - это артефакт, который скрывает свего владельца от лишних глаз."
+				""
+				"Его можно найти в &2сокровищницах&r различных данжей."
+			]
+			hide: true
+			id: "12379A5427AE9D13"
+			rewards: [{
+				id: "01792426EEA0EA7D"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "gold"
+			subtitle: "Зачем? Неизвестно..."
+			tasks: [{
+				id: "3908617E3605BB32"
+				item: "artifacts:scarf_of_invisibility"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"&6Колье с Крестиком&r - это артефакт, который увеличивает продолжительность непопедимости после получения урона своего владельца."
+				""
+				"Её можно найти в &2сокровищницах&r различных данжей. "
+			]
+			hide: true
+			id: "20C243D6E808607E"
+			rewards: [{
+				id: "6B49D96EFBE1124A"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "diamond"
+			subtitle: "Поддержка Фемииды!"
+			tasks: [{
+				id: "017074029DF0B6E2"
+				item: "artifacts:cross_necklace"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"&6Колье Паники&r - это артефакт, который увеличивает скорость своего владельца, при получении урона. Довольно полезный артефакт, который поможет более эффективно сражаться и отходить при смертельных ранениях."
+				""
+				"Его можно найти в &2сокровищницах&r различных данжей."
+			]
+			hide: true
+			id: "27E71769ABBDF0A9"
+			rewards: [{
+				id: "36C1B2703B925732"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "diamond"
+			subtitle: "Поддержка Гермеса!"
+			tasks: [{
+				id: "0FA7C0DBBFF81005"
+				item: "artifacts:panic_necklace"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"&6Подвеска \"Шок\"&r - это артефакт, который может ударить молнией противников своего владельца."
+				""
+				"Её можно найти в &2сокровищницах&r различных данжей."
+			]
+			hide: true
+			id: "484AE961F1ADD9D6"
+			rewards: [{
+				id: "654F9D71D1D1034D"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "diamond"
+			subtitle: "Поддержка Зевса!"
+			tasks: [{
+				id: "554337C9EB5DF38A"
+				item: "artifacts:shock_pendant"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"&6Подвеска \"Пламя\"&r - это артефакт, который может поджечь противников своего владельца. "
+				""
+				"Её можно найти в &2сокровищницах&r различных данжей."
+			]
+			hide: true
+			id: "4CDB4DA7F939A212"
+			rewards: [{
+				id: "63BC3387151AE2FD"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "diamond"
+			subtitle: "Поддержка Гефеста!"
+			tasks: [{
+				id: "3E218FCCD5985DA3"
+				item: "artifacts:flame_pendant"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"&6Подвеска \"Шип\"&r - это артефакт, который может нанести урон противникам своего владельца."
+				""
+				"Её можно найти в &2сокровищницах&r различных данжей."
+			]
+			hide: true
+			id: "0C087B5EC8F9F208"
+			rewards: [{
+				id: "39DCB3B89236ADDE"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "diamond"
+			subtitle: "Поддержка Ареса!"
+			tasks: [{
+				id: "7CC9CFAA51FDD1C6"
+				item: "artifacts:thorn_pendant"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			description: [
+				"&6Талисман Погружения&r - это артефакт, который позволяет своему владельцу спокойно перемещаться в водном пространстве."
+				""
+				"Его можно найти в &2сокровищницах&r различных данжей."
+			]
+			hide: true
+			id: "4CA4ADFE03DD7745"
+			rewards: [{
+				id: "1D0929997AB6F80F"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "diamond"
+			subtitle: "Поддержка Посейдона!"
+			tasks: [{
+				id: "47F37B8717437BBF"
+				item: "artifacts:charm_of_sinking"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			description: [
+				"&6Облако в Бутылке&r - это артефакт, который предоставляет своему владельцу двойной прыжок, делая его перемещение по миру более быстрым и удобным."
+				""
+				"Его можно найти в &2сокровищницах&r различных данжей."
+			]
+			hide: true
+			id: "2D1F0000A1444ADC"
+			rewards: [{
+				id: "4942C7E42E27E583"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "iron"
+			subtitle: "Новые удобства!"
+			tasks: [{
+				id: "6B471F2D9AB9A83C"
+				item: "artifacts:cloud_in_a_bottle"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"&6Обсидиановый Череп&r - это артефакт, который добавляет временную неуязвимость от огня своему владельцу, делая его более восприимчивым к огню. "
+				""
+				"Его можно найти в &2сокровищницах&r различных данжей."
+			]
+			hide: true
+			id: "3D5BFD3A48AF8D4B"
+			rewards: [{
+				id: "4955C07D0F08857B"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "iron"
+			subtitle: "Интересно, а чей он?"
+			tasks: [{
+				id: "5AB8439E2349B83A"
+				item: "artifacts:obsidian_skull"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"&6Сосуд с Противоядием&r - это артефакт, который снижает длительность негативных эффектов своего владельца, делая его более способным в бою, особенно с ведьмами."
+				""
+				"Его можно найти в &2сокровищницах&r различных данжей."
+			]
+			hide: true
+			id: "017C01505F05E23C"
+			rewards: [{
+				id: "4D91E714D20F97F7"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "iron"
+			subtitle: "Полезен в бою с ведьмами!"
+			tasks: [{
+				id: "5A739EDB04CCAA09"
+				item: "artifacts:antidote_vessel"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&6Универсальный Магнит&r - это артефакт, который притягивает близлежащий предмету своему владельцу, делая его жизнь чуток легче."
+				""
+				"Его можно найти в &2сокровищницах&r различных данжей."
+			]
+			hide: true
+			id: "03BEA9FF0A1AE8CF"
+			rewards: [{
+				id: "75E46C46CE4E3C31"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "iron"
+			subtitle: "Пожалуй, один из самых полезных артефактов!"
+			tasks: [{
+				id: "51204CAB6442BB0A"
+				item: "artifacts:universal_attractor"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"&6Хрустальное Сердце&r - это артефакт, который добавляет дополнительные сердца владельцу, делая его более живучим. "
+				""
+				"Его можно найти в &2сокровищницах&r различных данжей."
+			]
+			hide: true
+			id: "5D8AEB9A4D56DA90"
+			rewards: [{
+				id: "6BFC993D7713F982"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "iron"
+			subtitle: "Главное - не разбить!"
+			tasks: [{
+				id: "3A5433C115D663D1"
+				item: "artifacts:crystal_heart"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"&6Гелиевый Фламинго&r - это артефакт, который позволяет своему владельцу плавать в воздухе ограниченное время! Для этого нужно зайти в воду, подождать, пока наберётся заряд фламинго, а после начать плавать в воде и вылететь из неё в воздух. Невероятно!"
+				""
+				"Его можно найти в &2сокровищницах&r различных данжей."
+			]
+			hide: true
+			id: "47E2567A818CDF3B"
+			rewards: [{
+				id: "56BAFB98B9EB6639"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "gold"
+			subtitle: "0_0 Удивительно!"
+			tasks: [{
+				id: "4EEADA8105CC02E4"
+				item: "artifacts:helium_flamingo"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"&6Копающие Когти&r - это предмет, который увеличивет базовый уровень добычи и скорость добычи в целом для своего владельца, делая его жизнь чуть приятнее."
+				""
+				"Их можно найти в &2сокровищницах&r различных данжей."
+			]
+			hide: true
+			id: "0DEB832273F443BC"
+			rewards: [{
+				id: "2A50C81FE7E7D81C"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "gold"
+			subtitle: "Просто, но эффективно!"
+			tasks: [{
+				id: "5FE732E0ED10FF64"
+				item: "artifacts:digging_claws"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"&6Звериные Когти&r - это артефакт, который увеличивет скорость атаки своего владельца, делая его более опасным противником."
+				""
+				"Их можно найти в &2сокровищницах&r различных данжей."
+			]
+			hide: true
+			id: "0C8D8CD6F02F795F"
+			rewards: [{
+				id: "24107CF933CE8B67"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "gold"
+			subtitle: "Просто, но полезно!"
+			tasks: [{
+				id: "7164BA58CE552C09"
+				item: "artifacts:feral_claws"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			description: [
+				"&6Силовая Перчатка&r - это артефакт, который добавляет 4 дополнительных урона, которые будет наносить владелец перчатки."
+				""
+				"Её можно найти в &2сокровищницах&r различных данжей."
+			]
+			hide: true
+			id: "6E0A156826148087"
+			rewards: [{
+				id: "6CE3E20ADE37A465"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "gold"
+			subtitle: "Сделает вас сильнее!"
+			tasks: [{
+				id: "5D0BAC821C9440EA"
+				item: "artifacts:power_glove"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"&6Огненная Рукавица&r - это артефакт, который способен поджигать тех противников, которых будет атаковать владелец рукавицы. Главное правило при ношении артефакта - не поджечь самого себя."
+				""
+				"Её можно найти в &2сокровищницах&r различных данжей."
+			]
+			hide: true
+			id: "1E16F3C53B5345C8"
+			rewards: [{
+				id: "4871A730CCCF212C"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "gold"
+			subtitle: "Главное - не поджечь себя!"
+			tasks: [{
+				id: "2499B2ABBFB4D3EA"
+				item: "artifacts:fire_gauntlet"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			description: [
+				"&6Карманный Поршень&r - это артефакт, который увеличивает отбрасывание мобам, которых ударяет владелец артефакта. "
+				""
+				"Его можно найти в &2сокровищницах&r различных данжей."
+			]
+			hide: true
+			id: "09863E3543982343"
+			rewards: [{
+				id: "0861FDAC7A48CC84"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "iron"
+			subtitle: "Удивительная вещь!"
+			tasks: [{
+				id: "7933BB4CC9AA5895"
+				item: "artifacts:pocket_piston"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&6Вампирическая Перчатка&r - это артефакт, который будет восстанавливать здоровье владельца, при наношении урона противнику."
+				""
+				"Её можно найти в &2сокровищницах&r различных данжей."
+			]
+			hide: true
+			id: "4E0081059D71BCAC"
+			rewards: [{
+				id: "614806491BB17C36"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "gold"
+			subtitle: "Магический предмет?"
+			tasks: [{
+				id: "3544D5E3839FC1B2"
+				item: "artifacts:vampiric_glove"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"&6Золотой Крюк&r - это артефакт, который увеличивет выпадаемый, при смерти, с монстров опыт."
+				" "
+				"Его можно найти в &2сокровищницах&r различных данжей."
+			]
+			hide: true
+			id: "35C75D9D963FB1CC"
+			rewards: [{
+				id: "0D0D1E501A037E8F"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "gold"
+			subtitle: "Приятное дополнение!"
+			tasks: [{
+				id: "264DB24C48570750"
+				item: "artifacts:golden_hook"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			description: [
+				"&6Аква-дэшэры&r - это артефакт, который позволяет своему владельцу ходить по поверхности различных жидкостях. Но это работает только в том случае, когда владелец артефакта бежит."
+				""
+				"Их можно найти в &2сокровищницах&r различных данжей. "
+			]
+			hide: true
+			id: "7D51B7AE9D0FB217"
+			rewards: [{
+				id: "3A9997FF27E84F75"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "diamond"
+			subtitle: "Удобства!"
+			tasks: [{
+				id: "3465D05AFDF4EAFB"
+				item: "artifacts:aqua_dashers"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			description: [
+				"&6Банники&r - это артефакт, который увеличивет высоту прыжка своего владельца, а также полностью поглощает урон от падения."
+				""
+				"Их можно найти в &2сокровищницах&r различных данжей."
+			]
+			hide: true
+			id: "76F5E7826FA02A50"
+			rewards: [{
+				id: "7232582C5722F47F"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "diamond"
+			subtitle: "Срочно необходима баня!"
+			tasks: [{
+				id: "5DB8921041F49A68"
+				item: "artifacts:bunny_hoppers"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			description: [
+				"&6Тапочки \"Котёнок\"&r - это артефакт, которого боятся криперы. Поэтому его владелец может больше не переживать о неожиданных взрывах за спиной."
+				""
+				"Их можно найти в &2сокровищницах&r различных данжей."
+			]
+			hide: true
+			id: "4E3A96DCCB347A2A"
+			rewards: [{
+				id: "38A720B19F9FC700"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "diamond"
+			subtitle: "Довольно милые, но не для всех!"
+			tasks: [{
+				id: "150A7D68BFB9E938"
+				item: "artifacts:kitty_slippers"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"&6Кроссовки&r - это артефакт, который увеличивет скорость движения своего владельца, ведь они очень удобные."
+				""
+				"Их можно найти в &2сокровищницах&r различных данжей."
+			]
+			hide: true
+			id: "3D501CC2BD25F480"
+			rewards: [{
+				id: "5D49E1439492AF04"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "diamond"
+			subtitle: "Удобная обувь!"
+			tasks: [{
+				id: "24C89C8CCD19C1FF"
+				item: "artifacts:running_shoes"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"&6Прочные Шипы&r - это артефакт, который полностью поглащает отбрасывание своего владельца, при получении урона, делая его стойким и сильным."
+				""
+				"Их можно найти в &2сокровищницах&r различных данжей."
+			]
+			hide: true
+			id: "35FC5D14CFB1A88D"
+			rewards: [{
+				id: "46E01EF145E0C845"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "diamond"
+			subtitle: "Делает своего владельца стойким!"
+			tasks: [{
+				id: "7A09919563E7FA5E"
+				item: "artifacts:steadfast_spikes"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			description: [
+				"&6Ласты&r - это артефакт, который увеличивет скорость своего владельца в воде, делая его более ловким и юрким под толщей воды."
+				""
+				"Их можно найти в &2сокровищницах&r различных данжей."
+			]
+			hide: true
+			id: "7FB804DF3F37E6C1"
+			rewards: [{
+				id: "297A70CDD28A5DCE"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "diamond"
+			subtitle: "Необходимы пловцам!"
+			tasks: [{
+				id: "71BD96DB4E56CFAA"
+				item: "artifacts:flippers"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			description: [
+				"&6Подушка-пердушка&r нужна, чтобы повеселиться в этом виртуальном мире."
+				" "
+				"Её можно найти в &2сокровищницах&r различных данжах."
+			]
+			hide: true
+			id: "5CEA284A4E9B0CEA"
+			rewards: [{
+				id: "20BD0FBC0F7ACC9F"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "dirt"
+			size: 2.0d
+			subtitle: "Очень важный предмет!"
+			tasks: [{
+				id: "753F54C76E0CC28D"
+				item: "artifacts:whoopee_cushion"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	title: "Артефакты"
+}

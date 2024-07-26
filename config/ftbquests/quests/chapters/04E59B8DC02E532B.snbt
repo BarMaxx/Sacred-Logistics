@@ -1,0 +1,1592 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "04E59B8DC02E532B"
+	group: "724CB10F5936E1B7"
+	icon: "candlelight:cooking_pot"
+	id: "04E59B8DC02E532B"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Для того, чтобы начать &3готовить&r мне необходимо создать &6Булыжную плиту&r. На неё я смогу поставить &6посуду&r для приготовления &2еды&r."
+				""
+				"Для создания булыжной плиты мне необходимо: 5 &7булыжника&r, 1 &eкостёр&r и 3 &7железных слитка&r. Всё это нужно соединить на &aВерстаке&r."
+			]
+			id: "68008C794CB5B6D0"
+			rewards: [
+				{
+					count: 4
+					id: "3974822189B41D4E"
+					item: "minecraft:coal"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3F09B06D4935D797"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			shape: "cross"
+			subtitle: "Нужна для приготовления еды!"
+			tasks: [{
+				id: "2BA55FEBCA48DC88"
+				item: "candlelight:cobblestone_stove"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["68008C794CB5B6D0"]
+			description: [
+				"После создания плиты мне &3необходимо&r создать &6Кастрюлю&r и &6Сковороду&r, чтобы начать готовить еду. Посуду я должен поставить на плиту, чтобы я мог начать готовить невероятно &2вкусную&r и &eнасыщенную&r еду."
+				""
+				"Для создания кастрюли мне необходимо: 5 &cмедных слиток&r и 1 &6деревянная лопата&r. Всё это следует соединить на &aВерстаке&r."
+				""
+				"Для создания сковороды мне необходимо: 4 &cмедных слитка&r и 1 &6палка&r. Всё это следует соединить на &aВерстаке&r."
+				""
+				"После создания кастрюли и сковороды я наконец-то могу начать готовить &2вкусную&r еду!"
+			]
+			id: "3951BF3A3FF8F780"
+			rewards: [{
+				count: 8
+				id: "204E66FEE61F488F"
+				item: "minecraft:copper_ingot"
+				random_bonus: 4
+				type: "item"
+			}]
+			shape: "formation"
+			subtitle: "Время стать поваром!"
+			tasks: [
+				{
+					id: "0A019403CE6EC1D8"
+					item: "candlelight:cooking_pot"
+					type: "item"
+				}
+				{
+					id: "4CA1C22C431A5957"
+					item: {
+						Count: 1b
+						id: "candlelight:cooking_pan"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Посуда"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3951BF3A3FF8F780"]
+			description: [
+				"После создания посуды я могу приготовить себе &6Шоколад&r! Наконец-то я поем сладкое :) Либо использую его как-то &3по-другому&r. Чтобы начать готовку - необходимо поставить кастрлюлю на печь."
+				""
+				"Для приготовления шоколада мне потребуются следующие ингридиенты: 1 &7сахар&r, 1 порция &cкакао-бобов&r, 1 ведро молока и 1 &eмасло&r, а также мне необходима &6миска&r. Всё это следует готовить в &aКастрюле&r."
+				""
+				"Для создания масле мне нужно положить ведро молока в &2сетку крафта&r моего &aИнвентаря&r или &aВерстака&r. "
+				""
+				"Шоколад я могу съесть сам. Но также я могу создать &6Шоколоданую Коробку&r, &6Шоколадный Тарт&r и &6Шоколодный Спрей&r."
+			]
+			id: "5DC7ADFCE8AC270F"
+			rewards: [{
+				count: 3
+				id: "5275779F9307EF96"
+				item: "candlelight:chocolate"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "spiral"
+			subtitle: "Рай для сладкоежек!"
+			tasks: [{
+				count: 4L
+				id: "1FB7CF562330FC3F"
+				item: "candlelight:chocolate"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Для того, чтобы готовить различные джемы и другие виды еды мне необходимо создать &6Небольшую Каструлю&r. Чтобы начать готовить в ней мне &3необходимо&r поставить её на плиту, а после положить &3ингридиенты&r и подождать. "
+				""
+				"Для создания небольшой кастрюли мне необоходимо соединить на &aВерстаке&r 4 &7железных слитка&r и 1 &6палку&r."
+			]
+			id: "480CAF933A9B51F6"
+			rewards: [{
+				count: 4
+				id: "22B60383889EE0DB"
+				item: "bakery:jar"
+				type: "item"
+			}]
+			shape: "formation"
+			subtitle: "Ещё один вид Посуды!"
+			tasks: [{
+				id: "5CB11C40F852B6FC"
+				item: "bakery:small_cooking_pot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"5DC7ADFCE8AC270F"
+				"480CAF933A9B51F6"
+			]
+			description: [
+				"После приготовления шоколада и создания небольшой кастрюли я могу приготовить &6Шоколадный Спрей&r. Для этого мне необходимо поставить небольшую кастрюлю на печь и положить в неё нужные &3ингридиенты&r, а дальше просто подождать."
+				""
+				"Для приготовления шоколадного спрея мне необходимы следующие ингридиенты: 1 &7ведро молока&r, 1 &cкусочек шоколада&r и 1 &7сахара&r, а также не стоит забывать про &6банку&r. Всё это следует готовить в &aНебольшой Кастрюле&r. "
+				""
+				"Для создания банки мне необходимо соединить на &aВерстаке&r 2 &7стеклянные панели&r и 1 &6деревянную плиту&r. "
+				""
+				"Шоколадный спрей я могу использовать для приготовления &2новых&r блюд."
+			]
+			id: "0671D5E34022C440"
+			rewards: [
+				{
+					count: 2
+					id: "225B4C4D404C24E9"
+					item: "candlelight:chocolate"
+					type: "item"
+				}
+				{
+					id: "5692DC9FD7F30C01"
+					item: "bakery:chocolate_jam"
+					type: "item"
+				}
+			]
+			shape: "bottle"
+			subtitle: "Очень сладко!"
+			tasks: [{
+				count: 2L
+				id: "39D69A7CFAD399DD"
+				item: "bakery:chocolate_jam"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5DC7ADFCE8AC270F"]
+			description: [
+				"После создания шоколода я могу использовать его для создания &6Шоколадной Коробки&r. Её я могу подарить кому-нибудь либо поставить на стол (или в любое другое место), чтобы я мог &3перекусить&r ими, не отвлекаясь от своих дел. "
+				""
+				"Чтобы создать шоколадную коробки мне потребуется соединить на &aВерстаке&r 1 &6сундук&r и 6 &cкусочков шоколада&r. "
+				""
+				"Чтобы поставить шоколадную коробку мне нужно нажать &eПКМ&r по блоку, держа в руке &2коробку&r. А когда я захочу перкусить кусочками шоколада - мне нужно будет также нажать &eПКМ&r по коробке. В ней &2всего&r 6 кусочков шоколада (как ни странно) и с каждым нажатием я беру по 1 кусочку. Следовательно, целой коробки мне хватит на 6 &2перекусов&r, после чего она будет уничтожена."
+			]
+			id: "3D3836FD4A2CA5D1"
+			rewards: [
+				{
+					id: "355680DCFBC64824"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "748CDE628E229D0A"
+					item: "candlelight:chocolate"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			shape: "cube"
+			subtitle: "Вкуснятина!"
+			tasks: [{
+				id: "672E1322C49BC878"
+				item: "candlelight:chocolate_box"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5DC7ADFCE8AC270F"
+				"1FBB76A54FF2090B"
+			]
+			id: "6714B2AB2FDBCFDB"
+			shape: "shield"
+			tasks: [{
+				id: "60DDF72528C585B9"
+				item: "bakery:chocolate_tart"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			id: "1FBB76A54FF2090B"
+			shape: "formation"
+			tasks: [{
+				id: "605D853836F5CBE8"
+				item: "bakery:brick_stove"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			id: "4657C696F4E63518"
+			shape: "formation"
+			tasks: [{
+				id: "5189D3E82B921049"
+				item: "candlelight:cobblestone_kitchen_sink"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "29C7E8BFA35C56EB"
+			shape: "formation"
+			tasks: [
+				{
+					id: "3A3ED2C32F1FD92A"
+					item: {
+						Count: 1b
+						id: "candlelight:cooking_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "29FDB260B51E379E"
+					item: {
+						Count: 1b
+						id: "candlelight:chefs_jacket"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "571EE59D1E447288"
+					item: {
+						Count: 1b
+						id: "candlelight:chefs_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "74EA096DF06DB070"
+					item: {
+						Count: 1b
+						id: "candlelight:chefs_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1FBB76A54FF2090B"]
+			id: "2DBDB6D400B446DA"
+			shape: "spiral"
+			tasks: [
+				{
+					id: "0C1F4B6349DCA6B5"
+					item: "bakery:apple_pie"
+					type: "item"
+				}
+				{
+					id: "164540C5757AFA29"
+					item: "bakery:waffle"
+					type: "item"
+				}
+				{
+					id: "75DC66921041904E"
+					item: "bakery:linzer_tart"
+					type: "item"
+				}
+				{
+					id: "6C05D89E1ECBA9EF"
+					item: "bakery:glowberry_tart"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["480CAF933A9B51F6"]
+			id: "1AD424585B22D3CD"
+			shape: "bottle"
+			tasks: [
+				{
+					id: "1120678954C79BE7"
+					item: "bakery:strawberry_jam"
+					type: "item"
+				}
+				{
+					id: "11309DE85038D18B"
+					item: "bakery:glowberry_jam"
+					type: "item"
+				}
+				{
+					id: "1E0E2021F6E64DA7"
+					item: "bakery:sweetberry_jam"
+					type: "item"
+				}
+				{
+					id: "7DAF94F6C138E1FD"
+					item: "bakery:apple_jam"
+					type: "item"
+				}
+			]
+			title: "Различные Джемы"
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			id: "2EDC50FA4E9719A0"
+			shape: "cross"
+			tasks: [{
+				id: "63D06C8224DA0BDA"
+				item: "beachparty:tiki_bar"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			id: "2338D49DC68BAB22"
+			shape: "cross"
+			tasks: [{
+				id: "4188C3BDDD681F4C"
+				item: "beachparty:mini_fridge"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2338D49DC68BAB22"]
+			id: "5A4D5086B3D0305A"
+			shape: "formation"
+			tasks: [
+				{
+					id: "10333B7C47A0E412"
+					item: "beachparty:sweetberry_icecream"
+					type: "item"
+				}
+				{
+					id: "3D3719902A6794E4"
+					item: "beachparty:coconut_icecream"
+					type: "item"
+				}
+				{
+					id: "0A070251DA11280C"
+					item: "beachparty:chocolate_icecream"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2EDC50FA4E9719A0"
+				"5A4D5086B3D0305A"
+			]
+			id: "05A4C578C76F51CC"
+			shape: "formation"
+			tasks: [
+				{
+					id: "6524C712E53B65D8"
+					item: "beachparty:sweetberry_milkshake"
+					type: "item"
+				}
+				{
+					id: "7ED428B26E560A54"
+					item: "beachparty:coconut_milkshake"
+					type: "item"
+				}
+				{
+					id: "28A082CAF80668E4"
+					item: "beachparty:chocolate_milkshake"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2338D49DC68BAB22"]
+			id: "3B3C3A776D500DD5"
+			shape: "spiral"
+			tasks: [
+				{
+					id: "3F8297EF4205A80D"
+					item: "beachparty:icecream_sweetberries"
+					type: "item"
+				}
+				{
+					id: "1BA69BEDC86906B3"
+					item: "beachparty:icecream_chocolate"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2338D49DC68BAB22"]
+			id: "1288629F9CA9223F"
+			shape: "spiral"
+			tasks: [
+				{
+					id: "022B0AFE75D5D3FE"
+					item: "beachparty:icecream_coconut"
+					type: "item"
+				}
+				{
+					id: "326DB379572E0EB7"
+					item: "beachparty:icecream_melon"
+					type: "item"
+				}
+				{
+					id: "133E3CFEB75D9E0B"
+					item: "beachparty:icecream_cactus"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2EDC50FA4E9719A0"]
+			id: "183368B80A41F9DB"
+			shape: "spiral"
+			tasks: [
+				{
+					id: "6869F4F7C588750A"
+					item: "beachparty:sweetberries_cocktail"
+					type: "item"
+				}
+				{
+					id: "7164B9F342C1EE7E"
+					item: "beachparty:cocoa_cocktail"
+					type: "item"
+				}
+				{
+					id: "60F98E361BF9A409"
+					item: "beachparty:pumpkin_cocktail"
+					type: "item"
+				}
+				{
+					id: "7D30192648B00DC3"
+					item: "beachparty:coconut_cocktail"
+					type: "item"
+				}
+				{
+					id: "5C8D9BED8EC0D3AD"
+					item: "beachparty:honey_cocktail"
+					type: "item"
+				}
+				{
+					id: "6CBB7FC9A3FFF041"
+					item: "beachparty:melon_cocktail"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			id: "4DECE7BE2C902E05"
+			shape: "formation"
+			tasks: [{
+				id: "343DBCFDE047F6B6"
+				item: "bakery:baker_station"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4DECE7BE2C902E05"]
+			id: "6332756804A8396D"
+			shape: "spiral"
+			tasks: [
+				{
+					id: "0F85D09723FCB715"
+					item: "bakery:strawberry_cupcake"
+					type: "item"
+				}
+				{
+					id: "2C2BD88C8A68B3AD"
+					item: "bakery:sweetberry_cupcake"
+					type: "item"
+				}
+				{
+					id: "05567ED967BCEAA5"
+					item: "bakery:apple_cupcake"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4DECE7BE2C902E05"]
+			id: "3878B4E9DCAB0193"
+			shape: "spiral"
+			tasks: [
+				{
+					id: "1C3A2DDDF448FD03"
+					item: "bakery:strawberry_cake"
+					type: "item"
+				}
+				{
+					id: "6EEB41E79FF4A87A"
+					item: "bakery:sweetberry_cake"
+					type: "item"
+				}
+				{
+					id: "5B309755181BAF39"
+					item: "bakery:chocolate_cake"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4DECE7BE2C902E05"]
+			id: "751A391A33AA0ED0"
+			shape: "spiral"
+			tasks: [
+				{
+					id: "15FDE9DB189B9718"
+					item: "bakery:strawberry_glazed_cookie"
+					type: "item"
+				}
+				{
+					id: "14D4FAF890ACBE2B"
+					item: "bakery:sweetberry_glazed_cookie"
+					type: "item"
+				}
+				{
+					id: "15F7766CB6BEA3B6"
+					item: "bakery:chocolate_glazed_cookie"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			id: "6663687883704AAA"
+			shape: "cross"
+			tasks: [{
+				id: "2185E34ACD7EE046"
+				item: "vinery:fermentation_barrel"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&6Бутылка Вина&r - важный компонент, который нужен для того, чтобы &3изготавливать&r вино. Эти бутыли являются главной частью создания вина, ведь именно в них я буду &3наливать&r приготовленное мною вино. А после я смогу использовать его где-нибудь."
+				""
+				"Для &2создания&r бутылки вина мне потребуется соединить 3 бутылочки на &aВерстаке&r и тогда я получу бутылку вина."
+			]
+			id: "345C96FD31280E3C"
+			rewards: [{
+				count: 4
+				id: "031625A212C99086"
+				item: "vinery:wine_bottle"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "bottle"
+			subtitle: "Главный компонент Вина!"
+			tasks: [{
+				count: 4L
+				id: "09C66FB7DC77EE69"
+				item: "vinery:wine_bottle"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			id: "5CF8FA52A4262546"
+			shape: "formation"
+			tasks: [{
+				id: "267316D9136CA5B4"
+				item: "vinery:wine_press"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5CF8FA52A4262546"]
+			id: "489A33D62C46095F"
+			shape: "spiral"
+			tasks: [{
+				id: "0DD0576BE622A957"
+				item: "vinery:apple_mash"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"6663687883704AAA"
+				"489A33D62C46095F"
+			]
+			id: "665546563BBF2413"
+			shape: "bottle"
+			tasks: [{
+				id: "64FB5968BBD4AE15"
+				item: "vinery:apple_juice"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5CF8FA52A4262546"]
+			id: "2E5622E1A03E0756"
+			shape: "shield"
+			tasks: [{
+				id: "1D1BAE5E5AA44A8C"
+				item: "vinery:gloves"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2E5622E1A03E0756"]
+			id: "1CACE9B3B0027E9D"
+			shape: "cube"
+			tasks: [
+				{
+					id: "7F7DA39C5315DF2A"
+					item: {
+						Count: 1b
+						id: "vinery:straw_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BA70C94D469C997"
+					item: {
+						Count: 1b
+						id: "vinery:vinemaker_apron"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D4FBEBD1DE90BB1"
+					item: {
+						Count: 1b
+						id: "vinery:vinemaker_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D7D492F07443B94"
+					item: {
+						Count: 1b
+						id: "vinery:vinemaker_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 14.5d
+			y: 3.5d
+		}
+		{
+			description: ["Данный горшок нужен для того, чтобы превратить виноградную лозу (по сути просто виноград) в виноградный сок. Для этого нужно положить в горшок виноград (ПКМ с виноградом в руке), а после немного помять его (попрыгать по горшку). Далее взять бутылку для вина и собрать сок (ПКМ с бутылкой для вина в руке)."]
+			id: "3B044D4EF366933D"
+			shape: "cross"
+			tasks: [{
+				id: "3E5E04E7ED476413"
+				item: "vinery:grapevine_pot"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3B044D4EF366933D"
+				"5551F7C57274575A"
+				"3F84AF8A0B9FC9B2"
+			]
+			id: "73F4C44067C18ADA"
+			shape: "bottle"
+			tasks: [
+				{
+					id: "0FB60730435F03F9"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:grapejuice_red"
+						}
+					}
+					title: "Красный виноградный сок"
+					type: "item"
+				}
+				{
+					id: "4C8339199D621EA6"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:grapejuice_white"
+						}
+					}
+					title: "Белый виноградный сок"
+					type: "item"
+				}
+			]
+			title: "Виноградный сок"
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["32938374CA4F8B87"]
+			id: "3F84AF8A0B9FC9B2"
+			shape: "polygon"
+			tasks: [{
+				id: "719EDE1FDE63007D"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "vinery:red_grape"
+					}
+				}
+				title: "Красный виноград"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7CBC70E0BB59D1C4"]
+			id: "5551F7C57274575A"
+			shape: "polygon"
+			tasks: [{
+				id: "345FEFD253B18547"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "vinery:white_grape"
+					}
+				}
+				title: "Белый виноград"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0C65E5E97BDA87AB"]
+			id: "32938374CA4F8B87"
+			shape: "spiral"
+			tasks: [{
+				id: "70CF10988DF78AFD"
+				item: "vinery:red_grape_seeds"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0C65E5E97BDA87AB"]
+			id: "7CBC70E0BB59D1C4"
+			shape: "spiral"
+			tasks: [{
+				id: "726E53F6CFFA9FEE"
+				item: "vinery:white_grape_seeds"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 1.5d
+		}
+		{
+			id: "0C65E5E97BDA87AB"
+			shape: "formation"
+			tasks: [{
+				id: "776EAC6CBABC9820"
+				item: "vinery:grapevine_stem"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6663687883704AAA"]
+			id: "716D0B18BCE622D2"
+			shape: "bottle"
+			tasks: [
+				{
+					id: "5167558BF856F280"
+					item: {
+						Count: 1b
+						id: "vinery:cherry_wine"
+						tag: {
+							Year: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "02CC9BF5F4A254A0"
+					item: {
+						Count: 1b
+						id: "vinery:noir_wine"
+						tag: {
+							Year: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "041B3A2053BA9BEB"
+					item: {
+						Count: 1b
+						id: "vinery:apple_cider"
+						tag: {
+							Year: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "011E35F8132D341E"
+					item: {
+						Count: 1b
+						id: "vinery:aegis_wine"
+						tag: {
+							Year: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Напитки"
+			x: 11.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["13A25F99C8DCFEE0"]
+			id: "4E4C4BFA006CF816"
+			shape: "formation"
+			tasks: [{
+				id: "0DEF62BCF49D5442"
+				item: "meadow:cooking_pot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E4C4BFA006CF816"]
+			id: "4D06C3D7E285C092"
+			shape: "spiral"
+			tasks: [{
+				id: "200CE3135F8AFE2C"
+				item: "meadow:fondue"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4E4C4BFA006CF816"]
+			id: "47424F9B6F8AE1D8"
+			shape: "spiral"
+			tasks: [
+				{
+					id: "143ABD0B893025C4"
+					item: "meadow:roasted_ham"
+					type: "item"
+				}
+				{
+					id: "58D61F355C59D3A2"
+					item: "meadow:ham_cheese"
+					type: "item"
+				}
+				{
+					id: "32ED52CD56AE3AE5"
+					item: "meadow:cooked_bear_meat"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			id: "565C5E70971CAE0F"
+			shape: "shield"
+			tasks: [{
+				id: "2F5EC605B74ABC86"
+				item: "meadow:cheese_form"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4E4C4BFA006CF816"]
+			id: "5D6C98728198EE2B"
+			shape: "spiral"
+			tasks: [{
+				id: "723F9E43460DA283"
+				item: "meadow:rennet"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5D6C98728198EE2B"
+				"565C5E70971CAE0F"
+			]
+			id: "164BF2DD5E05A373"
+			shape: "bottle"
+			tasks: [{
+				id: "3F546C05942EC95B"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "meadow:cheese_blocks"
+					}
+				}
+				title: "Any #meadow:cheese_blocks"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			id: "10E0FAEBBBF70B6D"
+			shape: "polygon"
+			tasks: [{
+				id: "229CC9B8105213B1"
+				item: "meadow:wooden_bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["10E0FAEBBBF70B6D"]
+			id: "676D5A5E272CD20D"
+			shape: "cube"
+			tasks: [{
+				id: "4E941AA81E90FC11"
+				item: {
+					Count: 1b
+					id: "meadow:watering_can"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			id: "5E56CCC6B08C3254"
+			shape: "formation"
+			tasks: [
+				{
+					id: "6AF4AB6DD2FABE75"
+					item: {
+						Count: 1b
+						id: "meadow:fur_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2F194A5E128CF428"
+					item: {
+						Count: 1b
+						id: "meadow:fur_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "67C4A9CBE4DF3568"
+					item: {
+						Count: 1b
+						id: "meadow:fur_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "43FE1EE2CABB3BCC"
+					item: {
+						Count: 1b
+						id: "meadow:fur_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			id: "13A25F99C8DCFEE0"
+			shape: "cross"
+			tasks: [{
+				id: "50E2C8C1ABB020DD"
+				item: "meadow:frame"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "529B2212A1123195"
+			shape: "formation"
+			tasks: [{
+				id: "52E6249962E09857"
+				item: "meadow:woodcutter"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["164BF2DD5E05A373"]
+			id: "7D3E4F1A8D11C4D1"
+			shape: "spiral"
+			tasks: [{
+				id: "2D5D30746D5E8F6D"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "meadow:cheese"
+					}
+				}
+				title: "Any #meadow:cheese"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4E4C4BFA006CF816"]
+			id: "5A1DF6C22C065E30"
+			shape: "spiral"
+			tasks: [
+				{
+					id: "7C21D49F7DDD968B"
+					item: "meadow:wooden_milk_bucket"
+					type: "item"
+				}
+				{
+					id: "1081A27B3683A471"
+					item: "meadow:wooden_sheep_milk_bucket"
+					type: "item"
+				}
+				{
+					id: "1979EDE0DD6C5689"
+					item: "meadow:wooden_buffalo_milk_bucket"
+					type: "item"
+				}
+				{
+					id: "382DD5549E40A729"
+					item: "meadow:wooden_goat_milk_bucket"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4E4C4BFA006CF816"]
+			id: "42167A5CA09F4B6E"
+			shape: "spiral"
+			tasks: [
+				{
+					id: "50A0B698709D66A2"
+					item: "meadow:wooden_warped_milk_bucket"
+					type: "item"
+				}
+				{
+					id: "2FEA4DD89E760067"
+					item: "meadow:wooden_grain_milk_bucket"
+					type: "item"
+				}
+				{
+					id: "114E1DA2D44C35FA"
+					item: "meadow:wooden_amethyst_milk_bucket"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7D3E4F1A8D11C4D1"]
+			id: "192E37DD594B554C"
+			shape: "spiral"
+			tasks: [
+				{
+					id: "7C94CA90494AC781"
+					item: "meadow:cheesecake"
+					type: "item"
+				}
+				{
+					id: "6A4D7F7E6092D0E3"
+					item: "meadow:cheese_tart"
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7D3E4F1A8D11C4D1"]
+			id: "0BE1FC0D4704175E"
+			shape: "shield"
+			tasks: [
+				{
+					id: "756CB7D5FFCC130C"
+					item: "meadow:cheese_sandwich"
+					type: "item"
+				}
+				{
+					id: "20F45CCF0ECE2CF2"
+					item: "meadow:cheese_roll"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["192E37DD594B554C"]
+			id: "505DBA1E974B853D"
+			shape: "cube"
+			tasks: [
+				{
+					id: "7504E6EA1D686D37"
+					item: "meadow:cheesecake_slice"
+					type: "item"
+				}
+				{
+					id: "1054DC6FC783EA06"
+					item: "meadow:cheese_tart_slice"
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3951BF3A3FF8F780"]
+			description: [
+				"После создания посуды я могу приготовить для себя множество &3различной&r еды. Например, сейчас я хочу приготовить, хм... &6Ростбиф с морковью&r, &6Варёную говядину&r, &6Курицу Альфредо&r и &6Брокколи со стейком&r. "
+				""
+				"Для приготовления ростбифа с морковью мне понадобятся следующие ингридиенты: 1 &cсырой стейк&r, 1 &6морковь&r и 1 &4бутылка вина&r, а также мне понадобится &6миска&r. Всё это следует готовить на &aСковороде&r. "
+				"{@pagebreak}"
+				"Для приготовления варёной говядины мне понадобятся следующие ингридиенты: 1 &cсырой стейк&r, 1 &eмасло&r и 1 &4бутылка вина&r, а также мне понадобится &6миска&r. Всё это следует готовить на &aСковороде&r. "
+				""
+				"Для создания масла мне понадобится всего-то 1 &7ведро мололка&r. Его нужно положить в &eсетку крафта&r моего &aИнвентаря&r или же &aВерстака&r."
+				"{@pagebreak}"
+				"Для приготовления курицы Альфредо мне понадобятся следующие ингридиенты: 1 &eсырые макароны&r, 1 &cкурятина&r и 1 &4бутылка вина&r, а также &6миска&r. Всё это следует готовить на &aСковороде&r."
+				""
+				"Для приготовления сырых макарон мне понадобится 1 &eтесто&r, которое всего-лишь нужно забросить в &aКастрюлю&r. Главное не забыть про &6миску&r."
+				""
+				"Для создания теста мне понадобится: 5 &eпшеницы&r и 1 &9ведро воды&r. Всё это следует соединить на &aВерстаке&r."
+				"{@pagebreak}"
+				"Для приготовления брокколей со стейком мне понадобятся следующие ингридиенты: 1 &2брокколи&r, 1 &cсырая говядина&r, 1 &4бутылка вина&r и 1 &eмасло&r, а также мне понадобится &6миска&r. Всё это следует готовить на &aСковороде&r."
+				""
+				"Для создания масла мне понадобится всего-то 1 &7ведро мололка&r. Его нужно положить в &eсетку крафта&r моего &aИнвентаря&r или же &aВерстака&r."
+			]
+			id: "307ED1D2F06BE8F3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26F4E595061AB2A7"
+				type: "random"
+			}]
+			shape: "spiral"
+			subtitle: "Множество различной вкусной еды!"
+			tasks: [
+				{
+					id: "1E97214DCFDA9F99"
+					item: "candlelight:roastbeef_carrots"
+					type: "item"
+				}
+				{
+					id: "67AC6B5610BFD7A2"
+					item: "candlelight:cooked_beef"
+					type: "item"
+				}
+				{
+					id: "1E47D2E1DB06F42A"
+					item: "candlelight:chicken_alfredo"
+					type: "item"
+				}
+				{
+					id: "71A0CB75A282D426"
+					item: "candlelight:broccoli_beef"
+					type: "item"
+				}
+			]
+			title: "Вкусная Еда"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1A09912C23118CB9"]
+			description: [
+				"Теперь я могу приготовить ещё больше вкусной еды. В этот раз я хочу ... &6Пасту с брокколи&r и &6Пасту с соусом Болоньезе&r. "
+				""
+				"Для приготовления пасты с брокколи мне необходимы следующие ингридиенты: 1 &2брокколи&r, 1 &eсырые макароны&r и 1 &eсыр&r, а также мне нужна &6миска&r. Всё это следует готовить на &aСковороде&r."
+				""
+				"Для приготовления сырых макарон мне понадобится 1 &eтесто&r, которое всего-лишь нужно забросить в &aКастрюлю&r. Главное не забыть про &6миску&r. "
+				"{@pagebreak}"
+				"Для приготовления пасты с соусом Болоньезе мне необходимы следующие ингридиенты: 1 &cболоньезе&r, 1 &eсырые макароны&r и 1 &eсыр&r, а также &6миска&r. Всё это следует готовить на &aСковороде&r."
+				""
+				"Для приготовления сырых макарон мне понадобится 1 &eтесто&r, которое всего-лишь нужно забросить в &aКастрюлю&r. Главное не забыть про &6миску&r."
+			]
+			id: "0ACA3D778169AEC7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "135B27639CADD8BB"
+				type: "random"
+			}]
+			shape: "polygon"
+			subtitle: "Ещё больше вкусностей в этом мире!"
+			tasks: [
+				{
+					id: "6AB495F81D6447D5"
+					item: "candlelight:pasta_broccoli"
+					type: "item"
+				}
+				{
+					id: "430FFBF3F6001E03"
+					item: "candlelight:pasta_bolognese"
+					type: "item"
+				}
+			]
+			title: "Больше Вкусной Еды"
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["307ED1D2F06BE8F3"]
+			description: [
+				"После приготовления томатного супа и варёной говядины я могу приступить к приготовлению &6Болоньезы&r. Это очень &3вкусное&r блюдо, поэтому я должен приготовить и попробовать его. "
+				""
+				"Для приготовления болоньезы мне необходимы следующие ингридиенты: 1 &cтоматный суп&r, 1 &cварёная говядина&r и 1 &4бутылка вина&r, а также &6миска&r. Болоньезу следует готовить на &aСковороде&r."
+			]
+			id: "1A09912C23118CB9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "53956DDC72B8DA7B"
+				type: "random"
+			}]
+			shape: "spiral"
+			subtitle: "Вкусно!"
+			tasks: [{
+				id: "08D401E02AD440C9"
+				item: "candlelight:bolognese"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3951BF3A3FF8F780"]
+			description: [
+				"После создания кастрюли я могу приготовить себе полезную еду - &6Томатный суп&r и &6Грибной суп&r. Чтобы начать готовить мне необходимо поставить кастрюлю на плиту."
+				""
+				"Для приготовления томатного супа мне необходимы следующие ингридиенты: 1 &cпомидор&r, 1 сахар и 1 &4бутылка вина&r, а также 1 &6миска&r. Всё это необходимо готовить в &aКастрюле&r. "
+				""
+				"{@pagebreak}"
+				"Для приготовления грибного супа мне необходимы следующие ингридиенты: 1 &7гриб&r, 1 &4бутылка вина&r, 1 &eмасло&r и 1 ведро молока, а также 1 &6миска&r. Всё это необходимо готовить в &aКастрюле&r."
+				""
+				"Для создания масла мне необходимо ведро молока. Его следует поместить в &3сетку крафта&r &aВерстака&r или моего &aИнвентаря&r."
+				""
+				"Но я не спешу &3есть&r эти супы, ведь с помощью &3них&r я могу приготовить другую еду. Например, &6Пасту с томатным соусом&r или &6Говядину по-веллингтонски&r, а также ещё небольшое количество другой еды."
+			]
+			id: "1FB5AECBCC3C4D10"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "57213A664095E752"
+				type: "random"
+			}]
+			shape: "spiral"
+			subtitle: "Довольно полезная еда!"
+			tasks: [
+				{
+					id: "75080C4519C47E71"
+					item: "candlelight:tomato_soup"
+					type: "item"
+				}
+				{
+					id: "2B1487D5E0E79E27"
+					item: "candlelight:mushroom_soup"
+					type: "item"
+				}
+			]
+			title: "Супчики"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1FB5AECBCC3C4D10"]
+			description: [
+				"После приготовления томатного супа и грибного супа я могу приготовить &3новую&r еду. А именно - &6Паста с томатным соусом&r и &6Говядина по-велингтонски&r. Для говядины по-велингтонски мне нужна будет &3сковорода&r. Её также нужно поставить на плиту."
+				""
+				"Для приготовления пасты с томатным соусом мне необходимы следующие ингридиенты: 1 порция &eсырых макарон&r, 1 порция &cтоматного супа&r и 1 &4бутылка вина&r, а также мне нужна &6миска&r. Всё это готовить следует в &aКастрюле&r."
+				""
+				"Для приготовления сырых макарон мне необоходимо &eтесто&r, а также мне нужна &6миска&r. Всё это следует готовить следует в &aКастрюле&r."
+				""
+				"Для создания теста мне необоходимо: 5 &eпшеницы&r и &9ведро воды&r. Всё это следует соединить на &aВерстаке&r."
+				"{@pagebreak}"
+				"Для приготовления говядины по-велингтонски мне необходимы следующие ингридиенты: 1 порция &cболоньезы&r, 1 &eтесто&r и 1 порция &7грибного супа&r, а также мне нужна &6миска&r. Всё это следует готовить на &aСковороде&r."
+				""
+				"Для приготовления болньезы мне необходимы следующие ингридиенты: 1 порция &cтоматного супа&r, 1 порция &7варёной говядины&r и 1 &4бутылка вина&r, а также мне нужна &6миска&r. Всё это следует готовить на &aСковороде&r. "
+				""
+				"Для приготовления варёной говядины мне необходимы следующие ингридиенты: 1 кусок &cсырой говядины&r, 1 &eмасло&r и 1 &4бутылка вина&r, а также мне нужна &6миска&r. Всё это следует готовить на &aСковороде&r."
+			]
+			id: "2ECA1EC256288B2D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0ADD2C1661F980F4"
+				type: "random"
+			}]
+			shape: "polygon"
+			subtitle: "Довольно сытная еда!"
+			tasks: [
+				{
+					id: "4857EB3F03225CEC"
+					item: "candlelight:pasta"
+					type: "item"
+				}
+				{
+					id: "6F2F46A14BA92975"
+					item: "candlelight:beef_wellington"
+					type: "item"
+				}
+			]
+			title: "Вкусности"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1FBB76A54FF2090B"]
+			id: "087B2E95FE1172AE"
+			shape: "polygon"
+			tasks: [
+				{
+					id: "181240CF8E356344"
+					item: "bakery:braided_bread"
+					type: "item"
+				}
+				{
+					id: "75B82EF717397E06"
+					item: "bakery:baguette"
+					type: "item"
+				}
+				{
+					id: "0A02323143F57659"
+					item: "bakery:jam_roll"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["087B2E95FE1172AE"]
+			id: "43A66380510DC51F"
+			shape: "spiral"
+			tasks: [{
+				id: "46118C401C957C03"
+				item: "bakery:bread_crate"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["087B2E95FE1172AE"]
+			id: "5C2DC9F3310D767C"
+			shape: "spiral"
+			tasks: [
+				{
+					id: "1B2067B9FAE93C67"
+					item: "bakery:vegetable_sandwich"
+					type: "item"
+				}
+				{
+					id: "03240B93A906C304"
+					item: "bakery:sandwich"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["480CAF933A9B51F6"]
+			description: [
+				"После создания небольшой кастрюли я могу приготовить &6Шоколадный Трюфель&r. Хоть он и &3не&r очень &3сытный&r, но когда я его съём я смогу &dдвигаться&r немного &dбыстрее&r. А также, из него я могу создавать другие &bпредметы&r и использовать его для приготовления разной &bеды&r."
+				""
+				"Для приготовления шоколадного трюфеля мне необходимы следующие ингридиенты: 1 &7сахар&r, 1 &cпорция какао-бабов&r и 1 &7ведро молока&r, а также не стоит забывать про &6миску&r. Всё это следует готовить в &aНебольшой Кастрюле&r."
+				""
+				"Из шоколадного трюфеля я &2могу&r создать &6Коробку с Шоколадом&r и &6Коричневый Краситель&r, а приготовить - &6Шоколадный Спрей&r и &6Шоколадный Тарт&r."
+			]
+			id: "256439424D8EED16"
+			rewards: [{
+				count: 3
+				id: "4C94BEC4676AC4BE"
+				item: "bakery:chocolate_truffle"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "spiral"
+			subtitle: "Новый вид шоколада!"
+			tasks: [{
+				count: 4L
+				id: "4302F4E1A67AFF38"
+				item: "bakery:chocolate_truffle"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["256439424D8EED16"]
+			description: [
+				"После приготовления шоколадного трюфлея я могу создать &6Коробку с Шоколадом&r. Её я могу поставить куда-нибудь и &3есть шоколад&r по &3кусочкам&r. Всего в коробке &b6&r кусочков и когда я доедаю последний я могу забрать &3сундук&r, который я использовал для создания коробки, обратно."
+				""
+				"Для создания коробки с шоколадом мне необходимо соединить на &aВерстаке&r 8 &cкусочков шоколадного трюфеля&r и 1 &6сундук&r. "
+			]
+			id: "334ABAF92D0E0F2D"
+			rewards: [
+				{
+					id: "46A1CB4607004454"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 2
+					id: "739053A39EB04018"
+					item: "bakery:chocolate_truffle"
+					random_bonus: 3
+					type: "item"
+				}
+			]
+			shape: "cube"
+			subtitle: "Новая Коробка Шоколада!"
+			tasks: [{
+				id: "1911544134BCBBCA"
+				item: "bakery:chocolate_box"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1AD424585B22D3CD"]
+			id: "11D049C2248AA414"
+			shape: "spiral"
+			tasks: [{
+				id: "0268CA9E8299B34B"
+				item: "bakery:pudding"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["11D049C2248AA414"]
+			id: "5293E41C04C5B7ED"
+			shape: "polygon"
+			tasks: [{
+				id: "61220D4D717C5A6C"
+				item: "bakery:pudding_slice"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["716D0B18BCE622D2"]
+			id: "7F2D7D8E9F015290"
+			shape: "bottle"
+			tasks: [{
+				id: "0FF6C4DA8B1130B5"
+				item: {
+					Count: 1b
+					id: "vinery:bottle_mojang_noir"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: -1.5d
+		}
+	]
+	title: "Кулинария"
+}

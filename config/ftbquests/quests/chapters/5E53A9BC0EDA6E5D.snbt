@@ -11,16 +11,10 @@
 		{
 			dependencies: ["6BC22A684745A477"]
 			id: "05EB7D069C18CA1E"
-			rewards: [{
-				count: 2
-				id: "251C21A39A86F6FD"
-				item: "create:honeyed_apple"
-				random_bonus: 3
-				type: "item"
-			}]
 			tasks: [{
 				id: "5CE947F135239979"
 				item: "minecraft:crafting_table"
+				title: "&bВерстак"
 				type: "item"
 			}]
 			x: 1.5d
@@ -419,5 +413,5 @@
 			y: 0.0d
 		}
 	]
-	title: "Первые шаги"
+	title: "&bПервые шаги"
 }

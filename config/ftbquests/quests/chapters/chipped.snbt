@@ -1,6 +1,6 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: "default_circle"
+	default_quest_shape: ""
 	filename: "chipped"
 	group: "4300AB8E9D17F2E3"
 	icon: "chipped:glassblower"
@@ -81,7 +81,7 @@
 				item: "chipped:botanist_workbench"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -4.5d
 			y: -0.5d
 		}
 		{
@@ -122,25 +122,6 @@
 			x: -5.0d
 			y: 1.0d
 		}
-		{
-			dependencies: ["7EA23917F7C58C5E"]
-			description: ["Красота должна быть везде."]
-			hide: true
-			id: "1B2114CCFDF54C96"
-			rewards: [{
-				count: 2
-				id: "1FD6C772035C1190"
-				item: "tconstruct:tinkers_bronze_ingot"
-				type: "item"
-			}]
-			tasks: [{
-				id: "287263FF56E4F4C9"
-				item: "chipped:mechanist_workbench"
-				type: "item"
-			}]
-			x: -4.5d
-			y: -0.5d
-		}
 	]
-	title: "Chipped"
+	title: "Декорации"
 }

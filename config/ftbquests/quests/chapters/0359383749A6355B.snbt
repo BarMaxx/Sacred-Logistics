@@ -3,9 +3,156 @@
 	default_quest_shape: ""
 	filename: "0359383749A6355B"
 	group: "7D6592869D36C6A4"
+	icon: "powah:energizing_orb"
 	id: "0359383749A6355B"
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["517306437EB2836A"]
+			hide: true
+			id: "4BC27B8F8CBF12A3"
+			rewards: [{
+				id: "69D08F026ADBDE58"
+				item: "powah:book"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "419F9F59CF4FA7F8"
+				item: "powah:energizing_orb"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6180ACBB10C75460"]
+			id: "494F06D4FE769833"
+			tasks: [
+				{
+					id: "71E9888A72B6E808"
+					item: "powah:dielectric_paste"
+					type: "item"
+				}
+				{
+					id: "0FAEF355C5A4AE07"
+					item: "powah:dielectric_rod"
+					type: "item"
+				}
+				{
+					id: "0894F3109FB56480"
+					item: "powah:dielectric_rod_horizontal"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["494F06D4FE769833"]
+			id: "517306437EB2836A"
+			tasks: [{
+				id: "053FCFD1FEB71B30"
+				item: "powah:dielectric_casing"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4BC27B8F8CBF12A3"]
+			description: ["Новый ресурс!"]
+			id: "4222E4C3CB12466C"
+			tasks: [{
+				count: 4L
+				id: "3F961B57CF367A8D"
+				item: "powah:steel_energized"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4222E4C3CB12466C"]
+			description: ["Новый ресурс!"]
+			id: "55089144A1EAB58D"
+			tasks: [{
+				count: 4L
+				id: "267C50F26D4EDAA8"
+				item: "powah:crystal_blazing"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["55089144A1EAB58D"]
+			description: ["Новый ресурс!"]
+			id: "297BFFD7B579CB71"
+			tasks: [{
+				count: 2L
+				id: "726F71DF2A08B309"
+				item: "powah:crystal_niotic"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["297BFFD7B579CB71"]
+			description: ["Новый ресурс!"]
+			id: "740DC1D7FBBB85D3"
+			tasks: [{
+				count: 2L
+				id: "0B63516D112B09F7"
+				item: "powah:crystal_spirited"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["740DC1D7FBBB85D3"]
+			description: ["Новый ресурс!"]
+			id: "6188EB67616DEC14"
+			tasks: [{
+				id: "77C4F4D7ABEACD90"
+				item: "powah:crystal_nitro"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4BC27B8F8CBF12A3"]
+			id: "71465C94F3AB6D4B"
+			tasks: [{
+				id: "1FF700D165CAA81E"
+				item: "powah:ender_core"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["71465C94F3AB6D4B"]
+			id: "4F33ABC73D5F3E0B"
+			tasks: [
+				{
+					id: "7469BB36ECE281F3"
+					item: "fluxnetworks:flux_dust"
+					type: "item"
+				}
+				{
+					id: "459EAA7B6B718CE8"
+					item: "fluxnetworks:flux_core"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+	]
 	title: "Энергия"
 }

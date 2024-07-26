@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6DC1575CE1E3BFE4"
+	group: "7D6592869D36C6A4"
+	icon: "minecraft:bee_nest"
+	id: "6DC1575CE1E3BFE4"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Получение ресурсов"
+}

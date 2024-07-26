@@ -172,7 +172,7 @@
 				value: 1L
 			}]
 			x: 9.5d
-			y: 0.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["2E4817DD0F5619C1"]
@@ -183,7 +183,7 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["3CBA88D3F4CAF8BE"]
@@ -207,6 +207,737 @@
 			}]
 			x: 7.5d
 			y: -1.5d
+		}
+		{
+			dependencies: ["55F324BA94F91CEE"]
+			id: "2A026EF47DDF8D5C"
+			tasks: [{
+				id: "2ADA78C462FE881A"
+				item: "cataclysm:the_incinerator"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["55F324BA94F91CEE"]
+			id: "745D54901B2F12CD"
+			tasks: [{
+				id: "4B1F04A1309310FD"
+				item: "cataclysm:bulwark_of_the_flame"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["55F324BA94F91CEE"]
+			id: "4DC485503F7522D8"
+			tasks: [
+				{
+					id: "3D8F7DCBF016ED24"
+					item: {
+						Count: 1b
+						id: "cataclysm:ignitium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "23290F26DBF157FF"
+					item: {
+						Count: 1b
+						id: "cataclysm:ignitium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "50D342A575200E00"
+					item: {
+						Count: 1b
+						id: "cataclysm:ignitium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "34D63786CD5DB6C2"
+					item: {
+						Count: 1b
+						id: "cataclysm:ignitium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Огненная броня"
+			x: 12.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["21B158EC9DA29935"]
+			id: "69A6964A4B0F8C14"
+			tasks: [{
+				id: "08BD7896259F1AB5"
+				item: {
+					Count: 1b
+					id: "cataclysm:ignitium_elytra_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["541CB67295A544F5"]
+			description: ["Древние обломки появляются в Незере на высоте 7-22. Но он очень редкий, поэтому наберитесь терпения."]
+			id: "2FDCBFDEBDA4BFBA"
+			rewards: [{
+				count: 2
+				id: "502B722FEEEA5D60"
+				item: "minecraft:ancient_debris"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "7B23F9DEB8D6B58F"
+					item: "minecraft:ancient_debris"
+					title: "Древние обломки"
+					type: "item"
+				}
+				{
+					id: "41C914DECE8FF112"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2FDCBFDEBDA4BFBA"]
+			description: ["С помощью незеритового слитка можно улучшать некоторые вещи, например, броню, инструменты, сундуки и т.п."]
+			id: "1F24FA2023174B08"
+			rewards: [{
+				id: "34552D85D2E3874C"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "4521A14D94E869BB"
+				item: "minecraft:netherite_ingot"
+				title: "Незеритовый слиток"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1F24FA2023174B08"]
+			description: ["Неплохая броня с хорошей защитой."]
+			icon: {
+				Count: 1b
+				id: "minecraft:netherite_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6270C376F841A2FB"
+			rewards: [{
+				id: "670CD4CBB4F368A2"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2A998E9C666D2837"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7CC30242CE0D5341"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2593A63B6A9A98CB"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "660A8CC363F5D47D"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Незеритовая броня"
+			x: 9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1F24FA2023174B08"]
+			description: ["Хорошие и эффективные инструменты и оружие."]
+			icon: {
+				Count: 1b
+				id: "minecraft:netherite_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7CD800F7D537713F"
+			rewards: [{
+				id: "6E5F4300F585DD41"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "354F3A1F451D93F9"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "358BA89CC442BDB9"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0FC37D46FC17E4CF"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BC50AE5E80E8F66"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Незеритовые инструменты"
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1F24FA2023174B08"]
+			description: ["Улучшенная версия алмазного рюкзака. Позволяет хранить больше предметов и улучшений."]
+			id: "269199E0BBE0015A"
+			tasks: [{
+				id: "46DD872666018293"
+				item: "sophisticatedbackpacks:netherite_backpack"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["541CB67295A544F5"]
+			id: "70182B6C7B749771"
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				id: "4C1D7A63CEC9B028"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["70182B6C7B749771"]
+			id: "4AB6AA09B9BD649A"
+			tasks: [{
+				id: "4B683C44FD4A241F"
+				item: "cataclysm:monstrous_horn"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4AB6AA09B9BD649A"]
+			id: "47B7123C55AC5AF8"
+			tasks: [{
+				id: "33703F0131804234"
+				item: {
+					Count: 1b
+					id: "cataclysm:monstrous_helm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["70182B6C7B749771"]
+			id: "10F682303DD7DE76"
+			tasks: [{
+				id: "31B4386E48144A8F"
+				item: {
+					Count: 1b
+					id: "cataclysm:infernal_forge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["541CB67295A544F5"]
+			description: ["Чтобы заспавнить Визера, необходимо поставить 4 блока песка душ и 3 черепа визер-скелета как на картинке. Убив этого босса вы получите &dзвезду Незера!&f"]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "245CE482D6E6A2D7"
+			rewards: [{
+				count: 2
+				id: "2511D123D4D0630F"
+				item: "minecraft:wither_skeleton_skull"
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "Ваш первый босс!"
+			tasks: [
+				{
+					count: 3L
+					id: "6C32CAD61BE8758B"
+					item: "minecraft:wither_skeleton_skull"
+					title: "Череп визер-скелета"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "48873F0DD7FD4E3C"
+					item: "minecraft:soul_sand"
+					title: "Песок душ"
+					type: "item"
+				}
+			]
+			title: "Визер"
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["245CE482D6E6A2D7"]
+			description: ["&dЗвезда Незера&f выпадает с Визера. Это очень ценный предмет, который в будущем Вам понадобится в большом количестве."]
+			id: "33C1F735EFF06519"
+			tasks: [{
+				id: "51F673FEE10B1D6F"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["59A45E1E34ABFB08"]
+			id: "7BA9612B04DE3D09"
+			tasks: [{
+				id: "540EBB68D92ABF29"
+				item: "minecraft:blaze_powder"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7BA9612B04DE3D09"]
+			description: ["&2Око Эндера&f нужно для нахождения и активации портала в &5Край&f."]
+			hide: true
+			id: "3CE6ECDB2520ED5F"
+			rewards: [{
+				id: "1F0B051BC77989F3"
+				item: "minecraft:ender_eye"
+				only_one: true
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "Пора в Край"
+			tasks: [
+				{
+					count: 12L
+					id: "6913BE94DB66822F"
+					item: "minecraft:ender_eye"
+					title: "Око Эндера"
+					type: "item"
+				}
+				{
+					dimension: "minecraft:the_end"
+					id: "11CEFAAD6FDFDF6E"
+					type: "dimension"
+				}
+			]
+			x: 8.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["702588A9DE9290B8"]
+			description: ["Неплохое украшение."]
+			id: "67BF7985D1B040E5"
+			tasks: [{
+				id: "56AD3167CF1ABDD0"
+				item: "minecraft:dragon_head"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["702588A9DE9290B8"]
+			description: ["На взлёт!"]
+			id: "3893494EE66CC691"
+			tasks: [{
+				id: "78E6BBE50ED3F6D7"
+				item: {
+					Count: 1b
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3CE6ECDB2520ED5F"]
+			id: "702588A9DE9290B8"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "6217B5FF02D99903"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3CE6ECDB2520ED5F"]
+			description: ["Ингридиент для крафта шалкерового ящика."]
+			id: "49E7339FCE81B389"
+			rewards: [{
+				count: 4
+				id: "0E1B235C39EA378A"
+				item: "minecraft:shulker_shell"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "20A40D4C2EDA76FF"
+				item: "minecraft:shulker_shell"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["49E7339FCE81B389"]
+			description: ["Переносное хранилище."]
+			id: "77BFC49B1D3ECBF9"
+			rewards: [{
+				id: "37CBD351D1C07EA2"
+				item: "minecraft:shulker_box"
+				type: "item"
+			}]
+			tasks: [{
+				id: "49F19AE447339743"
+				item: "minecraft:shulker_box"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["702588A9DE9290B8"]
+			id: "2EB43D826C6E5D38"
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				id: "74DD56DCB8E87203"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["702588A9DE9290B8"]
+			id: "7AD968C8B09997B6"
+			tasks: [{
+				entity: "cataclysm:ender_golem"
+				id: "4F9B0C7E9F418CFC"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7AD968C8B09997B6"]
+			id: "1F0383FC832F0104"
+			tasks: [{
+				id: "33A3CECE0DBB9165"
+				item: "cataclysm:void_core"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2EB43D826C6E5D38"]
+			id: "52D7EC3C43B2DA29"
+			tasks: [{
+				id: "7DD2AA93839539B5"
+				item: "cataclysm:gauntlet_of_guard"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3CE6ECDB2520ED5F"]
+			id: "7CBE0B9BDBE2F3C6"
+			rewards: [{
+				count: 4
+				id: "21524A6910FECC40"
+				item: "minecraft:chorus_fruit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "613B43B564DD1977"
+					item: "minecraft:chorus_fruit"
+					type: "item"
+				}
+				{
+					id: "6F4F83B37B622BB5"
+					item: "minecraft:chorus_flower"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["541CB67295A544F5"]
+			id: "1D9AE46787E2FBBF"
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				id: "39D54E2437A87F19"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1D9AE46787E2FBBF"]
+			id: "5C559434AFA4FCA5"
+			tasks: [{
+				id: "3CEDBAE67F4E7991"
+				item: "cataclysm:witherite_block"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5C559434AFA4FCA5"]
+			id: "143EBEB2F1D7D104"
+			tasks: [{
+				id: "29B40701D37FECBC"
+				item: "cataclysm:witherite_ingot"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["143EBEB2F1D7D104"]
+			id: "21B158EC9DA29935"
+			tasks: [{
+				id: "327496FA268725B5"
+				item: "cataclysm:mechanical_fusion_anvil"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["143EBEB2F1D7D104"]
+			id: "4DCF6C89CF7F0A99"
+			tasks: [{
+				id: "3C63F9EBD1E77DE8"
+				item: "cataclysm:wither_assault_shoulder_weapon"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["143EBEB2F1D7D104"]
+			id: "379A9AE7B93F6460"
+			tasks: [{
+				id: "198FACF8D435BA5D"
+				item: {
+					Count: 1b
+					id: "cataclysm:laser_gatling"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["143EBEB2F1D7D104"]
+			id: "230B2CF14317CB93"
+			tasks: [{
+				id: "599B7DDF10F199DE"
+				item: "cataclysm:meat_shredder"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["21B158EC9DA29935"]
+			id: "2A03E0A078DD8829"
+			tasks: [{
+				id: "10E4FAA8BE124D36"
+				item: "cataclysm:gauntlet_of_bulwark"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["21B158EC9DA29935"]
+			id: "39EEB02DCEEA88FA"
+			tasks: [{
+				id: "7868B40E62FAFC31"
+				item: {
+					Count: 1b
+					id: "cataclysm:void_forge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["21B158EC9DA29935"]
+			id: "40BECE1356201A24"
+			tasks: [{
+				id: "69794D252DB6A89A"
+				item: "cataclysm:void_assault_shoulder_weapon"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["702588A9DE9290B8"]
+			id: "2EB5F9831BE9CA76"
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				id: "2B092E9EF210B3EC"
+				type: "kill"
+				value: 1L
+			}]
+			x: 11.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2EB5F9831BE9CA76"]
+			id: "74D2671D99F83B20"
+			tasks: [{
+				id: "1214619B8D69F5F7"
+				item: "cataclysm:tidal_claws"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2EB5F9831BE9CA76"]
+			id: "79EBDA338F80ED5F"
+			tasks: [{
+				id: "345D0CDB57B19FF6"
+				item: "cataclysm:abyssal_egg"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -5.0d
 		}
 	]
 	title: "Встреча с мистикой"
