@@ -1,11 +1,213 @@
 {
-	id: "686A5F68A3DA8AB9"
-	group: "724CB10F5936E1B7"
-	order_index: 2
-	filename: "686A5F68A3DA8AB9"
-	title: "Встреча с мистикой"
-	icon: "iceandfire:lightning_dragon_heart"
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	default_quest_shape: ""
+	filename: "686A5F68A3DA8AB9"
+	group: "724CB10F5936E1B7"
+	icon: "iceandfire:lightning_dragon_heart"
+	id: "686A5F68A3DA8AB9"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1F24B9ADBE67E4F6"]
+			id: "0261282B27BB7183"
+			tasks: [{
+				id: "69C229238E3EE268"
+				title: "Драконы!"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0261282B27BB7183"]
+			id: "3E73871818949F1F"
+			tasks: [{
+				id: "24C947F82E1FC158"
+				item: "iceandfire:fire_dragon_heart"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0261282B27BB7183"]
+			id: "2649D77DC3C4D746"
+			tasks: [{
+				id: "6E002605616A4D4C"
+				item: "iceandfire:lightning_dragon_heart"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0261282B27BB7183"]
+			id: "4D8965D93C4A829F"
+			tasks: [{
+				id: "04044B3120168302"
+				item: "iceandfire:ice_dragon_heart"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3E73871818949F1F"]
+			id: "1882C265FFBB0A63"
+			tasks: [{
+				id: "3DF01FB1AC2A3184"
+				item: "iceandfire:dragonforge_fire_core_disabled"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4D8965D93C4A829F"]
+			id: "312FFFB82BC251B4"
+			tasks: [{
+				id: "3A4014A971143D1E"
+				item: "iceandfire:dragonforge_ice_core_disabled"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2649D77DC3C4D746"]
+			id: "4359512C0AE0F522"
+			tasks: [{
+				id: "482B26879E45AA8C"
+				item: "iceandfire:dragonforge_lightning_core_disabled"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1882C265FFBB0A63"]
+			id: "7B450934FD23A4CB"
+			tasks: [{
+				id: "57C8A687BF546B42"
+				item: "iceandfire:dragonsteel_fire_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4359512C0AE0F522"]
+			id: "3CB348D54D869833"
+			tasks: [{
+				id: "633E5385AAF850C1"
+				item: "iceandfire:dragonsteel_lightning_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["312FFFB82BC251B4"]
+			id: "64D03BC63B5A12B1"
+			tasks: [{
+				id: "516E4E4698D1252C"
+				item: "iceandfire:dragonsteel_ice_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"3CB348D54D869833"
+				"64D03BC63B5A12B1"
+				"7B450934FD23A4CB"
+			]
+			id: "56B246B4FB90E8D2"
+			tasks: [{
+				id: "131A4FD8CE459709"
+				title: "Драконий слиток"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56B246B4FB90E8D2"]
+			id: "47B628E949CB1419"
+			tasks: [{
+				id: "34CB256776C67FE8"
+				item: "assemblylinemachines:attuned_titanium_ingot"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["47B628E949CB1419"]
+			id: "541CB67295A544F5"
+			tasks: [
+				{
+					id: "16344C4FA09658D3"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+				{
+					dimension: "minecraft:the_nether"
+					id: "746874F3C56015DF"
+					type: "dimension"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["541CB67295A544F5"]
+			id: "2E4817DD0F5619C1"
+			tasks: [{
+				entity: "cataclysm:ignis"
+				id: "106EED89FA3B14A0"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2E4817DD0F5619C1"]
+			id: "55F324BA94F91CEE"
+			tasks: [{
+				id: "7523666664EB06B8"
+				item: "cataclysm:ignitium_ingot"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3CBA88D3F4CAF8BE"]
+			id: "59A45E1E34ABFB08"
+			tasks: [{
+				id: "32AE3F5B80E419EE"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["541CB67295A544F5"]
+			id: "3CBA88D3F4CAF8BE"
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "41D260D192DF0C5F"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+	]
+	title: "Встреча с мистикой"
 }

@@ -5,7 +5,8 @@
     "lava": true,
     "fire": true,
     "portal": true,
-    "block_animations": true
+    "block_animations": true,
+    "sculk_sensor": true
   },
   "particle_settings": {
     "particles": true,
@@ -46,18 +47,17 @@
     "show_coords": false,
     "reduce_resolution_on_mac": true,
     "use_adaptive_sync": false,
-    "cloud_height": 128,
+    "cloud_height": 192,
     "toasts": true,
     "advancement_toast": true,
     "recipe_toast": true,
     "system_toast": true,
     "tutorial_toast": true,
     "instant_sneak": false,
-    "prevent_shaders": false,
-    "use_fast_random": true
+    "prevent_shaders": false
   },
   "notification_settings": {
-    "hide_r_s_o_recommendation": true
+    "hide_r_s_o_recommendation": false
   },
   "super_secret_settings": {
     "fetch_sodium_extra_crowdin_translations": false,

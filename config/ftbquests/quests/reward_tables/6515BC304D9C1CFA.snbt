@@ -1,8 +1,7 @@
 {
 	id: "6515BC304D9C1CFA"
-	order_index: 2
-	title: "{reward_tables.gloomy_rise.great_food.reward_table_title}"
 	loot_size: 1
+	order_index: 2
 	rewards: [
 		{ item: "minecraft:golden_apple" }
 		{ item: "cyclic:apple_chorus" }
@@ -23,4 +22,5 @@
 		{ item: "cyclic:apple_ender" }
 		{ item: "cyclic:apple_lofty_stature" }
 	]
+	title: "{reward_tables.gloomy_rise.great_food.reward_table_title}"
 }

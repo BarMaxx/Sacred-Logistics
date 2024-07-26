@@ -2,14 +2,23 @@
   "biomes": [
     [
       {
-        "type": "BIOME_DICT",
+        "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "overworld"
-      },
+        "value": "minecraft:windswept_forest"
+      }
+    ],
+    [
       {
         "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "minecraft:dark_forest_hills"
+        "value": "minecraft:windswept_hills"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "terralith:windswept_spires"
       }
     ]
   ]

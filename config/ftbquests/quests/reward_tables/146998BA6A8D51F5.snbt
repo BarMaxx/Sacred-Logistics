@@ -1,8 +1,7 @@
 {
 	id: "146998BA6A8D51F5"
-	order_index: 9
-	title: "{reward_tables.gloomy_rise.drawers.reward_table_title}"
 	loot_size: 1
+	order_index: 9
 	rewards: [
 		{ item: "storagedrawers:oak_full_drawers_1" }
 		{ item: "storagedrawers:oak_full_drawers_2" }
@@ -53,4 +52,5 @@
 		{ item: "storagedrawers:warped_half_drawers_2" }
 		{ item: "storagedrawers:warped_half_drawers_4" }
 	]
+	title: "{reward_tables.gloomy_rise.drawers.reward_table_title}"
 }

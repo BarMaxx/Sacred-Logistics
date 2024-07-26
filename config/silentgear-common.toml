@@ -76,9 +76,9 @@
 
 #Settings for gear (tools, weapons, and armor)
 [gear]
-	#Allow parts to be crafted with mixed materials in a crafting grid, just like all recent versions.
-	#In 1.17, mixing will only be allowed in compound-crafting blocks.
-	allowClassicMaterialMixing = true
+	#Allow parts to be crafted with mixed materials in a crafting grid, like earlier versions.
+	#In 1.17, mixing is normally only allowed in compound-crafting blocks.
+	allowLegacyMaterialMixing = false
 	#If set to false all conversion recipes (type 'silentgear:conversion') will be disabled
 	#An example of a conversion recipe is placing a vanilla stone pickaxe into a crafting grid to make a Silent Gear stone pickaxe
 	#Note: This also affects conversion recipes added by data packs and other mods
@@ -91,6 +91,14 @@
 	damageFactorLevels = 10
 	#If true, gear breaks permanently, like vanilla tools and armor
 	breaksPermanently = false
+	#The item tier assigned to gear tool items.
+	#Leave this alone unless you are trying to work around mod compatibility issues!
+	#Normally, this value is not used for anything. But some mods mistakenly check it.
+	dummyToolTier = "WOOD"
+	#The armor material assigned to the gear armor items.
+	#Leave this alone unless you are trying to work around mod compatibility issues!
+	#Normally, this value is not used for anything. But some mods mistakenly check it.
+	dummyArmorMaterial = "LEATHER"
 
 	[gear.enchanting]
 		#Allow gear items to be enchanted by normal means (enchanting table, etc.)
@@ -138,6 +146,9 @@
 	[gear.upgrades]
 		#If true, upgrade parts may only be applied in an anvil.
 		applyInAnvilOnly = false
+		#If true, parts that are replaced (swapped out) of a gear item are not returned to the player and are instead destroyed.
+		#This applies to the recipe where placing a gear item and a part into a crafting grid will swap out the part.
+		destroySwappedParts = false
 
 #Settings for the material grader
 [materialGrader]
@@ -165,39 +176,14 @@
 		#Range: 0.0 ~ 1.0
 		max = 0.5
 
-#World generation options (REQUIRES GAME RESTART)
-[world]
-
-	[world.azureSilver]
-		#Veins of azure silver ore per chunk
-		#Range: 0 ~ 1000
-		count = 8
-
-	[world.bort]
-		#Attempts to place individual bort ore blocks per chunk.
-		#Range: 0 ~ 1000
-		count = 4
-
-	[world.crimsonIron]
-		#Veins of crimson iron ore per chunk
-		#Range: 0 ~ 1000
-		count = 14
-
-	[world.wildFlax]
-		#Number of patches of wild flax to attempt to place per chunk (some biomes only)
-		#Range: 0 ~ 100
-		patchCount = 1
-		#Block place attempts per wild flax cluster
-		#Range: 0 ~ 1000
-		tryCount = 16
-
-	[world.wildFluffy]
-		#Number of patches of wild fluffy plants to attempt to place per chunk (some biomes only)
-		#Range: 0 ~ 100
-		patchCount = 1
-		#Block place attempts per wild fluffy plants cluster
-		#Range: 0 ~ 1000
-		tryCount = 16
+#Settings for the starlight charger
+[starlightCharger]
+	#The rate at which the starlight charger gathers energy during the night
+	#Range: > 0
+	chargeRate = 50
+	#The maximum amount of energy the starlight charger can store
+	#Range: > 0
+	maxCharge = 1000000
 
 [debug]
 
@@ -214,6 +200,7 @@
 		worldGen = true
 
 [other]
+	#Shows a "WIP" (work in progress) label in the tooltip of certain unfinished, but usable blocks and items
 	#Set to false to remove the text from tooltips
 	showWipText = true
 

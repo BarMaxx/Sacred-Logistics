@@ -1,11 +1,797 @@
 {
-	id: "2A172DD20BD67159"
-	group: "7D6592869D36C6A4"
-	order_index: 1
-	filename: "2A172DD20BD67159"
-	title: "Технический прорыв"
-	icon: "mekanism:basic_control_circuit"
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	default_quest_shape: ""
+	filename: "2A172DD20BD67159"
+	group: "7D6592869D36C6A4"
+	icon: "mekanism:basic_control_circuit"
+	id: "2A172DD20BD67159"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["44144661FCE31A8E"]
+			description: ["Металлургический наполнитель наполняет предметы различными элементами."]
+			hide: true
+			id: "6180ACBB10C75460"
+			tasks: [{
+				id: "237DF06152585C2F"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6180ACBB10C75460"]
+			description: ["Наполненный сплав нужен для создания различных предметов, например, энергетический планшет или укреплённый сплав."]
+			id: "18F8BADF3A3A940A"
+			rewards: [{
+				count: 2
+				id: "46D5F6BD256FDEE6"
+				item: "mekanism:alloy_infused"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "615A2F78ADF8AB3B"
+				item: "mekanism:alloy_infused"
+				title: "Наполненный сплав"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6180ACBB10C75460"]
+			description: ["Базовая схема управления нужна для создания различных предметов, например, энергетический ранец."]
+			id: "1723DF54C9D0ABD2"
+			rewards: [{
+				count: 2
+				id: "77F31795F1E0984F"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "7169853627B2CB1F"
+				item: "mekanism:basic_control_circuit"
+				title: "Базовая схема управления"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1723DF54C9D0ABD2"]
+			id: "69D4F73296DABA04"
+			tasks: [{
+				id: "7FA2B5B155782B1F"
+				item: "mekanism:advanced_control_circuit"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["69D4F73296DABA04"]
+			id: "06849B39197B1D66"
+			tasks: [{
+				id: "5F9D4D79C7AE0F9E"
+				item: "mekanism:elite_control_circuit"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["06849B39197B1D66"]
+			id: "12BE3309A1C1C2A6"
+			tasks: [{
+				id: "17BD4955C35B0D06"
+				item: "mekanism:ultimate_control_circuit"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["18F8BADF3A3A940A"]
+			description: ["Укреплённый сплав нужен для создания различных предметов, например, атомный сплав."]
+			id: "7B8698296BD33830"
+			rewards: [{
+				count: 2
+				id: "1130E6DACECC7FAE"
+				item: "mekanism:alloy_reinforced"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "66E181F2E08502E0"
+				item: "mekanism:alloy_reinforced"
+				title: "Укреплённый сплав"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7B8698296BD33830"]
+			description: ["Атомный сплав нужен для создания различных предметов, например, атомный разборщик или робит."]
+			id: "11050ADBB656B7A9"
+			rewards: [{
+				count: 2
+				id: "5FB0B407FB8E5E72"
+				item: "mekanism:alloy_atomic"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "165D337065300296"
+				item: "mekanism:alloy_atomic"
+				title: "Атомный сплав"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1723DF54C9D0ABD2"]
+			id: "4BAB8552A9E3790E"
+			tasks: [{
+				id: "45B20489ECE425A3"
+				item: "mekanism:energized_smelter"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1723DF54C9D0ABD2"]
+			description: ["С помощью камеры обогащения можно создать герметичную реакционную камеру!"]
+			id: "1C1D3D5708D4769D"
+			tasks: [{
+				id: "6D13429EF7FAB4C7"
+				item: "mekanism:enrichment_chamber"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1723DF54C9D0ABD2"]
+			description: ["Обычный дробитель, но с его помощью можно создать биотопливо."]
+			id: "3996D88998A59692"
+			tasks: [{
+				id: "1C9DF171AFA6F104"
+				item: "mekanism:crusher"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["69D4F73296DABA04"]
+			id: "500A24F35E1EDD95"
+			tasks: [{
+				id: "6C6A3D9A1600D939"
+				item: "mekanism:osmium_compressor"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["69D4F73296DABA04"]
+			id: "4584B5019E90652C"
+			tasks: [{
+				id: "4881F4A7351C6889"
+				item: "mekanism:purification_chamber"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["06849B39197B1D66"]
+			id: "137D285605596D38"
+			tasks: [{
+				id: "7B9862F3B59C7CA1"
+				item: "mekanism:combiner"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4584B5019E90652C"]
+			id: "4C3BCF35B9802BF0"
+			tasks: [{
+				id: "15E5594FB847B861"
+				item: "mekanism:chemical_injection_chamber"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["18F8BADF3A3A940A"]
+			id: "72E2CA93E1BD9265"
+			tasks: [{
+				id: "1E27CCB42FEC377B"
+				item: "mekanism:energy_tablet"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["18F8BADF3A3A940A"]
+			id: "61C8682C4F98281E"
+			tasks: [{
+				id: "519FBC61BC067CF5"
+				item: "mekanismgenerators:solar_panel"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["61C8682C4F98281E"]
+			id: "135C9C687A55C680"
+			tasks: [{
+				id: "6FA618C029F01EE7"
+				item: "mekanismgenerators:solar_generator"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["135C9C687A55C680"]
+			id: "38770A1C23D7B0C7"
+			tasks: [{
+				id: "2034E063E5F7FB65"
+				item: "mekanismgenerators:advanced_solar_generator"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["72E2CA93E1BD9265"]
+			id: "47D6EAD9CB172256"
+			tasks: [{
+				id: "4E116EA7A5B0144F"
+				item: "mekanism:configurator"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["72E2CA93E1BD9265"]
+			id: "32543897C1ACA987"
+			tasks: [{
+				id: "20F991FE0E89A65F"
+				item: "mekanismgenerators:wind_generator"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["11050ADBB656B7A9"]
+			id: "3356FCF724717487"
+			tasks: [{
+				id: "04580E7121FD1FB6"
+				item: "mekanism:teleportation_core"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["11050ADBB656B7A9"]
+			description: ["Атомный разборщик - это достаточно быстрый и эффективный способ добычи породы."]
+			id: "57E1DC0354EC699E"
+			tasks: [{
+				id: "6B4644AFE203FA8C"
+				item: {
+					Count: 1b
+					id: "mekanism:atomic_disassembler"
+					tag: {
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["11050ADBB656B7A9"]
+			description: ["Робит нужен для создания цифрового шахтёра."]
+			id: "42C5A63D73A8582E"
+			subtitle: "Какой он милый :3"
+			tasks: [{
+				id: "14731F3A93378EB1"
+				item: "mekanism:robit"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["42C5A63D73A8582E"]
+			description: ["С помощью цифрового шахтёра можно добывать огромное количество предметов."]
+			id: "60EE8E02C7FF07FA"
+			tasks: [{
+				id: "4C2E2F95A3CF585F"
+				item: "mekanism:digital_miner"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3996D88998A59692"]
+			description: ["С помощью биотоплива можно создать субстрат или биогенератор."]
+			id: "0B955855C4C3CBD0"
+			rewards: [{
+				count: 2
+				id: "037FF87CFBC3A251"
+				item: "mekanism:bio_fuel"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "4860F0CE17077701"
+				item: "mekanism:bio_fuel"
+				title: "Биотопливо"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1C1D3D5708D4769D"]
+			description: ["С помощью герметичной реакционной камеры можно создавать различные вещи, например, гранула плутония или субстрат."]
+			id: "600160396D9769C4"
+			tasks: [{
+				id: "271F76625EAC0F04"
+				item: "mekanism:pressurized_reaction_chamber"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"600160396D9769C4"
+				"0B955855C4C3CBD0"
+			]
+			description: ["С помощью субстрата можно создать полиэтилен или же субстрат."]
+			id: "75F645B49BCCB0E7"
+			rewards: [{
+				count: 2
+				id: "0D160254C0B28D74"
+				item: "mekanism:substrate"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "7A2884A99D35A150"
+				item: "mekanism:substrate"
+				title: "Субстрат"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0B955855C4C3CBD0"]
+			id: "6173220F2378E2D3"
+			tasks: [{
+				id: "76A2A44D2E64DE1D"
+				item: "mekanismgenerators:bio_generator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["600160396D9769C4"]
+			description: ["С помощью грунулы плутония можно создать SPS корпус или вторичный делящийся фрагмент."]
+			id: "4A45B94832C285FC"
+			rewards: [{
+				id: "7FBB096776E13113"
+				item: "mekanism:pellet_plutonium"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "40A41EB3BD1540BA"
+				item: "mekanism:pellet_plutonium"
+				title: "Гранула плутония"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4A45B94832C285FC"]
+			id: "5C17A21503F3E409"
+			tasks: [{
+				id: "439619948F6172DE"
+				item: "mekanism:reprocessed_fissile_fragment"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["75F645B49BCCB0E7"]
+			description: ["С помощью полиэтилена можно создать полиэтиленовый стержень или лист."]
+			id: "2DB3767FCECE4A5D"
+			rewards: [{
+				count: 2
+				id: "12684749F9B9D68A"
+				item: "mekanism:hdpe_pellet"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "46882680E19D30BB"
+				item: "mekanism:hdpe_pellet"
+				title: "Полиэтилен"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2DB3767FCECE4A5D"]
+			description: ["С помощью полиэтиленового листа можно создать много различных вещей. Например, солнечный нейтронный активатор."]
+			id: "620D3DFFFAE8EA9D"
+			rewards: [{
+				count: 2
+				id: "026C962CE493EAD5"
+				item: "mekanism:hdpe_sheet"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "60A778A36A8B7849"
+				item: "mekanism:hdpe_sheet"
+				title: "Полиэтиленовый лист"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["620D3DFFFAE8EA9D"]
+			description: ["Просто укреплённые элитры."]
+			id: "73744CE605416C9A"
+			tasks: [{
+				id: "0A4780E25A69C5F7"
+				item: {
+					Count: 1b
+					id: "mekanism:hdpe_elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["620D3DFFFAE8EA9D"]
+			description: ["С помощью солнечного нейтронного активатора можно создать полоний или тритий."]
+			id: "404CF433B71A64AF"
+			tasks: [{
+				id: "3ECC247BEF89A4FB"
+				item: "mekanism:solar_neutron_activator"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["404CF433B71A64AF"]
+			description: ["С помощью гранулы полония можно создать нечно подобное МЭ системы!"]
+			id: "1FB8A258A95FA1AE"
+			rewards: [{
+				id: "0C88DD5BA776288D"
+				item: "mekanism:pellet_polonium"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "418869F36C2624BF"
+				item: "mekanism:pellet_polonium"
+				title: "Гранула полония"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["404CF433B71A64AF"]
+			description: ["С помощью гранулы антиматерии можно создать много различных вещей."]
+			id: "4A9A1FB727ADDA00"
+			rewards: [{
+				count: 2
+				id: "247CFD1EB4EC82CC"
+				item: "mekanism:pellet_antimatter"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "3F39B495E6C5C4C2"
+				item: "mekanism:pellet_antimatter"
+				title: "Гранула антиматерии"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4A9A1FB727ADDA00"]
+			description: ["С помощью антипротонного нуклеосинтезатора можно создавать различные вещи, например яйцо Дракона!"]
+			id: "3F60A8C2DB8360A3"
+			tasks: [{
+				id: "373659F0AC0D2138"
+				item: "mekanism:antiprotonic_nucleosynthesizer"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1FB8A258A95FA1AE"]
+			description: ["С помощью модификационной станции можно оснащать Meka броню различными модулями."]
+			id: "30DB8C5ED7EE8E92"
+			tasks: [{
+				id: "352D12868240C86E"
+				item: "mekanism:modification_station"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["620D3DFFFAE8EA9D"]
+			description: ["Очень хорошая броня :)"]
+			hide_dependency_lines: true
+			id: "324BADC72E76DD44"
+			tasks: [{
+				id: "291838D4C98DB0F9"
+				item: {
+					Count: 1b
+					id: "mekanism:mekasuit_helmet"
+					tag: {
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["620D3DFFFAE8EA9D"]
+			description: ["Очень хорошая броня :)"]
+			hide_dependency_lines: true
+			id: "5A779DD2AA2C8416"
+			tasks: [{
+				id: "388E37A3A21910B9"
+				item: {
+					Count: 1b
+					id: "mekanism:mekasuit_bodyarmor"
+					tag: {
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["620D3DFFFAE8EA9D"]
+			description: ["Очень хорошая броня :)"]
+			hide_dependency_lines: true
+			id: "05E9AF0E35B075C3"
+			tasks: [{
+				id: "2F05C6A46CD9DF1B"
+				item: {
+					Count: 1b
+					id: "mekanism:mekasuit_pants"
+					tag: {
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["620D3DFFFAE8EA9D"]
+			description: ["Очень хорошая броня :)"]
+			hide_dependency_lines: true
+			id: "1FDDC63FDDB4A756"
+			tasks: [{
+				id: "4CFF6EE99F5936C8"
+				item: {
+					Count: 1b
+					id: "mekanism:mekasuit_boots"
+					tag: {
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1DFB6A8F660DF882"]
+			id: "7370BDC43B514299"
+			tasks: [{
+				id: "41BFD87477776B89"
+				item: "mekanism:steel_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6180ACBB10C75460"]
+			id: "1DFB6A8F660DF882"
+			tasks: [{
+				id: "5ED094BC193E6EAB"
+				title: "Стальной катализатор"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7370BDC43B514299"]
+			id: "7F3D312915EC523D"
+			tasks: [{
+				id: "711DFC5B688FFF3F"
+				item: "mekanism:basic_energy_cube"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7F3D312915EC523D"]
+			id: "25252DB7BE0DD09F"
+			tasks: [{
+				id: "2290EC8B63827250"
+				item: "mekanism:advanced_energy_cube"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["25252DB7BE0DD09F"]
+			id: "61D3CB33D401A316"
+			tasks: [{
+				id: "11D40756C7C0C28A"
+				item: "mekanism:elite_energy_cube"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["61D3CB33D401A316"]
+			id: "2A81A829504F5C80"
+			tasks: [{
+				id: "4AA2BC13B2F66818"
+				item: "mekanism:ultimate_energy_cube"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7F3D312915EC523D"]
+			id: "1B65432E66A46769"
+			tasks: [{
+				id: "33B4EC147AC09170"
+				item: "mekanism:basic_induction_provider"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7F3D312915EC523D"]
+			id: "53217D92812F4C92"
+			tasks: [{
+				id: "7FD900A262425AE9"
+				item: "mekanism:basic_induction_cell"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1B65432E66A46769"]
+			id: "34AE5112B80FF1BB"
+			tasks: [{
+				id: "21E9B0A7E8BB5410"
+				item: "mekanism:advanced_induction_provider"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["34AE5112B80FF1BB"]
+			id: "63313C9C152B5A4B"
+			tasks: [{
+				id: "42B95D3FF0BBF4AD"
+				item: "mekanism:elite_induction_provider"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["63313C9C152B5A4B"]
+			id: "1292E3CA152EF781"
+			tasks: [{
+				id: "363B425ACE90D8D6"
+				item: "mekanism:ultimate_induction_provider"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["53217D92812F4C92"]
+			id: "773911AEF47B8E6C"
+			tasks: [{
+				id: "6CC57912273A0EC1"
+				item: "mekanism:advanced_induction_cell"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["773911AEF47B8E6C"]
+			id: "15964742D3CD3141"
+			tasks: [{
+				id: "7D6D3F55C9384721"
+				item: "mekanism:elite_induction_cell"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["15964742D3CD3141"]
+			id: "23CA032CDA89ABF9"
+			tasks: [{
+				id: "27557DC9DB557A15"
+				item: "mekanism:ultimate_induction_cell"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 10.0d
+		}
+	]
+	title: "Технический прорыв"
 }

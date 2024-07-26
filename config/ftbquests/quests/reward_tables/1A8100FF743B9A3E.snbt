@@ -1,8 +1,7 @@
 {
 	id: "1A8100FF743B9A3E"
-	order_index: 6
-	title: "{reward_tables.gloomy_rise.chests.reward_table_title}"
 	loot_size: 1
+	order_index: 6
 	rewards: [
 		{ item: "minecraft:chest" }
 		{ item: "quark:oak_chest" }
@@ -24,4 +23,5 @@
 		{ item: "expandedstorage:pumpkin_chest" }
 		{ item: "expandedstorage:christmas_chest" }
 	]
+	title: "{reward_tables.gloomy_rise.chests.reward_table_title}"
 }

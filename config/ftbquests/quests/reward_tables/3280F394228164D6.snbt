@@ -1,12 +1,12 @@
 {
-	id: "3280F394228164D6"
-	order_index: 0
-	title: "{reward_tables.gloomy_rise.simple_food.reward_table_title}"
-	loot_size: 1
 	hide_tooltip: true
+	id: "3280F394228164D6"
+	loot_size: 1
+	order_index: 0
 	rewards: [
-		{ item: "minecraft:apple", count: 4, weight: 2 }
-		{ item: "minecraft:bread", count: 4 }
-		{ item: "minecraft:baked_potato", count: 4 }
+		{ count: 4, item: "minecraft:apple", weight: 2.0f }
+		{ count: 4, item: "minecraft:bread" }
+		{ count: 4, item: "minecraft:baked_potato" }
 	]
+	title: "{reward_tables.gloomy_rise.simple_food.reward_table_title}"
 }

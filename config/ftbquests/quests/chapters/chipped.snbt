@@ -1,145 +1,146 @@
 {
-	id: "5098B1745C215C0F"
-	group: "4300AB8E9D17F2E3"
-	order_index: 0
-	filename: "chipped"
-	title: "Chipped"
-	icon: "chipped:glassblower"
-	default_quest_shape: "default_circle"
 	default_hide_dependency_lines: false
+	default_quest_shape: "default_circle"
+	filename: "chipped"
+	group: "4300AB8E9D17F2E3"
+	icon: "chipped:glassblower"
+	id: "5098B1745C215C0F"
+	order_index: 0
+	quest_links: [ ]
 	quests: [
 		{
-			x: -5.0d
-			y: -2.0d
-			description: ["Красота должна быть везде."]
 			dependencies: ["7EA23917F7C58C5E"]
+			description: ["Красота должна быть везде."]
 			hide: true
 			id: "2C432BFF146578AD"
+			rewards: [{
+				count: 2
+				id: "66FE123D56B053AA"
+				item: "tconstruct:slimesteel_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4B46466272CEE763"
-				type: "item"
 				item: "chipped:mason_table"
-			}]
-			rewards: [{
-				id: "66FE123D56B053AA"
 				type: "item"
-				item: "tconstruct:slimesteel_ingot"
-				count: 2
 			}]
+			x: -5.0d
+			y: -2.0d
 		}
 		{
-			x: -7.5d
-			y: -0.5d
-			description: ["Красота должна быть везде."]
 			dependencies: ["7EA23917F7C58C5E"]
+			description: ["Красота должна быть везде."]
 			hide: true
 			id: "4C8995B22FB8D909"
+			rewards: [{
+				count: 2
+				id: "20882665706EDCD5"
+				item: "tconstruct:tinkers_bronze_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2EDF949E9086D85B"
-				type: "item"
 				item: "chipped:glassblower"
-			}]
-			rewards: [{
-				id: "20882665706EDCD5"
 				type: "item"
-				item: "tconstruct:tinkers_bronze_ingot"
-				count: 2
 			}]
+			x: -7.5d
+			y: -0.5d
 		}
 		{
-			x: -7.0d
-			y: -2.0d
-			description: ["Красота должна быть везде."]
 			dependencies: ["7EA23917F7C58C5E"]
+			description: ["Красота должна быть везде."]
 			hide: true
 			id: "2C5D275094BD1595"
+			rewards: [{
+				count: 2
+				id: "6F43BEC4C0C714D1"
+				item: "tconstruct:slimesteel_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "150051988BECD4BF"
-				type: "item"
 				item: "chipped:carpenters_table"
-			}]
-			rewards: [{
-				id: "6F43BEC4C0C714D1"
 				type: "item"
-				item: "tconstruct:slimesteel_ingot"
-				count: 2
 			}]
+			x: -7.0d
+			y: -2.0d
 		}
 		{
-			x: -6.0d
-			y: -0.5d
-			description: ["Красота должна быть везде."]
 			dependencies: ["7EA23917F7C58C5E"]
+			description: ["Красота должна быть везде."]
 			hide: true
 			id: "202BE7B352D48B0A"
+			rewards: [{
+				count: 2
+				id: "6EE457C08FAEED46"
+				item: "tconstruct:tinkers_bronze_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "16662A535B8FACF6"
-				type: "item"
 				item: "chipped:botanist_workbench"
-			}]
-			rewards: [{
-				id: "6EE457C08FAEED46"
 				type: "item"
-				item: "tconstruct:tinkers_bronze_ingot"
-				count: 2
 			}]
+			x: -6.0d
+			y: -0.5d
 		}
 		{
-			x: -7.0d
-			y: 1.0d
-			description: ["Красота должна быть везде."]
 			dependencies: ["7EA23917F7C58C5E"]
+			description: ["Красота должна быть везде."]
 			hide: true
 			id: "612665DD7521CB28"
+			rewards: [{
+				count: 2
+				id: "502A121B6A8EFB32"
+				item: "tconstruct:rose_gold_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7B7E862D7BCF8074"
-				type: "item"
 				item: "chipped:loom_table"
-			}]
-			rewards: [{
-				id: "502A121B6A8EFB32"
 				type: "item"
-				item: "tconstruct:rose_gold_ingot"
-				count: 2
 			}]
+			x: -7.0d
+			y: 1.0d
 		}
 		{
-			x: -5.0d
-			y: 1.0d
-			description: ["Красота должна быть везде."]
 			dependencies: ["7EA23917F7C58C5E"]
+			description: ["Красота должна быть везде."]
 			hide: true
 			id: "275FF44B977C6E40"
+			rewards: [{
+				count: 2
+				id: "27303A329EEEFDF6"
+				item: "tconstruct:rose_gold_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0558B28FE1B3FFAD"
-				type: "item"
 				item: "chipped:alchemy_bench"
-			}]
-			rewards: [{
-				id: "27303A329EEEFDF6"
 				type: "item"
-				item: "tconstruct:rose_gold_ingot"
-				count: 2
 			}]
+			x: -5.0d
+			y: 1.0d
 		}
 		{
-			x: -4.5d
-			y: -0.5d
-			description: ["Красота должна быть везде."]
 			dependencies: ["7EA23917F7C58C5E"]
+			description: ["Красота должна быть везде."]
 			hide: true
 			id: "1B2114CCFDF54C96"
+			rewards: [{
+				count: 2
+				id: "1FD6C772035C1190"
+				item: "tconstruct:tinkers_bronze_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "287263FF56E4F4C9"
-				type: "item"
 				item: "chipped:mechanist_workbench"
-			}]
-			rewards: [{
-				id: "1FD6C772035C1190"
 				type: "item"
-				item: "tconstruct:tinkers_bronze_ingot"
-				count: 2
 			}]
+			x: -4.5d
+			y: -0.5d
 		}
 	]
+	title: "Chipped"
 }

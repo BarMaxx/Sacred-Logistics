@@ -1,192 +1,185 @@
 {
-	id: "0BA093F3620BFEF6"
-	group: "724CB10F5936E1B7"
-	order_index: 1
-	filename: "0BA093F3620BFEF6"
-	title: "Начало технологий"
-	icon: "assemblylinemachines:fluid_bath"
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0BA093F3620BFEF6"
+	group: "724CB10F5936E1B7"
+	icon: "assemblylinemachines:fluid_bath"
+	id: "0BA093F3620BFEF6"
+	order_index: 1
+	quest_links: [ ]
 	quests: [
 		{
-			x: 0.0d
-			y: 0.0d
-			dependencies: ["4B30EB0705964650"]
+			dependencies: ["73D8A15D7A0E9FA2"]
 			id: "5731D8BFD4BBD536"
 			tasks: [
 				{
 					id: "4B5D42DFD10958F2"
-					type: "item"
 					item: "assemblylinemachines:fluid_bath"
+					type: "item"
 				}
 				{
 					id: "619BE54B69947CAD"
-					type: "item"
 					item: {
-						id: "assemblylinemachines:wooden_stirring_stick"
 						Count: 1b
+						id: "assemblylinemachines:wooden_stirring_stick"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "265F50A49D9CBC0E"
-				type: "item"
-				item: "assemblylinemachines:guidebook"
-			}]
+			x: 0.0d
+			y: 0.0d
 		}
 		{
-			x: 1.5d
-			y: 0.0d
 			dependencies: ["5731D8BFD4BBD536"]
 			id: "6513C7948A68988C"
 			tasks: [
 				{
 					id: "5498282F77A76064"
-					type: "item"
 					item: "assemblylinemachines:silt"
+					type: "item"
 				}
 				{
 					id: "68C5AD1FCE56D8C9"
-					type: "item"
 					item: "assemblylinemachines:silt_brick"
+					type: "item"
 				}
 			]
+			x: 1.5d
+			y: 0.0d
 		}
 		{
-			x: 3.0d
-			y: 0.0d
 			dependencies: ["6513C7948A68988C"]
 			id: "5ACF0D4B6651C107"
 			tasks: [
 				{
 					id: "3B9AD6638765C71F"
-					type: "item"
 					item: "assemblylinemachines:hand_grinder"
+					type: "item"
 				}
 				{
-					id: "0080582285943533"
-					type: "item"
-					item: "assemblylinemachines:titanium_blade_piece"
 					count: 3L
+					id: "0080582285943533"
+					item: "assemblylinemachines:titanium_blade_piece"
+					type: "item"
 				}
 				{
 					id: "3CDD60AA1F1D5555"
-					type: "item"
 					item: {
-						id: "assemblylinemachines:titanium_blade"
 						Count: 1b
+						id: "assemblylinemachines:titanium_blade"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 			]
+			x: 3.0d
+			y: 0.0d
 		}
 		{
-			x: 3.5d
-			y: -1.5d
 			dependencies: ["5ACF0D4B6651C107"]
 			id: "77411DD073E41360"
 			tasks: [
 				{
 					id: "3C99628DCD5AB32D"
-					type: "item"
 					item: "assemblylinemachines:ground_iron"
+					type: "item"
 				}
 				{
 					id: "3216002D07CFBE16"
-					type: "item"
 					item: "assemblylinemachines:silt_iron"
+					type: "item"
 				}
 			]
+			x: 3.5d
+			y: -1.5d
 		}
 		{
-			x: 4.5d
-			y: -2.0d
 			dependencies: ["77411DD073E41360"]
 			id: "2C2F3D5E6DB72ECB"
 			tasks: [{
-				id: "5CEF5BA4D3AA3EF6"
+				id: "4797F5B9079E4BC0"
+				item: "assemblylinemachines:pure_iron_ingot"
 				type: "item"
-				item: "assemblylinemachines:pure_iron"
 			}]
+			x: 4.5d
+			y: -2.0d
 		}
 		{
-			x: 3.5d
-			y: 1.5d
 			dependencies: ["5ACF0D4B6651C107"]
 			id: "129B005C1422EC81"
 			tasks: [
 				{
 					id: "0749BDF98015082A"
-					type: "item"
 					item: "assemblylinemachines:ground_gold"
+					type: "item"
 				}
 				{
 					id: "126FE04227F5A759"
-					type: "item"
 					item: "assemblylinemachines:silt_gold"
+					type: "item"
 				}
 			]
+			x: 3.5d
+			y: 1.5d
 		}
 		{
-			x: 4.5d
-			y: 2.0d
 			dependencies: ["129B005C1422EC81"]
 			id: "446C755EE2D35DB4"
 			tasks: [{
-				id: "5C12BA93434E4B80"
+				id: "40F449539094A971"
+				item: "assemblylinemachines:pure_gold_ingot"
 				type: "item"
-				item: "assemblylinemachines:pure_gold"
 			}]
+			x: 4.5d
+			y: 2.0d
 		}
 		{
-			x: 5.5d
-			y: 1.5d
 			dependencies: ["446C755EE2D35DB4"]
 			id: "6059F731870DB6C3"
 			tasks: [
 				{
 					id: "1F5A8894E7262A7A"
-					type: "item"
 					item: "assemblylinemachines:pure_gold_blade_piece"
+					type: "item"
 				}
 				{
 					id: "0721DBD84CCDD77B"
-					type: "item"
 					item: {
-						id: "assemblylinemachines:pure_gold_blade"
 						Count: 1b
+						id: "assemblylinemachines:pure_gold_blade"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 			]
+			x: 5.5d
+			y: 1.5d
 		}
 		{
-			x: 5.5d
-			y: -1.5d
 			dependencies: ["2C2F3D5E6DB72ECB"]
 			id: "2C08B57517493E44"
 			tasks: [{
 				id: "0607A549EB022B4D"
-				type: "item"
 				item: {
-					id: "assemblylinemachines:pure_iron_stirring_stick"
 					Count: 1b
+					id: "assemblylinemachines:pure_iron_stirring_stick"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
+			x: 5.5d
+			y: -1.5d
 		}
 		{
-			x: 6.0d
-			y: 0.0d
 			dependencies: [
 				"2C08B57517493E44"
 				"6059F731870DB6C3"
@@ -194,94 +187,94 @@
 			id: "7D41ADDD7FFBF035"
 			tasks: [{
 				id: "770D539CDEB34D7F"
-				type: "item"
 				item: "assemblylinemachines:steel_ingot"
+				type: "item"
 			}]
+			x: 6.0d
+			y: 0.0d
 		}
 		{
-			x: 4.5d
-			y: 0.0d
 			dependencies: ["7D41ADDD7FFBF035"]
 			id: "65E7C1C589D76C6D"
 			tasks: [
 				{
 					id: "3C95EEA9B199282F"
-					type: "item"
 					item: {
-						id: "assemblylinemachines:steel_stirring_stick"
 						Count: 1b
+						id: "assemblylinemachines:steel_stirring_stick"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "0A16911617134C0E"
-					type: "item"
 					item: {
-						id: "assemblylinemachines:steel_blade"
 						Count: 1b
+						id: "assemblylinemachines:steel_blade"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 			]
+			x: 4.5d
+			y: 0.0d
 		}
 		{
-			x: 7.5d
-			y: 0.0d
 			dependencies: ["7D41ADDD7FFBF035"]
 			id: "63860B0D0133E837"
 			tasks: [
 				{
 					id: "24D1E1BDE7B18BB0"
-					type: "item"
 					item: "assemblylinemachines:crank_shaft"
+					type: "item"
 				}
 				{
 					id: "66CA3D682C3DB760"
-					type: "item"
 					item: "assemblylinemachines:crank"
+					type: "item"
 				}
 			]
+			x: 7.5d
+			y: 0.0d
 		}
 		{
-			x: 9.0d
-			y: 0.0d
 			dependencies: ["63860B0D0133E837"]
 			id: "3B377F248DC18422"
 			tasks: [{
-				id: "0E54A65F66307B04"
+				id: "70C78A76636CADEB"
+				item: "assemblylinemachines:kinetic_grinder"
 				type: "item"
-				item: "assemblylinemachines:simple_grinder"
 			}]
+			x: 9.0d
+			y: 0.0d
 		}
 		{
-			x: 9.5d
-			y: 1.0d
 			dependencies: ["3B377F248DC18422"]
 			id: "069E8EC5BDD603D4"
 			tasks: [{
 				id: "2650651949E480D3"
-				type: "item"
 				item: "assemblylinemachines:wooden_board"
+				type: "item"
 			}]
+			x: 9.5d
+			y: 1.0d
 		}
 		{
-			x: 10.5d
-			y: 1.0d
 			dependencies: ["069E8EC5BDD603D4"]
 			id: "0DA8BA8F68D8BCF3"
 			tasks: [{
 				id: "0D065F751E1BC633"
-				type: "item"
 				item: "assemblylinemachines:wooden_fluid_tank"
+				type: "item"
 			}]
+			x: 10.5d
+			y: 1.0d
 		}
 		{
-			x: 11.0d
-			y: 0.0d
 			dependencies: [
 				"0DA8BA8F68D8BCF3"
 				"66B0DF6AADAB7C2B"
@@ -290,80 +283,80 @@
 			tasks: [
 				{
 					id: "3AE8EA2745FB32F1"
-					type: "item"
 					item: "assemblylinemachines:steel_fluid_tank"
+					type: "item"
 				}
 				{
-					id: "3C1B34FB6CE67B47"
+					id: "30E47DA7C412EBBE"
+					item: "assemblylinemachines:kinetic_fluid_mixer"
 					type: "item"
-					item: "assemblylinemachines:simple_fluid_mixer"
 				}
 			]
+			x: 11.0d
+			y: 0.0d
 		}
 		{
-			x: 10.0d
-			y: -0.5d
 			dependencies: ["3B377F248DC18422"]
 			id: "66B0DF6AADAB7C2B"
 			tasks: [{
 				id: "1266C836D51187C9"
-				type: "item"
 				item: "assemblylinemachines:steel_rod"
+				type: "item"
 			}]
+			x: 10.0d
+			y: -0.5d
 		}
 		{
-			x: 10.0d
-			y: -2.0d
 			dependencies: ["66B0DF6AADAB7C2B"]
 			id: "4E397B62C9341385"
 			tasks: [{
 				id: "54D1A8EBAA7725B8"
-				type: "item"
 				item: {
-					id: "assemblylinemachines:steel_hammer"
 					Count: 1b
+					id: "assemblylinemachines:steel_hammer"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
+			x: 10.0d
+			y: -2.0d
 		}
 		{
-			x: 11.0d
-			y: -2.0d
 			dependencies: ["4E397B62C9341385"]
 			id: "292D30C65D6E79C6"
 			tasks: [{
-				id: "13ADC59E1FD03B3A"
+				id: "03FF996CE76A97F0"
+				item: "assemblylinemachines:pure_iron_plate"
 				type: "item"
-				item: "assemblylinemachines:iron_plate"
 			}]
+			x: 11.0d
+			y: -2.0d
 		}
 		{
-			x: 13.0d
-			y: -2.0d
 			dependencies: ["292D30C65D6E79C6"]
 			id: "4BA670CF441AAC35"
 			tasks: [{
-				id: "595C5546EEDBD03A"
+				id: "350DEED8F844ABE1"
+				item: "assemblylinemachines:pure_iron_gear"
 				type: "item"
-				item: "assemblylinemachines:iron_gear"
 			}]
+			x: 13.0d
+			y: -2.0d
 		}
 		{
-			x: 13.0d
-			y: 0.0d
 			dependencies: ["57FF20D32CBEB078"]
 			id: "7450A023B131264F"
 			tasks: [{
 				id: "0CE01F4AB3DE9C5F"
-				type: "item"
 				item: "assemblylinemachines:empowered_coal"
+				type: "item"
 			}]
+			x: 13.0d
+			y: 0.0d
 		}
 		{
-			x: 13.5d
-			y: -1.0d
 			dependencies: [
 				"4BA670CF441AAC35"
 				"7450A023B131264F"
@@ -372,124 +365,124 @@
 			tasks: [
 				{
 					id: "219951EFB53206CF"
-					type: "item"
 					item: "assemblylinemachines:gearbox"
+					type: "item"
 				}
 				{
 					id: "4C52A47A44153876"
-					type: "item"
 					item: "assemblylinemachines:simple_crank_charger"
+					type: "item"
 				}
 			]
+			x: 13.5d
+			y: -1.0d
 		}
 		{
-			x: 13.0d
-			y: -3.5d
 			dependencies: ["4BA670CF441AAC35"]
 			id: "31F4655BAD62A90D"
 			tasks: [{
 				id: "66200A01BBA7D1DB"
-				type: "item"
 				item: {
-					id: "assemblylinemachines:crank_pickaxe"
 					Count: 1b
+					id: "assemblylinemachines:crank_pickaxe"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
+			x: 13.0d
+			y: -3.5d
 		}
 		{
-			x: 15.0d
-			y: -1.0d
 			dependencies: ["01383BAF8FBAE80A"]
 			id: "6D5C68105A5B22C9"
 			tasks: [{
 				id: "4E43A51683A6DA57"
-				type: "item"
 				item: "assemblylinemachines:black_granite"
+				type: "item"
 			}]
+			x: 15.0d
+			y: -1.0d
 		}
 		{
-			x: 15.5d
-			y: 0.0d
 			dependencies: ["6D5C68105A5B22C9"]
 			id: "3F6BB8B1E5B23BE8"
 			tasks: [{
 				id: "5BBA02B2B34C15A1"
-				type: "item"
 				item: "assemblylinemachines:energy_pipe"
+				type: "item"
 			}]
+			x: 15.5d
+			y: 0.0d
 		}
 		{
-			x: 15.5d
-			y: 1.5d
 			dependencies: ["3F6BB8B1E5B23BE8"]
 			id: "536D4156A83E173F"
 			tasks: [{
 				id: "0E03591D83BE7D4A"
-				type: "item"
 				item: "assemblylinemachines:crankmill"
+				type: "item"
 			}]
+			x: 15.5d
+			y: 1.5d
 		}
 		{
-			x: 17.0d
-			y: 0.0d
 			dependencies: ["3F6BB8B1E5B23BE8"]
 			id: "38886CCE8601EE26"
 			tasks: [{
 				id: "240A019A82BE2FDC"
-				type: "item"
 				item: "assemblylinemachines:electric_purifier"
+				type: "item"
 			}]
+			x: 17.0d
+			y: 0.0d
 		}
 		{
-			x: 18.5d
-			y: 0.0d
 			dependencies: ["38886CCE8601EE26"]
 			id: "00A6BEF41504D2F0"
 			tasks: [{
-				id: "216C1FB0991D770E"
+				id: "592D1D07A95C70F5"
+				item: "assemblylinemachines:pure_steel_ingot"
 				type: "item"
-				item: "assemblylinemachines:pure_steel"
 			}]
+			x: 18.5d
+			y: 0.0d
 		}
 		{
-			x: 20.0d
-			y: 0.0d
 			dependencies: ["00A6BEF41504D2F0"]
 			id: "379F20173F3A2764"
 			tasks: [{
-				id: "72B10ED017AF1FE8"
+				id: "009D39D3FBC7F3FC"
+				item: "assemblylinemachines:pure_steel_gear"
 				type: "item"
-				item: "assemblylinemachines:steel_gear"
 			}]
+			x: 20.0d
+			y: 0.0d
 		}
 		{
-			x: 20.5d
-			y: -1.5d
 			dependencies: ["379F20173F3A2764"]
 			id: "73095562BE268857"
 			tasks: [{
 				id: "0EFB2123DD8DE378"
-				type: "item"
 				item: "assemblylinemachines:conduction_component"
+				type: "item"
 			}]
+			x: 20.5d
+			y: -1.5d
 		}
 		{
-			x: 20.5d
-			y: 1.5d
 			dependencies: ["379F20173F3A2764"]
 			id: "2702F0FED10C5546"
 			tasks: [{
 				id: "723009DD2D1F6591"
-				type: "item"
 				item: "assemblylinemachines:temperature_regulator"
+				type: "item"
 			}]
+			x: 20.5d
+			y: 1.5d
 		}
 		{
-			x: 21.0d
-			y: 0.0d
 			dependencies: [
 				"73095562BE268857"
 				"2702F0FED10C5546"
@@ -497,31 +490,81 @@
 			id: "594A1CD7BCFEE409"
 			tasks: [{
 				id: "72A7DC966D63AC8F"
-				type: "item"
 				item: "assemblylinemachines:alloy_smelter"
+				type: "item"
 			}]
+			x: 21.0d
+			y: 0.0d
 		}
 		{
-			x: 22.5d
-			y: 0.0d
-			dependencies: ["594A1CD7BCFEE409"]
+			dependencies: [
+				"73EF0FEFFC6A3CEF"
+				"69C24219EDF20D8C"
+			]
 			id: "1F24B9ADBE67E4F6"
 			tasks: [{
 				id: "2587A3D38F8C1B95"
-				type: "item"
 				item: "assemblylinemachines:mystium_ingot"
+				type: "item"
 			}]
+			x: 24.0d
+			y: -1.0d
 		}
 		{
-			x: 24.0d
-			y: 0.0d
-			dependencies: ["1F24B9ADBE67E4F6"]
-			id: "16D2A9ABFEDC669A"
+			dependencies: ["594A1CD7BCFEE409"]
+			id: "73EF0FEFFC6A3CEF"
 			tasks: [{
-				id: "182E4594692BBF3B"
+				id: "6AC0F8B58187913F"
+				item: "assemblylinemachines:mystium_blend"
 				type: "item"
-				item: "extendedcrafting:advanced_table"
 			}]
+			x: 22.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["594A1CD7BCFEE409"]
+			id: "79B1DE6854535EF5"
+			tasks: [{
+				id: "028C3FBF5041321D"
+				item: "assemblylinemachines:energized_gold_ingot"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["79B1DE6854535EF5"]
+			id: "69C24219EDF20D8C"
+			tasks: [{
+				id: "1E50083CCF1FF389"
+				item: "assemblylinemachines:electrified_netherite_blend"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["73095562BE268857"]
+			id: "5B87C66204C93904"
+			tasks: [{
+				id: "59618989637AC3CD"
+				item: "assemblylinemachines:pneumatic_compressor"
+				type: "item"
+			}]
+			x: 20.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5B87C66204C93904"]
+			id: "44144661FCE31A8E"
+			tasks: [{
+				id: "0A5B7986E398A3A0"
+				item: "assemblylinemachines:energized_gold_plate"
+				type: "item"
+			}]
+			x: 20.5d
+			y: -4.5d
 		}
 	]
+	title: "Начало технологий"
 }

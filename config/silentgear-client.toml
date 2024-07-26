@@ -7,3 +7,14 @@
 	#Plays a sped-up 'item breaking' sound when an item's stats are recalculated due to durability loss
 	playKachinkSound = true
 
+[tooltip]
+	#Show SGear Material tooltips on items that can be used as materials.
+	showMaterialTooltips = true
+	#Show tooltips on parts and items that can be used as parts.
+	showPartTooltips = true
+	#Tooltips are replaced with a simpler variant similar to vanilla and contains about as much information.
+	vanillaStyleTooltips = false
+	#Show tooltips on certain items (like blueprints) reminding the player of JEI functionality,
+	#or encouraging the player to install JEI (Just Enough Items) if the mod is missing.
+	jeiHints = true
+
