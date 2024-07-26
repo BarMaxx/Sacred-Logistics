@@ -1,0 +1,230 @@
+{
+	id: "6A357A7586F39D25"
+	group: "3300196F2614D758"
+	order_index: 1
+	filename: "6A357A7586F39D25"
+	title: "Космическая гонка"
+	icon: {
+		id: "boss_tools:rocket_t3"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 1.5d
+			y: 1.0d
+			shape: "pentagon"
+			description: ["На верстаке НАСА создаётся самая главная вещь этой сборки - РАКЕТА!"]
+			dependencies: ["756376AFE30D2029"]
+			id: "1C3B604A3C71EA61"
+			tasks: [{
+				id: "787198FE1B8CC753"
+				type: "item"
+				item: "boss_tools:nasa_workbench"
+			}]
+		}
+		{
+			title: "Молот"
+			x: -3.0d
+			y: 0.5d
+			shape: "gear"
+			description: ["Молот - это один из самых важных предметов в этом моде. Он нужен при создании основных механизмов из этого мода."]
+			dependencies: ["7EA23917F7C58C5E"]
+			hide: true
+			size: 1.2d
+			id: "718D674A4C22515B"
+			tasks: [{
+				id: "63DDA37109728D94"
+				type: "item"
+				item: {
+					id: "boss_tools:hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Компресор"
+			x: -1.5d
+			y: 0.5d
+			description: ["С помощью компрессора создаются скомпрессированые слитки. Они нужно в создании целой РАКЕТЫ!"]
+			dependencies: ["718D674A4C22515B"]
+			id: "724672A66EADBAE6"
+			tasks: [{
+				id: "5E086D58602767A2"
+				type: "item"
+				item: "boss_tools:compressor"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.5d
+			description: ["Важный ингридиент в этом моде."]
+			dependencies: ["724672A66EADBAE6"]
+			id: "756376AFE30D2029"
+			tasks: [{
+				id: "2B44F1C9788CD89B"
+				type: "item"
+				item: "boss_tools:compressed_steel"
+				count: 10L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.5d
+			shape: "rsquare"
+			description: ["Ракета 1 уровня, ура!"]
+			dependencies: ["1C3B604A3C71EA61"]
+			id: "316AB192E34650FA"
+			tasks: [{
+				id: "3B952C6094B183F9"
+				type: "item"
+				item: {
+					id: "boss_tools:rocket_t1"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Нефтеперерабатывающий завод"
+			x: 0.5d
+			y: 2.0d
+			description: ["С помощью нефтеперерабатывающего завода можно создать топливо для ракеты."]
+			dependencies: ["756376AFE30D2029"]
+			id: "5469B4886D2B7209"
+			tasks: [{
+				id: "43297AD7A6383D0F"
+				type: "item"
+				item: "boss_tools:fuel_refinery"
+			}]
+		}
+		{
+			title: "Кислородный загрузчик"
+			x: 0.5d
+			y: -1.0d
+			description: ["С помощью кислородного загрузчика можно заполнить кислородом свой костюм."]
+			dependencies: ["756376AFE30D2029"]
+			id: "14779353BBD8B279"
+			tasks: [{
+				id: "2D9676F89838EE56"
+				type: "item"
+				item: "boss_tools:oxygen_loader"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.5d
+			description: ["Слитки деш можно найти ТОЛЬКО на Луне. С помощью них можно создать скомпрессированые деш."]
+			dependencies: ["316AB192E34650FA"]
+			id: "143DCF41180D79EA"
+			tasks: [{
+				id: "7475336E20A4A0A7"
+				type: "item"
+				item: "boss_tools:desh_ingot"
+				count: 10L
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.5d
+			shape: "rsquare"
+			description: ["Ракета 2 уровня, ура!"]
+			dependencies: ["7D9C57C7DDBAD6A3"]
+			id: "1B59AE41FFE36798"
+			tasks: [{
+				id: "64D2925D4ED9F5B0"
+				type: "item"
+				item: {
+					id: "boss_tools:rocket_t2"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: 0.5d
+			description: ["Слитки силикона можно найти ТОЛЬКО на Марсе! С помощью них можно создать скомпрессированый силикон"]
+			dependencies: ["1B59AE41FFE36798"]
+			id: "1028C24F95877032"
+			tasks: [{
+				id: "51B8C27659E50263"
+				type: "item"
+				item: "boss_tools:silicon_ingot"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 0.5d
+			shape: "rsquare"
+			description: ["Ракета 3 и последнего уровня!"]
+			dependencies: ["4AE34957E7FA3DD5"]
+			id: "4B22C2E1D0D516E4"
+			tasks: [{
+				id: "3CD48995E6269235"
+				type: "item"
+				item: {
+					id: "boss_tools:rocket_t3"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Стартовая площадка"
+			x: 1.5d
+			y: 0.0d
+			shape: "pentagon"
+			description: ["На стартовой площадке осуществляется взлёт ракеты в космос!"]
+			dependencies: ["756376AFE30D2029"]
+			id: "5326710021E37B03"
+			tasks: [{
+				id: "1484C93D881E4268"
+				type: "item"
+				item: "boss_tools:rocket_launch_pad"
+				count: 9L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.5d
+			description: ["С помощью скомпресированых деш создаётся ракета 2 уровня."]
+			dependencies: ["143DCF41180D79EA"]
+			id: "7D9C57C7DDBAD6A3"
+			tasks: [{
+				id: "630EDF407333C801"
+				type: "item"
+				item: "boss_tools:compressed_desh"
+				count: 5L
+			}]
+		}
+		{
+			x: 10.5d
+			y: 0.5d
+			description: ["Скомпресированый силикон нужен для создания ракеты 3 уровня!"]
+			dependencies: ["1028C24F95877032"]
+			id: "4AE34957E7FA3DD5"
+			tasks: [{
+				id: "7C3A120CF65119AB"
+				type: "item"
+				item: "boss_tools:compressed_silicon"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 3.5d
+			dependencies: ["5469B4886D2B7209"]
+			id: "7530248224E4BFC1"
+			tasks: [{
+				id: "2E5B4B2F62BB391A"
+				type: "item"
+				item: "boss_tools:fuel_bucket"
+			}]
+		}
+	]
+}

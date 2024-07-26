@@ -1,0 +1,177 @@
+{
+	id: "32E5E1D0B885945D"
+	group: ""
+	order_index: 6
+	filename: "end"
+	title: "End"
+	icon: "minecraft:dragon_head"
+	default_quest_shape: "default_circle"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -5.5d
+			y: -3.5d
+			subtitle: "Пора в Край"
+			description: ["&2Око Эндера&f нужно для нахождения и активации портала в &5Край&f."]
+			dependencies: ["7EA23917F7C58C5E"]
+			hide: true
+			id: "3CE6ECDB2520ED5F"
+			tasks: [{
+				id: "6913BE94DB66822F"
+				type: "item"
+				title: "Око Эндера"
+				item: "minecraft:ender_eye"
+				count: 12L
+			}]
+			rewards: [{
+				id: "1F0B051BC77989F3"
+				type: "item"
+				item: "minecraft:ender_eye"
+				random_bonus: 2
+				only_one: true
+			}]
+		}
+		{
+			x: -4.0d
+			y: -4.0d
+			description: ["На взлёт!"]
+			dependencies: ["3CE6ECDB2520ED5F"]
+			id: "3893494EE66CC691"
+			tasks: [{
+				id: "78E6BBE50ED3F6D7"
+				type: "item"
+				item: {
+					id: "minecraft:elytra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: -5.0d
+			description: ["Неплохое украшение."]
+			dependencies: ["3CE6ECDB2520ED5F"]
+			id: "67BF7985D1B040E5"
+			tasks: [{
+				id: "56AD3167CF1ABDD0"
+				type: "item"
+				item: "minecraft:dragon_head"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -3.0d
+			description: ["Ингридиент для крафта шалкерового ящика."]
+			dependencies: ["3CE6ECDB2520ED5F"]
+			id: "49E7339FCE81B389"
+			tasks: [{
+				id: "20A40D4C2EDA76FF"
+				type: "item"
+				item: "minecraft:shulker_shell"
+				count: 2L
+			}]
+			rewards: [{
+				id: "0E1B235C39EA378A"
+				type: "item"
+				item: "minecraft:shulker_shell"
+				count: 4
+			}]
+		}
+		{
+			x: -3.5d
+			y: -2.0d
+			description: ["Переносное хранилище."]
+			dependencies: ["49E7339FCE81B389"]
+			id: "77BFC49B1D3ECBF9"
+			tasks: [{
+				id: "49F19AE447339743"
+				type: "item"
+				item: "minecraft:shulker_box"
+			}]
+			rewards: [{
+				id: "37CBD351D1C07EA2"
+				type: "item"
+				item: "minecraft:shulker_box"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -3.5d
+			dependencies: ["3CE6ECDB2520ED5F"]
+			id: "7CBE0B9BDBE2F3C6"
+			tasks: [{
+				id: "613B43B564DD1977"
+				type: "item"
+				item: "minecraft:chorus_fruit"
+				count: 2L
+			}]
+			rewards: [{
+				id: "21524A6910FECC40"
+				type: "item"
+				item: "minecraft:chorus_fruit"
+				count: 4
+			}]
+		}
+		{
+			x: -5.0d
+			y: -5.0d
+			description: ["Цветочек."]
+			dependencies: ["3CE6ECDB2520ED5F"]
+			id: "05594F485CA36EDA"
+			tasks: [{
+				id: "052D79B8D61ECF5E"
+				type: "item"
+				item: "minecraft:chorus_flower"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -2.0d
+			dependencies: ["3CE6ECDB2520ED5F"]
+			id: "2EB43D826C6E5D38"
+			tasks: [{
+				id: "74DD56DCB8E87203"
+				type: "kill"
+				entity: "cataclysm:ender_guardian"
+				value: 1L
+			}]
+		}
+		{
+			x: -6.5d
+			y: -1.0d
+			dependencies: ["2EB43D826C6E5D38"]
+			id: "52D7EC3C43B2DA29"
+			tasks: [{
+				id: "7DD2AA93839539B5"
+				type: "item"
+				item: "cataclysm:gauntlet_of_guard"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -2.0d
+			dependencies: ["3CE6ECDB2520ED5F"]
+			id: "7AD968C8B09997B6"
+			tasks: [{
+				id: "4F9B0C7E9F418CFC"
+				type: "kill"
+				entity: "cataclysm:ender_golem"
+				value: 1L
+			}]
+		}
+		{
+			x: -4.5d
+			y: -1.0d
+			dependencies: ["7AD968C8B09997B6"]
+			id: "1F0383FC832F0104"
+			tasks: [{
+				id: "33A3CECE0DBB9165"
+				type: "item"
+				item: "cataclysm:void_core"
+			}]
+		}
+	]
+}

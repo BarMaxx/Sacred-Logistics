@@ -1,0 +1,87 @@
+{
+	id: "15C1F51B6B128549"
+	group: ""
+	order_index: 1
+	filename: "iron_jetpacks"
+	title: "Iron Jetpacks"
+	icon: {
+		id: "ironjetpacks:iron_jetpack"
+		Count: 1b
+		tag: {
+			Throttle: 1.0d
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["7EA23917F7C58C5E"]
+			hide: true
+			id: "20DDEF511937691C"
+			tasks: [{
+				id: "23594CC0F1BC00F0"
+				type: "item"
+				item: {
+					id: "ironjetpacks:wood_jetpack"
+					Count: 1b
+					tag: {
+						Throttle: 1.0d
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["20DDEF511937691C"]
+			id: "2C0E07B468D4D868"
+			tasks: [{
+				id: "59C764BB90E2BF92"
+				type: "item"
+				item: {
+					id: "ironjetpacks:iron_jetpack"
+					Count: 1b
+					tag: {
+						Throttle: 1.0d
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["2C0E07B468D4D868"]
+			id: "19720059D13B1A85"
+			tasks: [{
+				id: "57F4588ABEB2AE89"
+				type: "item"
+				item: {
+					id: "ironjetpacks:gold_jetpack"
+					Count: 1b
+					tag: {
+						Throttle: 1.0d
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			dependencies: ["19720059D13B1A85"]
+			id: "23045E332F182FE1"
+			tasks: [{
+				id: "432F5CA0E7BC2916"
+				type: "item"
+				item: {
+					id: "ironjetpacks:diamond_jetpack"
+					Count: 1b
+					tag: {
+						Throttle: 1.0d
+					}
+				}
+			}]
+		}
+	]
+}

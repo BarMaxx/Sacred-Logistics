@@ -1,0 +1,19 @@
+{
+	id: "26C0412D42D0BCCB"
+	group: ""
+	order_index: 0
+	filename: "26C0412D42D0BCCB"
+	title: "Вступление"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		id: "7EA23917F7C58C5E"
+		tasks: [{
+			id: "3FFB99E20BF328BB"
+			type: "checkmark"
+			title: "Начало интересной сборочки!"
+		}]
+	}]
+}

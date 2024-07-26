@@ -1,0 +1,11 @@
+{
+	id: "686A5F68A3DA8AB9"
+	group: "724CB10F5936E1B7"
+	order_index: 2
+	filename: "686A5F68A3DA8AB9"
+	title: "Встреча с мистикой"
+	icon: "iceandfire:lightning_dragon_heart"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

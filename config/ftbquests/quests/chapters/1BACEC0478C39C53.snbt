@@ -1,0 +1,27 @@
+{
+	id: "1BACEC0478C39C53"
+	group: "7D6592869D36C6A4"
+	order_index: 0
+	filename: "1BACEC0478C39C53"
+	title: "Автоматизация"
+	icon: "appliedenergistics2:controller"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		id: "541CB67295A544F5"
+		tasks: [
+			{
+				id: "16344C4FA09658D3"
+				type: "item"
+				item: "minecraft:obsidian"
+			}
+			{
+				id: "746874F3C56015DF"
+				type: "dimension"
+				dimension: "minecraft:the_nether"
+			}
+		]
+	}]
+}
