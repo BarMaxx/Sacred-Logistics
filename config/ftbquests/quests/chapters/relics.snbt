@@ -1,6 +1,6 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "tech_circle"
 	filename: "relics"
 	group: "6D9C72EE0026F230"
 	icon: {
@@ -19,14 +19,13 @@
 		}
 	}
 	id: "37BF8750A8F3173D"
-	order_index: 3
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["&bС помощью &6Стола Исследователя&b можно изучать различные &aАртефакты&b. А также, заниматься улучшением этих Артефактов, чтобы более выгодно их использовать в своих целях."]
+			description: ["&7С помощью &6Стола Исследователя&b можно изучать различные &aАртефакты&b. А также, заниматься улучшением этих Артефактов, чтобы более выгодно их использовать в своих целях."]
 			hide: true
 			id: "7CF84DD7C8E4B52C"
-			shape: "dirt"
 			size: 2.0d
 			subtitle: "Изучение Артефактов!"
 			tasks: [{
@@ -47,7 +46,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			subtitle: "Накладывает печать!"
 			tasks: [{
 				id: "26171CCB753263DB"
@@ -80,7 +79,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			subtitle: "Не жалеет пространство!"
 			tasks: [{
 				id: "29B60FA76BCDB0E4"
@@ -114,7 +113,6 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "gold"
 			subtitle: "Отражатель!"
 			tasks: [{
 				id: "5572EAB2DA37C5D5"
@@ -149,7 +147,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			subtitle: "Позволяют ходить по лаве!"
 			tasks: [{
 				id: "4F5AB7DB72CFEB8D"
@@ -182,7 +180,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			subtitle: "Позволяют ходить по воде!"
 			tasks: [{
 				id: "7BCEA68DC210EC7E"
@@ -215,7 +213,6 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "gold"
 			subtitle: "Для ночи!"
 			tasks: [{
 				id: "76ACC62B5EE5859F"
@@ -256,7 +253,6 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "gold"
 			subtitle: "Страшный пояс!"
 			tasks: [{
 				id: "7E9D674663A55A5E"
@@ -308,7 +304,6 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "gold"
 			subtitle: "Пора охотиться!"
 			tasks: [{
 				id: "54C3D9A0A4F6CF24"
@@ -347,7 +342,6 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "gold"
 			subtitle: "Просто пояс!"
 			tasks: [{
 				id: "693D59468AB12641"
@@ -380,7 +374,6 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "gold"
 			subtitle: "Опасно!"
 			tasks: [{
 				id: "51A3CE93F3D40068"
@@ -419,7 +412,6 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "gold"
 			subtitle: "Яростные будни!"
 			tasks: [{
 				id: "2CAB4EFD288858F5"
@@ -470,7 +462,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			subtitle: "Пора кататься на коньках!"
 			tasks: [{
 				id: "18B0B2E2803BA25C"
@@ -510,7 +502,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			subtitle: "Прямиком из бастиона!"
 			tasks: [{
 				id: "6BD2F2FB120A7678"
@@ -543,7 +535,6 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "gold"
 			subtitle: "Сделан из хоруса!"
 			tasks: [{
 				id: "7D7EE3E3963F8764"
@@ -577,7 +568,6 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "iron"
 			subtitle: "Хранит стрелы!"
 			tasks: [{
 				id: "0FEBE28BF77ADE0C"
@@ -632,7 +622,6 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "gold"
 			subtitle: "Из церкви!"
 			tasks: [{
 				id: "4D739D2EEC0A1200"
@@ -666,7 +655,6 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "gold"
 			subtitle: "Это конец?"
 			tasks: [{
 				id: "2F59BB96352B6D75"
@@ -699,7 +687,6 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "gold"
 			subtitle: "Реально полезная реликвия!"
 			tasks: [{
 				id: "3BDEEDF8481FB6FC"
@@ -733,7 +720,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			subtitle: "Зеркало!"
 			tasks: [{
 				id: "34D68EB8380C3C63"
@@ -767,7 +754,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			subtitle: "Колют лёд!"
 			tasks: [{
 				id: "1A94358B7FF5F616"
@@ -807,7 +794,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			subtitle: "Он пылает!"
 			tasks: [{
 				id: "663D7089338037EB"
@@ -842,7 +829,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			subtitle: "Мешочек!"
 			tasks: [{
 				id: "7D6E7C808E20BBCC"
@@ -899,7 +886,6 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "iron"
 			subtitle: "Красивая реликвия!"
 			tasks: [{
 				id: "4928FAEE37B4AB49"
@@ -943,7 +929,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			subtitle: "Пора кататься на роликах!"
 			tasks: [{
 				id: "05BFC4AF841ACA2B"
@@ -977,7 +963,6 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "iron"
 			subtitle: "Бесконечность!"
 			tasks: [{
 				id: "13B8392D2D228D8D"
@@ -1018,7 +1003,6 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "iron"
 			subtitle: "Для лошадей!"
 			tasks: [{
 				id: "086B050BDD070D21"
@@ -1051,7 +1035,6 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "gold"
 			subtitle: "В ней тепло!"
 			tasks: [{
 				id: "395C7D6ADD64B106"
@@ -1087,7 +1070,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			subtitle: "Почему только 1?"
 			tasks: [{
 				id: "53145423820A770B"

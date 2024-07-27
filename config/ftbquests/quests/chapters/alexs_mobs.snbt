@@ -1,6 +1,6 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "tech_circle"
 	filename: "alexs_mobs"
 	group: "6D9C72EE0026F230"
 	icon: {
@@ -11,7 +11,7 @@
 		}
 	}
 	id: "287FE2542905064F"
-	order_index: 4
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -21,7 +21,6 @@
 			]
 			description: ["&6Пространственный резак&r может разрезать пространство."]
 			id: "65042FBB8F397705"
-			shape: "gold"
 			subtitle: "Режет пространство!"
 			tasks: [{
 				id: "3B6BE30FD535CA78"
@@ -41,7 +40,6 @@
 			dependencies: ["023139629C04414A"]
 			description: ["&6Жвалы червя пустоты&r выпадают при убийстве моба &aЧервь пустоты&r."]
 			id: "662553426D5FBBA5"
-			shape: "iron"
 			subtitle: "Мерзость!"
 			tasks: [{
 				count: 2L
@@ -56,7 +54,6 @@
 			dependencies: ["023139629C04414A"]
 			description: ["&6Глаз червя пустоты&r выпадает при убийстве моба &aЧервь пустоты&r."]
 			id: "03BB56AE39EB1FE5"
-			shape: "iron"
 			subtitle: "Глазик!"
 			tasks: [{
 				id: "233C6FCDA8122B6B"
@@ -70,7 +67,6 @@
 			description: ["Необходимо убить моба &6Червь пустоты&r."]
 			hide: true
 			id: "023139629C04414A"
-			shape: "dirt"
 			subtitle: "Червяк!"
 			tasks: [{
 				entity: "alexsmobs:void_worm"
@@ -85,7 +81,7 @@
 			dependencies: ["65042FBB8F397705"]
 			description: ["&6Расколотый пространственный резак&r - опасная вещь."]
 			id: "5D63076CB966AD8C"
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			subtitle: "Нестабильный!"
 			tasks: [{
 				id: "49BF57DA66A0F7F9"
@@ -105,7 +101,6 @@
 			dependencies: ["08C12D59F3DAB192"]
 			description: ["&6Распылитель крови&r стреляет кровью."]
 			id: "373A3E77E53F4428"
-			shape: "gold"
 			subtitle: "Стреляет!"
 			tasks: [{
 				id: "3D8ED39D2860DD8A"
@@ -132,7 +127,6 @@
 				random_bonus: 2
 				type: "item"
 			}]
-			shape: "iron"
 			subtitle: "Противный предмет!"
 			tasks: [{
 				count: 2L
@@ -152,7 +146,6 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
-			shape: "dirt"
 			subtitle: "Страшное зрелище!"
 			tasks: [{
 				entity: "alexsmobs:crimson_mosquito"
@@ -167,7 +160,6 @@
 			dependencies: ["08C12D59F3DAB192"]
 			description: ["&6Личинка багрового комара&r получается при смешивании &aличинки&r и &aхоботка&r."]
 			id: "7AC9DCA9D6FB7FB2"
-			shape: "gold"
 			subtitle: "Мерзко!"
 			tasks: [{
 				id: "1219C74EC57A6146"
@@ -181,7 +173,7 @@
 			dependencies: ["7AC9DCA9D6FB7FB2"]
 			description: ["&6Таинственный червь&r появляется из &aличинки багрового комара&r в &aкапсиде&r."]
 			id: "085F5800DB518471"
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			subtitle: "Неизвестность!"
 			tasks: [{
 				id: "5D330B3B8A09675A"
@@ -200,7 +192,7 @@
 			]
 			description: ["&6Гемолифовый бластер&r является оружием."]
 			id: "4269A9E1CF62D653"
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			subtitle: "Стреляет!"
 			tasks: [{
 				id: "49CE1304F686F007"
@@ -220,7 +212,6 @@
 			dependencies: ["0AA80D65B3B768FB"]
 			description: ["&6Искажённый мускул&r выпадает при убийстве моба &aИскажённый комар&r."]
 			id: "448A575184216FA7"
-			shape: "gold"
 			subtitle: "Мускул!"
 			tasks: [{
 				id: "7998EBA1D4C51A5B"
@@ -234,7 +225,6 @@
 			dependencies: ["0AA80D65B3B768FB"]
 			description: ["&6Гемолифовый мешок&r выпадает при убийстве моба &aИскажённый комар&r."]
 			id: "64BED05F81C60480"
-			shape: "gold"
 			subtitle: "Мешочек!"
 			tasks: [{
 				count: 3L
@@ -249,7 +239,6 @@
 			description: ["Необходимо убить моба &6Искажённый комар&r."]
 			hide: true
 			id: "0AA80D65B3B768FB"
-			shape: "dirt"
 			subtitle: "Ещё один комар!"
 			tasks: [{
 				entity: "alexsmobs:warped_mosco"
@@ -264,7 +253,6 @@
 			dependencies: ["1A9977BCE49FE965"]
 			description: ["&6Мимикрем&r выпадает при убийстве моба &aМимикуб&r."]
 			id: "4327D4C2836718B0"
-			shape: "gold"
 			subtitle: "Материя!"
 			tasks: [{
 				id: "1DD2F37BD6F91119"
@@ -278,7 +266,6 @@
 			description: ["Необходимо убить моба &6Мимикуб&r."]
 			hide: true
 			id: "1A9977BCE49FE965"
-			shape: "dirt"
 			subtitle: "Кубик!"
 			tasks: [{
 				entity: "alexsmobs:mimicube"
@@ -296,7 +283,7 @@
 			]
 			description: ["&6Щит бездны&r может спасти в бою."]
 			id: "50BF67B336520698"
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			subtitle: "Редкий предмет!"
 			tasks: [{
 				id: "7CC9F754C9C9AA9F"
@@ -316,7 +303,6 @@
 			dependencies: ["1001BA1EC2F0F590"]
 			description: ["&6Акулий зуб&r выпадает при убийстве моба &aАкула-молот&r."]
 			id: "1C0A3BEC6461F300"
-			shape: "gold"
 			subtitle: "Крепкий!"
 			tasks: [{
 				count: 2L
@@ -331,7 +317,6 @@
 			dependencies: ["1001BA1EC2F0F590"]
 			description: ["&6Зазубренный акулий зуб&r выпадает при убийстве моба &aАкула-молот&r."]
 			id: "7BB1BC226316DE76"
-			shape: "gold"
 			subtitle: "Острый!"
 			tasks: [{
 				count: 3L
@@ -346,7 +331,6 @@
 			description: ["Необходимо убить моба &6Акула-молот&r."]
 			hide: true
 			id: "1001BA1EC2F0F590"
-			shape: "dirt"
 			subtitle: "Акула!"
 			tasks: [{
 				entity: "alexsmobs:hammerhead_shark"
@@ -368,7 +352,6 @@
 				random_bonus: 3
 				type: "item"
 			}]
-			shape: "gold"
 			subtitle: "Новый ресурс!"
 			tasks: [{
 				count: 4L
@@ -383,7 +366,6 @@
 			description: ["Необходимо убить моба &6Страддлер&r."]
 			hide: true
 			id: "67D9A09BF040E87C"
-			shape: "dirt"
 			subtitle: "Странное название!"
 			tasks: [{
 				entity: "alexsmobs:straddler"
@@ -397,7 +379,7 @@
 		{
 			dependencies: ["19D6DEB8359F5A4A"]
 			id: "30DF83086365066F"
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			subtitle: "Обычное седло!"
 			tasks: [{
 				id: "1FCFC86090FF3207"
@@ -410,7 +392,7 @@
 		{
 			dependencies: ["19D6DEB8359F5A4A"]
 			id: "5878B8EB47AB4A7F"
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			subtitle: "Неизвестный предмет!"
 			tasks: [{
 				id: "0B2F7C43A2B08E07"
@@ -429,7 +411,7 @@
 		{
 			dependencies: ["2300B7C334827BD7"]
 			id: "761FA8E717FAD575"
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			subtitle: "Интересный блок!"
 			tasks: [{
 				id: "2F6F6466694B4E66"
@@ -448,7 +430,6 @@
 				item: "alexsmobs:skreecher_soul"
 				type: "item"
 			}]
-			shape: "gold"
 			subtitle: "Страшная душа!"
 			tasks: [{
 				count: 2L
@@ -463,7 +444,6 @@
 			description: ["Необходимо убить моба &6Визгун&r."]
 			hide: true
 			id: "1732CDDA79D0555A"
-			shape: "dirt"
 			subtitle: "Громкий!"
 			tasks: [{
 				entity: "alexsmobs:skreecher"
@@ -477,7 +457,7 @@
 		{
 			dependencies: ["3856AEBDD0FF4991"]
 			id: "08BECA83C402CEE9"
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			subtitle: "Интересный блок!"
 			tasks: [{
 				id: "3497456BEACDCDBE"
@@ -496,7 +476,6 @@
 				item: "alexsmobs:farseer_arm"
 				type: "item"
 			}]
-			shape: "gold"
 			subtitle: "Страшная рука!"
 			tasks: [{
 				id: "14595CA22908A534"
@@ -510,7 +489,6 @@
 			description: ["Необходимо убить моба &6Прозиратель&r."]
 			hide: true
 			id: "60ECFF5383C12583"
-			shape: "dirt"
 			subtitle: "Неизвестный монстр!"
 			tasks: [{
 				entity: "alexsmobs:farseer"
@@ -525,7 +503,6 @@
 			description: ["Необходимо убить моба &6Крокодил&r."]
 			hide: true
 			id: "2343694DE3E03B67"
-			shape: "dirt"
 			subtitle: "Настоящий!"
 			tasks: [{
 				entity: "alexsmobs:crocodile"
@@ -547,7 +524,6 @@
 				random_bonus: 2
 				type: "item"
 			}]
-			shape: "gold"
 			subtitle: "Вот это кожа!"
 			tasks: [{
 				count: 4L
@@ -561,7 +537,7 @@
 		{
 			dependencies: ["3E75D9E2E22C7708"]
 			id: "5C803139CD81B0E5"
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			subtitle: "Обычная броня!"
 			tasks: [{
 				id: "600DEC577CE47482"
@@ -581,7 +557,6 @@
 			description: ["Необходимо убить моба &6Многоножка&r."]
 			hide: true
 			id: "1D18918B51E26B91"
-			shape: "dirt"
 			subtitle: "Имеет много ног!"
 			tasks: [{
 				entity: "alexsmobs:centipede_body"
@@ -603,7 +578,6 @@
 				random_bonus: 2
 				type: "item"
 			}]
-			shape: "gold"
 			subtitle: "Прикольно звучит!"
 			tasks: [{
 				count: 4L
@@ -618,7 +592,7 @@
 			dependencies: ["62BEF3B14CD38D7D"]
 			description: ["&6Поножи из многоножки&r позволяют взбираться по стенам."]
 			id: "6EC8D64A6EA6510D"
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			subtitle: "Интересный элемент брони!"
 			tasks: [{
 				id: "661660081F083FB9"

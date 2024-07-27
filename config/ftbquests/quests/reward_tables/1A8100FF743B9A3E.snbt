@@ -1,7 +1,7 @@
 {
 	id: "1A8100FF743B9A3E"
 	loot_size: 1
-	order_index: 6
+	order_index: 4
 	rewards: [
 		{ item: "minecraft:chest" }
 		{ item: "quark:oak_chest" }
@@ -15,13 +15,6 @@
 		{ item: "quark:nether_brick_chest" }
 		{ item: "quark:purpur_chest" }
 		{ item: "quark:prismarine_chest" }
-		{ item: "quark:mushroom_chest" }
-		{ item: "expandedstorage:iron_chest" }
-		{ item: "expandedstorage:gold_chest" }
-		{ item: "expandedstorage:diamond_chest" }
-		{ item: "expandedstorage:wood_chest" }
-		{ item: "expandedstorage:pumpkin_chest" }
-		{ item: "expandedstorage:christmas_chest" }
 	]
-	title: "{reward_tables.gloomy_rise.chests.reward_table_title}"
+	title: "Сундуки"
 }

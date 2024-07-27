@@ -100,7 +100,6 @@
 				random_bonus: 2
 				type: "item"
 			}]
-			shape: "spiral"
 			subtitle: "Рай для сладкоежек!"
 			tasks: [{
 				count: 4L
@@ -124,7 +123,6 @@
 				item: "bakery:jar"
 				type: "item"
 			}]
-			shape: "formation"
 			subtitle: "Ещё один вид Посуды!"
 			tasks: [{
 				id: "5CB11C40F852B6FC"
@@ -162,7 +160,6 @@
 					type: "item"
 				}
 			]
-			shape: "bottle"
 			subtitle: "Очень сладко!"
 			tasks: [{
 				count: 2L
@@ -197,7 +194,6 @@
 					type: "item"
 				}
 			]
-			shape: "cube"
 			subtitle: "Вкуснятина!"
 			tasks: [{
 				id: "672E1322C49BC878"
@@ -213,7 +209,6 @@
 				"1FBB76A54FF2090B"
 			]
 			id: "6714B2AB2FDBCFDB"
-			shape: "shield"
 			tasks: [{
 				id: "60DDF72528C585B9"
 				item: "bakery:chocolate_tart"
@@ -224,7 +219,6 @@
 		}
 		{
 			id: "1FBB76A54FF2090B"
-			shape: "formation"
 			tasks: [{
 				id: "605D853836F5CBE8"
 				item: "bakery:brick_stove"
@@ -235,7 +229,6 @@
 		}
 		{
 			id: "4657C696F4E63518"
-			shape: "formation"
 			tasks: [{
 				id: "5189D3E82B921049"
 				item: "candlelight:cobblestone_kitchen_sink"
@@ -246,7 +239,6 @@
 		}
 		{
 			id: "29C7E8BFA35C56EB"
-			shape: "formation"
 			tasks: [
 				{
 					id: "3A3ED2C32F1FD92A"
@@ -299,7 +291,6 @@
 		{
 			dependencies: ["1FBB76A54FF2090B"]
 			id: "2DBDB6D400B446DA"
-			shape: "spiral"
 			tasks: [
 				{
 					id: "0C1F4B6349DCA6B5"
@@ -328,7 +319,6 @@
 		{
 			dependencies: ["480CAF933A9B51F6"]
 			id: "1AD424585B22D3CD"
-			shape: "bottle"
 			tasks: [
 				{
 					id: "1120678954C79BE7"
@@ -357,7 +347,6 @@
 		}
 		{
 			id: "2EDC50FA4E9719A0"
-			shape: "cross"
 			tasks: [{
 				id: "63D06C8224DA0BDA"
 				item: "beachparty:tiki_bar"
@@ -368,7 +357,6 @@
 		}
 		{
 			id: "2338D49DC68BAB22"
-			shape: "cross"
 			tasks: [{
 				id: "4188C3BDDD681F4C"
 				item: "beachparty:mini_fridge"
@@ -380,7 +368,6 @@
 		{
 			dependencies: ["2338D49DC68BAB22"]
 			id: "5A4D5086B3D0305A"
-			shape: "formation"
 			tasks: [
 				{
 					id: "10333B7C47A0E412"
@@ -407,7 +394,6 @@
 				"5A4D5086B3D0305A"
 			]
 			id: "05A4C578C76F51CC"
-			shape: "formation"
 			tasks: [
 				{
 					id: "6524C712E53B65D8"
@@ -431,7 +417,6 @@
 		{
 			dependencies: ["2338D49DC68BAB22"]
 			id: "3B3C3A776D500DD5"
-			shape: "spiral"
 			tasks: [
 				{
 					id: "3F8297EF4205A80D"
@@ -450,7 +435,6 @@
 		{
 			dependencies: ["2338D49DC68BAB22"]
 			id: "1288629F9CA9223F"
-			shape: "spiral"
 			tasks: [
 				{
 					id: "022B0AFE75D5D3FE"
@@ -474,7 +458,6 @@
 		{
 			dependencies: ["2EDC50FA4E9719A0"]
 			id: "183368B80A41F9DB"
-			shape: "spiral"
 			tasks: [
 				{
 					id: "6869F4F7C588750A"
@@ -512,7 +495,6 @@
 		}
 		{
 			id: "4DECE7BE2C902E05"
-			shape: "formation"
 			tasks: [{
 				id: "343DBCFDE047F6B6"
 				item: "bakery:baker_station"
@@ -524,7 +506,6 @@
 		{
 			dependencies: ["4DECE7BE2C902E05"]
 			id: "6332756804A8396D"
-			shape: "spiral"
 			tasks: [
 				{
 					id: "0F85D09723FCB715"
@@ -548,7 +529,6 @@
 		{
 			dependencies: ["4DECE7BE2C902E05"]
 			id: "3878B4E9DCAB0193"
-			shape: "spiral"
 			tasks: [
 				{
 					id: "1C3A2DDDF448FD03"
@@ -572,7 +552,6 @@
 		{
 			dependencies: ["4DECE7BE2C902E05"]
 			id: "751A391A33AA0ED0"
-			shape: "spiral"
 			tasks: [
 				{
 					id: "15FDE9DB189B9718"
@@ -595,7 +574,6 @@
 		}
 		{
 			id: "6663687883704AAA"
-			shape: "cross"
 			tasks: [{
 				id: "2185E34ACD7EE046"
 				item: "vinery:fermentation_barrel"
@@ -618,7 +596,6 @@
 				random_bonus: 2
 				type: "item"
 			}]
-			shape: "bottle"
 			subtitle: "Главный компонент Вина!"
 			tasks: [{
 				count: 4L
@@ -631,7 +608,6 @@
 		}
 		{
 			id: "5CF8FA52A4262546"
-			shape: "formation"
 			tasks: [{
 				id: "267316D9136CA5B4"
 				item: "vinery:wine_press"
@@ -643,7 +619,6 @@
 		{
 			dependencies: ["5CF8FA52A4262546"]
 			id: "489A33D62C46095F"
-			shape: "spiral"
 			tasks: [{
 				id: "0DD0576BE622A957"
 				item: "vinery:apple_mash"
@@ -658,7 +633,6 @@
 				"489A33D62C46095F"
 			]
 			id: "665546563BBF2413"
-			shape: "bottle"
 			tasks: [{
 				id: "64FB5968BBD4AE15"
 				item: "vinery:apple_juice"
@@ -669,20 +643,7 @@
 		}
 		{
 			dependencies: ["5CF8FA52A4262546"]
-			id: "2E5622E1A03E0756"
-			shape: "shield"
-			tasks: [{
-				id: "1D1BAE5E5AA44A8C"
-				item: "vinery:gloves"
-				type: "item"
-			}]
-			x: 14.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["2E5622E1A03E0756"]
 			id: "1CACE9B3B0027E9D"
-			shape: "cube"
 			tasks: [
 				{
 					id: "7F7DA39C5315DF2A"
@@ -729,13 +690,12 @@
 					type: "item"
 				}
 			]
-			x: 14.5d
-			y: 3.5d
+			x: 13.5d
+			y: 2.5d
 		}
 		{
 			description: ["Данный горшок нужен для того, чтобы превратить виноградную лозу (по сути просто виноград) в виноградный сок. Для этого нужно положить в горшок виноград (ПКМ с виноградом в руке), а после немного помять его (попрыгать по горшку). Далее взять бутылку для вина и собрать сок (ПКМ с бутылкой для вина в руке)."]
 			id: "3B044D4EF366933D"
-			shape: "cross"
 			tasks: [{
 				id: "3E5E04E7ED476413"
 				item: "vinery:grapevine_pot"
@@ -751,7 +711,6 @@
 				"3F84AF8A0B9FC9B2"
 			]
 			id: "73F4C44067C18ADA"
-			shape: "bottle"
 			tasks: [
 				{
 					id: "0FB60730435F03F9"
@@ -785,7 +744,6 @@
 		{
 			dependencies: ["32938374CA4F8B87"]
 			id: "3F84AF8A0B9FC9B2"
-			shape: "polygon"
 			tasks: [{
 				id: "719EDE1FDE63007D"
 				item: {
@@ -804,7 +762,6 @@
 		{
 			dependencies: ["7CBC70E0BB59D1C4"]
 			id: "5551F7C57274575A"
-			shape: "polygon"
 			tasks: [{
 				id: "345FEFD253B18547"
 				item: {
@@ -823,7 +780,6 @@
 		{
 			dependencies: ["0C65E5E97BDA87AB"]
 			id: "32938374CA4F8B87"
-			shape: "spiral"
 			tasks: [{
 				id: "70CF10988DF78AFD"
 				item: "vinery:red_grape_seeds"
@@ -835,7 +791,6 @@
 		{
 			dependencies: ["0C65E5E97BDA87AB"]
 			id: "7CBC70E0BB59D1C4"
-			shape: "spiral"
 			tasks: [{
 				id: "726E53F6CFFA9FEE"
 				item: "vinery:white_grape_seeds"
@@ -846,7 +801,6 @@
 		}
 		{
 			id: "0C65E5E97BDA87AB"
-			shape: "formation"
 			tasks: [{
 				id: "776EAC6CBABC9820"
 				item: "vinery:grapevine_stem"
@@ -858,7 +812,6 @@
 		{
 			dependencies: ["6663687883704AAA"]
 			id: "716D0B18BCE622D2"
-			shape: "bottle"
 			tasks: [
 				{
 					id: "5167558BF856F280"
@@ -912,7 +865,6 @@
 		{
 			dependencies: ["13A25F99C8DCFEE0"]
 			id: "4E4C4BFA006CF816"
-			shape: "formation"
 			tasks: [{
 				id: "0DEF62BCF49D5442"
 				item: "meadow:cooking_pot"
@@ -924,7 +876,6 @@
 		{
 			dependencies: ["4E4C4BFA006CF816"]
 			id: "4D06C3D7E285C092"
-			shape: "spiral"
 			tasks: [{
 				id: "200CE3135F8AFE2C"
 				item: "meadow:fondue"
@@ -936,7 +887,6 @@
 		{
 			dependencies: ["4E4C4BFA006CF816"]
 			id: "47424F9B6F8AE1D8"
-			shape: "spiral"
 			tasks: [
 				{
 					id: "143ABD0B893025C4"
@@ -959,7 +909,6 @@
 		}
 		{
 			id: "565C5E70971CAE0F"
-			shape: "shield"
 			tasks: [{
 				id: "2F5EC605B74ABC86"
 				item: "meadow:cheese_form"
@@ -971,7 +920,6 @@
 		{
 			dependencies: ["4E4C4BFA006CF816"]
 			id: "5D6C98728198EE2B"
-			shape: "spiral"
 			tasks: [{
 				id: "723F9E43460DA283"
 				item: "meadow:rennet"
@@ -986,7 +934,6 @@
 				"565C5E70971CAE0F"
 			]
 			id: "164BF2DD5E05A373"
-			shape: "bottle"
 			tasks: [{
 				id: "3F546C05942EC95B"
 				item: {
@@ -1004,7 +951,6 @@
 		}
 		{
 			id: "10E0FAEBBBF70B6D"
-			shape: "polygon"
 			tasks: [{
 				id: "229CC9B8105213B1"
 				item: "meadow:wooden_bucket"
@@ -1016,7 +962,6 @@
 		{
 			dependencies: ["10E0FAEBBBF70B6D"]
 			id: "676D5A5E272CD20D"
-			shape: "cube"
 			tasks: [{
 				id: "4E941AA81E90FC11"
 				item: {
@@ -1033,7 +978,6 @@
 		}
 		{
 			id: "5E56CCC6B08C3254"
-			shape: "formation"
 			tasks: [
 				{
 					id: "6AF4AB6DD2FABE75"
@@ -1085,7 +1029,6 @@
 		}
 		{
 			id: "13A25F99C8DCFEE0"
-			shape: "cross"
 			tasks: [{
 				id: "50E2C8C1ABB020DD"
 				item: "meadow:frame"
@@ -1096,7 +1039,6 @@
 		}
 		{
 			id: "529B2212A1123195"
-			shape: "formation"
 			tasks: [{
 				id: "52E6249962E09857"
 				item: "meadow:woodcutter"
@@ -1108,7 +1050,6 @@
 		{
 			dependencies: ["164BF2DD5E05A373"]
 			id: "7D3E4F1A8D11C4D1"
-			shape: "spiral"
 			tasks: [{
 				id: "2D5D30746D5E8F6D"
 				item: {
@@ -1127,7 +1068,6 @@
 		{
 			dependencies: ["4E4C4BFA006CF816"]
 			id: "5A1DF6C22C065E30"
-			shape: "spiral"
 			tasks: [
 				{
 					id: "7C21D49F7DDD968B"
@@ -1156,7 +1096,6 @@
 		{
 			dependencies: ["4E4C4BFA006CF816"]
 			id: "42167A5CA09F4B6E"
-			shape: "spiral"
 			tasks: [
 				{
 					id: "50A0B698709D66A2"
@@ -1180,7 +1119,6 @@
 		{
 			dependencies: ["7D3E4F1A8D11C4D1"]
 			id: "192E37DD594B554C"
-			shape: "spiral"
 			tasks: [
 				{
 					id: "7C94CA90494AC781"
@@ -1199,7 +1137,6 @@
 		{
 			dependencies: ["7D3E4F1A8D11C4D1"]
 			id: "0BE1FC0D4704175E"
-			shape: "shield"
 			tasks: [
 				{
 					id: "756CB7D5FFCC130C"
@@ -1218,7 +1155,6 @@
 		{
 			dependencies: ["192E37DD594B554C"]
 			id: "505DBA1E974B853D"
-			shape: "cube"
 			tasks: [
 				{
 					id: "7504E6EA1D686D37"
@@ -1261,7 +1197,6 @@
 				id: "26F4E595061AB2A7"
 				type: "random"
 			}]
-			shape: "spiral"
 			subtitle: "Множество различной вкусной еды!"
 			tasks: [
 				{
@@ -1308,7 +1243,6 @@
 				id: "135B27639CADD8BB"
 				type: "random"
 			}]
-			shape: "polygon"
 			subtitle: "Ещё больше вкусностей в этом мире!"
 			tasks: [
 				{
@@ -1339,7 +1273,6 @@
 				id: "53956DDC72B8DA7B"
 				type: "random"
 			}]
-			shape: "spiral"
 			subtitle: "Вкусно!"
 			tasks: [{
 				id: "08D401E02AD440C9"
@@ -1369,7 +1302,6 @@
 				id: "57213A664095E752"
 				type: "random"
 			}]
-			shape: "spiral"
 			subtitle: "Довольно полезная еда!"
 			tasks: [
 				{
@@ -1410,7 +1342,6 @@
 				id: "0ADD2C1661F980F4"
 				type: "random"
 			}]
-			shape: "polygon"
 			subtitle: "Довольно сытная еда!"
 			tasks: [
 				{
@@ -1431,7 +1362,6 @@
 		{
 			dependencies: ["1FBB76A54FF2090B"]
 			id: "087B2E95FE1172AE"
-			shape: "polygon"
 			tasks: [
 				{
 					id: "181240CF8E356344"
@@ -1455,7 +1385,6 @@
 		{
 			dependencies: ["087B2E95FE1172AE"]
 			id: "43A66380510DC51F"
-			shape: "spiral"
 			tasks: [{
 				id: "46118C401C957C03"
 				item: "bakery:bread_crate"
@@ -1467,7 +1396,6 @@
 		{
 			dependencies: ["087B2E95FE1172AE"]
 			id: "5C2DC9F3310D767C"
-			shape: "spiral"
 			tasks: [
 				{
 					id: "1B2067B9FAE93C67"
@@ -1500,7 +1428,6 @@
 				random_bonus: 2
 				type: "item"
 			}]
-			shape: "spiral"
 			subtitle: "Новый вид шоколада!"
 			tasks: [{
 				count: 4L
@@ -1533,7 +1460,6 @@
 					type: "item"
 				}
 			]
-			shape: "cube"
 			subtitle: "Новая Коробка Шоколада!"
 			tasks: [{
 				id: "1911544134BCBBCA"
@@ -1546,7 +1472,6 @@
 		{
 			dependencies: ["1AD424585B22D3CD"]
 			id: "11D049C2248AA414"
-			shape: "spiral"
 			tasks: [{
 				id: "0268CA9E8299B34B"
 				item: "bakery:pudding"
@@ -1558,7 +1483,6 @@
 		{
 			dependencies: ["11D049C2248AA414"]
 			id: "5293E41C04C5B7ED"
-			shape: "polygon"
 			tasks: [{
 				id: "61220D4D717C5A6C"
 				item: "bakery:pudding_slice"
@@ -1570,7 +1494,6 @@
 		{
 			dependencies: ["716D0B18BCE622D2"]
 			id: "7F2D7D8E9F015290"
-			shape: "bottle"
 			tasks: [{
 				id: "0FF6C4DA8B1130B5"
 				item: {

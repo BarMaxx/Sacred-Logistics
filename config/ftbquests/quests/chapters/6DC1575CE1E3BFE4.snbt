@@ -1,12 +1,295 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "tech_circle"
 	filename: "6DC1575CE1E3BFE4"
 	group: "7D6592869D36C6A4"
 	icon: "minecraft:bee_nest"
 	id: "6DC1575CE1E3BFE4"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["00A6BEF41504D2F0"]
+			id: "5D2C092D533C5BB2"
+			tasks: [{
+				id: "56705D826B6153F1"
+				item: "productivebees:centrifuge"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5D2C092D533C5BB2"]
+			id: "125A345A1B1E7E63"
+			tasks: [{
+				id: "70D5BB03B19AB578"
+				item: "productivebees:powered_centrifuge"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7EA23917F7C58C5E"]
+			id: "39C11F914911507A"
+			tasks: [{
+				id: "478818D3F63DF992"
+				item: "minecraft:honey_bottle"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["39C11F914911507A"]
+			id: "424CA98F0C1DF747"
+			tasks: [{
+				id: "51EF378CDD3E046E"
+				item: "productivebees:honey_bucket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["424CA98F0C1DF747"]
+			id: "587ECB865721BFB3"
+			tasks: [{
+				id: "168E365611CE1756"
+				item: "productivebees:honey_generator"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00A6BEF41504D2F0"]
+			id: "492FF18069AF03C4"
+			tasks: [{
+				id: "2D6AC872072BAA73"
+				item: "productivebees:bottler"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["00A6BEF41504D2F0"]
+			id: "1C08392DDCCBBC88"
+			tasks: [{
+				id: "12415A764A98092C"
+				item: "productivebees:incubator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["00A6BEF41504D2F0"]
+			id: "0733A97F9305734E"
+			tasks: [{
+				id: "649DAA6A50E337DF"
+				item: "productivebees:gene_indexer"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["446C755EE2D35DB4"]
+			id: "61FAB1DFD3F801B8"
+			tasks: [{
+				id: "7896A8C5B3467C6D"
+				item: {
+					Count: 1b
+					id: "productivebees:nest_locator"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["39C11F914911507A"]
+			id: "2060F58416A0660E"
+			tasks: [{
+				id: "0818F3BC8EE7339F"
+				item: "productivebees:bee_cage"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2060F58416A0660E"]
+			id: "7EFD3BC2816D2D4A"
+			tasks: [{
+				id: "080FA1EDA497158F"
+				item: "productivebees:sturdy_bee_cage"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["39C11F914911507A"]
+			id: "479DE73C06BBE725"
+			tasks: [{
+				id: "7036F2216CBFAF2D"
+				item: "productivebees:honey_treat"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["479DE73C06BBE725"]
+			id: "6C21F2E55FA24875"
+			tasks: [{
+				id: "6419B677A5E90BBB"
+				item: "productivebees:upgrade_base"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5D2C092D533C5BB2"]
+			id: "3C1A6273FD979FA3"
+			tasks: [
+				{
+					id: "3BC2149CF8F4ABDB"
+					item: "productivebees:wax"
+					type: "item"
+				}
+				{
+					id: "6954BC2E81B65F5D"
+					item: "productivebees:wax_block"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3C1A6273FD979FA3"]
+			id: "79E9DB972A3DC987"
+			tasks: [{
+				id: "11EA3B6D3BE3D7FF"
+				item: "productivebees:upgrade_comb_block"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5D2C092D533C5BB2"]
+			id: "0FE97ED958F52F6A"
+			tasks: [
+				{
+					id: "1A91285838A6843C"
+					item: "productivebees:draconic_dust"
+					type: "item"
+				}
+				{
+					id: "56B56E98A8E91223"
+					item: "productivebees:draconic_chunk"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0FE97ED958F52F6A"]
+			id: "4B1E03E13DB6F65A"
+			tasks: [{
+				id: "3B1F4767D853363D"
+				item: "productivebees:inactive_dragon_egg"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4B1E03E13DB6F65A"]
+			id: "002E8C3040B93B16"
+			tasks: [{
+				id: "040C505C87A22E7A"
+				item: "productivebees:heated_centrifuge"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0FE97ED958F52F6A"]
+			id: "1662103587D17064"
+			tasks: [{
+				id: "64C366E13E5A0EA2"
+				item: "productivebees:upgrade_productivity"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6C21F2E55FA24875"]
+			id: "781958F89738E816"
+			tasks: [{
+				id: "21224E664BA73862"
+				item: "productivebees:upgrade_time"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C21F2E55FA24875"]
+			id: "2A021814E20D8BFA"
+			tasks: [{
+				id: "2B8CADB57D259A5D"
+				item: "productivebees:upgrade_filter"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6C21F2E55FA24875"]
+			id: "653194B990919C7A"
+			tasks: [{
+				id: "223C3D7B430FBA15"
+				item: "productivebees:upgrade_anti_teleport"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6C21F2E55FA24875"]
+			id: "5D195D6CCCD95E6E"
+			tasks: [{
+				id: "28CA7838B6F5992B"
+				item: "productivebees:upgrade_breeding"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C21F2E55FA24875"]
+			id: "358FF161DFFFEF5A"
+			tasks: [{
+				id: "229497180DBF50B5"
+				item: "productivebees:upgrade_range"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+	]
 	title: "&bПолучение ресурсов"
 }

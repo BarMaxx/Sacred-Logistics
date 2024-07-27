@@ -11,16 +11,16 @@
 		}
 	}
 	id: "27AF0B560CA4B392"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
 			description: [
-				"&6Большая книга Алкагестии&r - это реликвия, которая накапливает в себе заряд редстоуна или светокаменной пыли для того, чтобы удваивать какие-либо ресурсы."
+				"&7&6Большая книга Алкагестии&7 - это реликвия, которая накапливает в себе заряд редстоуна или светокаменной пыли для того, чтобы удваивать какие-либо ресурсы."
 				""
-				"Для &2активации&r реликвии нужно зажать &eShift&r и нажать &eПКМ&r, после чего она будет поглащать весь редстоун или же светокаменную пыль из инвентаря."
+				"&bДля &2активации&b реликвии нужно зажать &eShift&b и нажать &eПКМ&b, после чего она будет поглащать весь редстоун или же светокаменную пыль из инвентаря."
 				""
-				"Для &2удвоения&r каких-либо ресурсов, необходимо положить реликвию в сетку крафта вместе с определённым ресурсом. После чего можно удваивать положенный ресурс за счёт накопленного заряда. "
+				"&bДля &2удвоения&b каких-либо ресурсов, необходимо положить реликвию в сетку крафта вместе с определённым ресурсом. После чего можно удваивать положенный ресурс за счёт накопленного заряда.&r"
 			]
 			hide: true
 			id: "78BD398809013534"
@@ -29,7 +29,6 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "dirt"
 			size: 2.0d
 			subtitle: "Существует риск потери баланса!"
 			tasks: [{
@@ -55,7 +54,6 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "iron"
 			subtitle: "Спасение от падения с высоты!"
 			tasks: [{
 				id: "7FC9A86F0DBA8C27"
@@ -78,7 +76,6 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "iron"
 			subtitle: "Его не любит нежить!"
 			tasks: [{
 				id: "351448EE2608D801"
@@ -103,7 +100,6 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "iron"
 			subtitle: "Реликвия, спрятанная Афродитой!"
 			tasks: [{
 				id: "71DEC8A5A01187A0"
@@ -122,7 +118,6 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "iron"
 			subtitle: "Похоже на Тотем Бессмертия!"
 			tasks: [{
 				id: "7916A094A6D794FD"
@@ -149,7 +144,6 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "gold"
 			subtitle: "Реликвия, позволяющая летать!"
 			tasks: [{
 				id: "62CFEDB6565BF9CB"
@@ -168,7 +162,6 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "gold"
 			subtitle: "Бесконечный источник воды!"
 			tasks: [{
 				id: "38B428AACFAD2C72"
@@ -187,7 +180,6 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "gold"
 			subtitle: "Полезна в Незере!"
 			tasks: [{
 				id: "09504839CD60A1D6"
@@ -218,7 +210,6 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "gold"
 			subtitle: "Уникальнейшее оружие!"
 			tasks: [{
 				id: "01F72913466B95DD"
@@ -247,7 +238,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "diamond"
+			shape: "tech_square"
 			subtitle: "Своеобразный магнит!"
 			tasks: [{
 				id: "56511245DA5572DF"
@@ -274,7 +265,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "diamond"
+			shape: "tech_square"
 			subtitle: "Интересная механика у реликвии!"
 			tasks: [{
 				id: "41334B7D22C5C74C"
@@ -301,7 +292,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "diamond"
+			shape: "tech_square"
 			subtitle: "Удобен для путешествия!"
 			tasks: [{
 				id: "49B2477B248526C0"
@@ -326,7 +317,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "diamond"
+			shape: "tech_square"
 			subtitle: "Универсальная реликвия!"
 			tasks: [{
 				id: "407C22EC83AF16FB"
@@ -345,7 +336,6 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "gold"
 			subtitle: "Полезен в Незере!"
 			tasks: [{
 				id: "0A0220BA86429EA4"
@@ -368,7 +358,6 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "gold"
 			subtitle: "Улучшенная версия Посоха Волхва!"
 			tasks: [{
 				id: "7BFA8DFC2D11B66B"
@@ -387,7 +376,6 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "gold"
 			subtitle: "Любит большое количество предметов!"
 			tasks: [{
 				id: "61C46BC25C3B70EC"
@@ -406,7 +394,6 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "gold"
 			subtitle: "Полезен для сохранения опыта!"
 			tasks: [{
 				id: "2597F4342A69BA43"
@@ -429,7 +416,6 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "gold"
 			subtitle: "Улучшенная версия Тотема Бессмертия!"
 			tasks: [{
 				id: "7F6C72218BCFCAC2"
@@ -448,7 +434,6 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "gold"
 			subtitle: "Полезны в Незере!"
 			tasks: [{
 				id: "060E5DA79FF1028B"
@@ -467,7 +452,6 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "gold"
 			subtitle: "Пригодится под водной гладью!"
 			tasks: [{
 				id: "308D699482995550"
@@ -486,7 +470,6 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "gold"
 			subtitle: "Полезен для золотых предметов!"
 			tasks: [{
 				id: "19789B9EF24C6D7E"

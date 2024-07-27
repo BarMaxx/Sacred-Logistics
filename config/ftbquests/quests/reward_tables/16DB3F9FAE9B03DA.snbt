@@ -1,13 +1,7 @@
 {
 	id: "16DB3F9FAE9B03DA"
 	loot_size: 1
-	order_index: 8
-	rewards: [
-		{ item: "minecraft:barrel" }
-		{ item: "expandedstorage:iron_barrel" }
-		{ item: "expandedstorage:gold_barrel" }
-		{ item: "expandedstorage:diamond_barrel" }
-		{ item: "immersiveengineering:wooden_barrel" }
-	]
-	title: "{reward_tables.gloomy_rise.barrels.reward_table_title}"
+	order_index: 6
+	rewards: [{ item: "minecraft:barrel" }]
+	title: "Бочки"
 }

@@ -1,11 +1,11 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "tech_circle"
 	filename: "artifacts"
 	group: "6D9C72EE0026F230"
 	icon: "artifacts:bunny_hoppers"
 	id: "394E881DA7AA05F2"
-	order_index: 5
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -21,7 +21,6 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "gold"
 			subtitle: "Полезен в бою и путешествиях!"
 			tasks: [{
 				id: "26B9EC619FF7FE81"
@@ -44,7 +43,6 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "iron"
 			subtitle: "Endless?"
 			tasks: [{
 				id: "3856179D9FD2365A"
@@ -63,7 +61,6 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "iron"
 			subtitle: "Timeless?"
 			tasks: [{
 				id: "2B5E6FF8CECCFD66"
@@ -86,7 +83,6 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "gold"
 			subtitle: "Не уверен в полезности этого..."
 			tasks: [{
 				id: "3709312D7F094EED"
@@ -109,7 +105,6 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "gold"
 			subtitle: "Не уверен в полезности этого..."
 			tasks: [{
 				id: "44F18F581576CDEE"
@@ -132,7 +127,6 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "gold"
 			subtitle: "Подойдёт любителям подводного мира!"
 			tasks: [{
 				id: "217FFA62FD7C3178"
@@ -155,7 +149,6 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "gold"
 			subtitle: "Полезны в ночи!"
 			tasks: [{
 				id: "7B1234811CFF72DA"
@@ -178,7 +171,6 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "gold"
 			subtitle: "Полезна при торговли!"
 			tasks: [{
 				id: "3C9980C47D416BD5"
@@ -201,7 +193,6 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "gold"
 			subtitle: "Полезен при убийстве монстров!"
 			tasks: [{
 				id: "11A34FCE514D8946"
@@ -224,7 +215,6 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "gold"
 			subtitle: "Полезен при добычи ресурсов!"
 			tasks: [{
 				id: "7A57730ADA169F5B"
@@ -247,7 +237,6 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "gold"
 			subtitle: "Зачем? Неизвестно..."
 			tasks: [{
 				id: "3908617E3605BB32"
@@ -270,7 +259,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			subtitle: "Поддержка Фемииды!"
 			tasks: [{
 				id: "017074029DF0B6E2"
@@ -293,7 +282,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			subtitle: "Поддержка Гермеса!"
 			tasks: [{
 				id: "0FA7C0DBBFF81005"
@@ -316,7 +305,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			subtitle: "Поддержка Зевса!"
 			tasks: [{
 				id: "554337C9EB5DF38A"
@@ -339,7 +328,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			subtitle: "Поддержка Гефеста!"
 			tasks: [{
 				id: "3E218FCCD5985DA3"
@@ -362,7 +351,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			subtitle: "Поддержка Ареса!"
 			tasks: [{
 				id: "7CC9CFAA51FDD1C6"
@@ -385,7 +374,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			subtitle: "Поддержка Посейдона!"
 			tasks: [{
 				id: "47F37B8717437BBF"
@@ -408,7 +397,6 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "iron"
 			subtitle: "Новые удобства!"
 			tasks: [{
 				id: "6B471F2D9AB9A83C"
@@ -431,7 +419,6 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "iron"
 			subtitle: "Интересно, а чей он?"
 			tasks: [{
 				id: "5AB8439E2349B83A"
@@ -454,7 +441,6 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "iron"
 			subtitle: "Полезен в бою с ведьмами!"
 			tasks: [{
 				id: "5A739EDB04CCAA09"
@@ -477,7 +463,6 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "iron"
 			subtitle: "Пожалуй, один из самых полезных артефактов!"
 			tasks: [{
 				id: "51204CAB6442BB0A"
@@ -500,7 +485,6 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "iron"
 			subtitle: "Главное - не разбить!"
 			tasks: [{
 				id: "3A5433C115D663D1"
@@ -523,7 +507,6 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "gold"
 			subtitle: "0_0 Удивительно!"
 			tasks: [{
 				id: "4EEADA8105CC02E4"
@@ -546,7 +529,6 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "gold"
 			subtitle: "Просто, но эффективно!"
 			tasks: [{
 				id: "5FE732E0ED10FF64"
@@ -569,7 +551,6 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "gold"
 			subtitle: "Просто, но полезно!"
 			tasks: [{
 				id: "7164BA58CE552C09"
@@ -592,7 +573,6 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "gold"
 			subtitle: "Сделает вас сильнее!"
 			tasks: [{
 				id: "5D0BAC821C9440EA"
@@ -615,7 +595,6 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "gold"
 			subtitle: "Главное - не поджечь себя!"
 			tasks: [{
 				id: "2499B2ABBFB4D3EA"
@@ -638,7 +617,6 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "iron"
 			subtitle: "Удивительная вещь!"
 			tasks: [{
 				id: "7933BB4CC9AA5895"
@@ -661,7 +639,6 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "gold"
 			subtitle: "Магический предмет?"
 			tasks: [{
 				id: "3544D5E3839FC1B2"
@@ -684,7 +661,6 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "gold"
 			subtitle: "Приятное дополнение!"
 			tasks: [{
 				id: "264DB24C48570750"
@@ -707,7 +683,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			subtitle: "Удобства!"
 			tasks: [{
 				id: "3465D05AFDF4EAFB"
@@ -730,7 +706,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			subtitle: "Срочно необходима баня!"
 			tasks: [{
 				id: "5DB8921041F49A68"
@@ -753,7 +729,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			subtitle: "Довольно милые, но не для всех!"
 			tasks: [{
 				id: "150A7D68BFB9E938"
@@ -776,7 +752,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			subtitle: "Удобная обувь!"
 			tasks: [{
 				id: "24C89C8CCD19C1FF"
@@ -799,7 +775,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			subtitle: "Делает своего владельца стойким!"
 			tasks: [{
 				id: "7A09919563E7FA5E"
@@ -822,7 +798,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			subtitle: "Необходимы пловцам!"
 			tasks: [{
 				id: "71BD96DB4E56CFAA"
@@ -845,7 +821,6 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			shape: "dirt"
 			size: 2.0d
 			subtitle: "Очень важный предмет!"
 			tasks: [{

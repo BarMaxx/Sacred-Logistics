@@ -1,14 +1,13 @@
 {
 	id: "5309ECB8A45C246A"
 	loot_size: 1
-	order_index: 5
+	order_index: 3
 	rewards: [
 		{ item: "minecraft:iron_ore" }
 		{ item: "minecraft:gold_ore" }
-		{ item: "mekanism:copper_ore" }
 		{ item: "mekanism:tin_ore" }
 		{ item: "mekanism:osmium_ore" }
 		{ item: "mekanism:lead_ore" }
 	]
-	title: "{reward_tables.gloomy_rise.simple_ores.reward_table_title}"
+	title: "Руда"
 }

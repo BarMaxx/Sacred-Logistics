@@ -10,14 +10,13 @@
 	quests: [
 		{
 			dependencies: ["517306437EB2836A"]
-			hide: true
 			id: "4BC27B8F8CBF12A3"
 			rewards: [{
 				id: "69D08F026ADBDE58"
 				item: "powah:book"
 				type: "item"
 			}]
-			shape: "gear"
+			shape: "tech_smooth_square"
 			tasks: [{
 				id: "419F9F59CF4FA7F8"
 				item: "powah:energizing_orb"

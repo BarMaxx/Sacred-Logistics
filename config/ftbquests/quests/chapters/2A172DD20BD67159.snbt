@@ -1111,7 +1111,7 @@
 			dependencies: ["6180ACBB10C75460"]
 			description: ["Улучшенная версия предыдущего механизма."]
 			id: "563340C6D674010A"
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			size: 0.5d
 			subtitle: "Обновка!"
 			tasks: [{
@@ -1126,7 +1126,7 @@
 			dependencies: ["563340C6D674010A"]
 			description: ["Улучшенная версия предыдущего механизма."]
 			id: "4406215F6D063279"
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			size: 0.5d
 			subtitle: "Обновка!"
 			tasks: [{
@@ -1141,7 +1141,7 @@
 			dependencies: ["4406215F6D063279"]
 			description: ["Улучшенная версия предыдущего механизма."]
 			id: "022E1486EFF3C9DF"
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			size: 0.5d
 			subtitle: "Обновка!"
 			tasks: [{
@@ -1156,7 +1156,7 @@
 			dependencies: ["022E1486EFF3C9DF"]
 			description: ["Улучшенная версия предыдущего механизма."]
 			id: "4EC1046BD46CE49A"
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			size: 0.5d
 			subtitle: "Обновка!"
 			tasks: [{
@@ -1171,7 +1171,7 @@
 			dependencies: ["3996D88998A59692"]
 			description: ["Улучшенная версия предыдущего механизма."]
 			id: "6D354269D9998122"
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			size: 0.5d
 			subtitle: "Обновка!"
 			tasks: [{
@@ -1186,7 +1186,7 @@
 			dependencies: ["6D354269D9998122"]
 			description: ["Улучшенная версия предыдущего механизма."]
 			id: "50B87D922E75446A"
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			size: 0.5d
 			subtitle: "Обновка!"
 			tasks: [{
@@ -1201,7 +1201,7 @@
 			dependencies: ["50B87D922E75446A"]
 			description: ["Улучшенная версия предыдущего механизма."]
 			id: "591147820127733A"
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			size: 0.5d
 			subtitle: "Обновка!"
 			tasks: [{
@@ -1216,7 +1216,7 @@
 			dependencies: ["591147820127733A"]
 			description: ["Улучшенная версия предыдущего механизма."]
 			id: "55873E301153A3B5"
-			shape: "diamond"
+			shape: "tech_square"
 			size: 0.5d
 			subtitle: "Обновка!"
 			tasks: [{
@@ -1231,7 +1231,7 @@
 			dependencies: ["4584B5019E90652C"]
 			description: ["Улучшенная версия предыдущего механизма."]
 			id: "3EB8868E1BE96301"
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			size: 0.5d
 			subtitle: "Обновка!"
 			tasks: [{
@@ -1246,7 +1246,7 @@
 			dependencies: ["3EB8868E1BE96301"]
 			description: ["Улучшенная версия предыдущего механизма."]
 			id: "731EF69E5FEBF398"
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			size: 0.5d
 			subtitle: "Обновка!"
 			tasks: [{
@@ -1261,7 +1261,7 @@
 			dependencies: ["731EF69E5FEBF398"]
 			description: ["Улучшенная версия предыдущего механизма."]
 			id: "66285A7AC10EF98D"
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			size: 0.5d
 			subtitle: "Обновка!"
 			tasks: [{
@@ -1276,7 +1276,7 @@
 			dependencies: ["66285A7AC10EF98D"]
 			description: ["Улучшенная версия предыдущего механизма."]
 			id: "34F37945F89BECA7"
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			size: 0.5d
 			subtitle: "Обновка!"
 			tasks: [{
@@ -1291,7 +1291,7 @@
 			dependencies: ["4C3BCF35B9802BF0"]
 			description: ["Улучшенная версия предыдущего механизма."]
 			id: "5B62510A9A2D6717"
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			size: 0.5d
 			subtitle: "Обновка!"
 			tasks: [{
@@ -1306,7 +1306,7 @@
 			dependencies: ["5B62510A9A2D6717"]
 			description: ["Улучшенная версия предыдущего механизма."]
 			id: "469630EE1386E25F"
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			size: 0.5d
 			subtitle: "Обновка!"
 			tasks: [{
@@ -1321,7 +1321,7 @@
 			dependencies: ["469630EE1386E25F"]
 			description: ["Улучшенная версия предыдущего механизма."]
 			id: "5B410FA6FBBDF723"
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			size: 0.5d
 			subtitle: "Обновка!"
 			tasks: [{
@@ -1336,7 +1336,7 @@
 			dependencies: ["5B410FA6FBBDF723"]
 			description: ["Улучшенная версия предыдущего механизма."]
 			id: "2E1C6DA50E82010F"
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			size: 0.5d
 			subtitle: "Обновка!"
 			tasks: [{
@@ -1351,7 +1351,7 @@
 			dependencies: ["1C1D3D5708D4769D"]
 			description: ["Улучшенная версия предыдущего механизма."]
 			id: "462E0ED8EC92293B"
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			size: 0.5d
 			subtitle: "Обновка!"
 			tasks: [{
@@ -1366,7 +1366,7 @@
 			dependencies: ["462E0ED8EC92293B"]
 			description: ["Улучшенная версия предыдущего механизма."]
 			id: "6A9F009EEBDF1B32"
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			size: 0.5d
 			subtitle: "Обновка!"
 			tasks: [{
@@ -1381,7 +1381,7 @@
 			dependencies: ["2D2A2EA381F81800"]
 			description: ["Улучшенная версия предыдущего механизма."]
 			id: "3439D0D5244D9128"
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			size: 0.5d
 			subtitle: "Обновка!"
 			tasks: [{
@@ -1396,7 +1396,7 @@
 			dependencies: ["6A9F009EEBDF1B32"]
 			description: ["Улучшенная версия предыдущего механизма."]
 			id: "2D2A2EA381F81800"
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			size: 0.5d
 			subtitle: "Обновка!"
 			tasks: [{
@@ -1411,7 +1411,7 @@
 			dependencies: ["4BAB8552A9E3790E"]
 			description: ["Улучшенная версия предыдущего механизма."]
 			id: "274D0A76ECF64703"
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			size: 0.5d
 			subtitle: "Обновка!"
 			tasks: [{
@@ -1426,7 +1426,7 @@
 			dependencies: ["274D0A76ECF64703"]
 			description: ["Улучшенная версия предыдущего механизма."]
 			id: "3F2436E3B51CE449"
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			size: 0.5d
 			subtitle: "Обновка!"
 			tasks: [{
@@ -1441,7 +1441,7 @@
 			dependencies: ["3F2436E3B51CE449"]
 			description: ["Улучшенная версия предыдущего механизма."]
 			id: "6CAF0E69617959B8"
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			size: 0.5d
 			subtitle: "Обновка!"
 			tasks: [{
@@ -1456,7 +1456,7 @@
 			dependencies: ["6CAF0E69617959B8"]
 			description: ["Улучшенная версия предыдущего механизма."]
 			id: "5F5261AF78C7AA67"
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			size: 0.5d
 			subtitle: "Обновка!"
 			tasks: [{
@@ -1471,7 +1471,7 @@
 			dependencies: ["500A24F35E1EDD95"]
 			description: ["Улучшенная версия предыдущего механизма."]
 			id: "6C34F14BA4D47339"
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			size: 0.5d
 			subtitle: "Обновка!"
 			tasks: [{
@@ -1486,7 +1486,7 @@
 			dependencies: ["6C34F14BA4D47339"]
 			description: ["Улучшенная версия предыдущего механизма."]
 			id: "7A7C48C569EAB04E"
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			size: 0.5d
 			subtitle: "Обновка!"
 			tasks: [{
@@ -1501,7 +1501,7 @@
 			dependencies: ["7A7C48C569EAB04E"]
 			description: ["Улучшенная версия предыдущего механизма."]
 			id: "5505326120CB7E6A"
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			size: 0.5d
 			subtitle: "Обновка!"
 			tasks: [{
@@ -1516,7 +1516,7 @@
 			dependencies: ["5505326120CB7E6A"]
 			description: ["Улучшенная версия предыдущего механизма."]
 			id: "753911D81D16B722"
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			size: 0.5d
 			subtitle: "Обновка!"
 			tasks: [{
@@ -1531,7 +1531,7 @@
 			dependencies: ["137D285605596D38"]
 			description: ["Улучшенная версия предыдущего механизма."]
 			id: "752AFA4125CFD463"
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			size: 0.5d
 			subtitle: "Обновка!"
 			tasks: [{
@@ -1546,7 +1546,7 @@
 			dependencies: ["752AFA4125CFD463"]
 			description: ["Улучшенная версия предыдущего механизма."]
 			id: "2CF1A1AE345DCE98"
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			size: 0.5d
 			subtitle: "Обновка!"
 			tasks: [{
@@ -1561,7 +1561,7 @@
 			dependencies: ["2CF1A1AE345DCE98"]
 			description: ["Улучшенная версия предыдущего механизма."]
 			id: "3EF0565D0EF814B0"
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			size: 0.5d
 			subtitle: "Обновка!"
 			tasks: [{
@@ -1576,7 +1576,7 @@
 			dependencies: ["3EF0565D0EF814B0"]
 			description: ["Улучшенная версия предыдущего механизма."]
 			id: "109801B219FAA914"
-			shape: "diamond"
+			shape: "tech_smooth_square"
 			size: 0.5d
 			subtitle: "Обновка!"
 			tasks: [{

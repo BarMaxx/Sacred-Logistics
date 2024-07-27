@@ -1,7 +1,7 @@
 {
 	id: "615A7E1A239E2611"
 	loot_size: 1
-	order_index: 7
+	order_index: 5
 	rewards: [
 		{ item: "sophisticatedbackpacks:pickup_upgrade" }
 		{ item: "sophisticatedbackpacks:filter_upgrade" }
@@ -56,7 +56,6 @@
 		{ item: "sophisticatedbackpacks:tank_upgrade" }
 		{ item: "sophisticatedbackpacks:battery_upgrade" }
 		{ item: "sophisticatedbackpacks:pump_upgrade" }
-		{ }
 	]
-	title: "{reward_tables.gloomy_rise.simple_upgrades_for_backpacks.reward_table_title}"
+	title: "Простые улучшения"
 }

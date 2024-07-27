@@ -12,5 +12,5 @@
 		{ count: 16, item: "minecraft:crimson_stem" }
 		{ count: 16, item: "minecraft:warped_stem" }
 	]
-	title: "{reward_tables.gloomy_rise.logs.reward_table_title}"
+	title: "Дерево"
 }

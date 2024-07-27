@@ -10,36 +10,46 @@
 	quests: [
 		{
 			dependencies: ["6BC22A684745A477"]
+			description: [
+				"&7Добыв немного дерева и переработав его в доски, я могу создать свой первый и главный рабочий стол - &6Верстак&7.&r"
+				""
+				"&bОткрывает доступ к созданию огромного количества предметов.&r"
+			]
 			id: "05EB7D069C18CA1E"
+			subtitle: "Главный рабочий стол!"
 			tasks: [{
 				id: "5CE947F135239979"
 				item: "minecraft:crafting_table"
-				title: "&bВерстак"
 				type: "item"
 			}]
+			title: "&bВерстак"
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6C7F234B75D1E84F"]
+			description: ["&7&6Булыжник&7 - первая Ваша твёрдая порода - позволяет создать &2Печь&7.&r"]
 			id: "15351ED9820C1C90"
 			rewards: [{
-				count: 16
+				count: 4
 				id: "3B2257C804037EED"
 				item: "minecraft:cobblestone"
+				random_bonus: 8
 				type: "item"
 			}]
 			tasks: [{
-				count: 8L
+				count: 4L
 				id: "4D868C4A99F550BF"
 				item: "minecraft:cobblestone"
 				type: "item"
 			}]
+			title: "&bБулыжник"
 			x: 4.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["05EB7D069C18CA1E"]
+			description: ["&7&6Костёр&7 необходим для готовки еды.&r"]
 			id: "601145AC00E6C07B"
 			rewards: [{
 				count: 2
@@ -53,11 +63,13 @@
 				item: "minecraft:campfire"
 				type: "item"
 			}]
+			title: "&bКостёр"
 			x: 1.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["05EB7D069C18CA1E"]
+			description: ["&7Для хранения ресурсов.&r"]
 			id: "3BC47498DF613B04"
 			tasks: [{
 				icon: "minecraft:chest"
@@ -72,28 +84,33 @@
 				title: "Сундук"
 				type: "item"
 			}]
+			title: "&bСундук"
 			x: 1.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["05EB7D069C18CA1E"]
+			description: ["&7Для хранения ресурсов.&r"]
 			id: "40FA20B89ED9FF16"
 			tasks: [{
 				id: "73BBDA6B834F1DCE"
 				item: "minecraft:barrel"
 				type: "item"
 			}]
+			title: "&bБочка"
 			x: 2.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["15351ED9820C1C90"]
+			description: ["&7&6Печь&7 необходима для переплавки различных ресурсов.&r"]
 			id: "7CA023B662360C6A"
 			tasks: [{
 				id: "348453F9297D05FB"
 				item: "minecraft:furnace"
 				type: "item"
 			}]
+			title: "&bПечь"
 			x: 6.0d
 			y: 0.0d
 		}
@@ -110,6 +127,7 @@
 				item: "minecraft:blast_furnace"
 				type: "item"
 			}]
+			title: "&bПлавильная печь"
 			x: 5.5d
 			y: 1.5d
 		}
@@ -117,18 +135,19 @@
 			dependencies: ["7A3F3E23A0387DE6"]
 			id: "050CD68574E6F1E6"
 			rewards: [{
-				count: 4
-				id: "0B12DCB0173EF5D0"
-				item: "minecraft:iron_ore"
+				count: 2
+				id: "739F2AEC115952AA"
+				item: "minecraft:raw_iron"
 				random_bonus: 4
 				type: "item"
 			}]
 			tasks: [{
 				count: 4L
-				id: "42580A1F6B436B85"
-				item: "minecraft:iron_ore"
+				id: "648F73C385016935"
+				item: "minecraft:raw_iron"
 				type: "item"
 			}]
+			title: "&bРудное железо"
 			x: 8.0d
 			y: 0.0d
 		}
@@ -171,8 +190,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
-			y: -1.5d
+			x: 11.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["39C60726C5C4150F"]
@@ -189,8 +208,8 @@
 				item: "minecraft:diamond"
 				type: "item"
 			}]
-			x: 11.0d
-			y: -2.5d
+			x: 11.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["16B75CEDF776927E"]
@@ -211,27 +230,27 @@
 				}
 				type: "item"
 			}]
-			x: 11.0d
-			y: -4.0d
+			x: 12.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["39C60726C5C4150F"]
 			id: "6BA446FB38C2AED4"
 			rewards: [{
-				count: 4
-				id: "349BC83282F0BB5F"
-				item: "minecraft:gold_ore"
+				count: 2
+				id: "4B1F1B556F1E57FF"
+				item: "minecraft:raw_gold"
 				random_bonus: 4
 				type: "item"
 			}]
 			tasks: [{
-				count: 6L
-				id: "259F09DEEA08E97A"
-				item: "minecraft:gold_ore"
+				count: 4L
+				id: "6CDC1970683039D9"
+				item: "minecraft:raw_gold"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -2.5d
+			x: 11.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["6BA446FB38C2AED4"]
@@ -249,8 +268,8 @@
 				item: "minecraft:gold_ingot"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -4.0d
+			x: 12.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["16B75CEDF776927E"]
@@ -266,8 +285,8 @@
 				item: "sophisticatedbackpacks:diamond_backpack"
 				type: "item"
 			}]
-			x: 12.5d
-			y: -2.5d
+			x: 11.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["73D8A15D7A0E9FA2"]
@@ -282,7 +301,7 @@
 				item: "sophisticatedbackpacks:iron_backpack"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 9.5d
 			y: 1.5d
 		}
 		{
@@ -298,11 +317,12 @@
 				item: "sophisticatedbackpacks:gold_backpack"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -4.0d
+			x: 12.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["3BC47498DF613B04"]
+			description: ["&7Для хранения ресурсов во время путешествия.&r"]
 			id: "19E0170B82D541A5"
 			rewards: [{
 				id: "6C3BE03EEF9382DB"
@@ -314,11 +334,13 @@
 				item: "sophisticatedbackpacks:backpack"
 				type: "item"
 			}]
+			title: "&bРюкзак"
 			x: 0.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["05EB7D069C18CA1E"]
+			description: ["&7&6Деревянная кирка&7 позволяет добывать начальные твёрдые породы, а именно - &2Булыжник&7.&r"]
 			id: "6C7F234B75D1E84F"
 			tasks: [{
 				id: "4FEA2C034342544F"
@@ -331,6 +353,7 @@
 				}
 				type: "item"
 			}]
+			title: "&bДеревянная кирка"
 			x: 3.0d
 			y: 0.0d
 		}
@@ -347,11 +370,13 @@
 				item: "minecraft:smoker"
 				type: "item"
 			}]
+			title: "&bКоптильня"
 			x: 5.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["7CA023B662360C6A"]
+			description: ["&7&6Камень&7 необходим для создания обновлённых инструментов.&r"]
 			id: "59A6896A8B3C6B62"
 			rewards: [{
 				count: 4
@@ -366,12 +391,15 @@
 				item: "minecraft:stone"
 				type: "item"
 			}]
+			title: "&bКамень"
 			x: 6.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["59A6896A8B3C6B62"]
+			description: ["&7&6Каменная кирка&7 позволяет добывать более твёрдые каменные породы.&r"]
 			id: "7A3F3E23A0387DE6"
+			subtitle: "Обновка!"
 			tasks: [{
 				id: "18B428008BE10777"
 				item: {
@@ -383,11 +411,13 @@
 				}
 				type: "item"
 			}]
+			title: "&bКаменная кирка"
 			x: 7.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["7EA23917F7C58C5E"]
+			description: ["&7Первое, что необходимо Вам сделать в этом мире - добыть &6Дерево&7.&r"]
 			hide: true
 			id: "6BC22A684745A477"
 			rewards: [{
@@ -396,6 +426,7 @@
 				item: "minecraft:oak_log"
 				type: "item"
 			}]
+			subtitle: "Обыденность..."
 			tasks: [{
 				count: 4L
 				id: "73F56FE30A64771E"
@@ -412,6 +443,65 @@
 			title: "&bДерево"
 			x: 0.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["6741CCCE0EF6A545"]
+			id: "252624E7573EBBB9"
+			tasks: [
+				{
+					id: "28E8FB535981B03A"
+					item: "allthemodium:raw_allthemodium"
+					type: "item"
+				}
+				{
+					id: "1A4D79D8EEF89E20"
+					item: "allthemodium:allthemodium_dust"
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["252624E7573EBBB9"]
+			id: "56DE8FACE0972F7D"
+			tasks: [{
+				id: "5038F67A59E50A48"
+				item: "allthemodium:allthemodium_ingot"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7A3F3E23A0387DE6"]
+			id: "53A87DE6F28197DB"
+			rewards: [{
+				count: 2
+				id: "61C782D5F737343D"
+				item: "minecraft:raw_copper"
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "3999CB54B648B1CC"
+				item: "minecraft:raw_copper"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["53A87DE6F28197DB"]
+			id: "5E03D8EFC425A9CD"
+			tasks: [{
+				id: "4A8F573A19862C5E"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.5d
 		}
 	]
 	title: "&bПервые шаги"
