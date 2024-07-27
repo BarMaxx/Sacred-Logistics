@@ -1,6 +1,6 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "tech_circle"
 	filename: "6953150A66C1136B"
 	group: "3300196F2614D758"
 	icon: {
@@ -30,7 +30,7 @@
 				}
 				type: "item"
 			}]
-			shape: "gear"
+			shape: "tech_smooth_square"
 			size: 1.2d
 			tasks: [
 				{
@@ -79,7 +79,7 @@
 			dependencies: ["29D3BB90C1AFD93D"]
 			description: ["С помощью воздушного компрессора можно вырабатывать сжатый воздух, путём сжигания топлива, главный вид \"энергии\" в этом моде!"]
 			id: "11FC3733A1D623C4"
-			shape: "rsquare"
+			shape: "tech_square"
 			tasks: [{
 				id: "4977DE8F94F8EB25"
 				item: "pneumaticcraft:air_compressor"
@@ -130,7 +130,7 @@
 			dependencies: ["4750ED395F4119D0"]
 			description: ["Листы пластика можно получить путём затвердевания в мире. Сам пластик используется во многих крафтах на этой сборке."]
 			id: "491435ED023469B3"
-			shape: "rsquare"
+			shape: "tech_square"
 			size: 1.1d
 			tasks: [{
 				count: 10L
@@ -146,7 +146,7 @@
 			dependencies: ["45A07D9B8081F2A0"]
 			description: ["С помощью резервуара для травления можно получить печатные платы. Для этого нужно заполнить резервуар кислотой и вставить пустые печатные платы."]
 			id: "58A6DAC2644D7A3E"
-			shape: "rsquare"
+			shape: "tech_square"
 			size: 1.1d
 			tasks: [
 				{
@@ -192,7 +192,7 @@
 			dependencies: ["669D2D535CE74E00"]
 			description: ["Обычный дрон, которого можно запрограммировать почти на любое действие."]
 			id: "519DF9A53D61AED0"
-			shape: "rsquare"
+			shape: "tech_square"
 			tasks: [{
 				id: "49820B0E5ECE489F"
 				item: "pneumaticcraft:drone"
@@ -461,7 +461,7 @@
 			dependencies: ["5F78168421BAA44A"]
 			description: ["С помощью спаунера под давлением можно создавать мобов, используя сжатый воздух и ИГНОРИРУЯ уровень освещения!"]
 			id: "1A8B1232DA3B698F"
-			shape: "rsquare"
+			shape: "tech_square"
 			tasks: [{
 				id: "19A20D7E226A5D8A"
 				item: "pneumaticcraft:pressurized_spawner"
@@ -483,5 +483,5 @@
 			y: 3.0d
 		}
 	]
-	title: "Игры с давлением"
+	title: "&bИгры с давлением"
 }

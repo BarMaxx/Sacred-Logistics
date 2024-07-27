@@ -1,6 +1,6 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "tech_circle"
 	filename: "686A5F68A3DA8AB9"
 	group: "724CB10F5936E1B7"
 	icon: "iceandfire:lightning_dragon_heart"
@@ -11,6 +11,8 @@
 		{
 			dependencies: ["1F24B9ADBE67E4F6"]
 			id: "0261282B27BB7183"
+			shape: "tech_smooth_square"
+			size: 1.2d
 			tasks: [{
 				id: "69C229238E3EE268"
 				title: "Драконы!"
@@ -147,6 +149,8 @@
 		{
 			dependencies: ["47B628E949CB1419"]
 			id: "541CB67295A544F5"
+			shape: "tech_square"
+			size: 1.2d
 			tasks: [
 				{
 					id: "16344C4FA09658D3"
@@ -606,7 +610,6 @@
 		{
 			dependencies: ["7BA9612B04DE3D09"]
 			description: ["&2Око Эндера&f нужно для нахождения и активации портала в &5Край&f."]
-			hide: true
 			id: "3CE6ECDB2520ED5F"
 			rewards: [{
 				id: "1F0B051BC77989F3"
@@ -615,6 +618,8 @@
 				random_bonus: 2
 				type: "item"
 			}]
+			shape: "tech_square"
+			size: 1.2d
 			subtitle: "Пора в Край"
 			tasks: [
 				{
@@ -940,5 +945,5 @@
 			y: -5.0d
 		}
 	]
-	title: "Встреча с мистикой"
+	title: "&bВстреча с мистикой"
 }

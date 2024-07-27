@@ -1,6 +1,6 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "tech_circle"
 	filename: "1BACEC0478C39C53"
 	group: "7D6592869D36C6A4"
 	icon: "ae2:controller"
@@ -18,5 +18,5 @@
 		x: 0.0d
 		y: 0.0d
 	}]
-	title: "Автоматизация"
+	title: "&bАвтоматизация"
 }
