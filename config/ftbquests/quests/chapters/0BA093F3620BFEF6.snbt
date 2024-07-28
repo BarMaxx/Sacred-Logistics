@@ -49,12 +49,20 @@
 			id: "6513C7948A68988C"
 			tasks: [
 				{
+					count: 12L
 					id: "5498282F77A76064"
 					item: "assemblylinemachines:silt"
 					type: "item"
 				}
 				{
-					id: "68C5AD1FCE56D8C9"
+					count: 4L
+					id: "5FABBFA7BD20AD76"
+					item: "assemblylinemachines:smooth_silt"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "49C18D2A2A122C0A"
 					item: "assemblylinemachines:silt_brick"
 					type: "item"
 				}
@@ -97,11 +105,20 @@
 			id: "77411DD073E41360"
 			tasks: [
 				{
+					count: 4L
 					id: "3C99628DCD5AB32D"
-					item: "assemblylinemachines:ground_iron"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:dusts/iron"
+						}
+					}
+					title: "Железная пыль"
 					type: "item"
 				}
 				{
+					count: 4L
 					id: "3216002D07CFBE16"
 					item: "assemblylinemachines:silt_iron"
 					type: "item"
@@ -114,6 +131,7 @@
 			dependencies: ["77411DD073E41360"]
 			id: "2C2F3D5E6DB72ECB"
 			tasks: [{
+				count: 4L
 				id: "4797F5B9079E4BC0"
 				item: "assemblylinemachines:pure_iron_ingot"
 				type: "item"
@@ -126,11 +144,20 @@
 			id: "129B005C1422EC81"
 			tasks: [
 				{
+					count: 4L
 					id: "0749BDF98015082A"
-					item: "assemblylinemachines:ground_gold"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:dusts/gold"
+						}
+					}
+					title: "Золотая пыль"
 					type: "item"
 				}
 				{
+					count: 4L
 					id: "126FE04227F5A759"
 					item: "assemblylinemachines:silt_gold"
 					type: "item"
