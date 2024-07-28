@@ -23,6 +23,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["7EA23917F7C58C5E"]
 			description: ["&7С помощью &6Стола Исследователя&b можно изучать различные &aАртефакты&b. А также, заниматься улучшением этих Артефактов, чтобы более выгодно их использовать в своих целях."]
 			hide: true
 			id: "7CF84DD7C8E4B52C"
@@ -38,6 +39,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["7EA23917F7C58C5E"]
 			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
 			hide: true
 			id: "1DAB6E68BEE32F49"
@@ -71,6 +73,7 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["7EA23917F7C58C5E"]
 			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
 			hide: true
 			id: "56030D0C8C30D040"
@@ -105,6 +108,7 @@
 			y: -4.5d
 		}
 		{
+			dependencies: ["7EA23917F7C58C5E"]
 			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
 			hide: true
 			id: "198724D04F45B035"
@@ -139,6 +143,7 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["7EA23917F7C58C5E"]
 			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
 			hide: true
 			id: "1F6BBE780BF4FCC3"
@@ -172,6 +177,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["7EA23917F7C58C5E"]
 			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
 			hide: true
 			id: "5EF305DD3BA6F41A"
@@ -205,6 +211,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["7EA23917F7C58C5E"]
 			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
 			hide: true
 			id: "0E48D33939EA51FF"
@@ -245,6 +252,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["7EA23917F7C58C5E"]
 			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
 			hide: true
 			id: "6E145933FCFA48DB"
@@ -296,6 +304,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["7EA23917F7C58C5E"]
 			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
 			hide: true
 			id: "44D6310965DC17F5"
@@ -334,6 +343,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["7EA23917F7C58C5E"]
 			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
 			hide: true
 			id: "179D73975DFC0B8D"
@@ -366,6 +376,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["7EA23917F7C58C5E"]
 			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
 			hide: true
 			id: "4FD72EBBDE57F3AB"
@@ -404,6 +415,7 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["7EA23917F7C58C5E"]
 			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
 			hide: true
 			id: "4015B58E2FA870EB"
@@ -454,6 +466,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["7EA23917F7C58C5E"]
 			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
 			hide: true
 			id: "4B94D3444FE6B488"
@@ -494,6 +507,7 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["7EA23917F7C58C5E"]
 			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
 			hide: true
 			id: "6B48F8B0CD8D2F74"
@@ -527,6 +541,7 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["7EA23917F7C58C5E"]
 			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
 			hide: true
 			id: "1BC2B8ECE6512026"
@@ -560,6 +575,7 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["7EA23917F7C58C5E"]
 			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
 			hide: true
 			id: "660EFF5A1745E54E"
@@ -614,6 +630,7 @@
 			y: 0.5d
 		}
 		{
+			dependencies: ["7EA23917F7C58C5E"]
 			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
 			hide: true
 			id: "04804CDE32D38480"
@@ -647,6 +664,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["7EA23917F7C58C5E"]
 			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
 			hide: true
 			id: "3DEB6C7C5CE42EC2"
@@ -679,6 +697,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["7EA23917F7C58C5E"]
 			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
 			hide: true
 			id: "0F6501B2D75A8DE9"
@@ -712,6 +731,7 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["7EA23917F7C58C5E"]
 			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
 			hide: true
 			id: "322CC8DAF5DD4FDC"
@@ -746,6 +766,7 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["7EA23917F7C58C5E"]
 			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
 			hide: true
 			id: "77624EDB4C456122"
@@ -786,6 +807,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["7EA23917F7C58C5E"]
 			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
 			hide: true
 			id: "0F141A5612B7529B"
@@ -821,6 +843,7 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["7EA23917F7C58C5E"]
 			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
 			hide: true
 			id: "4C70B2424C14A5F3"
@@ -878,6 +901,7 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["7EA23917F7C58C5E"]
 			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
 			hide: true
 			id: "104A2E0B4377FD8A"
@@ -921,6 +945,7 @@
 			y: 0.5d
 		}
 		{
+			dependencies: ["7EA23917F7C58C5E"]
 			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
 			hide: true
 			id: "4247DB175F0D0B0C"
@@ -955,6 +980,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["7EA23917F7C58C5E"]
 			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
 			hide: true
 			id: "5242C3D1F1F35940"
@@ -995,6 +1021,7 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["7EA23917F7C58C5E"]
 			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
 			hide: true
 			id: "54951BD86572F32C"
@@ -1027,6 +1054,7 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["7EA23917F7C58C5E"]
 			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
 			hide: true
 			id: "2E76563F49AA9A1E"
@@ -1062,6 +1090,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["7EA23917F7C58C5E"]
 			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
 			hide: true
 			id: "11AD4404FABDB1BB"

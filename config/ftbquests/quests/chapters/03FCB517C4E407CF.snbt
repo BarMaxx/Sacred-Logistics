@@ -1,6 +1,6 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "tech_circle"
 	filename: "03FCB517C4E407CF"
 	group: "3300196F2614D758"
 	icon: {
@@ -13,6 +13,426 @@
 	id: "03FCB517C4E407CF"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["58A6DAC2644D7A3E"]
+			hide: true
+			id: "7B35352776B50E97"
+			tasks: [
+				{
+					id: "1B6B64C913A230C2"
+					item: "ad_astra:fuel_refinery"
+					type: "item"
+				}
+				{
+					id: "5F665DB558591120"
+					item: "ad_astra:oil_bucket"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7B35352776B50E97"]
+			id: "749C99C2D1B24A63"
+			tasks: [{
+				id: "2BF5B6030F2BAD04"
+				item: "ad_astra:fuel_bucket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["58A6DAC2644D7A3E"]
+			hide: true
+			id: "1CADCF40636C7EC7"
+			rewards: [{
+				id: "3BA85F4F4A8F7EA5"
+				item: "ad_astra:astrodux"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "344C97451C9AD0F4"
+					item: "ad_astra:nasa_workbench"
+					type: "item"
+				}
+				{
+					id: "44B2824CABB7EB71"
+					item: "ad_astra:launch_pad"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["58A6DAC2644D7A3E"]
+			hide: true
+			id: "4F3DAAA7F991D368"
+			tasks: [{
+				id: "0438EFA8F9657A60"
+				item: "ad_astra:oxygen_loader"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4F3DAAA7F991D368"]
+			id: "3DD4E40FFCC25FAF"
+			tasks: [
+				{
+					id: "3E298D2788ED5924"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "543FEA889666224E"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_suit"
+						tag: {
+							BotariumData: { }
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "51E023D93411C6FF"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1A3C6C183648B45D"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1CADCF40636C7EC7"]
+			id: "5BE53FF882645428"
+			tasks: [{
+				id: "220181F25F9D1C8E"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_1_rocket"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5BE53FF882645428"]
+			id: "390E1010397E5228"
+			tasks: [
+				{
+					id: "1911EF69D34497CC"
+					item: "ad_astra:raw_desh"
+					type: "item"
+				}
+				{
+					id: "7DE5130C6CFB010E"
+					item: "ad_astra:desh_ingot"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["390E1010397E5228"]
+			id: "7032508DE0532020"
+			tasks: [{
+				id: "139FB5ECE62D869F"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_2_rocket"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7032508DE0532020"]
+			id: "53739B62C39341D0"
+			tasks: [
+				{
+					id: "1E6E8E0EDE8A420E"
+					item: "ad_astra:raw_ostrum"
+					type: "item"
+				}
+				{
+					id: "66483705D434F300"
+					item: "ad_astra:ostrum_ingot"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["53739B62C39341D0"]
+			id: "0B6B3B3A25721C4D"
+			tasks: [{
+				id: "2F3FD6F32BE47D7A"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_3_rocket"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B6B3B3A25721C4D"]
+			id: "1C104BDDE83D0D65"
+			tasks: [
+				{
+					id: "74431543E24716B2"
+					item: "ad_astra:raw_calorite"
+					type: "item"
+				}
+				{
+					id: "0A802AAC970E4A7F"
+					item: "ad_astra:calorite_ingot"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C104BDDE83D0D65"]
+			id: "651366CB6C96F7B3"
+			tasks: [{
+				id: "64A70AD649D02EBA"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_4_rocket"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["53739B62C39341D0"]
+			id: "1DCF4B0E4B8E7836"
+			tasks: [{
+				id: "3F1D41015C8160A4"
+				item: "ad_astra:cryo_freezer"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1DCF4B0E4B8E7836"]
+			id: "1C01395366EE05F4"
+			tasks: [{
+				id: "2CBAA254229C7CFF"
+				item: "ad_astra:cryo_fuel_bucket"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["53739B62C39341D0"]
+			id: "31C5F716F08DDD09"
+			tasks: [{
+				id: "66E47208F8FCC23D"
+				item: "ad_astra:oxygen_sensor"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["53739B62C39341D0"]
+			id: "18AFEE0F52FE8EA5"
+			tasks: [
+				{
+					id: "29D1A62DA61877EF"
+					item: {
+						Count: 1b
+						id: "ad_astra:netherite_space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "60F01C6B9E481F27"
+					item: {
+						Count: 1b
+						id: "ad_astra:netherite_space_suit"
+						tag: {
+							BotariumData: { }
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "12AA3565171670EE"
+					item: {
+						Count: 1b
+						id: "ad_astra:netherite_space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "27DC5D1F48FFBA96"
+					item: {
+						Count: 1b
+						id: "ad_astra:netherite_space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["390E1010397E5228"]
+			id: "2B45FA3724E01596"
+			tasks: [{
+				id: "6D6728A70A87DAD5"
+				item: "ad_astra:water_pump"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["390E1010397E5228"]
+			id: "2AADD90E0219A5CF"
+			tasks: [{
+				id: "00D58EBD3A705687"
+				item: "ad_astra:oxygen_distributor"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["390E1010397E5228"]
+			id: "5937AA41BD274039"
+			tasks: [{
+				id: "037BF5962E4376C0"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_1_rover"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1C104BDDE83D0D65"]
+			id: "7E6B5553289DC839"
+			tasks: [
+				{
+					id: "444FDD3C21091B5E"
+					item: {
+						Count: 1b
+						id: "ad_astra:jet_suit_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0580B70D6FC781A5"
+					item: {
+						Count: 1b
+						id: "ad_astra:jet_suit"
+						tag: {
+							BotariumData: { }
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "00AF3DAE1A653575"
+					item: {
+						Count: 1b
+						id: "ad_astra:jet_suit_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "17F1946F7EA91B30"
+					item: {
+						Count: 1b
+						id: "ad_astra:jet_suit_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 1.5d
+		}
+	]
 	title: "&bГлавное путешествие"
 }

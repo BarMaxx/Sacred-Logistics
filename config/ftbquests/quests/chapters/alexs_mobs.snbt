@@ -64,6 +64,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["7EA23917F7C58C5E"]
 			description: ["Необходимо убить моба &6Червь пустоты&r."]
 			hide: true
 			id: "023139629C04414A"
@@ -138,6 +139,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["7EA23917F7C58C5E"]
 			description: ["Необходимо убить моба &6Багровый комар&r."]
 			hide: true
 			id: "57F9EC17BF08B807"
@@ -236,6 +238,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["7EA23917F7C58C5E"]
 			description: ["Необходимо убить моба &6Искажённый комар&r."]
 			hide: true
 			id: "0AA80D65B3B768FB"
@@ -263,6 +266,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["7EA23917F7C58C5E"]
 			description: ["Необходимо убить моба &6Мимикуб&r."]
 			hide: true
 			id: "1A9977BCE49FE965"
@@ -328,6 +332,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["7EA23917F7C58C5E"]
 			description: ["Необходимо убить моба &6Акула-молот&r."]
 			hide: true
 			id: "1001BA1EC2F0F590"
@@ -363,6 +368,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["7EA23917F7C58C5E"]
 			description: ["Необходимо убить моба &6Страддлер&r."]
 			hide: true
 			id: "67D9A09BF040E87C"
@@ -441,6 +447,7 @@
 			y: -6.0d
 		}
 		{
+			dependencies: ["7EA23917F7C58C5E"]
 			description: ["Необходимо убить моба &6Визгун&r."]
 			hide: true
 			id: "1732CDDA79D0555A"
@@ -486,6 +493,7 @@
 			y: -6.0d
 		}
 		{
+			dependencies: ["7EA23917F7C58C5E"]
 			description: ["Необходимо убить моба &6Прозиратель&r."]
 			hide: true
 			id: "60ECFF5383C12583"
@@ -500,6 +508,7 @@
 			y: -7.5d
 		}
 		{
+			dependencies: ["7EA23917F7C58C5E"]
 			description: ["Необходимо убить моба &6Крокодил&r."]
 			hide: true
 			id: "2343694DE3E03B67"
@@ -554,6 +563,7 @@
 			y: -4.5d
 		}
 		{
+			dependencies: ["7EA23917F7C58C5E"]
 			description: ["Необходимо убить моба &6Многоножка&r."]
 			hide: true
 			id: "1D18918B51E26B91"

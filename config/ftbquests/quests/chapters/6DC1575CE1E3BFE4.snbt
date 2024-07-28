@@ -10,6 +10,7 @@
 	quests: [
 		{
 			dependencies: ["00A6BEF41504D2F0"]
+			hide: true
 			id: "5D2C092D533C5BB2"
 			tasks: [{
 				id: "56705D826B6153F1"
@@ -32,7 +33,19 @@
 		}
 		{
 			dependencies: ["7EA23917F7C58C5E"]
+			hide: true
 			id: "39C11F914911507A"
+			rewards: [{
+				id: "5C86252D7587C8A8"
+				item: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "productivebees:guide"
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "478818D3F63DF992"
 				item: "minecraft:honey_bottle"
@@ -87,6 +100,7 @@
 		}
 		{
 			dependencies: ["00A6BEF41504D2F0"]
+			hide: true
 			id: "0733A97F9305734E"
 			tasks: [{
 				id: "649DAA6A50E337DF"

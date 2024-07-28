@@ -27,6 +27,7 @@
 		}
 		{
 			dependencies: ["6180ACBB10C75460"]
+			hide: true
 			id: "494F06D4FE769833"
 			tasks: [
 				{
@@ -151,6 +152,138 @@
 			]
 			x: 3.0d
 			y: 3.0d
+		}
+		{
+			dependencies: ["4F33ABC73D5F3E0B"]
+			id: "0DC1C160F9B4584B"
+			tasks: [{
+				id: "204C63ABBB236D6E"
+				item: "fluxnetworks:flux_block"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0DC1C160F9B4584B"]
+			id: "4478CDD7ADF7B99C"
+			tasks: [{
+				id: "1C14A57371DB613C"
+				item: "fluxnetworks:flux_controller"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0DC1C160F9B4584B"]
+			id: "11E16C5298073633"
+			tasks: [{
+				id: "1030A7E968537D13"
+				item: "fluxnetworks:basic_flux_storage"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["11E16C5298073633"]
+			id: "746EA4B8CA5BE83D"
+			tasks: [{
+				id: "0B2849975A14DE76"
+				item: "fluxnetworks:herculean_flux_storage"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["746EA4B8CA5BE83D"]
+			id: "78499C08C6FF34FE"
+			tasks: [{
+				id: "4D8AA4061185358E"
+				item: "fluxnetworks:gargantuan_flux_storage"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4F33ABC73D5F3E0B"]
+			id: "5B7ECF8799460452"
+			tasks: [{
+				id: "5F4B9BD023B18C2F"
+				item: "fluxnetworks:flux_point"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0DC1C160F9B4584B"]
+			id: "00E0D59C93444523"
+			tasks: [{
+				id: "6F156558AE5707C0"
+				item: "fluxnetworks:flux_plug"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4F33ABC73D5F3E0B"]
+			id: "5B8CAC69408B8518"
+			tasks: [{
+				id: "58EB065374C4C4A9"
+				item: "fluxnetworks:flux_configurator"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4BC27B8F8CBF12A3"]
+			id: "05462498FBA9F90E"
+			tasks: [{
+				id: "690D5A768C2A9D7A"
+				item: "biggerreactors:graphite_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["05462498FBA9F90E"]
+			id: "4D1DEA1633BE8EB1"
+			tasks: [{
+				id: "3CE83A5783F2A3BC"
+				item: "biggerreactors:reactor_casing"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4D1DEA1633BE8EB1"]
+			id: "447F28112FE322FD"
+			tasks: [{
+				id: "3B3364580ABC2D24"
+				item: "biggerreactors:reactor_terminal"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4D1DEA1633BE8EB1"]
+			id: "5C0EFCEF4AA9EF1B"
+			tasks: [{
+				id: "715DA1D61BEDD9E1"
+				item: "biggerreactors:reactor_control_rod"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.5d
 		}
 	]
 	title: "&bЭнергия"

@@ -24,6 +24,6 @@
 	}
 	pause_game: false
 	progression_mode: "linear"
-	title: "&bTechnology Adventures"
+	title: "&bSacred Logistics"
 	version: 13
 }

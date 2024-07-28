@@ -10,6 +10,7 @@
 	quests: [
 		{
 			dependencies: ["73D8A15D7A0E9FA2"]
+			hide: true
 			id: "5731D8BFD4BBD536"
 			rewards: [{
 				id: "00B8A06C579F81E4"

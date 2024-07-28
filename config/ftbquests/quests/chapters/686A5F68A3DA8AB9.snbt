@@ -10,6 +10,7 @@
 	quests: [
 		{
 			dependencies: ["1F24B9ADBE67E4F6"]
+			hide: true
 			id: "0261282B27BB7183"
 			shape: "tech_smooth_square"
 			size: 1.2d
@@ -328,7 +329,7 @@
 					type: "item"
 				}
 			]
-			x: 7.5d
+			x: 9.0d
 			y: 1.5d
 		}
 		{
@@ -347,7 +348,7 @@
 				title: "Незеритовый слиток"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 9.0d
 			y: 3.0d
 		}
 		{
@@ -413,7 +414,7 @@
 				}
 			]
 			title: "Незеритовая броня"
-			x: 9.5d
+			x: 10.0d
 			y: 3.5d
 		}
 		{
@@ -479,8 +480,8 @@
 				}
 			]
 			title: "Незеритовые инструменты"
-			x: 6.5d
-			y: 3.5d
+			x: 10.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["1F24FA2023174B08"]
@@ -491,7 +492,7 @@
 				item: "sophisticatedbackpacks:netherite_backpack"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 9.5d
 			y: 4.5d
 		}
 		{
@@ -581,7 +582,7 @@
 				}
 			]
 			title: "Визер"
-			x: 8.5d
+			x: 7.0d
 			y: 1.5d
 		}
 		{
@@ -593,8 +594,8 @@
 				item: "minecraft:nether_star"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 2.5d
+			x: 7.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["59A45E1E34ABFB08"]
@@ -696,7 +697,7 @@
 				item: "minecraft:shulker_shell"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.5d
 			y: -5.5d
 		}
 		{
@@ -713,7 +714,7 @@
 				item: "minecraft:shulker_box"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 5.0d
 			y: -5.5d
 		}
 		{
@@ -784,8 +785,8 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
-			y: -6.5d
+			x: 8.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["541CB67295A544F5"]
@@ -943,6 +944,138 @@
 			}]
 			x: 12.0d
 			y: -5.0d
+		}
+		{
+			dependencies: ["541CB67295A544F5"]
+			id: "05F5EB1BC7A93FF4"
+			tasks: [
+				{
+					id: "781BDA8053A5136F"
+					item: "allthemodium:raw_vibranium"
+					type: "item"
+				}
+				{
+					id: "7639BA9BA2D24ADB"
+					item: "allthemodium:vibranium_dust"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["05F5EB1BC7A93FF4"]
+			id: "27FBB958D694AE82"
+			tasks: [{
+				id: "239C6B2A47DC353C"
+				item: "allthemodium:vibranium_ingot"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3CE6ECDB2520ED5F"]
+			id: "7470DAC7BBF33AB5"
+			tasks: [
+				{
+					id: "7ECEE60FA453A91D"
+					item: "allthemodium:raw_unobtainium"
+					type: "item"
+				}
+				{
+					id: "5552EE806094A17E"
+					item: "allthemodium:unobtainium_dust"
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7470DAC7BBF33AB5"]
+			id: "1B1F33F599945E87"
+			tasks: [{
+				id: "6CF9A18AB8C9461F"
+				item: "allthemodium:unobtainium_ingot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["77BFC49B1D3ECBF9"]
+			id: "7357EEF4F3BD2A07"
+			tasks: [{
+				id: "268E44AC1B6F3386"
+				item: "sophisticatedstorage:iron_shulker_box"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7357EEF4F3BD2A07"]
+			id: "605616399C37D786"
+			tasks: [{
+				id: "0054A64ECE4D738B"
+				item: "sophisticatedstorage:gold_shulker_box"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["605616399C37D786"]
+			id: "3E8FF540C3E8A243"
+			tasks: [{
+				id: "752031AC7A2C7FF9"
+				item: "sophisticatedstorage:diamond_shulker_box"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3E8FF540C3E8A243"]
+			id: "4E0EF46CC7FFB09F"
+			tasks: [{
+				id: "2AF9B8DC716EA743"
+				item: "sophisticatedstorage:netherite_shulker_box"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1F24FA2023174B08"]
+			id: "2EA0407F803C2D82"
+			tasks: [
+				{
+					id: "54FDBF535AEF7A38"
+					item: {
+						Count: 1b
+						id: "sophisticatedstorage:netherite_chest"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "69B5F46DB5BAD4C9"
+					item: {
+						Count: 1b
+						id: "sophisticatedstorage:netherite_barrel"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 4.5d
 		}
 	]
 	title: "&bВстреча с мистикой"

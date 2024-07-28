@@ -15,7 +15,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["7EA23917F7C58C5E"]
+			dependencies: ["4222E4C3CB12466C"]
 			description: ["Укреплённые кирпичи используются для создания различных блоков и предметов."]
 			hide: true
 			id: "45A07D9B8081F2A0"
@@ -98,7 +98,6 @@
 				item: "pneumaticcraft:pressure_tube"
 				type: "item"
 			}]
-			title: "Трубы под давлением"
 			x: 2.5d
 			y: 0.0d
 		}
@@ -382,11 +381,11 @@
 				item: "pneumaticcraft:sourdough_bread"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -2.0d
+			x: 0.5d
+			y: -3.0d
 		}
 		{
-			dependencies: ["7E3215B6AA8043DE"]
+			dependencies: ["268FCC2C8C81C4DC"]
 			description: ["С помощью вихревой пушки можно стрелять потоками воздуха. А с помощью них, например, можно стричь животных."]
 			id: "192E4E411B871C96"
 			tasks: [{
@@ -394,8 +393,8 @@
 				item: "pneumaticcraft:vortex_cannon"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -4.5d
+			x: 1.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["491435ED023469B3"]
@@ -481,6 +480,50 @@
 			}]
 			x: 0.0d
 			y: 3.0d
+		}
+		{
+			dependencies: ["6D2F62AF25B42BF4"]
+			id: "47F8FB706B6B7D54"
+			tasks: [{
+				id: "7F94DC3A679F9C01"
+				item: "pneumaticcraft:solar_cell"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["47F8FB706B6B7D54"]
+			id: "4604545A66A40868"
+			tasks: [{
+				id: "748EDC54594005C7"
+				item: "pneumaticcraft:solar_compressor"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["268FCC2C8C81C4DC"]
+			id: "515B68B51A714E9E"
+			tasks: [{
+				id: "4813C805F4D96B78"
+				item: "pneumaticcraft:minigun"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7E3215B6AA8043DE"]
+			id: "0794E79277B6712D"
+			tasks: [{
+				id: "24843048A327DBD4"
+				item: "pneumaticcraft:huge_tank"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.5d
 		}
 	]
 	title: "&bИгры с давлением"

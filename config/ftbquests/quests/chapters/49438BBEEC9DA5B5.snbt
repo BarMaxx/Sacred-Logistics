@@ -1,6 +1,6 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "tech_circle"
 	filename: "49438BBEEC9DA5B5"
 	group: "7D6592869D36C6A4"
 	icon: {
@@ -14,6 +14,222 @@
 	id: "49438BBEEC9DA5B5"
 	order_index: 4
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["4222E4C3CB12466C"]
+			hide: true
+			id: "70AF28256FA25DFE"
+			tasks: [{
+				id: "1186391433909AE3"
+				item: {
+					Count: 1b
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:wood"
+						Throttle: 1.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["70AF28256FA25DFE"]
+			id: "7C27B14E0AF7092E"
+			tasks: [{
+				id: "7EC09E0DBA06EC4F"
+				item: {
+					Count: 1b
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:stone"
+						Throttle: 1.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7C27B14E0AF7092E"]
+			id: "77DF9B8E860E5BE4"
+			tasks: [{
+				id: "72C52C1C930E0068"
+				item: {
+					Count: 1b
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:iron"
+						Throttle: 1.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["77DF9B8E860E5BE4"]
+			id: "36904DC807D416A3"
+			tasks: [{
+				id: "2BA7D9CB283AED4E"
+				item: {
+					Count: 1b
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:gold"
+						Throttle: 1.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["36904DC807D416A3"]
+			id: "5455F4AB65385D94"
+			tasks: [{
+				id: "207931202133CC74"
+				item: {
+					Count: 1b
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:diamond"
+						Throttle: 1.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5455F4AB65385D94"]
+			id: "27F7A36D750BBA22"
+			tasks: [{
+				id: "20554553F3F6B6F5"
+				item: {
+					Count: 1b
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:emerald"
+						Throttle: 1.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["18F8BADF3A3A940A"]
+			hide: true
+			id: "2BC7E61690321FC7"
+			tasks: [{
+				id: "11D50C6F4A7915DA"
+				item: {
+					Count: 1b
+					id: "simplemagnets:basicmagnet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2BC7E61690321FC7"]
+			id: "772B53C80879D8C1"
+			tasks: [{
+				id: "620B857225A0181F"
+				item: {
+					Count: 1b
+					id: "simplemagnets:advancedmagnet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18F8BADF3A3A940A"]
+			hide: true
+			id: "4FFB520D618F844E"
+			tasks: [{
+				id: "2F44701E2028FB64"
+				item: "pipez:item_pipe"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18F8BADF3A3A940A"]
+			hide: true
+			id: "4BE00B126B272F20"
+			tasks: [{
+				id: "72C91D8E9FBA1816"
+				item: "pipez:fluid_pipe"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["18F8BADF3A3A940A"]
+			hide: true
+			id: "2C8EEF0E81A3D6E0"
+			tasks: [{
+				id: "49D5DD1FB11B456A"
+				item: "pipez:energy_pipe"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2C8EEF0E81A3D6E0"
+				"4FFB520D618F844E"
+				"4BE00B126B272F20"
+			]
+			id: "4FE36F49726604B3"
+			tasks: [{
+				id: "04FCFDF8CAA6A9E1"
+				item: "pipez:universal_pipe"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["18F8BADF3A3A940A"]
+			hide: true
+			id: "2EF780B2EA6832E3"
+			tasks: [{
+				id: "5559104DB4FC82B8"
+				item: "pipez:gas_pipe"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["18F8BADF3A3A940A"]
+			hide: true
+			id: "5F1F8DBE495FD558"
+			tasks: [{
+				id: "16CE05FA95B31E45"
+				item: "elevatorid:elevator_white"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+	]
 	title: "&bПолезные штуковины"
 }

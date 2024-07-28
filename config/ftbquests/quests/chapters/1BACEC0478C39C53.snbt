@@ -10,6 +10,7 @@
 	quests: [
 		{
 			dependencies: ["55F324BA94F91CEE"]
+			hide: true
 			id: "00A4C7E89B38A742"
 			tasks: [{
 				id: "45A7A5A949674F76"

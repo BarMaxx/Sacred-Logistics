@@ -1,0 +1,16 @@
+{
+  "type": "powah:energizing",
+  "ingredients": [
+	{
+	  "item": "minecraft:coal"
+	},
+	{
+	  "item": "minecraft:coal"
+	}
+  ],
+  "energy": 10000,
+  "result": {
+	"item": "biggerreactors:graphite_ingot",
+	"count": 2
+  }
+}
