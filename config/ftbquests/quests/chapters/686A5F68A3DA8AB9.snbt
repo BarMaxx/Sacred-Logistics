@@ -139,6 +139,12 @@
 		{
 			dependencies: ["56B246B4FB90E8D2"]
 			id: "47B628E949CB1419"
+			rewards: [{
+				auto: "invisible"
+				command: "/gamestage add @a nether false"
+				id: "16175E6A1CF14592"
+				type: "command"
+			}]
 			tasks: [{
 				id: "34CB256776C67FE8"
 				item: "assemblylinemachines:attuned_titanium_ingot"
