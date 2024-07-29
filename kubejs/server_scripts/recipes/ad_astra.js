@@ -20,4 +20,21 @@ ServerEvents.recipes(event => {
 	)
 	
 	
+	event.remove({output: 'ad_astra:launch_pad'})
+	event.shaped(
+	  Item.of('ad_astra:launch_pad'), 
+	  [
+	    'PNP',
+		'CSC',
+		'PNP'
+	  ], 
+	  {
+		P: '#forge:plates/steel',
+		S: 'ae2:singularity',
+		N: 'assemblylinemachines:novasteel_plate',
+		C: 'powah:crystal_nitro'
+	  }
+	)
+	
+	
 })

@@ -16,4 +16,19 @@ ServerEvents.recipes(event => {
 	)
 	
 	
+	event.remove({output: 'minecraft:iron_pickaxe'})
+	event.shaped(
+	  Item.of('minecraft:iron_pickaxe'), 
+	  [
+	    'III',
+		' P ',
+		' P '
+	  ], 
+	  {
+		I: '#forge:plates/iron',
+		P: '#forge:rods/wooden'
+	  }
+	)
+	
+	
 })

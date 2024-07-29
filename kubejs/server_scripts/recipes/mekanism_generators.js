@@ -18,4 +18,22 @@ ServerEvents.recipes(event => {
 	)
 	
 	
+	event.remove({output: 'mekanismgenerators:wind_generator'})
+	event.shaped(
+	  Item.of('mekanismgenerators:wind_generator'), 
+	  [
+	    'OAO',
+		'ACA',
+		'EBE'
+	  ], 
+	  {
+		O: 'mekanism:ingot_osmium',
+		A: '#forge:plates/aluminum',
+		C: 'alltheores:constantan_gear',
+		E: 'mekanism:energy_tablet',
+		B: 'mekanism:basic_control_circuit'
+	  }
+	)
+	
+	
 })

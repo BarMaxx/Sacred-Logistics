@@ -193,6 +193,7 @@
 					type: "item"
 				}
 			]
+			title: "Ядра"
 			x: 2.0d
 			y: 3.0d
 		}

@@ -647,7 +647,24 @@
 				type: "item"
 			}]
 			title: "&bМедная печь"
-			x: 8.0d
+			x: 7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5E03D8EFC425A9CD"]
+			id: "43DAF8E59F58AE77"
+			tasks: [{
+				id: "6D1FF20C4AD5E7C9"
+				item: {
+					Count: 1b
+					id: "alltheores:copper_ore_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
 			y: -5.0d
 		}
 	]
