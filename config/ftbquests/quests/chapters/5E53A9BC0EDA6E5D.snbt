@@ -43,7 +43,7 @@
 				item: "minecraft:cobblestone"
 				type: "item"
 			}]
-			title: "&bБулыжник"
+			title: "&b4х Булыжник"
 			x: 4.5d
 			y: 0.0d
 		}
@@ -147,7 +147,7 @@
 				item: "minecraft:raw_iron"
 				type: "item"
 			}]
-			title: "&bРудное железо"
+			title: "&b4х Рудное железо"
 			x: 8.0d
 			y: 0.0d
 		}
@@ -167,6 +167,7 @@
 				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
+			title: "&b4х Железный слиток"
 			x: 9.5d
 			y: 0.0d
 		}
@@ -190,6 +191,7 @@
 				}
 				type: "item"
 			}]
+			title: "&bЖелезная кирка"
 			x: 11.0d
 			y: 0.0d
 		}
@@ -208,6 +210,7 @@
 				item: "minecraft:diamond"
 				type: "item"
 			}]
+			title: "&b3х Алмаз"
 			x: 11.5d
 			y: 1.0d
 		}
@@ -230,6 +233,7 @@
 				}
 				type: "item"
 			}]
+			title: "&bАлмазная кирка"
 			x: 12.5d
 			y: 1.0d
 		}
@@ -249,6 +253,7 @@
 				item: "minecraft:raw_gold"
 				type: "item"
 			}]
+			title: "&b4х Рудное золото"
 			x: 11.5d
 			y: -1.0d
 		}
@@ -268,6 +273,7 @@
 				item: "minecraft:gold_ingot"
 				type: "item"
 			}]
+			title: "&b4х Золотой слиток"
 			x: 12.5d
 			y: -1.0d
 		}
@@ -285,6 +291,7 @@
 				item: "sophisticatedbackpacks:diamond_backpack"
 				type: "item"
 			}]
+			title: "&bАлмазный рюкзак"
 			x: 12.0d
 			y: 2.5d
 		}
@@ -301,6 +308,7 @@
 				item: "sophisticatedbackpacks:iron_backpack"
 				type: "item"
 			}]
+			title: "&bЖелезный рюкзак"
 			x: 9.5d
 			y: 1.5d
 		}
@@ -317,6 +325,7 @@
 				item: "sophisticatedbackpacks:gold_backpack"
 				type: "item"
 			}]
+			title: "&bЗолотой рюкзак"
 			x: 13.0d
 			y: -2.5d
 		}
@@ -391,7 +400,7 @@
 				item: "minecraft:stone"
 				type: "item"
 			}]
-			title: "&bКамень"
+			title: "&b4х Камень"
 			x: 6.5d
 			y: -1.0d
 		}
@@ -440,7 +449,7 @@
 				title: "Дерево"
 				type: "item"
 			}]
-			title: "&bДерево"
+			title: "&b4х Дерево"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -489,6 +498,7 @@
 				item: "minecraft:raw_copper"
 				type: "item"
 			}]
+			title: "&b4х Рудная медь"
 			x: 8.0d
 			y: -2.0d
 		}
@@ -501,6 +511,7 @@
 				item: "minecraft:copper_ingot"
 				type: "item"
 			}]
+			title: "&b4х Медный слиток"
 			x: 8.0d
 			y: -3.5d
 		}
@@ -531,6 +542,7 @@
 					type: "item"
 				}
 			]
+			title: "&bЖелезные хранилища"
 			x: 9.5d
 			y: -1.5d
 		}
@@ -561,6 +573,7 @@
 					type: "item"
 				}
 			]
+			title: "&bЗолотые хранилища"
 			x: 12.0d
 			y: -2.5d
 		}
@@ -591,6 +604,7 @@
 					type: "item"
 				}
 			]
+			title: "&bАлмазные хранилища"
 			x: 11.0d
 			y: 2.5d
 		}
@@ -599,11 +613,42 @@
 			id: "11FA4BB0BDB9A45F"
 			tasks: [{
 				id: "0055A00D8E130D8B"
-				item: "functionalstorage:oak_1"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "functionalstorage:drawer"
+					}
+				}
+				title: "Ящики"
 				type: "item"
 			}]
+			title: "&bЯщик"
 			x: 1.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["56DE8FACE0972F7D"]
+			id: "44F9A5EDA9697FFF"
+			tasks: [{
+				id: "2F4A202544CB4C53"
+				item: "allthemodium:teleport_pad"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E03D8EFC425A9CD"]
+			id: "4199FB8B15A80928"
+			tasks: [{
+				id: "1A34C7F1F13072E4"
+				item: "ironfurnaces:copper_furnace"
+				type: "item"
+			}]
+			title: "&bМедная печь"
+			x: 8.0d
+			y: -5.0d
 		}
 	]
 	title: "&bПервые шаги"
