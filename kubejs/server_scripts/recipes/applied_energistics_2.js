@@ -184,4 +184,37 @@ ServerEvents.recipes(event => {
 	)
 	
 	
+	event.remove({output: 'ae2:controller'})
+	event.shaped(
+	  Item.of('ae2:controller'), 
+	  [
+	    'STS',
+		'TQT',
+		'STS'
+	  ], 
+	  {
+		S: 'ae2:smooth_sky_stone_block',
+		T: 'assemblylinemachines:attuned_titanium_plate',
+		Q: 'kubejs:quantum_processor'
+	  }
+	)
+	
+	
+	event.remove({output: 'ae2:drive'})
+	event.shaped(
+	  Item.of('ae2:drive'), 
+	  [
+	    'TQT',
+		'FEF',
+		'TQT'
+	  ], 
+	  {
+		T: 'assemblylinemachines:attuned_titanium_ingot',
+		Q: 'kubejs:quantum_processor',
+		F: 'ae2:fluix_glass_cable',
+		E: 'alltheores:enderium_gear'
+	  }
+	)
+	
+	
 })

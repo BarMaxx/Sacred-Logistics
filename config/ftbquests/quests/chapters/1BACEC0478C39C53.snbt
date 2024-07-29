@@ -105,9 +105,9 @@
 			]
 			id: "00F98196C2D5ED9D"
 			tasks: [{
-				id: "025C4CBF8A17A916"
-				title: "Квантовый процессор"
-				type: "checkmark"
+				id: "0BD397EC6B405D4A"
+				item: "kubejs:quantum_processor"
+				type: "item"
 			}]
 			x: 3.0d
 			y: 0.0d

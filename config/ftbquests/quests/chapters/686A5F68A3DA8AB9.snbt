@@ -12,6 +12,11 @@
 			dependencies: ["1F24B9ADBE67E4F6"]
 			hide: true
 			id: "0261282B27BB7183"
+			rewards: [{
+				id: "2F8499FE37D0AA49"
+				item: "iceandfire:bestiary"
+				type: "item"
+			}]
 			shape: "tech_smooth_square"
 			size: 1.2d
 			tasks: [{
@@ -129,9 +134,9 @@
 			]
 			id: "56B246B4FB90E8D2"
 			tasks: [{
-				id: "131A4FD8CE459709"
-				title: "Драконий слиток"
-				type: "checkmark"
+				id: "23F98101E510A17C"
+				item: "kubejs:dragon_ingot"
+				type: "item"
 			}]
 			x: 5.0d
 			y: 0.0d

@@ -161,13 +161,28 @@
 				random_bonus: 4
 				type: "item"
 			}]
-			tasks: [{
-				count: 4L
-				id: "5BFA7A17D79ECCB6"
-				item: "minecraft:iron_ingot"
-				type: "item"
-			}]
-			title: "&b4х Железный слиток"
+			tasks: [
+				{
+					count: 4L
+					id: "5BFA7A17D79ECCB6"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "183D7077A312601B"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:plates/iron"
+						}
+					}
+					title: "2х Железная пластина"
+					type: "item"
+				}
+			]
+			title: "&bЖелезо"
 			x: 9.5d
 			y: 0.0d
 		}
@@ -204,13 +219,28 @@
 				random_bonus: 2
 				type: "item"
 			}]
-			tasks: [{
-				count: 3L
-				id: "577BC5577F0F2498"
-				item: "minecraft:diamond"
-				type: "item"
-			}]
-			title: "&b3х Алмаз"
+			tasks: [
+				{
+					count: 3L
+					id: "577BC5577F0F2498"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3133F0D25ED47054"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:plates/diamond"
+						}
+					}
+					title: "2х Алмазная пластина"
+					type: "item"
+				}
+			]
+			title: "&bАлмаз"
 			x: 11.5d
 			y: 1.0d
 		}
@@ -468,6 +498,7 @@
 					type: "item"
 				}
 			]
+			title: "&bВсемодий "
 			x: 13.0d
 			y: 0.0d
 		}
@@ -479,6 +510,7 @@
 				item: "allthemodium:allthemodium_ingot"
 				type: "item"
 			}]
+			title: "&bВсемодиевый слиток"
 			x: 14.5d
 			y: 0.0d
 		}
@@ -635,6 +667,7 @@
 				item: "allthemodium:teleport_pad"
 				type: "item"
 			}]
+			title: "&bТелепортационная панель"
 			x: 16.0d
 			y: 0.0d
 		}
@@ -664,6 +697,7 @@
 				}
 				type: "item"
 			}]
+			title: "&bМедный молот"
 			x: 8.5d
 			y: -5.0d
 		}
