@@ -1,6 +1,5 @@
 ServerEvents.recipes(event => {
 
-
 	event.remove({output: 'assemblylinemachines:empowered_conduction_component'})
 	event.shaped(
 	  Item.of('assemblylinemachines:empowered_conduction_component'), 
@@ -16,5 +15,48 @@ ServerEvents.recipes(event => {
 	  }
 	)
 	
+	event.remove({output: 'assemblylinemachines:hand_grinder'})
+	event.shaped(
+	  Item.of('assemblylinemachines:hand_grinder'), 
+	  [
+	    'AAA',
+		'BCB',
+		'BDB'
+	  ], 
+	  {
+		A: 'assemblylinemachines:silt_brick',
+		B: '#forge:plates/copper',
+		C: '#forge:ingots/titanium',
+		D: '#forge:plates/diamond'
+	  }
+	)
 	
+	event.remove({output: 'assemblylinemachines:crank_shaft'})
+	event.shaped(
+	  Item.of('assemblylinemachines:crank_shaft'), 
+	  [
+	    'BCB',
+		' A ',
+		'BCB'
+	  ], 
+	  {
+		A: '#forge:ingots/steel',
+		B: '#forge:rods/wooden',
+		C: 'assemblylinemachines:wooden_board'
+	  }
+	)
+	event.remove({output: 'assemblylinemachines:steel_hammer'})
+	event.remove({output: 'alltheores:steel_rod'})
+	event.shaped(
+	  Item.of('assemblylinemachines:steel_hammer'), 
+	  [
+	    ' AB',
+		' BA',
+		'B  '
+	  ], 
+	  {
+		A: '#forge:ingots/steel',
+		B: '#forge:rods/steel',
+	  }
+	)
 })

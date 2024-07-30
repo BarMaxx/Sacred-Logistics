@@ -4,3 +4,11 @@ rhino.local.properties
 local/kubejs/dev.properties
 hollowcore
 resourcepacks
+journeymap
+lightspeed-cache
+crash-reports
+modernfix
+saves
+patchouli_data.json
+usercache.json
+usernamecache.json
