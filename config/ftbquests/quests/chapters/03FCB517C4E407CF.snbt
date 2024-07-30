@@ -53,6 +53,8 @@
 				item: "ad_astra:astrodux"
 				type: "item"
 			}]
+			shape: "tech_square"
+			size: 1.2d
 			tasks: [
 				{
 					id: "344C97451C9AD0F4"
@@ -65,6 +67,7 @@
 					type: "item"
 				}
 			]
+			title: "Начало ракетостроению"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -135,6 +138,7 @@
 		}
 		{
 			dependencies: ["1CADCF40636C7EC7"]
+			description: ["Покоритель космоса 1-го уровня!"]
 			id: "5BE53FF882645428"
 			tasks: [{
 				id: "220181F25F9D1C8E"
@@ -153,6 +157,8 @@
 		{
 			dependencies: ["5BE53FF882645428"]
 			id: "390E1010397E5228"
+			shape: "tech_smooth_square"
+			size: 1.1d
 			tasks: [
 				{
 					id: "1911EF69D34497CC"
@@ -170,6 +176,7 @@
 		}
 		{
 			dependencies: ["390E1010397E5228"]
+			description: ["Покоритель космоса 2-го уровня!"]
 			id: "7032508DE0532020"
 			tasks: [{
 				id: "139FB5ECE62D869F"
@@ -188,6 +195,8 @@
 		{
 			dependencies: ["7032508DE0532020"]
 			id: "53739B62C39341D0"
+			shape: "tech_smooth_square"
+			size: 1.1d
 			tasks: [
 				{
 					id: "1E6E8E0EDE8A420E"
@@ -205,6 +214,7 @@
 		}
 		{
 			dependencies: ["53739B62C39341D0"]
+			description: ["Покоритель космоса 3-го уровня!"]
 			id: "0B6B3B3A25721C4D"
 			tasks: [{
 				id: "2F3FD6F32BE47D7A"
@@ -223,6 +233,8 @@
 		{
 			dependencies: ["0B6B3B3A25721C4D"]
 			id: "1C104BDDE83D0D65"
+			shape: "tech_smooth_square"
+			size: 1.1d
 			tasks: [
 				{
 					id: "74431543E24716B2"
@@ -240,6 +252,7 @@
 		}
 		{
 			dependencies: ["1C104BDDE83D0D65"]
+			description: ["Покоритель космоса 4-го уровня!"]
 			id: "651366CB6C96F7B3"
 			tasks: [{
 				id: "64A70AD649D02EBA"
@@ -436,6 +449,8 @@
 		{
 			dependencies: ["651366CB6C96F7B3"]
 			id: "5914193FB59EFE92"
+			shape: "tech_smooth_square"
+			size: 1.1d
 			tasks: [
 				{
 					id: "67E83FC5BA041D0A"

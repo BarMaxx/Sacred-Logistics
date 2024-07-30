@@ -37,4 +37,37 @@ ServerEvents.recipes(event => {
 	)
 	
 	
+	event.remove({output: 'ad_astra:rocket_nose_cone'})
+	event.shaped(
+	  Item.of('ad_astra:rocket_nose_cone'), 
+	  [
+	    ' L ',
+		'NCN',
+		'SCS'
+	  ], 
+	  {
+		L: 'minecraft:lightning_rod',
+		N: 'assemblylinemachines:novasteel_plate',
+		S: '#forge:plates/steel',
+		C: 'sacred_logistics:cobalt_ingot'
+	  }
+	)
+	
+	
+	event.remove({output: 'ad_astra:rocket_fin'})
+	event.shaped(
+	  Item.of('ad_astra:rocket_fin'), 
+	  [
+	    ' S ',
+		'SCS',
+		'N N'
+	  ], 
+	  {
+		N: 'assemblylinemachines:novasteel_plate',
+		S: '#forge:plates/steel',
+		C: 'sacred_logistics:cobalt_ingot'
+	  }
+	)
+	
+	
 })

@@ -17,6 +17,7 @@
 				type: "item"
 			}]
 			shape: "tech_smooth_square"
+			size: 1.2d
 			tasks: [{
 				id: "419F9F59CF4FA7F8"
 				item: "powah:energizing_orb"
@@ -31,21 +32,25 @@
 			id: "494F06D4FE769833"
 			tasks: [
 				{
+					count: 8L
 					id: "71E9888A72B6E808"
 					item: "powah:dielectric_paste"
 					type: "item"
 				}
 				{
+					count: 2L
 					id: "0FAEF355C5A4AE07"
 					item: "powah:dielectric_rod"
 					type: "item"
 				}
 				{
+					count: 2L
 					id: "0894F3109FB56480"
 					item: "powah:dielectric_rod_horizontal"
 					type: "item"
 				}
 			]
+			title: "Диэлектрик"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -128,6 +133,7 @@
 			dependencies: ["4BC27B8F8CBF12A3"]
 			id: "71465C94F3AB6D4B"
 			tasks: [{
+				count: 2L
 				id: "1FF700D165CAA81E"
 				item: "powah:ender_core"
 				type: "item"
@@ -140,16 +146,19 @@
 			id: "4F33ABC73D5F3E0B"
 			tasks: [
 				{
+					count: 8L
 					id: "7469BB36ECE281F3"
 					item: "fluxnetworks:flux_dust"
 					type: "item"
 				}
 				{
+					count: 2L
 					id: "459EAA7B6B718CE8"
 					item: "fluxnetworks:flux_core"
 					type: "item"
 				}
 			]
+			title: "Флаксовые штучки"
 			x: 3.0d
 			y: 3.0d
 		}
@@ -157,6 +166,7 @@
 			dependencies: ["4F33ABC73D5F3E0B"]
 			id: "0DC1C160F9B4584B"
 			tasks: [{
+				count: 2L
 				id: "204C63ABBB236D6E"
 				item: "fluxnetworks:flux_block"
 				type: "item"
@@ -245,6 +255,7 @@
 			dependencies: ["4BC27B8F8CBF12A3"]
 			id: "05462498FBA9F90E"
 			tasks: [{
+				count: 4L
 				id: "690D5A768C2A9D7A"
 				item: "biggerreactors:graphite_ingot"
 				type: "item"
@@ -256,6 +267,7 @@
 			dependencies: ["05462498FBA9F90E"]
 			id: "4D1DEA1633BE8EB1"
 			tasks: [{
+				count: 2L
 				id: "3CE83A5783F2A3BC"
 				item: "biggerreactors:reactor_casing"
 				type: "item"

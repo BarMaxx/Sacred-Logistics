@@ -252,6 +252,7 @@
 			dependencies: ["47B628E949CB1419"]
 			id: "541CB67295A544F5"
 			shape: "tech_square"
+			size: 1.2d
 			tasks: [
 				{
 					count: 10L
@@ -680,6 +681,7 @@
 			description: ["&2Око Эндера&f нужно для нахождения и активации портала в &5Край&f."]
 			id: "3CE6ECDB2520ED5F"
 			shape: "tech_square"
+			size: 1.2d
 			subtitle: "Пора в Край"
 			tasks: [
 				{
@@ -875,6 +877,7 @@
 			dependencies: ["5C559434AFA4FCA5"]
 			id: "143EBEB2F1D7D104"
 			tasks: [{
+				count: 4L
 				id: "29B40701D37FECBC"
 				item: "cataclysm:witherite_ingot"
 				type: "item"

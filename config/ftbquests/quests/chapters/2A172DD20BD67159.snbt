@@ -65,6 +65,7 @@
 			dependencies: ["1723DF54C9D0ABD2"]
 			id: "69D4F73296DABA04"
 			tasks: [{
+				count: 2L
 				id: "7FA2B5B155782B1F"
 				item: "mekanism:advanced_control_circuit"
 				type: "item"
@@ -76,6 +77,7 @@
 			dependencies: ["69D4F73296DABA04"]
 			id: "06849B39197B1D66"
 			tasks: [{
+				count: 2L
 				id: "5F9D4D79C7AE0F9E"
 				item: "mekanism:elite_control_circuit"
 				type: "item"
@@ -87,6 +89,7 @@
 			dependencies: ["06849B39197B1D66"]
 			id: "12BE3309A1C1C2A6"
 			tasks: [{
+				count: 2L
 				id: "17BD4955C35B0D06"
 				item: "mekanism:ultimate_control_circuit"
 				type: "item"
@@ -434,7 +437,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -5.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["75F645B49BCCB0E7"]
@@ -660,6 +663,7 @@
 			dependencies: ["6180ACBB10C75460"]
 			id: "1DFB6A8F660DF882"
 			tasks: [{
+				count: 2L
 				id: "677F3BB9FC53E272"
 				item: "kubejs:steel_catalyst"
 				type: "item"
@@ -803,6 +807,7 @@
 			dependencies: ["6180ACBB10C75460"]
 			id: "37E3EDA19E4DF9A3"
 			tasks: [{
+				count: 2L
 				id: "5D66117E94A93981"
 				item: "kubejs:osmium_catalyst"
 				type: "item"

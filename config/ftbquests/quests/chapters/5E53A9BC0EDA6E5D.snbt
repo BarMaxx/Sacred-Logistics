@@ -116,6 +116,7 @@
 		}
 		{
 			dependencies: ["7CA023B662360C6A"]
+			description: ["Быстрее плавит руду."]
 			id: "459270456C29E625"
 			rewards: [{
 				id: "28602DDDC467F5E8"
@@ -398,6 +399,7 @@
 		}
 		{
 			dependencies: ["7CA023B662360C6A"]
+			description: ["Быстрее жарит еду."]
 			id: "4F6DDAD39A65752A"
 			rewards: [{
 				id: "172011DA52647909"
