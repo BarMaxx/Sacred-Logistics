@@ -525,4 +525,20 @@ ServerEvents.recipes(event => {
 	)
 	
 	
+	event.remove({output: 'minecraft:smithing_table'})
+	event.shaped(
+	  Item.of('minecraft:smithing_table'), 
+	  [
+	    'SSS',
+		'PCP',
+		'PPP'
+	  ], 
+	  {
+		S: 'assemblylinemachines:pure_steel_ingot',
+		C: 'sacred_logistics:chlorophyte_ingot',
+		P: '#minecraft:planks'
+	  }
+	)
+	
+	
 })

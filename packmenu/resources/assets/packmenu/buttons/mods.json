@@ -1,0 +1,9 @@
+{
+	"x": -50,
+	"y": 55,
+	"width": 98,
+	"height": 20,
+	"langKey": "fml.menu.mods",
+	"action": "OPEN_GUI",
+	"data": "MODS"
+}

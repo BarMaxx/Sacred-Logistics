@@ -10,6 +10,13 @@
 	quests: [
 		{
 			dependencies: ["1F24B9ADBE67E4F6"]
+			description: [
+				"В мире теперь появляются драконы. Странные существа... "
+				""
+				"Но, к сожалению, я должен убить нескольких, чтобы продолжить развивать свои технологии!"
+				""
+				"&bНеобходимо убить настоящего Дракона из мода IceAndFire.&r"
+			]
 			hide: true
 			id: "0261282B27BB7183"
 			rewards: [{
@@ -18,6 +25,7 @@
 				type: "item"
 			}]
 			shape: "tech_smooth_square"
+			subtitle: "Мифические существа!"
 			tasks: [{
 				id: "69C229238E3EE268"
 				title: "Драконы!"
@@ -28,7 +36,13 @@
 		}
 		{
 			dependencies: ["0261282B27BB7183"]
+			description: [
+				"Неужели я получил Сердце настоящего &6Огненного дракона&r..."
+				""
+				"&bСердце можно добыть, после убийства дракона.&r"
+			]
 			id: "3E73871818949F1F"
+			subtitle: "Сердечко :)"
 			tasks: [{
 				id: "24C947F82E1FC158"
 				item: "iceandfire:fire_dragon_heart"
@@ -39,7 +53,13 @@
 		}
 		{
 			dependencies: ["0261282B27BB7183"]
+			description: [
+				"Неужели я получил Сердце настоящего &6Грозового дракона&r..."
+				""
+				"&bСердце можно добыть, после убийства дракона.&r"
+			]
 			id: "2649D77DC3C4D746"
+			subtitle: "Сердечко :)"
 			tasks: [{
 				id: "6E002605616A4D4C"
 				item: "iceandfire:lightning_dragon_heart"
@@ -50,7 +70,13 @@
 		}
 		{
 			dependencies: ["0261282B27BB7183"]
+			description: [
+				"Неужели я получил Сердце настоящего &6Ледяного дракона&r..."
+				""
+				"&bСердце можно добыть, после убийства дракона.&r"
+			]
 			id: "4D8965D93C4A829F"
+			subtitle: "Сердечко :)"
 			tasks: [{
 				id: "04044B3120168302"
 				item: "iceandfire:ice_dragon_heart"
@@ -156,6 +182,7 @@
 			dependencies: ["1882C265FFBB0A63"]
 			id: "7B450934FD23A4CB"
 			tasks: [{
+				count: 2L
 				id: "57C8A687BF546B42"
 				item: "iceandfire:dragonsteel_fire_ingot"
 				type: "item"
@@ -167,6 +194,7 @@
 			dependencies: ["4359512C0AE0F522"]
 			id: "3CB348D54D869833"
 			tasks: [{
+				count: 2L
 				id: "633E5385AAF850C1"
 				item: "iceandfire:dragonsteel_lightning_ingot"
 				type: "item"
@@ -178,6 +206,7 @@
 			dependencies: ["312FFFB82BC251B4"]
 			id: "64D03BC63B5A12B1"
 			tasks: [{
+				count: 2L
 				id: "516E4E4698D1252C"
 				item: "iceandfire:dragonsteel_ice_ingot"
 				type: "item"
@@ -193,6 +222,7 @@
 			]
 			id: "56B246B4FB90E8D2"
 			tasks: [{
+				count: 2L
 				id: "23F98101E510A17C"
 				item: "kubejs:dragon_ingot"
 				type: "item"
@@ -210,6 +240,7 @@
 				type: "command"
 			}]
 			tasks: [{
+				count: 2L
 				id: "34CB256776C67FE8"
 				item: "assemblylinemachines:attuned_titanium_ingot"
 				type: "item"
@@ -223,6 +254,7 @@
 			shape: "tech_square"
 			tasks: [
 				{
+					count: 10L
 					id: "16344C4FA09658D3"
 					item: "minecraft:obsidian"
 					type: "item"
@@ -230,6 +262,7 @@
 				{
 					dimension: "minecraft:the_nether"
 					id: "746874F3C56015DF"
+					title: "Посетить измерение &4Незер"
 					type: "dimension"
 				}
 			]
@@ -263,6 +296,7 @@
 			dependencies: ["3CBA88D3F4CAF8BE"]
 			id: "59A45E1E34ABFB08"
 			tasks: [{
+				count: 2L
 				id: "32AE3F5B80E419EE"
 				item: "minecraft:blaze_rod"
 				type: "item"
@@ -626,7 +660,14 @@
 		{
 			dependencies: ["59A45E1E34ABFB08"]
 			id: "7BA9612B04DE3D09"
+			rewards: [{
+				auto: "invisible"
+				command: "/gamestage add @a end false"
+				id: "6E53C1C8608268FA"
+				type: "command"
+			}]
 			tasks: [{
+				count: 4L
 				id: "540EBB68D92ABF29"
 				item: "minecraft:blaze_powder"
 				type: "item"
@@ -638,18 +679,11 @@
 			dependencies: ["7BA9612B04DE3D09"]
 			description: ["&2Око Эндера&f нужно для нахождения и активации портала в &5Край&f."]
 			id: "3CE6ECDB2520ED5F"
-			rewards: [{
-				id: "1F0B051BC77989F3"
-				item: "minecraft:ender_eye"
-				only_one: true
-				random_bonus: 2
-				type: "item"
-			}]
 			shape: "tech_square"
 			subtitle: "Пора в Край"
 			tasks: [
 				{
-					count: 12L
+					count: 5L
 					id: "6913BE94DB66822F"
 					item: "minecraft:ender_eye"
 					title: "Око Эндера"
@@ -658,6 +692,7 @@
 				{
 					dimension: "minecraft:the_end"
 					id: "11CEFAAD6FDFDF6E"
+					title: "Посетить измерение &5Край"
 					type: "dimension"
 				}
 			]
@@ -1105,8 +1140,15 @@
 		{
 			dependencies: ["7CD800F7D537713F"]
 			id: "68397160ED2B2FDD"
+			rewards: [{
+				id: "5273DA5EF1812109"
+				item: "sacred_logistics:raw_meteorite"
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [
 				{
+					count: 2L
 					id: "4902098CC8DD050B"
 					item: "sacred_logistics:raw_meteorite"
 					type: "item"
@@ -1123,9 +1165,17 @@
 		}
 		{
 			dependencies: ["0261282B27BB7183"]
+			description: ["После убийства своего первого Дракона, мой мир изменился и теперь в нём начал появляться новый странный ресурс - &6Хлорофит&r."]
 			id: "34E6D50A5241CFEF"
+			rewards: [{
+				id: "0F4BF0569E0D80E3"
+				item: "sacred_logistics:raw_chlorophyte"
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [
 				{
+					count: 2L
 					id: "1901A201A0656C6D"
 					item: "sacred_logistics:raw_chlorophyte"
 					type: "item"
@@ -1143,8 +1193,15 @@
 		{
 			dependencies: ["33C1F735EFF06519"]
 			id: "7072EE914AA47D93"
+			rewards: [{
+				id: "4D23F527EF399386"
+				item: "sacred_logistics:raw_crimson"
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [
 				{
+					count: 2L
 					id: "7461570E23F1BAD7"
 					item: "sacred_logistics:raw_crimson"
 					type: "item"
@@ -1162,8 +1219,15 @@
 		{
 			dependencies: ["33C1F735EFF06519"]
 			id: "0EFFB3050A51416E"
+			rewards: [{
+				id: "50604F2704B13817"
+				item: "sacred_logistics:raw_demonite"
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [
 				{
+					count: 2L
 					id: "78C349FDF7794794"
 					item: "sacred_logistics:raw_demonite"
 					type: "item"
@@ -1199,6 +1263,7 @@
 		{
 			dependencies: ["47B628E949CB1419"]
 			id: "707A6B0ED548D71F"
+			subtitle: "Улучшенная версия!"
 			tasks: [{
 				id: "41B588A5C0F5C537"
 				item: "assemblylinemachines:mkii_alloy_smelter"
@@ -1210,6 +1275,7 @@
 		{
 			dependencies: ["47B628E949CB1419"]
 			id: "71B1B75882CF5D6E"
+			subtitle: "Улучшенная версия!"
 			tasks: [{
 				id: "59ED28754A0146F0"
 				item: "assemblylinemachines:mkii_fluid_mixer"
@@ -1221,6 +1287,7 @@
 		{
 			dependencies: ["47B628E949CB1419"]
 			id: "6E9BEE9609350537"
+			subtitle: "Улучшенная версия!"
 			tasks: [{
 				id: "7D45CA11CE2E0490"
 				item: "assemblylinemachines:mkii_furnace"
@@ -1232,6 +1299,7 @@
 		{
 			dependencies: ["47B628E949CB1419"]
 			id: "7854111761CCC433"
+			subtitle: "Улучшенная версия!"
 			tasks: [{
 				id: "71F48C0F8B6B721E"
 				item: "assemblylinemachines:mkii_grinder"
@@ -1243,24 +1311,26 @@
 		{
 			dependencies: ["47B628E949CB1419"]
 			id: "4C4E73546A75F50D"
+			subtitle: "Улучшенная версия!"
 			tasks: [{
 				id: "15F8F338B60FF905"
 				item: "assemblylinemachines:mkii_pneumatic_compressor"
 				type: "item"
 			}]
 			x: 6.5d
-			y: -1.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["47B628E949CB1419"]
 			id: "502273EB97B66F11"
+			subtitle: "Улучшенная версия!"
 			tasks: [{
 				id: "31FF0F361D9EA260"
 				item: "assemblylinemachines:mkii_purifier"
 				type: "item"
 			}]
 			x: 6.5d
-			y: 1.0d
+			y: -1.0d
 		}
 	]
 	title: "&bВстреча с мистикой"

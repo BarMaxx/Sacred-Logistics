@@ -1,3 +1,7 @@
 {
-	"item.kubejs.dragon_ingot": "Слиток дракона"
+	"item.kubejs.dragon_ingot": "Слиток дракона",
+	"item.kubejs.osmium_catalyst": "Осмиевый катализатор",
+	"item.kubejs.steel_catalyst": "Стальной катализатор",
+	"item.kubejs.photocell": "Фотоэлемент",
+	"item.kubejs.quantum_processor": "Квантовый процессор"
 }
