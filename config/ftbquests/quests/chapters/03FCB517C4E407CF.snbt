@@ -433,6 +433,25 @@
 			x: 9.0d
 			y: 1.5d
 		}
+		{
+			dependencies: ["651366CB6C96F7B3"]
+			id: "5914193FB59EFE92"
+			tasks: [
+				{
+					id: "67E83FC5BA041D0A"
+					item: "sacred_logistics:raw_luminite"
+					type: "item"
+				}
+				{
+					id: "2321748740587614"
+					item: "sacred_logistics:luminite_ingot"
+					type: "item"
+				}
+			]
+			title: "Люминит"
+			x: 12.0d
+			y: 0.0d
+		}
 	]
 	title: "&bГлавное путешествие"
 }

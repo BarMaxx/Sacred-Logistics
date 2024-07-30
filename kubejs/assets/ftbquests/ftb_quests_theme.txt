@@ -2,8 +2,8 @@
 background:          ftblibrary:textures/gui/background_squares.png; color=#DCFFFFFF; tile_size=64
 extra_quest_shapes:  diamond, pentagon, hexagon, octagon, heart, gear, tech_circle, tech_square, tech_smooth_square
 
-text_color:          #FFFFFF
-hover_text_color:    #FFFFA0
+text_color:          #AAAAAA
+hover_text_color:    #AAAAAA
 disabled_text_color: #999999
 
 widget_border:     #1B1D1E
