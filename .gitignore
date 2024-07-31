@@ -9,6 +9,7 @@ lightspeed-cache
 crash-reports
 modernfix
 saves
+config/jei/world/local/.*
 patchouli_data.json
 usercache.json
 usernamecache.json
