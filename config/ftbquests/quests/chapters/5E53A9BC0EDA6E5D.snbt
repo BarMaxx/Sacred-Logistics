@@ -16,6 +16,12 @@
 				"&bОткрывает доступ к созданию огромного количества предметов.&r"
 			]
 			id: "05EB7D069C18CA1E"
+			rewards: [{
+				count: 6
+				id: "705D806C1808C29A"
+				item: "minecraft:apple"
+				type: "item"
+			}]
 			subtitle: "Главный рабочий стол!"
 			tasks: [{
 				id: "5CE947F135239979"
@@ -391,6 +397,12 @@
 			dependencies: ["05EB7D069C18CA1E"]
 			description: ["&7&6Деревянная кирка&7 позволит мне добывать начальные твёрдые породы, а именно - &2Булыжник&7.&r"]
 			id: "6C7F234B75D1E84F"
+			rewards: [{
+				count: 12
+				id: "1ADF676223243FDE"
+				item: "minecraft:coal"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4FEA2C034342544F"
 				item: {
@@ -449,6 +461,21 @@
 			dependencies: ["59A6896A8B3C6B62"]
 			description: ["&7&6Каменная кирка&7 позволяет добывать более твёрдые каменные породы.&r"]
 			id: "7A3F3E23A0387DE6"
+			rewards: [{
+				id: "7C839FA07E932274"
+				item: {
+					Count: 1b
+					id: "minecraft:stone_sword"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:looting"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
 			subtitle: "Обновка!"
 			tasks: [{
 				id: "18B428008BE10777"
@@ -693,6 +720,13 @@
 			dependencies: ["5E03D8EFC425A9CD"]
 			description: ["Медная печь плавит немного быстрее обычной."]
 			id: "4199FB8B15A80928"
+			rewards: [{
+				count: 8
+				id: "4A8A6FBD580EE3F7"
+				item: "minecraft:raw_iron"
+				random_bonus: 20
+				type: "item"
+			}]
 			tasks: [{
 				id: "1A34C7F1F13072E4"
 				item: "ironfurnaces:copper_furnace"
