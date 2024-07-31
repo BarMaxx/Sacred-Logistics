@@ -244,6 +244,7 @@
 			description: ["Переплавив &6железный ил&r я могу получить новый материал - &6очищенное золото&r."]
 			id: "446C755EE2D35DB4"
 			tasks: [{
+				count: 4L
 				id: "40F449539094A971"
 				item: "assemblylinemachines:pure_gold_ingot"
 				type: "item"
@@ -257,6 +258,7 @@
 			id: "6059F731870DB6C3"
 			tasks: [
 				{
+					count: 3L
 					id: "1F5A8894E7262A7A"
 					item: "assemblylinemachines:pure_gold_blade_piece"
 					type: "item"
@@ -273,6 +275,7 @@
 					type: "item"
 				}
 			]
+			title: "Новое лезвие"
 			x: 5.5d
 			y: 1.5d
 		}
@@ -304,6 +307,7 @@
 			shape: "tech_square"
 			size: 1.25d
 			tasks: [{
+				count: 2L
 				id: "770D539CDEB34D7F"
 				item: {
 					Count: 1b
@@ -365,6 +369,7 @@
 					type: "item"
 				}
 			]
+			title: "Кинетическая энергия"
 			x: 7.5d
 			y: 0.0d
 		}
@@ -373,7 +378,7 @@
 			description: [
 				"Теперь я могу создать кинетическую дробилку!"
 				""
-				"Примечание: слева от дробилки нужно поставить рукоятку, а справа - сундук."
+				"&bПримечание: слева от дробилки нужно поставить рукоятку, а справа - сундук.&r"
 			]
 			id: "3B377F248DC18422"
 			tasks: [{
@@ -389,6 +394,7 @@
 			description: ["Моя следующая цель - резервуар. Для начала стоит создать несколько дощечек."]
 			id: "069E8EC5BDD603D4"
 			tasks: [{
+				count: 4L
 				id: "2650651949E480D3"
 				item: "assemblylinemachines:wooden_board"
 				type: "item"
@@ -431,6 +437,7 @@
 					type: "item"
 				}
 			]
+			title: "Новая мешалка"
 			x: 11.0d
 			y: 0.0d
 		}
@@ -439,6 +446,7 @@
 			description: ["Теперь, когда у меня есть дробилка, я могу разрезать &8стальной блок&r на &8стальные стержни&r."]
 			id: "66B0DF6AADAB7C2B"
 			tasks: [{
+				count: 2L
 				id: "1266C836D51187C9"
 				item: "assemblylinemachines:steel_rod"
 				type: "item"
@@ -469,6 +477,7 @@
 			description: ["Теперь я могу создать пластины из чистого железа."]
 			id: "292D30C65D6E79C6"
 			tasks: [{
+				count: 2L
 				id: "03FF996CE76A97F0"
 				item: "assemblylinemachines:pure_iron_plate"
 				type: "item"
@@ -481,6 +490,7 @@
 			description: ["Используя несколько пластин и палку я, наконец, могу создать шестерёнку."]
 			id: "4BA670CF441AAC35"
 			tasks: [{
+				count: 2L
 				id: "350DEED8F844ABE1"
 				item: "assemblylinemachines:pure_iron_gear"
 				type: "item"
@@ -493,6 +503,7 @@
 			description: ["Кристаллизировав &8угольную&r и &4редстоуновую&r пыль я смогу получить усиленный кристалл."]
 			id: "7450A023B131264F"
 			tasks: [{
+				count: 2L
 				id: "0CE01F4AB3DE9C5F"
 				item: "assemblylinemachines:empowered_coal"
 				type: "item"
@@ -546,9 +557,14 @@
 		}
 		{
 			dependencies: ["01383BAF8FBAE80A"]
-			description: ["Теперь, используя механическую кирку, я могу добыть в аду чёрный гранит."]
+			description: [
+				"Теперь, используя механическую кирку, я могу добыть в аду чёрный гранит. "
+				""
+				"&bЧёрный гранит также можно добыть с метеоритов.&r"
+			]
 			id: "6D5C68105A5B22C9"
 			tasks: [{
+				count: 4L
 				id: "4E43A51683A6DA57"
 				item: "assemblylinemachines:black_granite"
 				type: "item"
@@ -561,6 +577,7 @@
 			description: ["Теперь я могу создать свои первые провода для передачи энергии."]
 			id: "3F6BB8B1E5B23BE8"
 			tasks: [{
+				count: 4L
 				id: "5BBA02B2B34C15A1"
 				item: "assemblylinemachines:energy_pipe"
 				type: "item"
@@ -570,7 +587,7 @@
 		}
 		{
 			dependencies: ["3F6BB8B1E5B23BE8"]
-			description: ["Используя этот механизм я смогу конвертировать кинетическую энергию в электрическую, это первые шаги в электрический век!"]
+			description: ["Используя этот механизм я смогу конвертировать кинетическую энергию в электрическую, это первые шаги в &6электрический век&r!"]
 			id: "536D4156A83E173F"
 			tasks: [{
 				id: "0E03591D83BE7D4A"
@@ -600,6 +617,7 @@
 			description: ["Используя очиститель с &8гравием&r, &eпеском&r и &8сталью&r, я могу получить новый материал - &7очищенную сталь&r."]
 			id: "00A6BEF41504D2F0"
 			tasks: [{
+				count: 2L
 				id: "592D1D07A95C70F5"
 				item: "assemblylinemachines:pure_steel_ingot"
 				type: "item"
@@ -612,6 +630,7 @@
 			description: ["Теперь у меня есть всё для создания очищенной стальной шестерёнки. Время создать её!"]
 			id: "379F20173F3A2764"
 			tasks: [{
+				count: 2L
 				id: "009D39D3FBC7F3FC"
 				item: "assemblylinemachines:pure_steel_gear"
 				type: "item"
@@ -673,6 +692,7 @@
 			]
 			id: "1F24B9ADBE67E4F6"
 			tasks: [{
+				count: 2L
 				id: "2587A3D38F8C1B95"
 				item: "assemblylinemachines:mystium_ingot"
 				type: "item"
@@ -685,6 +705,7 @@
 			description: ["Теперь, используя смеситель, я наконец могу создать мистиевую пыль, что-то среднее между наукой и магией."]
 			id: "73EF0FEFFC6A3CEF"
 			tasks: [{
+				count: 2L
 				id: "6AC0F8B58187913F"
 				item: "assemblylinemachines:mystium_blend"
 				type: "item"
@@ -697,6 +718,7 @@
 			description: ["Используя смеситель я могу зарядить золото с помощью редстоуновой пыли."]
 			id: "79B1DE6854535EF5"
 			tasks: [{
+				count: 2L
 				id: "028C3FBF5041321D"
 				item: "assemblylinemachines:energized_gold_ingot"
 				type: "item"
@@ -709,6 +731,7 @@
 			description: ["Теперь, мне осталось раздробить энергетическое золото в пыль..."]
 			id: "69C24219EDF20D8C"
 			tasks: [{
+				count: 2L
 				id: "1E50083CCF1FF389"
 				item: "assemblylinemachines:electrified_netherite_blend"
 				type: "item"
@@ -733,7 +756,8 @@
 			description: ["Близится новая эпоха, я думаю мне стоит переходить на более продвинутые материалы, например - заряженное золото."]
 			id: "44144661FCE31A8E"
 			tasks: [{
-				id: "0A5B7986E398A3A0"
+				count: 4L
+				id: "673812EE1629B5C0"
 				item: "assemblylinemachines:energized_gold_plate"
 				type: "item"
 			}]
