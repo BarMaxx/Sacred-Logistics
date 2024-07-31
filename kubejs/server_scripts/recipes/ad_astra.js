@@ -69,5 +69,19 @@ ServerEvents.recipes(event => {
 	  }
 	)
 	
-	
+	event.remove({output: 'ad_astra:steel_tank'})
+	event.shaped(
+	  Item.of('ad_astra:steel_tank'), 
+	  [
+	    'ACA',
+		'BDB',
+		'ACA'
+	  ], 
+	  {
+		A: 'sacred_logistics:cobalt_ingot',
+		B: 'assemblylinemachines:novasteel_plate',
+		C: 'powah:capacitor_hardened',
+		D: 'mekanism:ultimate_fluid_tank'
+	  }
+	)
 })
