@@ -9,13 +9,7 @@
 	drop_loot_crates: false
 	emergency_items_cooldown: 300
 	grid_scale: 0.5d
-	icon: {
-		Count: 1b
-		id: "ad_astra:tier_1_rocket"
-		tag: {
-			BotariumData: { }
-		}
-	}
+	icon: "kubejs:almighty_cog"
 	lock_message: ""
 	loot_crate_no_drop: {
 		boss: 0

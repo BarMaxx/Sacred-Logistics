@@ -134,6 +134,7 @@
 		}
 		{
 			dependencies: ["7A3F3E23A0387DE6"]
+			description: ["Создав каменную кирку, я могу добыть новый ресурс - &6Железо&r."]
 			id: "050CD68574E6F1E6"
 			rewards: [{
 				count: 2
@@ -154,6 +155,11 @@
 		}
 		{
 			dependencies: ["050CD68574E6F1E6"]
+			description: [
+				"Рудное железо я могу переплавить в железные слитки."
+				""
+				"Железные слитки я могу переделать в железные пластины, для создания &6Железной кирки&r."
+			]
 			id: "73D8A15D7A0E9FA2"
 			rewards: [{
 				count: 4
@@ -162,6 +168,7 @@
 				random_bonus: 4
 				type: "item"
 			}]
+			subtitle: "Куй железо, пока горячо!"
 			tasks: [
 				{
 					count: 4L
@@ -189,6 +196,7 @@
 		}
 		{
 			dependencies: ["73D8A15D7A0E9FA2"]
+			description: ["Улучшенная кирка, с помощью котрой я могу добыть новые ресурсы - &6Золото&r и &6Алмазы&r."]
 			id: "39C60726C5C4150F"
 			rewards: [{
 				count: 4
@@ -328,6 +336,7 @@
 		}
 		{
 			dependencies: ["73D8A15D7A0E9FA2"]
+			description: ["Улучшенная версия обычного рюкзака."]
 			id: "5D24178A87E70FF2"
 			rewards: [{
 				id: "09A75C2C257EA164"
@@ -522,6 +531,7 @@
 		}
 		{
 			dependencies: ["7A3F3E23A0387DE6"]
+			description: ["Создав каменную кирку, я могу добыть новый ресурс - &6Медь&r."]
 			id: "53A87DE6F28197DB"
 			rewards: [{
 				count: 2
@@ -542,6 +552,7 @@
 		}
 		{
 			dependencies: ["53A87DE6F28197DB"]
+			description: ["Рудную медь я могу переплавить в медные слитки."]
 			id: "5E03D8EFC425A9CD"
 			tasks: [{
 				count: 4L
@@ -555,6 +566,7 @@
 		}
 		{
 			dependencies: ["73D8A15D7A0E9FA2"]
+			description: ["Улучшенная версия обычных сундуков и бочек."]
 			id: "1E2E83EFB9F203F0"
 			tasks: [
 				{
@@ -679,6 +691,7 @@
 		}
 		{
 			dependencies: ["5E03D8EFC425A9CD"]
+			description: ["Медная печь плавит немного быстрее обычной."]
 			id: "4199FB8B15A80928"
 			tasks: [{
 				id: "1A34C7F1F13072E4"
@@ -691,6 +704,7 @@
 		}
 		{
 			dependencies: ["5E03D8EFC425A9CD"]
+			description: ["Медный молот необходим мне для создания различных пластин."]
 			id: "43DAF8E59F58AE77"
 			tasks: [{
 				id: "6D1FF20C4AD5E7C9"

@@ -1,4 +1,5 @@
 {
+	hide_tooltip: true
 	id: "615A7E1A239E2611"
 	loot_size: 1
 	order_index: 5
@@ -52,7 +53,6 @@
 		{ item: "sophisticatedbackpacks:stonecutter_upgrade" }
 		{ item: "sophisticatedbackpacks:stack_upgrade_tier_1" }
 		{ item: "sophisticatedbackpacks:jukebox_upgrade" }
-		{ item: "sophisticatedbackpacks:tool_swapper_upgrade" }
 		{ item: "sophisticatedbackpacks:tank_upgrade" }
 		{ item: "sophisticatedbackpacks:battery_upgrade" }
 		{ item: "sophisticatedbackpacks:pump_upgrade" }

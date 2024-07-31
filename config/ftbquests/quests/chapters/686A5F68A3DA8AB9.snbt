@@ -5,6 +5,56 @@
 	group: "724CB10F5936E1B7"
 	icon: "iceandfire:lightning_dragon_heart"
 	id: "686A5F68A3DA8AB9"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "iceandfire:item/fire_dragon_heart"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "iceandfire:item/ice_dragon_heart"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "iceandfire:item/dragonsteel_fire_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "iceandfire:item/dragonsteel_ice_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: 2.0d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
@@ -1334,6 +1384,18 @@
 			}]
 			x: 6.5d
 			y: -1.0d
+		}
+		{
+			dependencies: ["34E6D50A5241CFEF"]
+			description: ["Стол кузнеца необходим мне для улучшения своего снаряжения."]
+			id: "32FA7398CBBD72A6"
+			tasks: [{
+				id: "785B0B060E541C88"
+				item: "minecraft:smithing_table"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
 		}
 	]
 	title: "&bВстреча с мистикой"

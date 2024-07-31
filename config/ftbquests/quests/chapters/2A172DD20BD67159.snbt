@@ -5,6 +5,32 @@
 	group: "7D6592869D36C6A4"
 	icon: "mekanism:basic_control_circuit"
 	id: "2A172DD20BD67159"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mekanism:item/pellet_antimatter"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mekanism:item/pellet_polonium"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -8.5d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [

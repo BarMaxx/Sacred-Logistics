@@ -1,0 +1,27 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "tech_circle"
+	filename: "160173843A9271B6"
+	group: "3300196F2614D758"
+	icon: "kubejs:almighty_cog"
+	id: "160173843A9271B6"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["5914193FB59EFE92"]
+		description: ["Предмет, к которому я шёл так долго, уже совсем рядом..."]
+		hide: true
+		id: "097BBFB32A4B8707"
+		shape: "tech_smooth_square"
+		size: 2.0d
+		subtitle: "Финал!"
+		tasks: [{
+			id: "6A579FF10B6E0AF5"
+			item: "kubejs:almighty_cog"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "&bЭто конец..."
+}

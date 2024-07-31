@@ -1,4 +1,5 @@
 {
+	hide_tooltip: true
 	id: "16DB3F9FAE9B03DA"
 	loot_size: 1
 	order_index: 6
