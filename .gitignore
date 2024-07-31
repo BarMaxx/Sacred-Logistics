@@ -13,3 +13,4 @@ config/jei/world/local/.*
 patchouli_data.json
 usercache.json
 usernamecache.json
+fancymenu_data
