@@ -14,6 +14,7 @@ ServerEvents.recipes(event => {
 			A: 'cataclysm:ancient_metal_ingot'
 		}
 	)
+	
 
 	event.remove({ output: 'assemblylinemachines:hand_grinder' })
 	event.shaped(
@@ -30,6 +31,7 @@ ServerEvents.recipes(event => {
 			D: '#forge:plates/diamond'
 		}
 	)
+	
 
 	event.remove({ output: 'assemblylinemachines:crank_shaft' })
 	event.shaped(
@@ -45,7 +47,11 @@ ServerEvents.recipes(event => {
 			C: 'assemblylinemachines:wooden_board'
 		}
 	)
+	
+	
 	event.remove({ output: 'assemblylinemachines:steel_hammer' })
+	
+	
 	event.remove({ output: 'alltheores:steel_rod' })
 	event.shaped(
 		Item.of('assemblylinemachines:steel_hammer'),
@@ -59,6 +65,7 @@ ServerEvents.recipes(event => {
 			B: '#forge:rods/steel',
 		}
 	)
+
 
 	event.remove({ output: 'assemblylinemachines:simple_crank_charger' })
 	event.shaped(
@@ -77,6 +84,7 @@ ServerEvents.recipes(event => {
 		}
 	)
 
+
 	event.remove({ output: 'assemblylinemachines:energy_pipe' })
 	event.shaped(
 		Item.of('8x assemblylinemachines:energy_pipe'),
@@ -92,6 +100,7 @@ ServerEvents.recipes(event => {
 		}
 	)
 
+
 	event.remove({output: 'assemblylinemachines:conduction_component'})
 	event.shaped(
 		Item.of('assemblylinemachines:conduction_component'),
@@ -106,4 +115,22 @@ ServerEvents.recipes(event => {
 			C: 'assemblylinemachines:pure_steel_gear'
 		}
 	)
+	
+	
+	event.remove({output: 'assemblylinemachines:purifier_upgrade_enhanced'})
+	event.shaped(
+		Item.of('assemblylinemachines:purifier_upgrade_enhanced'),
+		[
+			'EME',
+			'MFM',
+			'EME'
+		],
+		{
+			F: 'assemblylinemachines:item_pipe_upgrade_filter',
+			E: 'assemblylinemachines:energized_gold_plate',
+			M: 'assemblylinemachines:mystium_plate'
+		}
+	)
+	
+	
 })

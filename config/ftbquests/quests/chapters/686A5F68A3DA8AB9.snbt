@@ -282,6 +282,7 @@
 		}
 		{
 			dependencies: ["56B246B4FB90E8D2"]
+			description: ["Для создания сверхчистого титанового слитка необходимо вставить улучшение: &6Усиленная фильтрация&r."]
 			id: "47B628E949CB1419"
 			rewards: [{
 				auto: "invisible"
@@ -289,12 +290,19 @@
 				id: "16175E6A1CF14592"
 				type: "command"
 			}]
-			tasks: [{
-				count: 2L
-				id: "34CB256776C67FE8"
-				item: "assemblylinemachines:attuned_titanium_ingot"
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 2L
+					id: "34CB256776C67FE8"
+					item: "assemblylinemachines:attuned_titanium_ingot"
+					type: "item"
+				}
+				{
+					id: "0348952BD4DCEDA3"
+					item: "assemblylinemachines:purifier_upgrade_enhanced"
+					type: "item"
+				}
+			]
 			x: 6.5d
 			y: 0.0d
 		}

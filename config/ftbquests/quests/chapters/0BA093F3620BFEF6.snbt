@@ -174,12 +174,6 @@
 			dependencies: ["5ACF0D4B6651C107"]
 			description: ["Теперь, используя &6рудное железо&r я могу получать &fжелезную пыль&r! А из неё &3железный ил&r."]
 			id: "77411DD073E41360"
-			rewards: [{
-				count: 3
-				id: "4531B3E453044C12"
-				item: "minecraft:iron_ingot"
-				type: "item"
-			}]
 			tasks: [
 				{
 					count: 4L
@@ -221,12 +215,6 @@
 			dependencies: ["5ACF0D4B6651C107"]
 			description: ["Теперь, используя &6рудное золото&r я могу получать &6золотую пыль&r! А из неё &6золотой ил&r."]
 			id: "129B005C1422EC81"
-			rewards: [{
-				count: 3
-				id: "49CFF966D314300D"
-				item: "minecraft:gold_ingot"
-				type: "item"
-			}]
 			tasks: [
 				{
 					count: 4L
@@ -316,17 +304,6 @@
 			]
 			description: ["Теперь, смешав &fжелезную&r и &8угольную&r пыль я смогу создать &8стальную пыль&r, жди меня стальной век!"]
 			id: "7D41ADDD7FFBF035"
-			rewards: [{
-				id: "116A858AAEF1C2D3"
-				item: {
-					Count: 1b
-					id: "assemblylinemachines:steel_boots"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
 			shape: "tech_square"
 			size: 1.25d
 			tasks: [{
@@ -404,13 +381,6 @@
 				"&bПримечание: слева от дробилки нужно поставить рукоятку, а справа - сундук.&r"
 			]
 			id: "3B377F248DC18422"
-			rewards: [{
-				count: 5
-				id: "5B85FBDDBD654ECB"
-				item: "minecraft:raw_gold"
-				random_bonus: 6
-				type: "item"
-			}]
 			tasks: [{
 				id: "70C78A76636CADEB"
 				item: "assemblylinemachines:kinetic_grinder"
@@ -423,12 +393,6 @@
 			dependencies: ["3B377F248DC18422"]
 			description: ["Моя следующая цель - резервуар. Для начала стоит создать несколько дощечек."]
 			id: "069E8EC5BDD603D4"
-			rewards: [{
-				count: 16
-				id: "28DE0C3598813BDA"
-				item: "minecraft:oak_log"
-				type: "item"
-			}]
 			tasks: [{
 				count: 4L
 				id: "2650651949E480D3"
@@ -442,11 +406,6 @@
 			dependencies: ["069E8EC5BDD603D4"]
 			description: ["Теперь осталось создать сам резервуар для хранения жидкостей."]
 			id: "0DA8BA8F68D8BCF3"
-			rewards: [{
-				id: "70181D9E17ECB11B"
-				item: "minecraft:lava_bucket"
-				type: "item"
-			}]
 			tasks: [{
 				id: "0D065F751E1BC633"
 				item: "assemblylinemachines:wooden_fluid_tank"
@@ -466,11 +425,6 @@
 				"Работает по аналогии с дробилкой, но снизу должен стоять резервуар. Для горячих жидкостей резервуар должен быть стальной."
 			]
 			id: "57FF20D32CBEB078"
-			rewards: [{
-				id: "7E63FD399C613E89"
-				item: "alltheores:diamond_plate"
-				type: "item"
-			}]
 			tasks: [
 				{
 					id: "3AE8EA2745FB32F1"
@@ -504,17 +458,6 @@
 			dependencies: ["66B0DF6AADAB7C2B"]
 			description: ["С созданием стальных стержней я могу получить стальной молот. С ним я смогу гораздо эффективнее создавать пластины."]
 			id: "4E397B62C9341385"
-			rewards: [{
-				id: "333435CDE76EA594"
-				item: {
-					Count: 1b
-					id: "mekanismtools:steel_chestplate"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "54D1A8EBAA7725B8"
 				item: {
@@ -559,12 +502,6 @@
 			dependencies: ["57FF20D32CBEB078"]
 			description: ["Кристаллизировав &8угольную&r и &4редстоуновую&r пыль, я смогу получить усиленный кристалл."]
 			id: "7450A023B131264F"
-			rewards: [{
-				count: 3
-				id: "457180344BBCBEAC"
-				item: "minecraft:redstone_block"
-				type: "item"
-			}]
 			tasks: [{
 				count: 2L
 				id: "0CE01F4AB3DE9C5F"
@@ -585,21 +522,6 @@
 				"А используя зарядку - заряжать свои механические инструменты. Для этого поставьте над зарядкой сундук с и положите в него инструменты."
 			]
 			id: "01383BAF8FBAE80A"
-			rewards: [{
-				id: "3CC5D674B42D72D1"
-				item: {
-					Count: 1b
-					id: "assemblylinemachines:steel_sword"
-					tag: {
-						Damage: 0
-						Enchantments: [{
-							id: "minecraft:looting"
-							lvl: 2s
-						}]
-					}
-				}
-				type: "item"
-			}]
 			tasks: [
 				{
 					id: "219951EFB53206CF"
@@ -682,17 +604,6 @@
 			]
 			description: ["Теперь у меня достаточно ресурсов для перехода в электрический век. Время для обновить мои механизмы!"]
 			id: "38886CCE8601EE26"
-			rewards: [{
-				id: "1193C51498CB3F5B"
-				item: {
-					Count: 1b
-					id: "minecraft:golden_pickaxe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "240A019A82BE2FDC"
 				item: "assemblylinemachines:electric_purifier"
@@ -718,12 +629,6 @@
 			dependencies: ["00A6BEF41504D2F0"]
 			description: ["Теперь у меня есть всё для создания очищенной стальной шестерёнки. Время создать её!"]
 			id: "379F20173F3A2764"
-			rewards: [{
-				count: 4
-				id: "185BD4A49D051CE0"
-				item: "mekanism:ingot_steel"
-				type: "item"
-			}]
 			tasks: [{
 				count: 2L
 				id: "009D39D3FBC7F3FC"
@@ -799,12 +704,6 @@
 			dependencies: ["594A1CD7BCFEE409"]
 			description: ["Теперь, используя смеситель, я наконец могу создать мистиевую пыль, что-то среднее между наукой и магией."]
 			id: "73EF0FEFFC6A3CEF"
-			rewards: [{
-				count: 2
-				id: "615F8905AF6E7844"
-				item: "assemblylinemachines:mystium_blend"
-				type: "item"
-			}]
 			tasks: [{
 				count: 2L
 				id: "6AC0F8B58187913F"
@@ -818,12 +717,6 @@
 			dependencies: ["594A1CD7BCFEE409"]
 			description: ["Используя смеситель я могу зарядить золото с помощью редстоуновой пыли."]
 			id: "79B1DE6854535EF5"
-			rewards: [{
-				count: 5
-				id: "7A23C9821AFEAD7F"
-				item: "assemblylinemachines:pure_gold_ingot"
-				type: "item"
-			}]
 			tasks: [{
 				count: 2L
 				id: "028C3FBF5041321D"
@@ -837,11 +730,6 @@
 			dependencies: ["79B1DE6854535EF5"]
 			description: ["Теперь, мне осталось раздробить энергетическое золото в пыль..."]
 			id: "69C24219EDF20D8C"
-			rewards: [{
-				id: "16DC1969F05047BF"
-				item: "meadow:piece_of_amethyst_cheese"
-				type: "item"
-			}]
 			tasks: [{
 				count: 2L
 				id: "1E50083CCF1FF389"

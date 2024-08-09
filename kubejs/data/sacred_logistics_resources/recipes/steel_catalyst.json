@@ -1,0 +1,1 @@
+{"type":"mekanism:metallurgic_infusing","chemicalInput":{"amount":20,"tag":"mekanism:diamond"},"itemInput":{"ingredient":{"item":"mekanism:ingot_steel"}},"output":{"item":"kubejs:steel_catalyst"}}
