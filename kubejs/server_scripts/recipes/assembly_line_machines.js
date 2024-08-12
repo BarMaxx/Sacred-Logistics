@@ -99,6 +99,22 @@ ServerEvents.recipes(event => {
 			C: 'assemblylinemachines:black_granite'
 		}
 	)
+	
+	
+	event.remove({ output: 'assemblylinemachines:item_pipe' })
+	event.shaped(
+		Item.of('8x assemblylinemachines:item_pipe'),
+		[
+			'ABA',
+			'CCC',
+			'ABA'
+		],
+		{
+			A: 'assemblylinemachines:pure_iron_plate',
+			B: '#forge:dusts/constantan',
+			C: 'assemblylinemachines:black_granite'
+		}
+	)
 
 
 	event.remove({output: 'assemblylinemachines:conduction_component'})

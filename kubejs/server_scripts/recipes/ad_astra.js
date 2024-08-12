@@ -10,7 +10,7 @@ ServerEvents.recipes(event => {
 		'BSB'
 	  ], 
 	  {
-		W: 'minecraft:crafting_table',
+		W: 'assemblylinemachines:compressed_crafting_table',
 		N: 'powah:crystal_nitro',
 		T: 'assemblylinemachines:novasteel_plate',
 		P: '#forge:plates/steel',

@@ -30,6 +30,90 @@
 			x: 0.5d
 			y: -8.5d
 		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "mekanism:item/basic_control_circuit"
+			rotation: 0.0d
+			width: 1.5d
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "mekanism:item/advanced_control_circuit"
+			rotation: 0.0d
+			width: 1.5d
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "mekanism:item/elite_control_circuit"
+			rotation: 0.0d
+			width: 1.5d
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "mekanism:item/ultimate_control_circuit"
+			rotation: 0.0d
+			width: 1.5d
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "mekanism:item/alloy_infused"
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "mekanism:item/alloy_reinforced"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "mekanism:item/alloy_atomic"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.5d
+			y: -0.5d
+		}
 	]
 	order_index: 2
 	quest_links: [ ]
