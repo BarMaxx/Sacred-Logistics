@@ -1199,32 +1199,6 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["7CD800F7D537713F"]
-			id: "68397160ED2B2FDD"
-			rewards: [{
-				id: "5273DA5EF1812109"
-				item: "sacred_logistics:raw_meteorite"
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [
-				{
-					count: 2L
-					id: "4902098CC8DD050B"
-					item: "sacred_logistics:raw_meteorite"
-					type: "item"
-				}
-				{
-					id: "61CBC38316992AFF"
-					item: "sacred_logistics:meteorite_ingot"
-					type: "item"
-				}
-			]
-			title: "Метеорит"
-			x: 9.0d
-			y: 6.0d
-		}
-		{
 			dependencies: ["0261282B27BB7183"]
 			description: ["После убийства своего первого Дракона, мой мир изменился и теперь в нём начал появляться новый странный ресурс - &6Хлорофит&r."]
 			id: "34E6D50A5241CFEF"

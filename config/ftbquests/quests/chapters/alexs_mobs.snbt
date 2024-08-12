@@ -305,7 +305,7 @@
 		}
 		{
 			dependencies: ["1001BA1EC2F0F590"]
-			description: ["&6Акулий зуб&r выпадает при убийстве моба &aАкула-молот&r."]
+			description: ["&6Акулий зуб&r выпадает при убийстве моба &aАкула-молот&r, когда она есть спрута или рыбу."]
 			id: "1C0A3BEC6461F300"
 			subtitle: "Крепкий!"
 			tasks: [{
@@ -319,7 +319,7 @@
 		}
 		{
 			dependencies: ["1001BA1EC2F0F590"]
-			description: ["&6Зазубренный акулий зуб&r выпадает при убийстве моба &aАкула-молот&r."]
+			description: ["&6Зазубренный акулий зуб&r выпадает при убийстве моба &aПлащеносная акула&r, когда она есть Спрута или рыбу."]
 			id: "7BB1BC226316DE76"
 			subtitle: "Острый!"
 			tasks: [{
@@ -333,16 +333,24 @@
 		}
 		{
 			dependencies: ["7EA23917F7C58C5E"]
-			description: ["Необходимо убить моба &6Акула-молот&r."]
+			description: ["Необходимо убить моба &6Акула-молот&r и &6Плащеносная акула&r."]
 			hide: true
 			id: "1001BA1EC2F0F590"
 			subtitle: "Акула!"
-			tasks: [{
-				entity: "alexsmobs:hammerhead_shark"
-				id: "5DF80D0B41338985"
-				type: "kill"
-				value: 1L
-			}]
+			tasks: [
+				{
+					entity: "alexsmobs:hammerhead_shark"
+					id: "5DF80D0B41338985"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "alexsmobs:frilled_shark"
+					id: "1DB5FDB6F4F672AC"
+					type: "kill"
+					value: 1L
+				}
+			]
 			x: -4.0d
 			y: -2.5d
 		}

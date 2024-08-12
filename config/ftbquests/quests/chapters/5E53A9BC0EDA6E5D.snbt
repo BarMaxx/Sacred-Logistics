@@ -755,6 +755,43 @@
 			x: 8.5d
 			y: -5.0d
 		}
+		{
+			dependencies: ["6741CCCE0EF6A545"]
+			id: "68397160ED2B2FDD"
+			rewards: [{
+				id: "5273DA5EF1812109"
+				item: "sacred_logistics:raw_meteorite"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "4902098CC8DD050B"
+					item: "sacred_logistics:raw_meteorite"
+					type: "item"
+				}
+				{
+					id: "61CBC38316992AFF"
+					item: "sacred_logistics:meteorite_ingot"
+					type: "item"
+				}
+			]
+			title: "Метеорит"
+			x: 13.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["68397160ED2B2FDD"]
+			id: "74A04658DE474922"
+			tasks: [{
+				id: "0DD3BE0F3534E831"
+				item: "sacred_logistics:meteorite_charm"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 2.0d
+		}
 	]
 	title: "&bПервые шаги"
 }
