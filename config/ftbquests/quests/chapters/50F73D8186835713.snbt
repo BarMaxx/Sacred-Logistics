@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "50F73D8186835713"
+	group: "724CB10F5936E1B7"
+	id: "50F73D8186835713"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "Хранилища"
+}
