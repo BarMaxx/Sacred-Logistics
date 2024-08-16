@@ -70,4 +70,20 @@ ServerEvents.recipes(event => {
 	)
 	
 	
+	event.remove({output: 'sacred_logistics:meteorite_charm'})
+	event.shaped(
+	  Item.of('sacred_logistics:meteorite_charm'), 
+	  [
+	    'GMG',
+		'MDM',
+		'GMG'
+	  ], 
+	  {
+		D: 'minecraft:diamond',
+		G: 'minecraft:gold_ingot',
+		M: 'sacred_logistics:meteorite_ingot'
+	  }
+	)
+	
+	
 })
