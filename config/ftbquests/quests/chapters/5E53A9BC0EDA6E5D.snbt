@@ -530,25 +530,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["6741CCCE0EF6A545"]
-			id: "252624E7573EBBB9"
-			tasks: [
-				{
-					id: "28E8FB535981B03A"
-					item: "allthemodium:raw_allthemodium"
-					type: "item"
-				}
-				{
-					id: "1A4D79D8EEF89E20"
-					item: "allthemodium:allthemodium_dust"
-					type: "item"
-				}
-			]
-			title: "&bВсемодий "
-			x: 13.0d
-			y: 0.0d
-		}
-		{
 			dependencies: ["252624E7573EBBB9"]
 			id: "56DE8FACE0972F7D"
 			tasks: [{
@@ -557,8 +538,8 @@
 				type: "item"
 			}]
 			title: "&bВсемодиевый слиток"
-			x: 14.5d
-			y: 0.0d
+			x: 16.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7A3F3E23A0387DE6"]
@@ -784,7 +765,7 @@
 			]
 			title: "Метеорит"
 			x: 13.0d
-			y: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["68397160ED2B2FDD"]
@@ -796,7 +777,26 @@
 				type: "item"
 			}]
 			x: 14.5d
-			y: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6741CCCE0EF6A545"]
+			id: "252624E7573EBBB9"
+			tasks: [
+				{
+					id: "28E8FB535981B03A"
+					item: "allthemodium:raw_allthemodium"
+					type: "item"
+				}
+				{
+					id: "1A4D79D8EEF89E20"
+					item: "allthemodium:allthemodium_dust"
+					type: "item"
+				}
+			]
+			title: "&bВсемодий "
+			x: 15.5d
+			y: 1.0d
 		}
 	]
 	title: "&bПервые шаги"
