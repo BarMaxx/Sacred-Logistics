@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7EC99C77DCBA799C"
+	group: "724CB10F5936E1B7"
+	icon: "integrateddynamics:variable"
+	id: "7EC99C77DCBA799C"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "&bХранилище"
+}
