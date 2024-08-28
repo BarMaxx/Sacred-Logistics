@@ -18,6 +18,6 @@
 	}
 	pause_game: false
 	progression_mode: "linear"
-	title: "&bSacred Logistics"
+	title: "{quests.sacred_logistics.main_title}"
 	version: 13
 }

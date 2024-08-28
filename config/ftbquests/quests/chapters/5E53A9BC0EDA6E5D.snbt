@@ -11,25 +11,26 @@
 		{
 			dependencies: ["6BC22A684745A477"]
 			description: [
-				"Добыв немного дерева и переработав его в доски, я могу создать свой первый и главный рабочий стол - &6Верстак&r."
+				"{quests.sacred_logistics.initial_progress.first_steps.crafting_table.description_1}"
 				""
-				"&bОткрывает доступ к созданию огромного количества предметов.&r"
+				"{quests.sacred_logistics.initial_progress.first_steps.crafting_table.description_2}"
 			]
 			id: "05EB7D069C18CA1E"
 			rewards: [{
-				count: 6
-				id: "705D806C1808C29A"
-				item: "minecraft:apple"
-				type: "item"
+				id: "366DA2C5F0E7B4D6"
+				table_id: 3639176316474975446L
+				title: "{quests.sacred_logistics.initial_progress.first_steps.crafting_table.reward_title}"
+				type: "random"
 			}]
 			size: 1.2d
-			subtitle: "Главный рабочий стол!"
+			subtitle: "{quests.sacred_logistics.initial_progress.first_steps.crafting_table.subtitle}"
 			tasks: [{
 				id: "5CE947F135239979"
 				item: "minecraft:crafting_table"
+				title: "{quests.sacred_logistics.initial_progress.first_steps.crafting_table.task_title}"
 				type: "item"
 			}]
-			title: "&bВерстак"
+			title: "{quests.sacred_logistics.initial_progress.first_steps.crafting_table.quest_title}"
 			x: 1.5d
 			y: 0.0d
 		}
@@ -499,19 +500,20 @@
 		{
 			dependencies: ["7EA23917F7C58C5E"]
 			description: [
-				"Первое, что необходимо мне сделать в этом мире - добыть &6Дерево&r."
+				"{quests.sacred_logistics.initial_progress.first_steps.wood.description_1}"
 				""
-				"&bДерево растёт практически везде, поэтому мне стоит лишь оглянуться, чтобы найти его.&r"
+				"{quests.sacred_logistics.initial_progress.first_steps.wood.description_2}"
 			]
 			hide: true
 			id: "6BC22A684745A477"
 			rewards: [{
-				count: 4
-				id: "36A5E509426DB001"
-				item: "minecraft:oak_log"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "53907791B9B67990"
+				table_id: 702326463577367718L
+				title: "{quests.sacred_logistics.initial_progress.first_steps.wood.reward_title}"
+				type: "choice"
 			}]
-			subtitle: "Обыденность..."
+			subtitle: "{quests.sacred_logistics.initial_progress.first_steps.wood.subtitle}"
 			tasks: [{
 				count: 4L
 				id: "73F56FE30A64771E"
@@ -522,10 +524,10 @@
 						value: "minecraft:logs"
 					}
 				}
-				title: "Дерево"
+				title: "{quests.sacred_logistics.initial_progress.first_steps.wood.task_title}"
 				type: "item"
 			}]
-			title: "&b4х Дерево"
+			title: "{quests.sacred_logistics.initial_progress.first_steps.wood.quest_title}"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -799,5 +801,5 @@
 			y: 2.0d
 		}
 	]
-	title: "&bПервые шаги"
+	title: "{quests.sacred_logistics.initial_progress.first_steps.chapter_title}"
 }

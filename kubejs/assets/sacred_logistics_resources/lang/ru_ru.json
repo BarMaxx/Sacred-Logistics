@@ -1,12 +1,33 @@
 {
-	"quests.sacred_logistics.main_title": "Sacred Logistics",
+	"quests.sacred_logistics.main_title": "&bSacred Logistics",
 	
-	"quests.sacred_logistics.introduction.chapter_title": "Вступление",
+	"quests.sacred_logistics.introduction.chapter_title": "&bВступление",
 	
-	"quests.sacred_logistics.introduction.begining.quest_title": "",
-	"quests.sacred_logistics.introduction.begining.task_title": "",
-	"quests.sacred_logistics.introduction.begining.reward_title": "",
-	"quests.sacred_logistics.introduction.begining.subtitle": "",
-	"quests.sacred_logistics.introduction.begining.description_1": "",
-	"quests.sacred_logistics.introduction.begining.description_2": ""
+	"quests.sacred_logistics.introduction.begining.quest_title": "&bНачало интересной сборочки!",
+	"quests.sacred_logistics.introduction.begining.task_title": "Нажми на меня!",
+	"quests.sacred_logistics.introduction.begining.reward_title": "Том Акаши",
+	"quests.sacred_logistics.introduction.begining.subtitle": "Технологии и Мистика?!",
+	"quests.sacred_logistics.introduction.begining.description_1": "Привествую Вас на данной сборке - &6Sacred Logistics&r. Модпак разработан командой &6LGame Studio&r, авторы - &6BarMaxx&r, &6HollowHorizon&r.",
+	"quests.sacred_logistics.introduction.begining.description_2": "Вы - &6Инженер&r, решивший покорить этот неизвестный мир своими Технологиями. Но, по мере своего развития, Вы встречаетесь с Мифологией и Мистикой, которая неразрывно связана с покорением этого мира. Теперь, для изучение различных строений, измерений и для взаимодействия с миром, Вам необходимо создавать и носить с собой различные Реликвии и Артефакты. Кроме этого, мир модпака основан на &6Глобальных событиях&r - после некоторых Ваших действий мир будет меняться, открывая тем самым новые ресурсы. Но Вас ничем не сломить, ведь Ваша главная задача - покорить всю &6Вселенную&r и Вы должны выполнить эту задачу. &aУдачи&r!",
+	
+	"quests.sacred_logistics.initial_progress.chapter_group_title": "&3Начальный прогресс",
+	
+	"quests.sacred_logistics.initial_progress.first_steps.chapter_title": "&bПервые шаги",
+	
+	"quests.sacred_logistics.initial_progress.first_steps.wood.quest_title": "&bДерево",
+	"quests.sacred_logistics.initial_progress.first_steps.wood.task_title": "4x Дерево",
+	"quests.sacred_logistics.initial_progress.first_steps.wood.reward_title": "16x Дерево &b[Выбор награды]&r",
+	"quests.sacred_logistics.initial_progress.first_steps.wood.subtitle": "Обыденность...",
+	"quests.sacred_logistics.initial_progress.first_steps.wood.description_1": "Первое, что необходимо мне сделать в этом мире - добыть &6Дерево&r.",
+	"quests.sacred_logistics.initial_progress.first_steps.wood.description_2": "&bДерево растёт практически везде, поэтому мне стоит лишь оглянуться, чтобы найти его.&r",
+	
+	"quests.sacred_logistics.initial_progress.first_steps.crafting_table.quest_title": "&bРабочая станция",
+	"quests.sacred_logistics.initial_progress.first_steps.crafting_table.task_title": "Верстак",
+	"quests.sacred_logistics.initial_progress.first_steps.crafting_table.reward_title": "Простая еда &b[Случайная награда]&r",
+	"quests.sacred_logistics.initial_progress.first_steps.crafting_table.subtitle": "Главный рабочий стол!",
+	"quests.sacred_logistics.initial_progress.first_steps.crafting_table.description_1": "Добыв немного дерева и переработав его в доски, я могу создать свой первый и главный рабочий стол - &6Верстак&r.",
+	"quests.sacred_logistics.initial_progress.first_steps.crafting_table.description_2": "&bВерстак открывает доступ к созданию огромного количества предметов.&r",
+	
+	"reward_tables.sacred_logistics.wood": "Дерево",
+	"reward_tables.sacred_logistics.simple_food": "Простая еда"
 }
