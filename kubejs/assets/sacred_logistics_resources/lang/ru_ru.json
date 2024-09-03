@@ -28,6 +28,27 @@
 	"quests.sacred_logistics.initial_progress.first_steps.crafting_table.description_1": "Добыв немного дерева и переработав его в доски, я могу создать свой первый и главный рабочий стол - &6Верстак&r.",
 	"quests.sacred_logistics.initial_progress.first_steps.crafting_table.description_2": "&bВерстак открывает доступ к созданию огромного количества предметов.&r",
 	
+	"quests.sacred_logistics.initial_progress.first_steps.chest.quest_title": "&bСундук",
+	"quests.sacred_logistics.initial_progress.first_steps.chest.task_title": "Сундук",
+	"quests.sacred_logistics.initial_progress.first_steps.chest.subtitle": "Хранитель ресурсов!",
+	"quests.sacred_logistics.initial_progress.first_steps.chest.description_1": "&6Сундук&r необходим для хранения ресурсов.",
+	
+	"quests.sacred_logistics.initial_progress.first_steps.backpack.quest_title": "&bРюкзак",
+	"quests.sacred_logistics.initial_progress.first_steps.backpack.task_title": "Рюкзак",
+	"quests.sacred_logistics.initial_progress.first_steps.backpack.reward_title": "Простые улучшения &b[Случайная награда]&r",
+	"quests.sacred_logistics.initial_progress.first_steps.backpack.subtitle": "Переносчик ресурсов!",
+	"quests.sacred_logistics.initial_progress.first_steps.backpack.description_1": "&6Рюкзак&r необходим для хранения ресурсов во время путешествия.",
+	
+	"quests.sacred_logistics.initial_progress.first_steps.barrel.quest_title": "&bБочка",
+	"quests.sacred_logistics.initial_progress.first_steps.barrel.task_title": "Бочка",
+	"quests.sacred_logistics.initial_progress.first_steps.barrel.subtitle": "Хранитель ресурсов!",
+	"quests.sacred_logistics.initial_progress.first_steps.barrel.description_1": "&6Бочка&r необходима для хранения ресурсов.",
+	
+	"quests.sacred_logistics.initial_progress.first_steps.campfire.quest_title": "&bКостёр",
+	"quests.sacred_logistics.initial_progress.first_steps.campfire.task_title": "Костёр",
+	"quests.sacred_logistics.initial_progress.first_steps.campfire.subtitle": "Время посиделок у костра!",
+	"quests.sacred_logistics.initial_progress.first_steps.campfire.description_1": "&6Костёр&r необходим для готовки еды.",
+	
 	"reward_tables.sacred_logistics.wood": "Дерево",
 	"reward_tables.sacred_logistics.simple_food": "Простая еда"
 }

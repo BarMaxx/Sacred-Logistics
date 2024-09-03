@@ -57,28 +57,24 @@
 		}
 		{
 			dependencies: ["05EB7D069C18CA1E"]
-			description: ["&6Костёр&r необходим для готовки еды."]
+			description: ["{quests.sacred_logistics.initial_progress.first_steps.campfire.description_1}"]
 			id: "601145AC00E6C07B"
-			rewards: [{
-				count: 2
-				id: "1DB900AB68ADEBC5"
-				item: "minecraft:pumpkin_pie"
-				random_bonus: 1
-				type: "item"
-			}]
+			subtitle: "{quests.sacred_logistics.initial_progress.first_steps.campfire.subtitle}"
 			tasks: [{
 				id: "5121A4341108605B"
 				item: "minecraft:campfire"
+				title: "{quests.sacred_logistics.initial_progress.first_steps.campfire.task_title}"
 				type: "item"
 			}]
-			title: "&bКостёр"
+			title: "{quests.sacred_logistics.initial_progress.first_steps.campfire.quest_title}"
 			x: 1.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["05EB7D069C18CA1E"]
-			description: ["&6Сундук&r необходим для хранения ресурсов."]
+			description: ["{quests.sacred_logistics.initial_progress.first_steps.chest.description_1}"]
 			id: "3BC47498DF613B04"
+			subtitle: "{quests.sacred_logistics.initial_progress.first_steps.chest.subtitle}"
 			tasks: [{
 				icon: "minecraft:chest"
 				id: "4BEF78BC5937859B"
@@ -89,23 +85,25 @@
 						value: "forge:chests/wooden"
 					}
 				}
-				title: "Сундук"
+				title: "{quests.sacred_logistics.initial_progress.first_steps.chest.task_title}"
 				type: "item"
 			}]
-			title: "&bСундук"
+			title: "{quests.sacred_logistics.initial_progress.first_steps.chest.quest_title}"
 			x: 1.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["05EB7D069C18CA1E"]
-			description: ["&6Бочка&r необходима для хранения ресурсов."]
+			description: ["{quests.sacred_logistics.initial_progress.first_steps.barrel.description_1}"]
 			id: "40FA20B89ED9FF16"
+			subtitle: "{quests.sacred_logistics.initial_progress.first_steps.barrel.subtitle}"
 			tasks: [{
 				id: "73BBDA6B834F1DCE"
 				item: "minecraft:barrel"
+				title: "{quests.sacred_logistics.initial_progress.first_steps.barrel.task_title}"
 				type: "item"
 			}]
-			title: "&bБочка"
+			title: "{quests.sacred_logistics.initial_progress.first_steps.barrel.quest_title}"
 			x: 2.0d
 			y: -1.5d
 		}
@@ -382,19 +380,22 @@
 		}
 		{
 			dependencies: ["3BC47498DF613B04"]
-			description: ["&6Рюкзак&r необходим для хранения ресурсов во время путешествия."]
+			description: ["{quests.sacred_logistics.initial_progress.first_steps.backpack.description_1}"]
 			id: "19E0170B82D541A5"
 			rewards: [{
 				id: "6C3BE03EEF9382DB"
 				table_id: 7015058020314785297L
+				title: "{quests.sacred_logistics.initial_progress.first_steps.backpack.reward_title}"
 				type: "random"
 			}]
+			subtitle: "{quests.sacred_logistics.initial_progress.first_steps.backpack.subtitle}"
 			tasks: [{
 				id: "63915D538F3A4623"
 				item: "sophisticatedbackpacks:backpack"
+				title: "{quests.sacred_logistics.initial_progress.first_steps.backpack.task_title}"
 				type: "item"
 			}]
-			title: "&bРюкзак"
+			title: "{quests.sacred_logistics.initial_progress.first_steps.backpack.quest_title}"
 			x: 0.0d
 			y: -2.0d
 		}
