@@ -49,6 +49,39 @@
 	"quests.sacred_logistics.initial_progress.first_steps.campfire.subtitle": "Время посиделок у костра!",
 	"quests.sacred_logistics.initial_progress.first_steps.campfire.description_1": "&6Костёр&r необходим для готовки еды.",
 	
+	"quests.sacred_logistics.initial_progress.first_steps.wooden_pickaxe.quest_title": "&bДеревянная кирка",
+	"quests.sacred_logistics.initial_progress.first_steps.wooden_pickaxe.task_title": "Деревянная кирка",
+	"quests.sacred_logistics.initial_progress.first_steps.wooden_pickaxe.reward_title": "12x Уголь",
+	"quests.sacred_logistics.initial_progress.first_steps.wooden_pickaxe.subtitle": "Пора в шахту!",
+	"quests.sacred_logistics.initial_progress.first_steps.wooden_pickaxe.description_1": "&6Деревянная кирка&r позволит мне добывать начальные твёрдые породы, а именно - &2Булыжник&r.",
+	
+	"quests.sacred_logistics.initial_progress.first_steps.cobblestone.quest_title": "&bБулыжник",
+	"quests.sacred_logistics.initial_progress.first_steps.cobblestone.task_title": "4x Булыжник",
+	"quests.sacred_logistics.initial_progress.first_steps.cobblestone.subtitle": "Первая порода!",
+	"quests.sacred_logistics.initial_progress.first_steps.cobblestone.description_1": "&6Булыжник&r - первая моя твёрдая порода - позволяет создать &2Печь&r.",
+	
+	"quests.sacred_logistics.initial_progress.first_steps.furnace.quest_title": "&bПечь",
+	"quests.sacred_logistics.initial_progress.first_steps.furnace.task_title": "Печь",
+	"quests.sacred_logistics.initial_progress.first_steps.furnace.subtitle": "Перевоплощение ресурсов!",
+	"quests.sacred_logistics.initial_progress.first_steps.furnace.description_1": "&6Печь&r необходима для переплавки различных ресурсов.",
+	
+	"quests.sacred_logistics.initial_progress.first_steps.smoker.quest_title": "&bКоптильня",
+	"quests.sacred_logistics.initial_progress.first_steps.smoker.task_title": "Коптильня",
+	"quests.sacred_logistics.initial_progress.first_steps.smoker.reward_title": "Простое мясо &b[Случайная награда]&r",
+	"quests.sacred_logistics.initial_progress.first_steps.smoker.subtitle": "Отлично подойдёт для еды!",
+	"quests.sacred_logistics.initial_progress.first_steps.smoker.description_1": "&6Коптильня&r быстрее жарит еду.",
+	
+	"quests.sacred_logistics.initial_progress.first_steps.blast_furnace.quest_title": "&bПлавильная печь",
+	"quests.sacred_logistics.initial_progress.first_steps.blast_furnace.task_title": "Плавильная печь",
+	"quests.sacred_logistics.initial_progress.first_steps.blast_furnace.reward_title": "Простая руда &b[Случайная награда]&r",
+	"quests.sacred_logistics.initial_progress.first_steps.blast_furnace.subtitle": "Отлично подойдёт для руды!",
+	"quests.sacred_logistics.initial_progress.first_steps.blast_furnace.description_1": "&6Плавильная печь&r быстрее плавит руду.",
+	
+	"quests.sacred_logistics.initial_progress.first_steps.stone.quest_title": "&bКамень",
+	"quests.sacred_logistics.initial_progress.first_steps.stone.task_title": "4x Камень",
+	"quests.sacred_logistics.initial_progress.first_steps.stone.subtitle": "Более плотный!",
+	"quests.sacred_logistics.initial_progress.first_steps.stone.description_1": "&6Камень&r необходим для создания обновлённых инструментов.",
+	
 	"reward_tables.sacred_logistics.wood": "Дерево",
 	"reward_tables.sacred_logistics.simple_food": "Простая еда"
 }

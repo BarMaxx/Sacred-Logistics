@@ -36,22 +36,17 @@
 		}
 		{
 			dependencies: ["6C7F234B75D1E84F"]
-			description: ["&6Булыжник&r - первая моя твёрдая порода - позволяет создать &2Печь&r."]
+			description: ["{quests.sacred_logistics.initial_progress.first_steps.cobblestone.description_1}"]
 			id: "15351ED9820C1C90"
-			rewards: [{
-				count: 4
-				id: "3B2257C804037EED"
-				item: "minecraft:cobblestone"
-				random_bonus: 8
-				type: "item"
-			}]
+			subtitle: "{quests.sacred_logistics.initial_progress.first_steps.cobblestone.subtitle}"
 			tasks: [{
 				count: 4L
 				id: "4D868C4A99F550BF"
 				item: "minecraft:cobblestone"
+				title: "{quests.sacred_logistics.initial_progress.first_steps.cobblestone.task_title}"
 				type: "item"
 			}]
-			title: "&b4х Булыжник"
+			title: "{quests.sacred_logistics.initial_progress.first_steps.cobblestone.quest_title}"
 			x: 4.5d
 			y: 0.0d
 		}
@@ -109,33 +104,38 @@
 		}
 		{
 			dependencies: ["15351ED9820C1C90"]
-			description: ["&6Печь&r необходима для переплавки различных ресурсов."]
+			description: ["{quests.sacred_logistics.initial_progress.first_steps.furnace.description_1}"]
 			id: "7CA023B662360C6A"
 			size: 1.2d
+			subtitle: "{quests.sacred_logistics.initial_progress.first_steps.furnace.subtitle}"
 			tasks: [{
 				id: "348453F9297D05FB"
 				item: "minecraft:furnace"
+				title: "{quests.sacred_logistics.initial_progress.first_steps.furnace.task_title}"
 				type: "item"
 			}]
-			title: "&bПечь"
+			title: "{quests.sacred_logistics.initial_progress.first_steps.furnace.quest_title}"
 			x: 6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7CA023B662360C6A"]
-			description: ["&6Плавильная печь&r быстрее плавит руду."]
+			description: ["{quests.sacred_logistics.initial_progress.first_steps.blast_furnace.description_1}"]
 			id: "459270456C29E625"
 			rewards: [{
 				id: "28602DDDC467F5E8"
 				table_id: 5983573857714054250L
+				title: "{quests.sacred_logistics.initial_progress.first_steps.blast_furnace.reward_title}"
 				type: "random"
 			}]
+			subtitle: "{quests.sacred_logistics.initial_progress.first_steps.blast_furnace.subtitle}"
 			tasks: [{
 				id: "7E2E6D86DA533FDC"
 				item: "minecraft:blast_furnace"
+				title: "{quests.sacred_logistics.initial_progress.first_steps.blast_furnace.task_title}"
 				type: "item"
 			}]
-			title: "&bПлавильная печь"
+			title: "{quests.sacred_logistics.initial_progress.first_steps.blast_furnace.quest_title}"
 			x: 5.5d
 			y: 1.5d
 		}
@@ -401,14 +401,16 @@
 		}
 		{
 			dependencies: ["05EB7D069C18CA1E"]
-			description: ["&6Деревянная кирка&r позволит мне добывать начальные твёрдые породы, а именно - &2Булыжник&r."]
+			description: ["{quests.sacred_logistics.initial_progress.first_steps.wooden_pickaxe.description_1}"]
 			id: "6C7F234B75D1E84F"
 			rewards: [{
 				count: 12
 				id: "1ADF676223243FDE"
 				item: "minecraft:coal"
+				title: "{quests.sacred_logistics.initial_progress.first_steps.wooden_pickaxe.reward_title}"
 				type: "item"
 			}]
+			subtitle: "{quests.sacred_logistics.initial_progress.first_steps.wooden_pickaxe.subtitle}"
 			tasks: [{
 				id: "4FEA2C034342544F"
 				item: {
@@ -418,48 +420,47 @@
 						Damage: 0
 					}
 				}
+				title: "{quests.sacred_logistics.initial_progress.first_steps.wooden_pickaxe.task_title}"
 				type: "item"
 			}]
-			title: "&bДеревянная кирка"
+			title: "{quests.sacred_logistics.initial_progress.first_steps.wooden_pickaxe.quest_title}"
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7CA023B662360C6A"]
-			description: ["&6Коптильня&r быстрее жарит еду."]
+			description: ["{quests.sacred_logistics.initial_progress.first_steps.smoker.description_1}"]
 			id: "4F6DDAD39A65752A"
 			rewards: [{
 				id: "172011DA52647909"
 				table_id: 649389599540615973L
+				title: "{quests.sacred_logistics.initial_progress.first_steps.smoker.reward_title}"
 				type: "random"
 			}]
+			subtitle: "{quests.sacred_logistics.initial_progress.first_steps.smoker.subtitle}"
 			tasks: [{
 				id: "76EC4ADDD9642006"
 				item: "minecraft:smoker"
+				title: "{quests.sacred_logistics.initial_progress.first_steps.smoker.task_title}"
 				type: "item"
 			}]
-			title: "&bКоптильня"
+			title: "{quests.sacred_logistics.initial_progress.first_steps.smoker.quest_title}"
 			x: 5.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["7CA023B662360C6A"]
-			description: ["&6Камень&r необходим для создания обновлённых инструментов."]
+			description: ["{quests.sacred_logistics.initial_progress.first_steps.stone.description_1}"]
 			id: "59A6896A8B3C6B62"
-			rewards: [{
-				count: 4
-				id: "27443AF552A5A29A"
-				item: "minecraft:stone"
-				random_bonus: 4
-				type: "item"
-			}]
+			subtitle: "{quests.sacred_logistics.initial_progress.first_steps.stone.subtitle}"
 			tasks: [{
 				count: 4L
 				id: "65C10C19CE21E827"
 				item: "minecraft:stone"
+				title: "{quests.sacred_logistics.initial_progress.first_steps.stone.task_title}"
 				type: "item"
 			}]
-			title: "&b4х Камень"
+			title: "{quests.sacred_logistics.initial_progress.first_steps.stone.quest_title}"
 			x: 6.5d
 			y: -1.0d
 		}
