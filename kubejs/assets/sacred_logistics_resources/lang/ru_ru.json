@@ -82,6 +82,40 @@
 	"quests.sacred_logistics.initial_progress.first_steps.stone.subtitle": "Более плотный!",
 	"quests.sacred_logistics.initial_progress.first_steps.stone.description_1": "&6Камень&r необходим для создания обновлённых инструментов.",
 	
+	"quests.sacred_logistics.initial_progress.first_steps.stone_pickaxe.quest_title": "&bКаменная кирка",
+	"quests.sacred_logistics.initial_progress.first_steps.stone_pickaxe.task_title": "Каменная кирка",
+	"quests.sacred_logistics.initial_progress.first_steps.stone_pickaxe.reward_title": "Каменный меч",
+	"quests.sacred_logistics.initial_progress.first_steps.stone_pickaxe.subtitle": "Обновка!",
+	"quests.sacred_logistics.initial_progress.first_steps.stone_pickaxe.description_1": "&6Каменная кирка&r позволяет добывать более твёрдые каменные породы.",
+	
+	"quests.sacred_logistics.initial_progress.first_steps.raw_copper.quest_title": "&bРудная медь",
+	"quests.sacred_logistics.initial_progress.first_steps.raw_copper.task_title": "4x Рудная медь",
+	"quests.sacred_logistics.initial_progress.first_steps.raw_copper.reward_title": "2-6х Рудная медь",
+	"quests.sacred_logistics.initial_progress.first_steps.raw_copper.subtitle": "Медная эпоха!",
+	"quests.sacred_logistics.initial_progress.first_steps.raw_copper.description_1": "Создав каменную кирку, Я могу добыть новый ресурс - &6Медь&r.",
+	
+	"quests.sacred_logistics.initial_progress.first_steps.copper_ingot.quest_title": "&bМедный слиток",
+	"quests.sacred_logistics.initial_progress.first_steps.copper_ingot.task_title": "4x Медный слиток",
+	"quests.sacred_logistics.initial_progress.first_steps.copper_ingot.subtitle": "Освоение меди!",
+	"quests.sacred_logistics.initial_progress.first_steps.copper_ingot.description_1": "Рудную медь Я могу переплавить в &6Медные слитки&r.",
+	
+	"quests.sacred_logistics.initial_progress.first_steps.copper_furnace.quest_title": "&bМедная печь",
+	"quests.sacred_logistics.initial_progress.first_steps.copper_furnace.task_title": "Медная печь",
+	"quests.sacred_logistics.initial_progress.first_steps.copper_furnace.reward_title": "8-16x Рудное железо",
+	"quests.sacred_logistics.initial_progress.first_steps.copper_furnace.subtitle": "Медный прорыв!",
+	"quests.sacred_logistics.initial_progress.first_steps.copper_furnace.description_1": "Медная печь плавит немного быстрее обычной.",
+	
+	"quests.sacred_logistics.initial_progress.first_steps.copper_hammer.quest_title": "&bМедный молот",
+	"quests.sacred_logistics.initial_progress.first_steps.copper_hammer.task_title": "Медный молот",
+	"quests.sacred_logistics.initial_progress.first_steps.copper_hammer.subtitle": "Удвоение ресурсов!",
+	"quests.sacred_logistics.initial_progress.first_steps.copper_hammer.description_1": "Медный молот необходим мне для создания различных &6Пластин&r, а также для &6Удвоения ресурсов&r.",
+	
+	"quests.sacred_logistics.initial_progress.first_steps.raw_iron.quest_title": "&bРудное железо",
+	"quests.sacred_logistics.initial_progress.first_steps.raw_iron.task_title": "4x Рудное железо",
+	"quests.sacred_logistics.initial_progress.first_steps.raw_iron.reward_title": "2-6х Рудное железо",
+	"quests.sacred_logistics.initial_progress.first_steps.raw_iron.subtitle": "Железная эпоха!",
+	"quests.sacred_logistics.initial_progress.first_steps.raw_iron.description_1": "Создав каменную кирку, Я могу добыть новый ресурс - &6Железо&r.",
+	
 	"reward_tables.sacred_logistics.wood": "Дерево",
 	"reward_tables.sacred_logistics.simple_food": "Простая еда"
 }

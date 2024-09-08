@@ -141,22 +141,25 @@
 		}
 		{
 			dependencies: ["7A3F3E23A0387DE6"]
-			description: ["Создав каменную кирку, я могу добыть новый ресурс - &6Железо&r."]
+			description: ["{quests.sacred_logistics.initial_progress.first_steps.raw_iron.description_1}"]
 			id: "050CD68574E6F1E6"
 			rewards: [{
 				count: 2
 				id: "739F2AEC115952AA"
 				item: "minecraft:raw_iron"
 				random_bonus: 4
+				title: "{quests.sacred_logistics.initial_progress.first_steps.raw_iron.reward_title}"
 				type: "item"
 			}]
+			subtitle: "{quests.sacred_logistics.initial_progress.first_steps.raw_iron.subtitle}"
 			tasks: [{
 				count: 4L
 				id: "648F73C385016935"
 				item: "minecraft:raw_iron"
+				title: "{quests.sacred_logistics.initial_progress.first_steps.raw_iron.task_title}"
 				type: "item"
 			}]
-			title: "&b4х Рудное железо"
+			title: "{quests.sacred_logistics.initial_progress.first_steps.raw_iron.quest_title}"
 			x: 8.0d
 			y: 0.0d
 		}
@@ -466,7 +469,7 @@
 		}
 		{
 			dependencies: ["59A6896A8B3C6B62"]
-			description: ["&6Каменная кирка&r позволяет добывать более твёрдые каменные породы."]
+			description: ["{quests.sacred_logistics.initial_progress.first_steps.stone_pickaxe.description_1}"]
 			id: "7A3F3E23A0387DE6"
 			rewards: [{
 				id: "7C839FA07E932274"
@@ -481,9 +484,10 @@
 						}]
 					}
 				}
+				title: "{quests.sacred_logistics.initial_progress.first_steps.stone_pickaxe.reward_title}"
 				type: "item"
 			}]
-			subtitle: "Обновка!"
+			subtitle: "{quests.sacred_logistics.initial_progress.first_steps.stone_pickaxe.subtitle}"
 			tasks: [{
 				id: "18B428008BE10777"
 				item: {
@@ -493,9 +497,10 @@
 						Damage: 0
 					}
 				}
+				title: "{quests.sacred_logistics.initial_progress.first_steps.stone_pickaxe.task_title}"
 				type: "item"
 			}]
-			title: "&bКаменная кирка"
+			title: "{quests.sacred_logistics.initial_progress.first_steps.stone_pickaxe.quest_title}"
 			x: 7.5d
 			y: -1.0d
 		}
@@ -547,36 +552,41 @@
 		}
 		{
 			dependencies: ["7A3F3E23A0387DE6"]
-			description: ["Создав каменную кирку, я могу добыть новый ресурс - &6Медь&r."]
+			description: ["{quests.sacred_logistics.initial_progress.first_steps.raw_copper.description_1}"]
 			id: "53A87DE6F28197DB"
 			rewards: [{
 				count: 2
 				id: "61C782D5F737343D"
 				item: "minecraft:raw_copper"
 				random_bonus: 4
+				title: "{quests.sacred_logistics.initial_progress.first_steps.raw_copper.reward_title}"
 				type: "item"
 			}]
+			subtitle: "{quests.sacred_logistics.initial_progress.first_steps.raw_copper.subtitle}"
 			tasks: [{
 				count: 4L
 				id: "3999CB54B648B1CC"
 				item: "minecraft:raw_copper"
+				title: "{quests.sacred_logistics.initial_progress.first_steps.raw_copper.task_title}"
 				type: "item"
 			}]
-			title: "&b4х Рудная медь"
+			title: "{quests.sacred_logistics.initial_progress.first_steps.raw_copper.quest_title}"
 			x: 8.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["53A87DE6F28197DB"]
-			description: ["Рудную медь я могу переплавить в медные слитки."]
+			description: ["{quests.sacred_logistics.initial_progress.first_steps.copper_ingot.description_1}"]
 			id: "5E03D8EFC425A9CD"
+			subtitle: "{quests.sacred_logistics.initial_progress.first_steps.copper_ingot.subtitle}"
 			tasks: [{
 				count: 4L
 				id: "4A8F573A19862C5E"
 				item: "minecraft:copper_ingot"
+				title: "{quests.sacred_logistics.initial_progress.first_steps.copper_ingot.task_title}"
 				type: "item"
 			}]
-			title: "&b4х Медный слиток"
+			title: "{quests.sacred_logistics.initial_progress.first_steps.copper_ingot.quest_title}"
 			x: 8.0d
 			y: -3.5d
 		}
@@ -707,29 +717,33 @@
 		}
 		{
 			dependencies: ["5E03D8EFC425A9CD"]
-			description: ["Медная печь плавит немного быстрее обычной."]
+			description: ["{quests.sacred_logistics.initial_progress.first_steps.copper_furnace.description_1}"]
 			id: "4199FB8B15A80928"
 			rewards: [{
 				count: 8
 				id: "4A8A6FBD580EE3F7"
 				item: "minecraft:raw_iron"
-				random_bonus: 20
+				random_bonus: 8
+				title: "{quests.sacred_logistics.initial_progress.first_steps.copper_furnace.reward_title}"
 				type: "item"
 			}]
+			subtitle: "{quests.sacred_logistics.initial_progress.first_steps.copper_furnace.subtitle}"
 			tasks: [{
 				id: "1A34C7F1F13072E4"
 				item: "ironfurnaces:copper_furnace"
+				title: "{quests.sacred_logistics.initial_progress.first_steps.copper_furnace.task_title}"
 				type: "item"
 			}]
-			title: "&bМедная печь"
+			title: "{quests.sacred_logistics.initial_progress.first_steps.copper_furnace.quest_title}"
 			x: 7.5d
 			y: -5.0d
 		}
 		{
 			dependencies: ["5E03D8EFC425A9CD"]
-			description: ["Медный молот необходим мне для создания различных пластин."]
+			description: ["{quests.sacred_logistics.initial_progress.first_steps.copper_hammer.description_1}"]
 			id: "43DAF8E59F58AE77"
 			size: 1.2d
+			subtitle: "{quests.sacred_logistics.initial_progress.first_steps.copper_hammer.subtitle}"
 			tasks: [{
 				id: "6D1FF20C4AD5E7C9"
 				item: {
@@ -739,9 +753,10 @@
 						Damage: 0
 					}
 				}
+				title: "{quests.sacred_logistics.initial_progress.first_steps.copper_hammer.task_title}"
 				type: "item"
 			}]
-			title: "&bМедный молот"
+			title: "{quests.sacred_logistics.initial_progress.first_steps.copper_hammer.quest_title}"
 			x: 8.5d
 			y: -5.0d
 		}
