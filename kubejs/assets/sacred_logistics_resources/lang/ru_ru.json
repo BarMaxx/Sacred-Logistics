@@ -116,6 +116,57 @@
 	"quests.sacred_logistics.initial_progress.first_steps.raw_iron.subtitle": "Железная эпоха!",
 	"quests.sacred_logistics.initial_progress.first_steps.raw_iron.description_1": "Создав каменную кирку, Я могу добыть новый ресурс - &6Железо&r.",
 	
+	"quests.sacred_logistics.initial_progress.first_steps.iron.quest_title": "&bОсвоение железа",
+	"quests.sacred_logistics.initial_progress.first_steps.iron.task_title_1": "4х Железный слиток",
+	"quests.sacred_logistics.initial_progress.first_steps.iron.task_title_2": "2х Железная пластина",
+	"quests.sacred_logistics.initial_progress.first_steps.iron.reward_title": "4-8х Железный слиток",
+	"quests.sacred_logistics.initial_progress.first_steps.iron.subtitle": "Куй железо, пока горячо!",
+	"quests.sacred_logistics.initial_progress.first_steps.iron.description_1": "Рудное железо Я могу переплавить в железные слитки.",
+	"quests.sacred_logistics.initial_progress.first_steps.iron.description_2": "Железные слитки Я могу переделать в железные пластины, для создания &6Железной кирки&r и прочих железных предметов.",
+	
+	"quests.sacred_logistics.initial_progress.first_steps.iron_storages.quest_title": "&bЖелезные хранилища",
+	"quests.sacred_logistics.initial_progress.first_steps.iron_storages.task_title_1": "Железный сундук из дуба",
+	"quests.sacred_logistics.initial_progress.first_steps.iron_storages.task_title_2": "Железная бочка из дуба",
+	"quests.sacred_logistics.initial_progress.first_steps.iron_storages.subtitle": "Более вместительные!",
+	"quests.sacred_logistics.initial_progress.first_steps.iron_storages.description_1": "Улучшеные версии обычных сундуков и бочек.",
+	
+	"quests.sacred_logistics.initial_progress.first_steps.iron_backpack.quest_title": "&bЖелезный рюкзак",
+	"quests.sacred_logistics.initial_progress.first_steps.iron_backpack.task_title": "Железный рюкзак",
+	"quests.sacred_logistics.initial_progress.first_steps.iron_backpack.reward_title": "Простые улучшения &b[Случайная награда]&r",
+	"quests.sacred_logistics.initial_progress.first_steps.iron_backpack.subtitle": "Более вместительный!",
+	"quests.sacred_logistics.initial_progress.first_steps.iron_backpack.description_1": "Улучшенная версия обычного рюкзака.",
+	
+	"quests.sacred_logistics.initial_progress.first_steps.iron_pickaxe.quest_title": "&bЖелезная кирка",
+	"quests.sacred_logistics.initial_progress.first_steps.iron_pickaxe.task_title": "Железная кирка",
+	"quests.sacred_logistics.initial_progress.first_steps.iron_pickaxe.subtitle": "Новые открытия!",
+	"quests.sacred_logistics.initial_progress.first_steps.iron_pickaxe.description_1": "Улучшенная кирка, с помощью котрой Я могу добыть новые ресурсы - &6Золото&r и &6Алмазы&r.",
+	
+	"quests.sacred_logistics.initial_progress.first_steps.raw_gold.quest_title": "&bРудное золото",
+	"quests.sacred_logistics.initial_progress.first_steps.raw_gold.task_title": "4x Рудное золото",
+	"quests.sacred_logistics.initial_progress.first_steps.raw_gold.reward_title": "2-6х Рудное золото",
+	"quests.sacred_logistics.initial_progress.first_steps.raw_gold.subtitle": "Золотая эпоха!",
+	"quests.sacred_logistics.initial_progress.first_steps.raw_gold.description_1": "Создав железную кирку, Я могу добыть новый ресурс - &6Золото&r.",
+	
+	"quests.sacred_logistics.initial_progress.first_steps.gold.quest_title": "&bОсвоение золота",
+	"quests.sacred_logistics.initial_progress.first_steps.gold.task_title_1": "4х Золотой слиток",
+	"quests.sacred_logistics.initial_progress.first_steps.gold.task_title_2": "2х Золотая пластина",
+	"quests.sacred_logistics.initial_progress.first_steps.gold.reward_title": "4-8х Золотой слиток",
+	"quests.sacred_logistics.initial_progress.first_steps.gold.subtitle": "Золотообработка!",
+	"quests.sacred_logistics.initial_progress.first_steps.gold.description_1": "Рудное золото Я могу переплавить в золотые слитки.",
+	"quests.sacred_logistics.initial_progress.first_steps.gold.description_2": "Золотые слитки Я могу переделать в золотые пластины, для создания золотых предметов.",
+	
+	"quests.sacred_logistics.initial_progress.first_steps.gold_storages.quest_title": "&bЗолотые хранилища",
+	"quests.sacred_logistics.initial_progress.first_steps.gold_storages.task_title_1": "Золотой сундук из дуба",
+	"quests.sacred_logistics.initial_progress.first_steps.gold_storages.task_title_2": "Золотая бочка из дуба",
+	"quests.sacred_logistics.initial_progress.first_steps.gold_storages.subtitle": "Более вместительные!",
+	"quests.sacred_logistics.initial_progress.first_steps.gold_storages.description_1": "Улучшеные версии железных сундуков и бочек.",
+	
+	"quests.sacred_logistics.initial_progress.first_steps.gold_backpack.quest_title": "&bЗолотой рюкзак",
+	"quests.sacred_logistics.initial_progress.first_steps.gold_backpack.task_title": "Золотой рюкзак",
+	"quests.sacred_logistics.initial_progress.first_steps.gold_backpack.reward_title": "Простые улучшения &b[Случайная награда]&r",
+	"quests.sacred_logistics.initial_progress.first_steps.gold_backpack.subtitle": "Более вместительный!",
+	"quests.sacred_logistics.initial_progress.first_steps.gold_backpack.description_1": "Улучшенная версия железного рюкзака.",
+	
 	"reward_tables.sacred_logistics.wood": "Дерево",
 	"reward_tables.sacred_logistics.simple_food": "Простая еда"
 }
