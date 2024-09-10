@@ -167,6 +167,31 @@
 	"quests.sacred_logistics.initial_progress.first_steps.gold_backpack.subtitle": "Более вместительный!",
 	"quests.sacred_logistics.initial_progress.first_steps.gold_backpack.description_1": "Улучшенная версия железного рюкзака.",
 	
+	"quests.sacred_logistics.initial_progress.first_steps.diamond.quest_title": "&bОсвоение алмазов",
+	"quests.sacred_logistics.initial_progress.first_steps.diamond.task_title_1": "4х Алмаз",
+	"quests.sacred_logistics.initial_progress.first_steps.diamond.task_title_2": "2х Алмазная пластина",
+	"quests.sacred_logistics.initial_progress.first_steps.diamond.reward_title": "1-3х Алмаз",
+	"quests.sacred_logistics.initial_progress.first_steps.diamond.subtitle": "Алмазная эпоха!",
+	"quests.sacred_logistics.initial_progress.first_steps.diamond.description_1": "Алмазы Я могу найти глубоко под землёй. Добываются они с помощью минимум железной кирки.",
+	"quests.sacred_logistics.initial_progress.first_steps.diamond.description_2": "Алмазы Я могу переделать в алмазные пластины, для создания &6Алмазной кирки&r и прочих алмазных предметов.",
+	
+	"quests.sacred_logistics.initial_progress.first_steps.diamond_storages.quest_title": "&bАлмазные хранилища",
+	"quests.sacred_logistics.initial_progress.first_steps.diamond_storages.task_title_1": "Алмазный сундук из дуба",
+	"quests.sacred_logistics.initial_progress.first_steps.diamond_storages.task_title_2": "Алмазная бочка из дуба",
+	"quests.sacred_logistics.initial_progress.first_steps.diamond_storages.subtitle": "Более вместительные!",
+	"quests.sacred_logistics.initial_progress.first_steps.diamond_storages.description_1": "Улучшеные версии золотых сундуков и бочек.",
+	
+	"quests.sacred_logistics.initial_progress.first_steps.diamond_backpack.quest_title": "&bАлмазный рюкзак",
+	"quests.sacred_logistics.initial_progress.first_steps.diamond_backpack.task_title": "Алмазный рюкзак",
+	"quests.sacred_logistics.initial_progress.first_steps.diamond_backpack.reward_title": "Простые улучшения &b[Случайная награда]&r",
+	"quests.sacred_logistics.initial_progress.first_steps.diamond_backpack.subtitle": "Более вместительный!",
+	"quests.sacred_logistics.initial_progress.first_steps.diamond_backpack.description_1": "Улучшенная версия золотого рюкзака.",
+	
+	"quests.sacred_logistics.initial_progress.first_steps.diamond_pickaxe.quest_title": "&bАлмазная кирка",
+	"quests.sacred_logistics.initial_progress.first_steps.diamond_pickaxe.task_title": "Алмазная кирка",
+	"quests.sacred_logistics.initial_progress.first_steps.diamond_pickaxe.subtitle": "Новая ступень развития!",
+	"quests.sacred_logistics.initial_progress.first_steps.diamond_pickaxe.description_1": "Улучшенная версия железной кирки. С помощью алмазной кирки можно добывать новый ресурс - &6Обсидиан&r и &6Метеорит&r.",
+	
 	"reward_tables.sacred_logistics.wood": "Дерево",
 	"reward_tables.sacred_logistics.simple_food": "Простая еда"
 }

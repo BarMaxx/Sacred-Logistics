@@ -230,18 +230,26 @@
 		}
 		{
 			dependencies: ["39C60726C5C4150F"]
+			description: [
+				"{quests.sacred_logistics.initial_progress.first_steps.diamond.description_1}"
+				""
+				"{quests.sacred_logistics.initial_progress.first_steps.diamond.description_2}"
+			]
 			id: "16B75CEDF776927E"
 			rewards: [{
 				id: "17A303D2EAE7ADD8"
 				item: "minecraft:diamond"
 				random_bonus: 2
+				title: "{quests.sacred_logistics.initial_progress.first_steps.diamond.reward_title}"
 				type: "item"
 			}]
+			subtitle: "{quests.sacred_logistics.initial_progress.first_steps.diamond.subtitle}"
 			tasks: [
 				{
-					count: 3L
+					count: 4L
 					id: "577BC5577F0F2498"
 					item: "minecraft:diamond"
+					title: "{quests.sacred_logistics.initial_progress.first_steps.diamond.task_title_1}"
 					type: "item"
 				}
 				{
@@ -254,18 +262,20 @@
 							value: "forge:plates/diamond"
 						}
 					}
-					title: "2х Алмазная пластина"
+					title: "{quests.sacred_logistics.initial_progress.first_steps.diamond.task_title_2}"
 					type: "item"
 				}
 			]
-			title: "&bАлмаз"
+			title: "{quests.sacred_logistics.initial_progress.first_steps.diamond.quest_title}"
 			x: 11.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["16B75CEDF776927E"]
+			description: ["{quests.sacred_logistics.initial_progress.first_steps.diamond_pickaxe.description_1}"]
 			id: "6741CCCE0EF6A545"
 			size: 1.2d
+			subtitle: "{quests.sacred_logistics.initial_progress.first_steps.diamond_pickaxe.subtitle}"
 			tasks: [{
 				id: "766A9A03267F9409"
 				item: {
@@ -275,9 +285,10 @@
 						Damage: 0
 					}
 				}
+				title: "{quests.sacred_logistics.initial_progress.first_steps.diamond_pickaxe.task_title}"
 				type: "item"
 			}]
-			title: "&bАлмазная кирка"
+			title: "{quests.sacred_logistics.initial_progress.first_steps.diamond_pickaxe.quest_title}"
 			x: 12.5d
 			y: 1.0d
 		}
@@ -344,19 +355,23 @@
 		}
 		{
 			dependencies: ["16B75CEDF776927E"]
+			description: ["{quests.sacred_logistics.initial_progress.first_steps.diamond_backpack.description_1}"]
 			hide_dependency_lines: false
 			id: "5201109824769517"
 			rewards: [{
 				id: "67567457A58142AA"
 				table_id: 7015058020314785297L
+				title: "{quests.sacred_logistics.initial_progress.first_steps.diamond_backpack.reward_title}"
 				type: "random"
 			}]
+			subtitle: "{quests.sacred_logistics.initial_progress.first_steps.diamond_backpack.subtitle}"
 			tasks: [{
 				id: "04DFDB94649A9F42"
 				item: "sophisticatedbackpacks:diamond_backpack"
+				title: "{quests.sacred_logistics.initial_progress.first_steps.diamond_backpack.task_title}"
 				type: "item"
 			}]
-			title: "&bАлмазный рюкзак"
+			title: "{quests.sacred_logistics.initial_progress.first_steps.diamond_backpack.quest_title}"
 			x: 12.0d
 			y: 2.5d
 		}
@@ -560,18 +575,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["252624E7573EBBB9"]
-			id: "56DE8FACE0972F7D"
-			tasks: [{
-				id: "5038F67A59E50A48"
-				item: "allthemodium:allthemodium_ingot"
-				type: "item"
-			}]
-			title: "&bВсемодиевый слиток"
-			x: 14.5d
-			y: 2.5d
-		}
-		{
 			dependencies: ["7A3F3E23A0387DE6"]
 			description: ["{quests.sacred_logistics.initial_progress.first_steps.raw_copper.description_1}"]
 			id: "53A87DE6F28197DB"
@@ -683,7 +686,9 @@
 		}
 		{
 			dependencies: ["16B75CEDF776927E"]
+			description: ["{quests.sacred_logistics.initial_progress.first_steps.diamond_storages.description_1}"]
 			id: "264482D66BC208C2"
+			subtitle: "{quests.sacred_logistics.initial_progress.first_steps.diamond_storages.subtitle}"
 			tasks: [
 				{
 					id: "032F03423BC2FD45"
@@ -694,6 +699,7 @@
 							woodType: "oak"
 						}
 					}
+					title: "{quests.sacred_logistics.initial_progress.first_steps.diamond_storages.task_title_1}"
 					type: "item"
 				}
 				{
@@ -705,10 +711,11 @@
 							woodType: "oak"
 						}
 					}
+					title: "{quests.sacred_logistics.initial_progress.first_steps.diamond_storages.task_title_2}"
 					type: "item"
 				}
 			]
-			title: "&bАлмазные хранилища"
+			title: "{quests.sacred_logistics.initial_progress.first_steps.diamond_storages.quest_title}"
 			x: 11.0d
 			y: 2.5d
 		}
@@ -730,18 +737,6 @@
 			title: "&bЯщик"
 			x: 1.0d
 			y: -3.0d
-		}
-		{
-			dependencies: ["56DE8FACE0972F7D"]
-			id: "44F9A5EDA9697FFF"
-			tasks: [{
-				id: "2F4A202544CB4C53"
-				item: "allthemodium:teleport_pad"
-				type: "item"
-			}]
-			title: "&bТелепортационная панель"
-			x: 16.0d
-			y: 2.0d
 		}
 		{
 			dependencies: ["5E03D8EFC425A9CD"]
@@ -828,20 +823,12 @@
 		}
 		{
 			dependencies: ["6741CCCE0EF6A545"]
-			id: "252624E7573EBBB9"
-			tasks: [
-				{
-					id: "28E8FB535981B03A"
-					item: "allthemodium:raw_allthemodium"
-					type: "item"
-				}
-				{
-					id: "1A4D79D8EEF89E20"
-					item: "allthemodium:allthemodium_dust"
-					type: "item"
-				}
-			]
-			title: "&bВсемодий "
+			id: "636583A26BFE5713"
+			tasks: [{
+				id: "4D57599A22535F4D"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
 			x: 13.0d
 			y: 2.0d
 		}
