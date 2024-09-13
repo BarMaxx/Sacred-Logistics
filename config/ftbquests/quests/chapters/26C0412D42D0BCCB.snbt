@@ -8,26 +8,25 @@
 	quest_links: [ ]
 	quests: [{
 		description: [
-			"{quests.sacred_logistics.introduction.begining.description_1}"
+			"&7Привествую Вас на данной сборке - &6Sacred Logistics&7. Модпак разработан командой &6LGame Studio&7, авторы - &6BarMaxx&7, &6HollowHorizon&7.&r "
 			""
-			"{quests.sacred_logistics.introduction.begining.description_2}"
+			"&7Вы - &6Инженер&7, решивший покорить этот неизвестный мир своими Технологиями. Но, по мере своего развития, Вы встречаетесь с Мифологией и Мистикой, которая неразрывно связана с покорением этого мира. Теперь, для изучение различных строений, измерений и для взаимодействия с миром, Вам необходимо создавать и носить с собой различные Реликвии и Артефакты. Кроме этого, мир модпака основан на &6Глобальных событиях&7 - после некоторых Ваших действий мир будет меняться, открывая тем самым новые ресурсы. Но Вас ничем не сломить, ведь Ваша главная задача - покорить всю &6Вселенную&7 и Вы должны выполнить эту задачу. &aУдачи&7!&r"
 		]
 		id: "7EA23917F7C58C5E"
 		rewards: [{
 			id: "359FEAEB234DB455"
 			item: "akashictome:tome"
-			title: "{quests.sacred_logistics.introduction.begining.reward_title}"
 			type: "item"
 		}]
-		subtitle: "{quests.sacred_logistics.introduction.begining.subtitle}"
+		subtitle: "Технологии и Мистика?!"
 		tasks: [{
 			id: "3FFB99E20BF328BB"
-			title: "{quests.sacred_logistics.introduction.begining.task_title}"
+			title: "Начало интересной сборочки!"
 			type: "checkmark"
 		}]
-		title: "{quests.sacred_logistics.introduction.begining.quest_title}"
+		title: "&bНачало интересной сборочки!"
 		x: 0.0d
 		y: 0.0d
 	}]
-	title: "{quests.sacred_logistics.introduction.chapter_title}"
+	title: "&bВступление"
 }

@@ -1,6 +1,6 @@
 {
 	chapter_groups: [
-		{ id: "724CB10F5936E1B7", title: "{quests.sacred_logistics.initial_progress.chapter_group_title}" }
+		{ id: "724CB10F5936E1B7", title: "&3Начальный прогресс" }
 		{ id: "7D6592869D36C6A4", title: "&3Индустриализация " }
 		{ id: "3300196F2614D758", title: "&3Завершение" }
 		{ id: "6D9C72EE0026F230", title: "&3Путешествия" }

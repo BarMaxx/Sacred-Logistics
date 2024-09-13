@@ -11,65 +11,73 @@
 		{
 			dependencies: ["6BC22A684745A477"]
 			description: [
-				"{quests.sacred_logistics.initial_progress.first_steps.crafting_table.description_1}"
+				"Добыв немного дерева и переработав его в доски, я могу создать свой первый и главный рабочий стол - &6Верстак&r."
 				""
-				"{quests.sacred_logistics.initial_progress.first_steps.crafting_table.description_2}"
+				"&bОткрывает доступ к созданию огромного количества предметов.&r"
 			]
 			id: "05EB7D069C18CA1E"
 			rewards: [{
-				id: "366DA2C5F0E7B4D6"
-				table_id: 3639176316474975446L
-				title: "{quests.sacred_logistics.initial_progress.first_steps.crafting_table.reward_title}"
-				type: "random"
+				count: 6
+				id: "705D806C1808C29A"
+				item: "minecraft:apple"
+				type: "item"
 			}]
 			size: 1.2d
-			subtitle: "{quests.sacred_logistics.initial_progress.first_steps.crafting_table.subtitle}"
+			subtitle: "Главный рабочий стол!"
 			tasks: [{
 				id: "5CE947F135239979"
 				item: "minecraft:crafting_table"
-				title: "{quests.sacred_logistics.initial_progress.first_steps.crafting_table.task_title}"
 				type: "item"
 			}]
-			title: "{quests.sacred_logistics.initial_progress.first_steps.crafting_table.quest_title}"
+			title: "&bВерстак"
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6C7F234B75D1E84F"]
-			description: ["{quests.sacred_logistics.initial_progress.first_steps.cobblestone.description_1}"]
+			description: ["&6Булыжник&r - первая моя твёрдая порода - позволяет создать &2Печь&r."]
 			id: "15351ED9820C1C90"
-			subtitle: "{quests.sacred_logistics.initial_progress.first_steps.cobblestone.subtitle}"
+			rewards: [{
+				count: 4
+				id: "3B2257C804037EED"
+				item: "minecraft:cobblestone"
+				random_bonus: 8
+				type: "item"
+			}]
 			tasks: [{
 				count: 4L
 				id: "4D868C4A99F550BF"
 				item: "minecraft:cobblestone"
-				title: "{quests.sacred_logistics.initial_progress.first_steps.cobblestone.task_title}"
 				type: "item"
 			}]
-			title: "{quests.sacred_logistics.initial_progress.first_steps.cobblestone.quest_title}"
+			title: "&b4х Булыжник"
 			x: 4.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["05EB7D069C18CA1E"]
-			description: ["{quests.sacred_logistics.initial_progress.first_steps.campfire.description_1}"]
+			description: ["&6Костёр&r необходим для готовки еды."]
 			id: "601145AC00E6C07B"
-			subtitle: "{quests.sacred_logistics.initial_progress.first_steps.campfire.subtitle}"
+			rewards: [{
+				count: 2
+				id: "1DB900AB68ADEBC5"
+				item: "minecraft:pumpkin_pie"
+				random_bonus: 1
+				type: "item"
+			}]
 			tasks: [{
 				id: "5121A4341108605B"
 				item: "minecraft:campfire"
-				title: "{quests.sacred_logistics.initial_progress.first_steps.campfire.task_title}"
 				type: "item"
 			}]
-			title: "{quests.sacred_logistics.initial_progress.first_steps.campfire.quest_title}"
+			title: "&bКостёр"
 			x: 1.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["05EB7D069C18CA1E"]
-			description: ["{quests.sacred_logistics.initial_progress.first_steps.chest.description_1}"]
+			description: ["&6Сундук&r необходим для хранения ресурсов."]
 			id: "3BC47498DF613B04"
-			subtitle: "{quests.sacred_logistics.initial_progress.first_steps.chest.subtitle}"
 			tasks: [{
 				icon: "minecraft:chest"
 				id: "4BEF78BC5937859B"
@@ -80,95 +88,85 @@
 						value: "forge:chests/wooden"
 					}
 				}
-				title: "{quests.sacred_logistics.initial_progress.first_steps.chest.task_title}"
+				title: "Сундук"
 				type: "item"
 			}]
-			title: "{quests.sacred_logistics.initial_progress.first_steps.chest.quest_title}"
+			title: "&bСундук"
 			x: 1.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["05EB7D069C18CA1E"]
-			description: ["{quests.sacred_logistics.initial_progress.first_steps.barrel.description_1}"]
+			description: ["&6Бочка&r необходима для хранения ресурсов."]
 			id: "40FA20B89ED9FF16"
-			subtitle: "{quests.sacred_logistics.initial_progress.first_steps.barrel.subtitle}"
 			tasks: [{
 				id: "73BBDA6B834F1DCE"
 				item: "minecraft:barrel"
-				title: "{quests.sacred_logistics.initial_progress.first_steps.barrel.task_title}"
 				type: "item"
 			}]
-			title: "{quests.sacred_logistics.initial_progress.first_steps.barrel.quest_title}"
+			title: "&bБочка"
 			x: 2.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["15351ED9820C1C90"]
-			description: ["{quests.sacred_logistics.initial_progress.first_steps.furnace.description_1}"]
+			description: ["&6Печь&r необходима для переплавки различных ресурсов."]
 			id: "7CA023B662360C6A"
 			size: 1.2d
-			subtitle: "{quests.sacred_logistics.initial_progress.first_steps.furnace.subtitle}"
 			tasks: [{
 				id: "348453F9297D05FB"
 				item: "minecraft:furnace"
-				title: "{quests.sacred_logistics.initial_progress.first_steps.furnace.task_title}"
 				type: "item"
 			}]
-			title: "{quests.sacred_logistics.initial_progress.first_steps.furnace.quest_title}"
+			title: "&bПечь"
 			x: 6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7CA023B662360C6A"]
-			description: ["{quests.sacred_logistics.initial_progress.first_steps.blast_furnace.description_1}"]
+			description: ["&6Плавильная печь&r быстрее плавит руду."]
 			id: "459270456C29E625"
 			rewards: [{
 				id: "28602DDDC467F5E8"
 				table_id: 5983573857714054250L
-				title: "{quests.sacred_logistics.initial_progress.first_steps.blast_furnace.reward_title}"
 				type: "random"
 			}]
-			subtitle: "{quests.sacred_logistics.initial_progress.first_steps.blast_furnace.subtitle}"
 			tasks: [{
 				id: "7E2E6D86DA533FDC"
 				item: "minecraft:blast_furnace"
-				title: "{quests.sacred_logistics.initial_progress.first_steps.blast_furnace.task_title}"
 				type: "item"
 			}]
-			title: "{quests.sacred_logistics.initial_progress.first_steps.blast_furnace.quest_title}"
+			title: "&bПлавильная печь"
 			x: 5.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["7A3F3E23A0387DE6"]
-			description: ["{quests.sacred_logistics.initial_progress.first_steps.raw_iron.description_1}"]
+			description: ["Создав каменную кирку, я могу добыть новый ресурс - &6Железо&r."]
 			id: "050CD68574E6F1E6"
 			rewards: [{
 				count: 2
 				id: "739F2AEC115952AA"
 				item: "minecraft:raw_iron"
 				random_bonus: 4
-				title: "{quests.sacred_logistics.initial_progress.first_steps.raw_iron.reward_title}"
 				type: "item"
 			}]
-			subtitle: "{quests.sacred_logistics.initial_progress.first_steps.raw_iron.subtitle}"
 			tasks: [{
 				count: 4L
 				id: "648F73C385016935"
 				item: "minecraft:raw_iron"
-				title: "{quests.sacred_logistics.initial_progress.first_steps.raw_iron.task_title}"
 				type: "item"
 			}]
-			title: "{quests.sacred_logistics.initial_progress.first_steps.raw_iron.quest_title}"
+			title: "&b4х Рудное железо"
 			x: 8.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["050CD68574E6F1E6"]
 			description: [
-				"{quests.sacred_logistics.initial_progress.first_steps.iron.description_1}"
+				"Рудное железо я могу переплавить в железные слитки."
 				""
-				"{quests.sacred_logistics.initial_progress.first_steps.iron.description_2}"
+				"Железные слитки я могу переделать в железные пластины, для создания &6Железной кирки&r."
 			]
 			id: "73D8A15D7A0E9FA2"
 			rewards: [{
@@ -176,16 +174,14 @@
 				id: "2AE359BD50F6060E"
 				item: "minecraft:iron_ingot"
 				random_bonus: 4
-				title: "{quests.sacred_logistics.initial_progress.first_steps.iron.reward_title}"
 				type: "item"
 			}]
-			subtitle: "{quests.sacred_logistics.initial_progress.first_steps.iron.subtitle}"
+			subtitle: "Куй железо, пока горячо!"
 			tasks: [
 				{
 					count: 4L
 					id: "5BFA7A17D79ECCB6"
 					item: "minecraft:iron_ingot"
-					title: "{quests.sacred_logistics.initial_progress.first_steps.iron.task_title_1}"
 					type: "item"
 				}
 				{
@@ -198,20 +194,25 @@
 							value: "forge:plates/iron"
 						}
 					}
-					title: "{quests.sacred_logistics.initial_progress.first_steps.iron.task_title_2}"
+					title: "2х Железная пластина"
 					type: "item"
 				}
 			]
-			title: "{quests.sacred_logistics.initial_progress.first_steps.iron.quest_title}"
+			title: "&bЖелезо"
 			x: 9.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["73D8A15D7A0E9FA2"]
-			description: ["{quests.sacred_logistics.initial_progress.first_steps.iron_pickaxe.description_1}"]
+			description: ["Улучшенная кирка, с помощью котрой я могу добыть новые ресурсы - &6Золото&r и &6Алмазы&r."]
 			id: "39C60726C5C4150F"
+			rewards: [{
+				count: 4
+				id: "303141C243781D48"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
 			size: 1.2d
-			subtitle: "{quests.sacred_logistics.initial_progress.first_steps.iron_pickaxe.subtitle}"
 			tasks: [{
 				id: "185BB79D41DAAEE3"
 				item: {
@@ -221,35 +222,26 @@
 						Damage: 0
 					}
 				}
-				title: "{quests.sacred_logistics.initial_progress.first_steps.iron_pickaxe.task_title}"
 				type: "item"
 			}]
-			title: "{quests.sacred_logistics.initial_progress.first_steps.iron_pickaxe.quest_title}"
+			title: "&bЖелезная кирка"
 			x: 11.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["39C60726C5C4150F"]
-			description: [
-				"{quests.sacred_logistics.initial_progress.first_steps.diamond.description_1}"
-				""
-				"{quests.sacred_logistics.initial_progress.first_steps.diamond.description_2}"
-			]
 			id: "16B75CEDF776927E"
 			rewards: [{
 				id: "17A303D2EAE7ADD8"
 				item: "minecraft:diamond"
 				random_bonus: 2
-				title: "{quests.sacred_logistics.initial_progress.first_steps.diamond.reward_title}"
 				type: "item"
 			}]
-			subtitle: "{quests.sacred_logistics.initial_progress.first_steps.diamond.subtitle}"
 			tasks: [
 				{
-					count: 4L
+					count: 3L
 					id: "577BC5577F0F2498"
 					item: "minecraft:diamond"
-					title: "{quests.sacred_logistics.initial_progress.first_steps.diamond.task_title_1}"
 					type: "item"
 				}
 				{
@@ -262,20 +254,23 @@
 							value: "forge:plates/diamond"
 						}
 					}
-					title: "{quests.sacred_logistics.initial_progress.first_steps.diamond.task_title_2}"
+					title: "2х Алмазная пластина"
 					type: "item"
 				}
 			]
-			title: "{quests.sacred_logistics.initial_progress.first_steps.diamond.quest_title}"
+			title: "&bАлмаз"
 			x: 11.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["16B75CEDF776927E"]
-			description: ["{quests.sacred_logistics.initial_progress.first_steps.diamond_pickaxe.description_1}"]
 			id: "6741CCCE0EF6A545"
+			rewards: [{
+				id: "5195D7AE287E8303"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
 			size: 1.2d
-			subtitle: "{quests.sacred_logistics.initial_progress.first_steps.diamond_pickaxe.subtitle}"
 			tasks: [{
 				id: "766A9A03267F9409"
 				item: {
@@ -285,171 +280,133 @@
 						Damage: 0
 					}
 				}
-				title: "{quests.sacred_logistics.initial_progress.first_steps.diamond_pickaxe.task_title}"
 				type: "item"
 			}]
-			title: "{quests.sacred_logistics.initial_progress.first_steps.diamond_pickaxe.quest_title}"
+			title: "&bАлмазная кирка"
 			x: 12.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["39C60726C5C4150F"]
-			description: ["{quests.sacred_logistics.initial_progress.first_steps.raw_gold.description_1}"]
 			id: "6BA446FB38C2AED4"
 			rewards: [{
 				count: 2
 				id: "4B1F1B556F1E57FF"
 				item: "minecraft:raw_gold"
 				random_bonus: 4
-				title: "{quests.sacred_logistics.initial_progress.first_steps.raw_gold.reward_title}"
 				type: "item"
 			}]
-			subtitle: "{quests.sacred_logistics.initial_progress.first_steps.raw_gold.subtitle}"
 			tasks: [{
 				count: 4L
 				id: "6CDC1970683039D9"
 				item: "minecraft:raw_gold"
-				title: "{quests.sacred_logistics.initial_progress.first_steps.raw_gold.task_title}"
 				type: "item"
 			}]
-			title: "{quests.sacred_logistics.initial_progress.first_steps.raw_gold.quest_title}"
+			title: "&b4х Рудное золото"
 			x: 11.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["6BA446FB38C2AED4"]
-			description: [
-				"{quests.sacred_logistics.initial_progress.first_steps.gold.description_1}"
-				""
-				"{quests.sacred_logistics.initial_progress.first_steps.gold.description_2}"
-			]
 			id: "0131D6E4A04B280F"
 			rewards: [{
 				count: 4
 				id: "17D27EF3374E1080"
 				item: "minecraft:gold_ingot"
 				random_bonus: 4
-				title: "{quests.sacred_logistics.initial_progress.first_steps.gold.reward_title}"
 				type: "item"
 			}]
-			subtitle: "{quests.sacred_logistics.initial_progress.first_steps.gold.subtitle}"
-			tasks: [
-				{
-					count: 4L
-					id: "72525BCBC5E30BA0"
-					item: "minecraft:gold_ingot"
-					title: "{quests.sacred_logistics.initial_progress.first_steps.gold.task_title_1}"
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "291995DC695A67BF"
-					item: "alltheores:gold_plate"
-					title: "{quests.sacred_logistics.initial_progress.first_steps.gold.task_title_2}"
-					type: "item"
-				}
-			]
-			title: "{quests.sacred_logistics.initial_progress.first_steps.gold.quest_title}"
+			tasks: [{
+				count: 4L
+				id: "72525BCBC5E30BA0"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			title: "&b4х Золотой слиток"
 			x: 12.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["16B75CEDF776927E"]
-			description: ["{quests.sacred_logistics.initial_progress.first_steps.diamond_backpack.description_1}"]
 			hide_dependency_lines: false
 			id: "5201109824769517"
 			rewards: [{
 				id: "67567457A58142AA"
 				table_id: 7015058020314785297L
-				title: "{quests.sacred_logistics.initial_progress.first_steps.diamond_backpack.reward_title}"
 				type: "random"
 			}]
-			subtitle: "{quests.sacred_logistics.initial_progress.first_steps.diamond_backpack.subtitle}"
 			tasks: [{
 				id: "04DFDB94649A9F42"
 				item: "sophisticatedbackpacks:diamond_backpack"
-				title: "{quests.sacred_logistics.initial_progress.first_steps.diamond_backpack.task_title}"
 				type: "item"
 			}]
-			title: "{quests.sacred_logistics.initial_progress.first_steps.diamond_backpack.quest_title}"
+			title: "&bАлмазный рюкзак"
 			x: 12.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["73D8A15D7A0E9FA2"]
-			description: ["{quests.sacred_logistics.initial_progress.first_steps.iron_backpack.description_1}"]
+			description: ["Улучшенная версия обычного рюкзака."]
 			id: "5D24178A87E70FF2"
 			rewards: [{
 				id: "09A75C2C257EA164"
 				table_id: 7015058020314785297L
-				title: "{quests.sacred_logistics.initial_progress.first_steps.iron_backpack.reward_title}"
 				type: "random"
 			}]
-			subtitle: "{quests.sacred_logistics.initial_progress.first_steps.iron_backpack.subtitle}"
 			tasks: [{
 				id: "44951F59FD039E53"
 				item: "sophisticatedbackpacks:iron_backpack"
-				title: "{quests.sacred_logistics.initial_progress.first_steps.iron_backpack.task_title}"
 				type: "item"
 			}]
-			title: "{quests.sacred_logistics.initial_progress.first_steps.iron_backpack.quest_title}"
+			title: "&bЖелезный рюкзак"
 			x: 9.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["0131D6E4A04B280F"]
-			description: ["{quests.sacred_logistics.initial_progress.first_steps.gold_backpack.description_1}"]
 			id: "67E8EEA1F2BB22D4"
 			rewards: [{
 				id: "26D38C0F54302091"
 				table_id: 7015058020314785297L
-				title: "{quests.sacred_logistics.initial_progress.first_steps.gold_backpack.reward_title}"
 				type: "random"
 			}]
-			subtitle: "{quests.sacred_logistics.initial_progress.first_steps.gold_backpack.subtitle}"
 			tasks: [{
 				id: "399E6998EBFAFD77"
 				item: "sophisticatedbackpacks:gold_backpack"
-				title: "{quests.sacred_logistics.initial_progress.first_steps.gold_backpack.task_title}"
 				type: "item"
 			}]
-			title: "{quests.sacred_logistics.initial_progress.first_steps.gold_backpack.quest_title}"
+			title: "&bЗолотой рюкзак"
 			x: 13.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["3BC47498DF613B04"]
-			description: ["{quests.sacred_logistics.initial_progress.first_steps.backpack.description_1}"]
+			description: ["&6Рюкзак&r необходим для хранения ресурсов во время путешествия."]
 			id: "19E0170B82D541A5"
 			rewards: [{
 				id: "6C3BE03EEF9382DB"
 				table_id: 7015058020314785297L
-				title: "{quests.sacred_logistics.initial_progress.first_steps.backpack.reward_title}"
 				type: "random"
 			}]
-			subtitle: "{quests.sacred_logistics.initial_progress.first_steps.backpack.subtitle}"
 			tasks: [{
 				id: "63915D538F3A4623"
 				item: "sophisticatedbackpacks:backpack"
-				title: "{quests.sacred_logistics.initial_progress.first_steps.backpack.task_title}"
 				type: "item"
 			}]
-			title: "{quests.sacred_logistics.initial_progress.first_steps.backpack.quest_title}"
+			title: "&bРюкзак"
 			x: 0.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["05EB7D069C18CA1E"]
-			description: ["{quests.sacred_logistics.initial_progress.first_steps.wooden_pickaxe.description_1}"]
+			description: ["&6Деревянная кирка&r позволит мне добывать начальные твёрдые породы, а именно - &2Булыжник&r."]
 			id: "6C7F234B75D1E84F"
 			rewards: [{
 				count: 12
 				id: "1ADF676223243FDE"
 				item: "minecraft:coal"
-				title: "{quests.sacred_logistics.initial_progress.first_steps.wooden_pickaxe.reward_title}"
 				type: "item"
 			}]
-			subtitle: "{quests.sacred_logistics.initial_progress.first_steps.wooden_pickaxe.subtitle}"
 			tasks: [{
 				id: "4FEA2C034342544F"
 				item: {
@@ -459,53 +416,54 @@
 						Damage: 0
 					}
 				}
-				title: "{quests.sacred_logistics.initial_progress.first_steps.wooden_pickaxe.task_title}"
 				type: "item"
 			}]
-			title: "{quests.sacred_logistics.initial_progress.first_steps.wooden_pickaxe.quest_title}"
+			title: "&bДеревянная кирка"
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7CA023B662360C6A"]
-			description: ["{quests.sacred_logistics.initial_progress.first_steps.smoker.description_1}"]
+			description: ["&6Коптильня&r быстрее жарит еду."]
 			id: "4F6DDAD39A65752A"
 			rewards: [{
 				id: "172011DA52647909"
 				table_id: 649389599540615973L
-				title: "{quests.sacred_logistics.initial_progress.first_steps.smoker.reward_title}"
 				type: "random"
 			}]
-			subtitle: "{quests.sacred_logistics.initial_progress.first_steps.smoker.subtitle}"
 			tasks: [{
 				id: "76EC4ADDD9642006"
 				item: "minecraft:smoker"
-				title: "{quests.sacred_logistics.initial_progress.first_steps.smoker.task_title}"
 				type: "item"
 			}]
-			title: "{quests.sacred_logistics.initial_progress.first_steps.smoker.quest_title}"
+			title: "&bКоптильня"
 			x: 5.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["7CA023B662360C6A"]
-			description: ["{quests.sacred_logistics.initial_progress.first_steps.stone.description_1}"]
+			description: ["&6Камень&r необходим для создания обновлённых инструментов."]
 			id: "59A6896A8B3C6B62"
-			subtitle: "{quests.sacred_logistics.initial_progress.first_steps.stone.subtitle}"
+			rewards: [{
+				count: 4
+				id: "27443AF552A5A29A"
+				item: "minecraft:stone"
+				random_bonus: 4
+				type: "item"
+			}]
 			tasks: [{
 				count: 4L
 				id: "65C10C19CE21E827"
 				item: "minecraft:stone"
-				title: "{quests.sacred_logistics.initial_progress.first_steps.stone.task_title}"
 				type: "item"
 			}]
-			title: "{quests.sacred_logistics.initial_progress.first_steps.stone.quest_title}"
+			title: "&b4х Камень"
 			x: 6.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["59A6896A8B3C6B62"]
-			description: ["{quests.sacred_logistics.initial_progress.first_steps.stone_pickaxe.description_1}"]
+			description: ["&6Каменная кирка&r позволяет добывать более твёрдые каменные породы."]
 			id: "7A3F3E23A0387DE6"
 			rewards: [{
 				id: "7C839FA07E932274"
@@ -520,10 +478,9 @@
 						}]
 					}
 				}
-				title: "{quests.sacred_logistics.initial_progress.first_steps.stone_pickaxe.reward_title}"
 				type: "item"
 			}]
-			subtitle: "{quests.sacred_logistics.initial_progress.first_steps.stone_pickaxe.subtitle}"
+			subtitle: "Обновка!"
 			tasks: [{
 				id: "18B428008BE10777"
 				item: {
@@ -533,30 +490,28 @@
 						Damage: 0
 					}
 				}
-				title: "{quests.sacred_logistics.initial_progress.first_steps.stone_pickaxe.task_title}"
 				type: "item"
 			}]
-			title: "{quests.sacred_logistics.initial_progress.first_steps.stone_pickaxe.quest_title}"
+			title: "&bКаменная кирка"
 			x: 7.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["7EA23917F7C58C5E"]
 			description: [
-				"{quests.sacred_logistics.initial_progress.first_steps.wood.description_1}"
+				"Первое, что необходимо мне сделать в этом мире - добыть &6Дерево&r."
 				""
-				"{quests.sacred_logistics.initial_progress.first_steps.wood.description_2}"
+				"&bДерево растёт практически везде, поэтому мне стоит лишь оглянуться, чтобы найти его.&r"
 			]
 			hide: true
 			id: "6BC22A684745A477"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "53907791B9B67990"
-				table_id: 702326463577367718L
-				title: "{quests.sacred_logistics.initial_progress.first_steps.wood.reward_title}"
-				type: "choice"
+				count: 4
+				id: "36A5E509426DB001"
+				item: "minecraft:oak_log"
+				type: "item"
 			}]
-			subtitle: "{quests.sacred_logistics.initial_progress.first_steps.wood.subtitle}"
+			subtitle: "Обыденность..."
 			tasks: [{
 				count: 4L
 				id: "73F56FE30A64771E"
@@ -567,58 +522,83 @@
 						value: "minecraft:logs"
 					}
 				}
-				title: "{quests.sacred_logistics.initial_progress.first_steps.wood.task_title}"
+				title: "Дерево"
 				type: "item"
 			}]
-			title: "{quests.sacred_logistics.initial_progress.first_steps.wood.quest_title}"
+			title: "&b4х Дерево"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
+			dependencies: ["6741CCCE0EF6A545"]
+			id: "252624E7573EBBB9"
+			tasks: [
+				{
+					id: "28E8FB535981B03A"
+					item: "allthemodium:raw_allthemodium"
+					type: "item"
+				}
+				{
+					id: "1A4D79D8EEF89E20"
+					item: "allthemodium:allthemodium_dust"
+					type: "item"
+				}
+			]
+			title: "&bВсемодий "
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["252624E7573EBBB9"]
+			id: "56DE8FACE0972F7D"
+			tasks: [{
+				id: "5038F67A59E50A48"
+				item: "allthemodium:allthemodium_ingot"
+				type: "item"
+			}]
+			title: "&bВсемодиевый слиток"
+			x: 14.5d
+			y: 0.0d
+		}
+		{
 			dependencies: ["7A3F3E23A0387DE6"]
-			description: ["{quests.sacred_logistics.initial_progress.first_steps.raw_copper.description_1}"]
+			description: ["Создав каменную кирку, я могу добыть новый ресурс - &6Медь&r."]
 			id: "53A87DE6F28197DB"
 			rewards: [{
 				count: 2
 				id: "61C782D5F737343D"
 				item: "minecraft:raw_copper"
 				random_bonus: 4
-				title: "{quests.sacred_logistics.initial_progress.first_steps.raw_copper.reward_title}"
 				type: "item"
 			}]
-			subtitle: "{quests.sacred_logistics.initial_progress.first_steps.raw_copper.subtitle}"
 			tasks: [{
 				count: 4L
 				id: "3999CB54B648B1CC"
 				item: "minecraft:raw_copper"
-				title: "{quests.sacred_logistics.initial_progress.first_steps.raw_copper.task_title}"
 				type: "item"
 			}]
-			title: "{quests.sacred_logistics.initial_progress.first_steps.raw_copper.quest_title}"
+			title: "&b4х Рудная медь"
 			x: 8.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["53A87DE6F28197DB"]
-			description: ["{quests.sacred_logistics.initial_progress.first_steps.copper_ingot.description_1}"]
+			description: ["Рудную медь я могу переплавить в медные слитки."]
 			id: "5E03D8EFC425A9CD"
-			subtitle: "{quests.sacred_logistics.initial_progress.first_steps.copper_ingot.subtitle}"
 			tasks: [{
 				count: 4L
 				id: "4A8F573A19862C5E"
 				item: "minecraft:copper_ingot"
-				title: "{quests.sacred_logistics.initial_progress.first_steps.copper_ingot.task_title}"
 				type: "item"
 			}]
-			title: "{quests.sacred_logistics.initial_progress.first_steps.copper_ingot.quest_title}"
+			title: "&b4х Медный слиток"
 			x: 8.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["73D8A15D7A0E9FA2"]
-			description: ["{quests.sacred_logistics.initial_progress.first_steps.iron_storages.description_1}"]
+			description: ["Улучшенная версия обычных сундуков и бочек."]
 			id: "1E2E83EFB9F203F0"
-			subtitle: "{quests.sacred_logistics.initial_progress.first_steps.iron_storages.subtitle}"
 			tasks: [
 				{
 					id: "62731856E1354D4E"
@@ -629,7 +609,6 @@
 							woodType: "oak"
 						}
 					}
-					title: "{quests.sacred_logistics.initial_progress.first_steps.iron_storages.task_title_1}"
 					type: "item"
 				}
 				{
@@ -641,19 +620,16 @@
 							woodType: "oak"
 						}
 					}
-					title: "{quests.sacred_logistics.initial_progress.first_steps.iron_storages.task_title_2}"
 					type: "item"
 				}
 			]
-			title: "{quests.sacred_logistics.initial_progress.first_steps.iron_storages.quest_title}"
+			title: "&bЖелезные хранилища"
 			x: 9.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["0131D6E4A04B280F"]
-			description: ["{quests.sacred_logistics.initial_progress.first_steps.gold_storages.description_1}"]
 			id: "340F3ACDA734D0CF"
-			subtitle: "{quests.sacred_logistics.initial_progress.first_steps.gold_storages.subtitle}"
 			tasks: [
 				{
 					id: "72FC07CD059EC7DD"
@@ -664,7 +640,6 @@
 							woodType: "oak"
 						}
 					}
-					title: "{quests.sacred_logistics.initial_progress.first_steps.gold_storages.task_title_1}"
 					type: "item"
 				}
 				{
@@ -676,19 +651,16 @@
 							woodType: "oak"
 						}
 					}
-					title: "{quests.sacred_logistics.initial_progress.first_steps.gold_storages.task_title_2}"
 					type: "item"
 				}
 			]
-			title: "{quests.sacred_logistics.initial_progress.first_steps.gold_storages.quest_title}"
+			title: "&bЗолотые хранилища"
 			x: 12.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["16B75CEDF776927E"]
-			description: ["{quests.sacred_logistics.initial_progress.first_steps.diamond_storages.description_1}"]
 			id: "264482D66BC208C2"
-			subtitle: "{quests.sacred_logistics.initial_progress.first_steps.diamond_storages.subtitle}"
 			tasks: [
 				{
 					id: "032F03423BC2FD45"
@@ -699,7 +671,6 @@
 							woodType: "oak"
 						}
 					}
-					title: "{quests.sacred_logistics.initial_progress.first_steps.diamond_storages.task_title_1}"
 					type: "item"
 				}
 				{
@@ -711,11 +682,10 @@
 							woodType: "oak"
 						}
 					}
-					title: "{quests.sacred_logistics.initial_progress.first_steps.diamond_storages.task_title_2}"
 					type: "item"
 				}
 			]
-			title: "{quests.sacred_logistics.initial_progress.first_steps.diamond_storages.quest_title}"
+			title: "&bАлмазные хранилища"
 			x: 11.0d
 			y: 2.5d
 		}
@@ -739,34 +709,42 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["56DE8FACE0972F7D"]
+			id: "44F9A5EDA9697FFF"
+			tasks: [{
+				id: "2F4A202544CB4C53"
+				item: "allthemodium:teleport_pad"
+				type: "item"
+			}]
+			title: "&bТелепортационная панель"
+			x: 16.0d
+			y: 0.0d
+		}
+		{
 			dependencies: ["5E03D8EFC425A9CD"]
-			description: ["{quests.sacred_logistics.initial_progress.first_steps.copper_furnace.description_1}"]
+			description: ["Медная печь плавит немного быстрее обычной."]
 			id: "4199FB8B15A80928"
 			rewards: [{
 				count: 8
 				id: "4A8A6FBD580EE3F7"
 				item: "minecraft:raw_iron"
-				random_bonus: 8
-				title: "{quests.sacred_logistics.initial_progress.first_steps.copper_furnace.reward_title}"
+				random_bonus: 20
 				type: "item"
 			}]
-			subtitle: "{quests.sacred_logistics.initial_progress.first_steps.copper_furnace.subtitle}"
 			tasks: [{
 				id: "1A34C7F1F13072E4"
 				item: "ironfurnaces:copper_furnace"
-				title: "{quests.sacred_logistics.initial_progress.first_steps.copper_furnace.task_title}"
 				type: "item"
 			}]
-			title: "{quests.sacred_logistics.initial_progress.first_steps.copper_furnace.quest_title}"
+			title: "&bМедная печь"
 			x: 7.5d
 			y: -5.0d
 		}
 		{
 			dependencies: ["5E03D8EFC425A9CD"]
-			description: ["{quests.sacred_logistics.initial_progress.first_steps.copper_hammer.description_1}"]
+			description: ["Медный молот необходим мне для создания различных пластин."]
 			id: "43DAF8E59F58AE77"
 			size: 1.2d
-			subtitle: "{quests.sacred_logistics.initial_progress.first_steps.copper_hammer.subtitle}"
 			tasks: [{
 				id: "6D1FF20C4AD5E7C9"
 				item: {
@@ -776,10 +754,9 @@
 						Damage: 0
 					}
 				}
-				title: "{quests.sacred_logistics.initial_progress.first_steps.copper_hammer.task_title}"
 				type: "item"
 			}]
-			title: "{quests.sacred_logistics.initial_progress.first_steps.copper_hammer.quest_title}"
+			title: "&bМедный молот"
 			x: 8.5d
 			y: -5.0d
 		}
@@ -807,7 +784,7 @@
 			]
 			title: "Метеорит"
 			x: 13.0d
-			y: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["68397160ED2B2FDD"]
@@ -819,19 +796,8 @@
 				type: "item"
 			}]
 			x: 14.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["6741CCCE0EF6A545"]
-			id: "636583A26BFE5713"
-			tasks: [{
-				id: "4D57599A22535F4D"
-				item: "minecraft:obsidian"
-				type: "item"
-			}]
-			x: 13.0d
 			y: 2.0d
 		}
 	]
-	title: "{quests.sacred_logistics.initial_progress.first_steps.chapter_title}"
+	title: "&bПервые шаги"
 }

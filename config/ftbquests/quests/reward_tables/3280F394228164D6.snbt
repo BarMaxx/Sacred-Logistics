@@ -8,5 +8,5 @@
 		{ count: 4, item: "minecraft:bread" }
 		{ count: 4, item: "minecraft:baked_potato" }
 	]
-	title: "{reward_tables.sacred_logistics.simple_food}"
+	title: "Простая еда"
 }
