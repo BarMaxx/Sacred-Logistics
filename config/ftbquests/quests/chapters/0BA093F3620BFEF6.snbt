@@ -801,6 +801,66 @@
 			x: 20.5d
 			y: -4.5d
 		}
+		{
+			dependencies: ["35275CF36DE3C22B"]
+			id: "252624E7573EBBB9"
+			tasks: [
+				{
+					id: "28E8FB535981B03A"
+					item: "allthemodium:raw_allthemodium"
+					type: "item"
+				}
+				{
+					id: "1A4D79D8EEF89E20"
+					item: "allthemodium:allthemodium_dust"
+					type: "item"
+				}
+			]
+			title: "&bВсемодий "
+			x: 26.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1F24B9ADBE67E4F6"]
+			id: "35275CF36DE3C22B"
+			tasks: [{
+				id: "0DAC774267C623A1"
+				item: {
+					Count: 1b
+					id: "assemblylinemachines:mystium_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 25.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["252624E7573EBBB9"]
+			id: "56DE8FACE0972F7D"
+			tasks: [{
+				id: "5038F67A59E50A48"
+				item: "allthemodium:allthemodium_ingot"
+				type: "item"
+			}]
+			title: "&bВсемодиевый слиток"
+			x: 27.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["56DE8FACE0972F7D"]
+			id: "44F9A5EDA9697FFF"
+			tasks: [{
+				id: "2F4A202544CB4C53"
+				item: "allthemodium:teleport_pad"
+				type: "item"
+			}]
+			title: "&bТелепортационная панель"
+			x: 27.5d
+			y: -1.0d
+		}
 	]
 	title: "&bНачало технологий"
 }
