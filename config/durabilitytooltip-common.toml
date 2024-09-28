@@ -1,5 +1,5 @@
 [Client]
-    # What should be the style of the tooltip? 'numbers' means 'Durability: 30 / 100', 'text' means 'Durability: pristine/slight damaged/nearly broken', 'bar' means 'Durability: [?–??–??–??–’?–’?–’?–’?–’?–’?–’]'
+    # What should be the style of the tooltip? 'numbers' means 'Durability: 30 / 100', 'text' means 'Durability: pristine/slight damaged/nearly broken', 'bar' means 'Durability: [Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“â€™Ã¢â€“â€™Ã¢â€“â€™Ã¢â€“â€™Ã¢â€“â€™Ã¢â€“â€™Ã¢â€“â€™]'
     # Allowed values: BAR, NUMBERS, TEXT - Default: NUMBERS
     tooltipStyle = "NUMBERS"
 
