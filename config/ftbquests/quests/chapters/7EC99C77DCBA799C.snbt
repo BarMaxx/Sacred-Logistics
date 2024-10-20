@@ -1,12 +1,21 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "tech_circle"
 	filename: "7EC99C77DCBA799C"
 	group: "724CB10F5936E1B7"
 	icon: "integrateddynamics:variable"
 	id: "7EC99C77DCBA799C"
 	order_index: 3
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "647AC107A5C98B9C"
+		tasks: [{
+			id: "594D04AA9E8D5655"
+			item: "integrateddynamics:menril_log"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
 	title: "&bХранилище"
 }

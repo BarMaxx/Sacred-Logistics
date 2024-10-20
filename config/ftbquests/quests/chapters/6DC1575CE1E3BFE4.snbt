@@ -5,7 +5,7 @@
 	group: "7D6592869D36C6A4"
 	icon: "minecraft:bee_nest"
 	id: "6DC1575CE1E3BFE4"
-	order_index: 1
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{

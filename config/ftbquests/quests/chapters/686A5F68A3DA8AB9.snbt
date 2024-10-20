@@ -303,14 +303,13 @@
 					type: "item"
 				}
 			]
-			x: 6.5d
-			y: 0.0d
+			x: 9.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["47B628E949CB1419"]
 			id: "541CB67295A544F5"
 			shape: "tech_square"
-			size: 1.2d
 			tasks: [
 				{
 					count: 10L
@@ -325,8 +324,8 @@
 					type: "dimension"
 				}
 			]
-			x: 8.5d
-			y: 0.0d
+			x: 12.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["541CB67295A544F5"]
@@ -337,8 +336,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 10.0d
-			y: -0.5d
+			x: 13.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2E4817DD0F5619C1"]
@@ -348,8 +347,8 @@
 				item: "cataclysm:ignitium_ingot"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -0.5d
+			x: 14.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["3CBA88D3F4CAF8BE"]
@@ -360,8 +359,8 @@
 				item: "minecraft:blaze_rod"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -3.0d
+			x: 12.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["541CB67295A544F5"]
@@ -372,8 +371,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 8.0d
-			y: -1.5d
+			x: 12.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["55F324BA94F91CEE"]
@@ -383,7 +382,7 @@
 				item: "cataclysm:the_incinerator"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 15.5d
 			y: -1.5d
 		}
 		{
@@ -394,8 +393,8 @@
 				item: "cataclysm:bulwark_of_the_flame"
 				type: "item"
 			}]
-			x: 11.0d
-			y: -1.5d
+			x: 14.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["55F324BA94F91CEE"]
@@ -447,7 +446,7 @@
 				}
 			]
 			title: "Огненная броня"
-			x: 13.0d
+			x: 15.5d
 			y: -0.5d
 		}
 		{
@@ -464,7 +463,7 @@
 				}
 				type: "item"
 			}]
-			x: 14.5d
+			x: 19.0d
 			y: 0.0d
 		}
 		{
@@ -491,8 +490,8 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
-			y: 1.5d
+			x: 13.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2FDCBFDEBDA4BFBA"]
@@ -510,8 +509,8 @@
 				title: "Незеритовый слиток"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 3.0d
+			x: 13.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["1F24FA2023174B08"]
@@ -576,8 +575,8 @@
 				}
 			]
 			title: "Незеритовая броня"
-			x: 10.0d
-			y: 4.5d
+			x: 14.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1F24FA2023174B08"]
@@ -599,8 +598,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
-			y: 4.5d
+			x: 13.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1F24FA2023174B08"]
@@ -611,8 +610,8 @@
 				item: "sophisticatedbackpacks:netherite_backpack"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 2.5d
+			x: 14.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["541CB67295A544F5"]
@@ -623,8 +622,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 9.0d
-			y: -1.5d
+			x: 11.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["70182B6C7B749771"]
@@ -634,8 +633,8 @@
 				item: "cataclysm:monstrous_horn"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -1.5d
+			x: 10.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4AB6AA09B9BD649A"]
@@ -668,8 +667,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.5d
-			y: -2.5d
+			x: 10.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["541CB67295A544F5"]
@@ -701,8 +700,8 @@
 				}
 			]
 			title: "Визер"
-			x: 8.0d
-			y: 1.5d
+			x: 11.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["245CE482D6E6A2D7"]
@@ -713,8 +712,8 @@
 				item: "minecraft:nether_star"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 3.0d
+			x: 11.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["59A45E1E34ABFB08"]
@@ -739,7 +738,6 @@
 			description: ["&2Око Эндера&f нужно для нахождения и активации портала в &5Край&f."]
 			id: "3CE6ECDB2520ED5F"
 			shape: "tech_square"
-			size: 1.2d
 			subtitle: "Пора в Край"
 			tasks: [
 				{
@@ -917,8 +915,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 10.0d
-			y: 0.5d
+			x: 14.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["1D9AE46787E2FBBF"]
@@ -928,8 +926,8 @@
 				item: "cataclysm:witherite_block"
 				type: "item"
 			}]
-			x: 11.5d
-			y: 0.5d
+			x: 15.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["5C559434AFA4FCA5"]
@@ -940,7 +938,7 @@
 				item: "cataclysm:witherite_ingot"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 17.0d
 			y: 1.5d
 		}
 		{
@@ -951,7 +949,7 @@
 				item: "cataclysm:mechanical_fusion_anvil"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 18.5d
 			y: 1.5d
 		}
 		{
@@ -962,7 +960,7 @@
 				item: "cataclysm:wither_assault_shoulder_weapon"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 16.5d
 			y: 3.0d
 		}
 		{
@@ -979,7 +977,7 @@
 				}
 				type: "item"
 			}]
-			x: 13.0d
+			x: 17.5d
 			y: 3.0d
 		}
 		{
@@ -990,7 +988,7 @@
 				item: "cataclysm:meat_shredder"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 16.5d
 			y: 0.5d
 		}
 		{
@@ -1001,7 +999,7 @@
 				item: "cataclysm:gauntlet_of_bulwark"
 				type: "item"
 			}]
-			x: 15.5d
+			x: 20.0d
 			y: 1.0d
 		}
 		{
@@ -1018,7 +1016,7 @@
 				}
 				type: "item"
 			}]
-			x: 15.5d
+			x: 20.0d
 			y: 2.0d
 		}
 		{
@@ -1029,7 +1027,7 @@
 				item: "cataclysm:void_assault_shoulder_weapon"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 19.0d
 			y: 3.0d
 		}
 		{
@@ -1081,8 +1079,8 @@
 					type: "item"
 				}
 			]
-			x: 8.5d
-			y: 2.5d
+			x: 12.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["05F5EB1BC7A93FF4"]
@@ -1092,8 +1090,8 @@
 				item: "allthemodium:vibranium_ingot"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 3.5d
+			x: 12.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3CE6ECDB2520ED5F"]
@@ -1195,8 +1193,8 @@
 					type: "item"
 				}
 			]
-			x: 10.5d
-			y: 3.5d
+			x: 14.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["0261282B27BB7183"]
@@ -1248,8 +1246,8 @@
 				}
 			]
 			title: "Багрянец"
-			x: 8.0d
-			y: 4.5d
+			x: 12.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["33C1F735EFF06519"]
@@ -1274,8 +1272,8 @@
 				}
 			]
 			title: "Демонит"
-			x: 7.0d
-			y: 4.5d
+			x: 11.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["702588A9DE9290B8"]
@@ -1304,8 +1302,8 @@
 				item: "assemblylinemachines:mkii_alloy_smelter"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -0.5d
+			x: 10.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["47B628E949CB1419"]
@@ -1316,8 +1314,8 @@
 				item: "assemblylinemachines:mkii_fluid_mixer"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -0.5d
+			x: 8.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["47B628E949CB1419"]
@@ -1328,8 +1326,8 @@
 				item: "assemblylinemachines:mkii_furnace"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 0.5d
+			x: 8.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["47B628E949CB1419"]
@@ -1340,8 +1338,8 @@
 				item: "assemblylinemachines:mkii_grinder"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 0.5d
+			x: 10.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["47B628E949CB1419"]
@@ -1352,8 +1350,8 @@
 				item: "assemblylinemachines:mkii_pneumatic_compressor"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 1.0d
+			x: 9.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["47B628E949CB1419"]
@@ -1364,8 +1362,8 @@
 				item: "assemblylinemachines:mkii_purifier"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -1.0d
+			x: 9.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["34E6D50A5241CFEF"]
@@ -1377,6 +1375,36 @@
 				type: "item"
 			}]
 			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56B246B4FB90E8D2"]
+			id: "71D826C70EFAA5FB"
+			tasks: [{
+				id: "69E98228C9830C32"
+				item: "undergarden:catalyst"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["71D826C70EFAA5FB"]
+			id: "2E535E9BEEE88FD4"
+			tasks: [
+				{
+					count: 10L
+					id: "1D0A7E706DDC9D34"
+					item: "minecraft:stone_bricks"
+					type: "item"
+				}
+				{
+					dimension: "undergarden:undergarden"
+					id: "6E60EFF2C90828F5"
+					type: "dimension"
+				}
+			]
+			x: 7.5d
 			y: 0.0d
 		}
 	]
