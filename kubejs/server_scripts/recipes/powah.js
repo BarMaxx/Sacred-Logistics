@@ -29,7 +29,7 @@ ServerEvents.recipes(event => {
 	  {
 		P: 'powah:dielectric_paste',
 		C: 'mekanism:enriched_carbon',
-		I: 'alltheores:iridium_plate'
+		I: '#forge:plates'
 	  }
 	)
 	
@@ -45,7 +45,7 @@ ServerEvents.recipes(event => {
 	  {
 		P: 'powah:dielectric_paste',
 		C: 'mekanism:enriched_carbon',
-		I: 'alltheores:iridium_plate'
+		I: '#forge:plates'
 	  }
 	)
 	

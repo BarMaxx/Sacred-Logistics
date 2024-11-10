@@ -183,7 +183,7 @@ ServerEvents.recipes(event => {
 		M: 'assemblylinemachines:mystium_plate',
 		T: 'mekanism:energy_tablet',
 		V: 'allthemodium:vibranium_nugget',
-		I: 'alltheores:iridium_gear',
+		I: '#forge:gears',
 		A: 'mekanism:alloy_atomic',
 		O: 'mekanism:ingot_refined_obsidian'
 	  }

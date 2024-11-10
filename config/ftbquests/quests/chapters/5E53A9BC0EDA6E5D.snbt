@@ -11,9 +11,7 @@
 		{
 			dependencies: ["6BC22A684745A477"]
 			description: [
-				"Добыв немного дерева и переработав его в доски, Я могу создать свой первый и главный рабочий стол - &6Верстак&r."
-				""
-				"Первые шаги к моему величию готовы, но впереди - целая Вечность..."
+				"Добыв немного дерева и переработав его в доски, я могу создать свой первый и главный рабочий стол - &6Верстак&r."
 				""
 				"&bОткрывает доступ к созданию огромного количества предметов.&r"
 			]
@@ -24,8 +22,7 @@
 				item: "minecraft:apple"
 				type: "item"
 			}]
-			shape: "tech_smooth_square"
-			size: 1.1d
+			size: 1.2d
 			subtitle: "Главный рабочий стол!"
 			tasks: [{
 				id: "5CE947F135239979"
@@ -54,11 +51,11 @@
 				type: "item"
 			}]
 			title: "&b4х Булыжник"
-			x: 3.5d
-			y: -1.0d
+			x: 4.5d
+			y: 0.0d
 		}
 		{
-			dependencies: ["21AE4CA9EA2CEB81"]
+			dependencies: ["05EB7D069C18CA1E"]
 			description: ["&6Костёр&r необходим для готовки еды."]
 			id: "601145AC00E6C07B"
 			rewards: [{
@@ -74,16 +71,24 @@
 				type: "item"
 			}]
 			title: "&bКостёр"
-			x: 4.0d
-			y: 0.0d
+			x: 1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["05EB7D069C18CA1E"]
 			description: ["&6Сундук&r необходим для хранения ресурсов."]
 			id: "3BC47498DF613B04"
 			tasks: [{
-				id: "685EA26C83984F35"
-				item: "quark:oak_chest"
+				icon: "minecraft:chest"
+				id: "4BEF78BC5937859B"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:chests/wooden"
+					}
+				}
+				title: "Сундук"
 				type: "item"
 			}]
 			title: "&bСундук"
@@ -104,18 +109,17 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["601145AC00E6C07B"]
+			dependencies: ["15351ED9820C1C90"]
 			description: ["&6Печь&r необходима для переплавки различных ресурсов."]
 			id: "7CA023B662360C6A"
-			shape: "tech_smooth_square"
-			size: 1.1d
+			size: 1.2d
 			tasks: [{
 				id: "348453F9297D05FB"
 				item: "minecraft:furnace"
 				type: "item"
 			}]
 			title: "&bПечь"
-			x: 5.5d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -133,7 +137,7 @@
 				type: "item"
 			}]
 			title: "&bПлавильная печь"
-			x: 5.0d
+			x: 5.5d
 			y: 1.5d
 		}
 		{
@@ -154,7 +158,7 @@
 				type: "item"
 			}]
 			title: "&b4х Рудное железо"
-			x: 7.5d
+			x: 8.0d
 			y: 0.0d
 		}
 		{
@@ -172,8 +176,6 @@
 				random_bonus: 4
 				type: "item"
 			}]
-			shape: "tech_square"
-			size: 1.2d
 			subtitle: "Куй железо, пока горячо!"
 			tasks: [
 				{
@@ -197,7 +199,7 @@
 				}
 			]
 			title: "&bЖелезо"
-			x: 9.0d
+			x: 9.5d
 			y: 0.0d
 		}
 		{
@@ -210,8 +212,7 @@
 				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
-			shape: "tech_smooth_square"
-			size: 1.1d
+			size: 1.2d
 			tasks: [{
 				id: "185BB79D41DAAEE3"
 				item: {
@@ -269,8 +270,7 @@
 				item: "minecraft:diamond"
 				type: "item"
 			}]
-			shape: "tech_smooth_square"
-			size: 1.1d
+			size: 1.2d
 			tasks: [{
 				id: "766A9A03267F9409"
 				item: {
@@ -399,14 +399,14 @@
 		}
 		{
 			dependencies: ["05EB7D069C18CA1E"]
-			description: [
-				"Имея в распоряжении полноценный Рабочий стол, Я могу создать свою первую &6Деревянную кирку&r."
-				""
-				"Чтобы стать Всемогущим - необходимо поработать \"руками\"..."
-				""
-				"&bДеревянная кирка позволяет добывать начальные твёрдые породы: Булыжник, Уголь и прочее.&r"
-			]
+			description: ["&6Деревянная кирка&r позволит мне добывать начальные твёрдые породы, а именно - &2Булыжник&r."]
 			id: "6C7F234B75D1E84F"
+			rewards: [{
+				count: 12
+				id: "1ADF676223243FDE"
+				item: "minecraft:coal"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4FEA2C034342544F"
 				item: {
@@ -437,7 +437,7 @@
 				type: "item"
 			}]
 			title: "&bКоптильня"
-			x: 5.0d
+			x: 5.5d
 			y: -1.5d
 		}
 		{
@@ -458,7 +458,7 @@
 				type: "item"
 			}]
 			title: "&b4х Камень"
-			x: 6.0d
+			x: 6.5d
 			y: -1.0d
 		}
 		{
@@ -493,15 +493,13 @@
 				type: "item"
 			}]
 			title: "&bКаменная кирка"
-			x: 7.0d
+			x: 7.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["7EA23917F7C58C5E"]
 			description: [
-				"Что же, вот Я и оказался здесь, как и хотел... Видимо, пора начинать!"
-				""
-				"Первое, что мне необходимо сделать в этом мире - добыть &6Дерево&r."
+				"Первое, что необходимо мне сделать в этом мире - добыть &6Дерево&r."
 				""
 				"&bДерево растёт практически везде, поэтому мне стоит лишь оглянуться, чтобы найти его.&r"
 			]
@@ -513,12 +511,10 @@
 				item: "minecraft:oak_log"
 				type: "item"
 			}]
-			shape: "tech_square"
-			size: 1.2d
 			subtitle: "Обыденность..."
 			tasks: [{
 				count: 4L
-				id: "21E877A8B00FB958"
+				id: "73F56FE30A64771E"
 				item: {
 					Count: 1b
 					id: "itemfilters:tag"
@@ -526,11 +522,42 @@
 						value: "minecraft:logs"
 					}
 				}
-				title: "Any #minecraft:logs"
+				title: "Дерево"
 				type: "item"
 			}]
-			title: "&bДерево"
+			title: "&b4х Дерево"
 			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6741CCCE0EF6A545"]
+			id: "252624E7573EBBB9"
+			tasks: [
+				{
+					id: "28E8FB535981B03A"
+					item: "allthemodium:raw_allthemodium"
+					type: "item"
+				}
+				{
+					id: "1A4D79D8EEF89E20"
+					item: "allthemodium:allthemodium_dust"
+					type: "item"
+				}
+			]
+			title: "&bВсемодий "
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["252624E7573EBBB9"]
+			id: "56DE8FACE0972F7D"
+			tasks: [{
+				id: "5038F67A59E50A48"
+				item: "allthemodium:allthemodium_ingot"
+				type: "item"
+			}]
+			title: "&bВсемодиевый слиток"
+			x: 14.5d
 			y: 0.0d
 		}
 		{
@@ -551,7 +578,7 @@
 				type: "item"
 			}]
 			title: "&b4х Рудная медь"
-			x: 7.5d
+			x: 8.0d
 			y: -2.0d
 		}
 		{
@@ -565,7 +592,7 @@
 				type: "item"
 			}]
 			title: "&b4х Медный слиток"
-			x: 7.5d
+			x: 8.0d
 			y: -3.5d
 		}
 		{
@@ -678,8 +705,20 @@
 				type: "item"
 			}]
 			title: "&bЯщик"
-			x: 1.5d
-			y: -2.5d
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["56DE8FACE0972F7D"]
+			id: "44F9A5EDA9697FFF"
+			tasks: [{
+				id: "2F4A202544CB4C53"
+				item: "allthemodium:teleport_pad"
+				type: "item"
+			}]
+			title: "&bТелепортационная панель"
+			x: 16.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5E03D8EFC425A9CD"]
@@ -698,15 +737,14 @@
 				type: "item"
 			}]
 			title: "&bМедная печь"
-			x: 7.0d
+			x: 7.5d
 			y: -5.0d
 		}
 		{
 			dependencies: ["5E03D8EFC425A9CD"]
 			description: ["Медный молот необходим мне для создания различных пластин."]
 			id: "43DAF8E59F58AE77"
-			shape: "tech_smooth_square"
-			size: 1.1d
+			size: 1.2d
 			tasks: [{
 				id: "6D1FF20C4AD5E7C9"
 				item: {
@@ -719,7 +757,7 @@
 				type: "item"
 			}]
 			title: "&bМедный молот"
-			x: 8.0d
+			x: 8.5d
 			y: -5.0d
 		}
 		{
@@ -746,81 +784,20 @@
 			]
 			title: "Метеорит"
 			x: 13.0d
-			y: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["68397160ED2B2FDD"]
 			description: ["Необходимо носить в инвентаре, чтобы метеориты не падали. "]
 			id: "74A04658DE474922"
-			shape: "tech_square"
-			size: 1.2d
 			tasks: [{
 				id: "0DD3BE0F3534E831"
 				item: "sacred_logistics:meteorite_charm"
 				type: "item"
 			}]
 			x: 14.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["6C7F234B75D1E84F"]
-			id: "21AE4CA9EA2CEB81"
-			tasks: [{
-				id: "27E8CCBEBAE26574"
-				item: "minecraft:coal"
-				type: "item"
-			}]
-			x: 3.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["05EB7D069C18CA1E"]
-			id: "5226A55FDD797F94"
-			tasks: [
-				{
-					id: "22E00F0D8C139386"
-					item: {
-						Count: 1b
-						id: "minecraft:wooden_axe"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "62A92EF47861498C"
-					item: {
-						Count: 1b
-						id: "minecraft:wooden_shovel"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			x: 1.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["5226A55FDD797F94"]
-			id: "725C7B507449AC17"
-			tasks: [{
-				id: "568B215D8998FE85"
-				item: {
-					Count: 1b
-					id: "mekanismtools:wood_paxel"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 1.5d
-			y: 3.0d
+			y: 2.0d
 		}
 	]
-	subtitle: ["Самое начало..."]
 	title: "&bПервые шаги"
 }
